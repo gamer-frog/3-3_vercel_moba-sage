@@ -682,6 +682,236 @@
         "Short-range ADCs",
         "Peel supports"
       ]
+    },
+    "nasus": {
+      "wr": 51.8,
+      "pick": 3.2,
+      "ban": 0.6,
+      "role": "Top",
+      "core_items": [
+        "Fuerza de la Trinidad",
+        "Hidra Titánica",
+        "Resistencia Divina",
+        "Espada del Rey Desterrado"
+      ],
+      "boots": [
+        "Grebas de Placas"
+      ],
+      "runes": [
+        "Brujería",
+        "Agarre del No Muerto",
+        "Determinación",
+        "Sobrecrecimiento",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Vayne",
+        "Fiora"
+      ],
+      "strong_vs": [
+        "Ornn",
+        "Malphite",
+        "Garen"
+      ],
+      "note": "Ghost buff 26.9 — split push S-tier"
+    },
+    "ahri": {
+      "wr": 51.1,
+      "pick": 6.4,
+      "ban": 1.2,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Llamarada Sombría",
+        "Reloj de Zhonya",
+        "Cetro de Rylai"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Pieza de Calzado Brillante"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Katarina",
+        "Zed",
+        "Yasuo"
+      ],
+      "strong_vs": [
+        "Melee mids",
+        "Low-mobility mages"
+      ],
+      "note": "S-tier control mage, charm duration ajustada"
+    },
+    "nocturne": {
+      "wr": 52.0,
+      "pick": 2.8,
+      "ban": 0.9,
+      "role": "Jungle",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Resistencia Divina",
+        "Sed de Sangre"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Dominación",
+        "Cosecha Oscura",
+        "Precisión",
+        "Presencia de Campeón",
+        "Determinación",
+        "Sobrecrecimiento"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Lee Sin",
+        "Warwick",
+        "Elise"
+      ],
+      "strong_vs": [
+        "Squishy comps",
+        "Immobile carries"
+      ],
+      "note": "R speed buff — jungle assassin viable"
+    },
+    "ornn": {
+      "wr": 51.5,
+      "pick": 3.6,
+      "ban": 0.4,
+      "role": "Top/Support",
+      "core_items": [
+        "Jak'Sho, el Proteico",
+        "Hidra Titánica",
+        "Resistencia Divina",
+        "Fuerza de la Trinidad"
+      ],
+      "boots": [
+        "Grebas de Placas"
+      ],
+      "runes": [
+        "Determinación",
+        "Agarre del No Muerto",
+        "Inspiración",
+        "Calzado Mágico",
+        "Valor",
+        "Revitalizar"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Vayne",
+        "Darius"
+      ],
+      "strong_vs": [
+        "Sion",
+        "Malphite",
+        "Garen"
+      ],
+      "note": "Item upgrade CD reducido — team impact en teamfights"
+    },
+    "briar": {
+      "wr": 50.8,
+      "pick": 4.5,
+      "ban": 2.0,
+      "role": "Jungle/Top",
+      "core_items": [
+        "Sed de Sangre",
+        "Eclipse",
+        "Resistencia Divina",
+        "Hidra Titánica"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Warwick",
+        "Poppy",
+        "Malphite"
+      ],
+      "strong_vs": [
+        "Squishy junglers",
+        "Low CC comps"
+      ],
+      "note": "R sustain nerf 26.9 — WR cayendo 1.6pp"
+    },
+    "aurelionsol": {
+      "wr": 52.5,
+      "pick": 1.8,
+      "ban": 0.7,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Llamarada Sombría",
+        "Reloj de Zhonya",
+        "Morellonomicon"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Pieza de Calzado Brillante"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Katarina",
+        "Zed",
+        "Kassadin"
+      ],
+      "strong_vs": [
+        "Melee mids",
+        "Control mages"
+      ],
+      "note": "Late game monster — scaling hypercarry mid"
     }
   }
 }

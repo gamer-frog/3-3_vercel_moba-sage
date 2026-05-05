@@ -26,7 +26,7 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Zed':          { Q: 'Razor Shuriken', W: 'Living Shadow', E: 'Shadow Slash', R: 'Death Mark' },
   'Vayne':        { Q: 'Tumble', W: 'Silver Bolts', E: 'Condemn', R: 'Final Hour' },
   'Caitlyn':      { Q: 'Piltover Peacemaker', W: 'Yordle Snap Trap', E: '90 Caliber Net', R: 'Ace in the Hole' },
-  'Morgana':      { Q: 'Dark Binding', W: 'Black Shield', E: 'Tormented Shadow', R: 'Soul Shackles' },
+  'Morgana':      { Q: 'Dark Binding', W: 'Tormented Shadow', E: 'Black Shield', R: 'Soul Shackles' },
   'Jhin':         { Q: 'Dancing Grenade', W: 'Deadly Flourish', E: 'Captive Audience', R: 'Curtain Call' },
   'Vi':           { Q: 'Vault Breaker', W: 'Denting Blows', E: 'Relentless Force', R: 'Cease and Desist' },
   'Yasuo':        { Q: 'Steel Tempest', W: 'Wind Wall', E: 'Sweeping Blade', R: 'Last Breath' },
@@ -72,6 +72,12 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Sett':         { Q: 'Knuckle Down', W: 'Haymaker', E: 'Facebreaker', R: 'The Show Stopper' },
   'Volibear':     { Q: 'Thundering Smash', W: 'Frenzied Maul', E: 'Sky Splitter', R: 'Stormbringer' },
   'Mordekaiser':  { Q: 'Obliterate', W: 'Indestructible', E: "Death's Grasp", R: 'Realm of Death' },
+  'Nasus':        { Q: 'Siphoning Strike', W: 'Wither', E: 'Spirit Fire', R: 'Fury of the Sands' },
+  'Karthus':      { Q: 'Lay Waste', W: 'Wall of Pain', E: 'Defile', R: 'Requiem' },
+  'Taliyah':      { Q: 'Threaded Volley', W: 'Seismic Shove', E: 'Unraveled Earth', R: "Weaver's Wall" },
+  'Viego':        { Q: 'Blade of the Ruined King', W: 'Spectral Maw', E: 'Harrowed Path', R: 'Heartbreaker' },
+  'Nami':         { Q: 'Aqua Prison', W: 'Ebb and Flow', E: "Tidecaller's Blessing", R: 'Tidal Wave' },
+  "Kha'Zix":      { Q: 'Taste Their Fear', W: 'Void Spike', E: 'Leap', R: 'Void Assault' },
 };
 
 export function getAbilityName(championName: string, skill: 'Q'|'W'|'E'|'R'): string {
@@ -121,6 +127,22 @@ export const SKIN_NAMES: Record<string, Record<number, string>> = {
   'Soraka':        { 0: 'Clásica', 1: 'Dryad', 2: 'Divine', 3: 'Teacher', 4: 'Celestine', 5: 'Order of the Banana', 6: 'Program', 7: 'Star Guardian', 8: 'Prestige' },
   'Zyra':          { 0: 'Clásica', 1: 'Wildfire', 2: 'Haunted', 3: 'SKT T1', 4: 'Battlecast', 5: 'Dragon Sorceress', 6: 'Psi Ops' },
   'Kennen':        { 0: 'Clásica', 1: 'Deadly Kennen', 2: 'Karan', 3: 'Swamp Master', 4: 'Ninja', 5: 'Arctic', 6: 'Giant', 7: 'PROJECT:' },
+  'Karthus':       { 0: 'Clásica', 1: 'Phantom', 2: 'Frost Lord', 3: 'Pentakill', 4: 'Karthus=Zero', 5: 'Master Arcanist', 6: 'Bilgewater', 7: 'Mecha', 8: 'True Damage', 9: 'PsyOps' },
+  'Nasus':         { 0: 'Clásica', 1: 'Galactic', 2: 'Pharaoh', 3: 'Infernal', 4: 'Archduke', 5: 'Dreadknight', 6: 'Worldbreaker', 7: 'Mythmaker', 8: 'Mecha Kingdoms' },
+  'Taliyah':       { 0: 'Clásica', 1: 'Freljord', 2: 'SSG', 3: 'Pool Party', 4: 'Elderwood', 5: 'Lunar Revel', 6: 'PsyOps', 7: 'Battle Academia' },
+  'Fiora':         { 0: 'Clásica', 1: 'Nightraven', 2: 'Royal Guard', 3: 'Headmistress', 4: 'Pool Party', 5: 'PROJECT:', 6: 'Heartpiercer', 7: 'Spirit Blossom', 8: 'PsyOps' },
+  'Camille':       { 0: 'Clásica', 1: 'Program', 2: 'Coven', 3: 'Prestige', 4: 'Lunar Revel', 5: 'PsyOps' },
+  'Viego':         { 0: 'Clásica', 1: 'Ruined King', 2: 'Crystal Rose', 3: 'Heartbreaker', 4: 'Lunar Revel', 5: 'Emerald' },
+  'Nami':          { 0: 'Clásica', 1: 'Koi', 2: 'River Spirit', 3: 'Urf', 4: 'Deep Sea', 5: 'Super Galaxy', 6: 'Elderwood', 7: 'Coven', 8: 'PsyOps', 9: 'Bewitching' },
+  'Mordekaiser':   { 0: 'Clásica', 1: 'Dragon Knight', 2: 'Infernal', 3: 'Pentakill', 4: 'Lord', 5: 'Dark Star', 6: 'King of Clubs', 7: 'Nightbringer', 8: 'Mecha Kingdoms' },
+  'Sett':          { 0: 'Clásica', 1: 'Mecha Kingdoms', 2: 'Spirit Blossom', 3: 'Debonair', 4: 'Cafe Cuties', 5: 'Lunar Revel' },
+  'Yone':          { 0: 'Clásica', 1: 'True Damage', 2: 'Spirit Blossom', 3: 'Battle Bunny', 4: 'PsyOps', 5: 'Lunar Revel' },
+  'Samira':        { 0: 'Clásica', 1: 'PsyOps', 2: 'Firecracker', 3: 'Fortune', 4: 'Space Groove', 5: 'Coven' },
+  'Syndra':        { 0: 'Clásica', 1: 'Justicar', 2: 'Atlantean', 3: 'SKT T1', 4: 'Star Guardian', 5: 'Dark Cosmic', 6: 'Prestige', 7: 'Immortal Journey', 8: 'Coven', 9: 'PsyOps' },
+  'Kassadin':      { 0: 'Clásica', 1: 'Harbinger', 2: 'Fleet Admiral', 3: 'Deep Sea', 4: 'Pre-Void', 5: 'Mecha', 6: 'Cosmic Reaver' },
+  'Lux':           { 0: 'Clásica', 1: 'Sorceress', 2: 'Spellthief', 3: 'Imperial', 4: 'Steel Legion', 5: 'Star Guardian', 6: 'Elementalist', 7: 'Cosmic', 8: 'Battle Academia', 9: 'Prestige Battle Academia', 10: 'Porcelain' },
+  'Xerath':        { 0: 'Clásica', 1: 'Battlecast', 2: 'Runeborn', 3: 'Scarab', 4: 'Star Guardian', 5: 'Dark Star', 6: 'PsyOps' },
+  'Corki':         { 0: 'Clásica', 1: 'Urfrider', 2: 'Ice Toboggan', 3: 'Phantom', 4: 'Arcane', 5: 'Battlecast', 6: 'Arcade', 7: 'Lunar Revel', 8: 'Arclight' },
 };
 
 export function getSkinLabel(championName: string, skinNum: number): string {

@@ -56,6 +56,25 @@
         "Mid Quest Reward — Empowered Recall reemplazado por +6% Bonus AD y 6% Bonus AP. Mejor fantasy de scaling.",
         "Bot Quest Reward — Bonus Takedown Gold 50g→40g. Menos snowball en late game.",
         "Minion Waves — Melee minion HP 440→430 (+35/90s). Minion Slayer reducido. Más tiempo fuera de lane."
+      ],
+      "rising": [
+        "Nasus — Split push meta favorito. Ghost buff en 26.9 lo vuelve imparable en side lane. WR subiendo 2.1pp.",
+        "Fiora — Conqueror buffs la posicionan como duelist top lane. 50.6% WR stable.",
+        "Vex — Anti-mage meta. Rise en mid lane como counter a mages dominantes.",
+        "Camille — Stabilize buff. 49.9% subiendo a 50.2%. Mejor trade potential.",
+        "Taliyah — Buff en 26.9. Field check mejorado. Viable mid/jungle con WR subiendo.",
+        "Nami — Enchanter renaissance. Peel meta la favorece. 50.9% WR.",
+        "Zeri — ADC buffs en 26.9. Crit items adjustments mejoran su posicion.",
+        "Smolder — Meta shift hacia hypercarries. Mejora su viabilidad.",
+        "Viktor — Buff 26.9. Q damage up. Mas viable en mid lane."
+      ],
+      "falling": [
+        "Briar — R sustain nerf en 26.9. Menos dominante en ranked. WR cayendo 1.6pp.",
+        "Ambessa — Burst + survivability nerf. Cayendo del meta top/jungle.",
+        "Mordekaiser — Item nerfs. Meta shift en su contra.",
+        "Kha'Zix — Base damage nerf. Menos consistente en jungle.",
+        "Yasuo — Crit item adjustments. WR cayendo a 49.3%.",
+        "Pyke — Assassin item nerfs. Menos viable como support."
       ]
     },
     "highlights": [

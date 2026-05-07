@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-07T11:51:38Z",
-  "lastSlot": "11",
-  "lastTask": "Matchup Analysis",
+  "lastTick": "2026-05-07T12:51:38Z",
+  "lastSlot": "12",
+  "lastTask": "Health Check Deep",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 12,
-  "totalSuccess": 12,
+  "totalTicks": 13,
+  "totalSuccess": 13,
   "totalFail": 0,
   "history": [
     {
@@ -142,6 +142,17 @@
       "build": "OK",
       "duration_ms": 65000,
       "changes": "1 fix: K'Sante counterPick (Gwen->Fiora). Cross-file audit: 9 mismatches checked, 8 already fixed in previous ticks, 1 remaining fixed now. Shyvana+Sona missing from data.ts noted.",
+      "filesChanged": ["src/lib/data.ts"]
+    },
+    {
+      "tick": "2026-05-07T12:51:38Z",
+      "slot": "12",
+      "task": "Health Check Deep",
+      "taskCode": "health-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 180000,
+      "changes": "CRITICAL FIX: 11 champions missing from data.ts added (2 S-tier: Karthus, Nasus; 7 A-tier: Malzahar, Sion, Gragas, Warwick, Teemo, Tahm Kench, Fiora; 1 B: Riven; 1 C: Vel'Koz). S-tier now 14=14 (100% aligned). LoL total 88 champs.",
       "filesChanged": ["src/lib/data.ts"]
     }
   ]

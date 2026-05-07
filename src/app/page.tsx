@@ -11,6 +11,7 @@ import type { Champion, GameSelection, TaskItem } from '@/components/moba/types'
 import { useGameData } from '@/hooks/use-game-data';
 import { useFavorites } from '@/hooks/use-favorites';
 import { useGlobalSearch } from '@/hooks/use-global-search';
+import { useModKey } from '@/hooks/use-mod-key';
 import { useScrollToTop } from '@/hooks/use-scroll-to-top';
 import { useSummonerSearch } from '@/hooks/use-summoner-search';
 import { GameDataContext } from '@/hooks/game-data-context';
@@ -95,6 +96,9 @@ export default function Home() {
 
   // ---- Scroll to top (hook) ----
   const { showBackToTop, scrollToTop } = useScrollToTop();
+
+  // ---- OS-aware modifier key (for keyboard shortcut display) ----
+  const { modLabel, modSymbol } = useModKey();
 
   // ---- Game transition flash ----
   const [flashColor, setFlashColor] = useState<string | null>(null);
@@ -267,7 +271,7 @@ export default function Home() {
                   aria-label="Buscar campeón"
                 />
                 <kbd className="hidden sm:inline-flex items-center gap-1 px-2 py-1 rounded text-[10px] text-lol-dim bg-lol-gold-dark/10 border border-lol-gold-dark/20">
-                  <span className="text-[10px]">&#8984;</span>K
+                  <span className="text-[10px]">{modSymbol}</span>K
                 </kbd>
               </div>
 

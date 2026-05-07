@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import type { GameSelection } from './types';
 import { ActivityEntry, TYPE_COLORS, TYPE_ICONS } from '@/lib/activity';
 import { timeAgo, formatTimestamp } from '@/lib/time';
+import { useModKey } from '@/hooks/use-mod-key';
 
 function isRecent(ts: string): boolean {
   const diff = Date.now() - new Date(ts).getTime();
@@ -141,6 +142,7 @@ export function AppHeader({
   const [recentEntries, setRecentEntries] = useState<ActivityEntry[]>([]);
   const bellRef = useRef<HTMLButtonElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const { modLabel } = useModKey();
 
   const loadActivity = useCallback(async () => {
     try {
@@ -284,8 +286,8 @@ export function AppHeader({
             <button
               onClick={() => window.dispatchEvent(new CustomEvent('moba-sage-open-search'))}
               className="flex items-center justify-center w-9 h-9 rounded-lg transition-all duration-200 hover:bg-lol-card/40 text-lol-muted"
-              aria-label="Buscar campeón (Ctrl+K)"
-              title="Buscar campeón (Ctrl+K)"
+              aria-label={`Buscar campeón (${modLabel})`}
+              title={`Buscar campeón (${modLabel})`}
             >
               <Search className="w-4 h-4" />
             </button>

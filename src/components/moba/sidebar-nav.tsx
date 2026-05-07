@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { GAME_TAB_ITEMS, DEV_TAB_ITEMS } from './constants';
 import { Trophy, ScrollText, Flame, User, Rocket, Lightbulb, Wrench, ChevronRight, X, GraduationCap, GitCompare, Crown, BookMarked } from 'lucide-react';
 import { APP_NAME, APP_VERSION } from '@/data/constants';
+import { useModKey } from '@/hooks/use-mod-key';
 
 const DEV_ICONS: Record<string, typeof Wrench> = {
   novedades: Rocket,
@@ -33,6 +34,7 @@ interface SidebarNavProps {
 
 function SidebarContent({ activeTab, onTabChange, gamePatch, onClose }: SidebarNavProps) {
   const [devExpanded, setDevExpanded] = useState(false);
+  const { modLabel } = useModKey();
   const handleTabClick = (tabId: string) => {
     onTabChange(tabId);
     onClose?.();
@@ -175,7 +177,7 @@ function SidebarContent({ activeTab, onTabChange, gamePatch, onClose }: SidebarN
         {/* Keyboard shortcut hints — desktop only */}
         <div className="mt-2 pt-2 border-t border-lol-gold-dark/8 space-y-1 hidden lg:block">
           <p className="text-[10px] text-lol-dim/60 flex items-center gap-1.5">
-            <span className="inline-flex px-1 py-0.5 rounded text-[10px] font-mono" style={{ background: 'rgba(30,35,40,0.6)', border: '1px solid rgba(120,90,40,0.15)' }}>Ctrl+K</span>
+            <span className="inline-flex px-1 py-0.5 rounded text-[10px] font-mono" style={{ background: 'rgba(30,35,40,0.6)', border: '1px solid rgba(120,90,40,0.15)' }}>{modLabel}</span>
             Buscar campeón
           </p>
           <p className="text-[10px] text-lol-dim/60 flex items-center gap-1.5">

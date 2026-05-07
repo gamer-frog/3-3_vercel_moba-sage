@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-07T14:51:42Z",
-  "lastSlot": "14",
-  "lastTask": "WR Delta Check",
+  "lastTick": "2026-05-07T15:51:42Z",
+  "lastSlot": "15",
+  "lastTask": "Runes Verification",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 15,
-  "totalSuccess": 15,
+  "totalTicks": 16,
+  "totalSuccess": 16,
   "totalFail": 0,
   "history": [
     {
@@ -175,6 +175,17 @@
       "build": "OK",
       "duration_ms": 30000,
       "changes": "CLEAN — 0 WR deltas >= 0.3% across data.ts/tierlist-feed/meta-builds. 9 counter pick mismatches noted (formatting/role-dependent, flagged in slot 11). Zed absent from tierlist-feed noted.",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-07T15:51:42Z",
+      "slot": "15",
+      "task": "Runes Verification",
+      "taskCode": "runes-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 25000,
+      "changes": "AUDIT: 28/77 champs MISSING runes field. 9 primary rune mismatches vs meta-builds. 2 support rune sanity issues (Brand, Zyra). Logged as ORD-007 and ORD-008 in ORDERS.md.",
       "filesChanged": []
     }
   ]

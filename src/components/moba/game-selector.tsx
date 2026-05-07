@@ -2,7 +2,7 @@
 
 import { useState, useEffect, memo } from 'react';
 import { motion } from 'framer-motion';
-import { Sword, Monitor, Smartphone, Gamepad2, ChevronRight, Database, Clock, Shield, GraduationCap, Trophy, Zap } from 'lucide-react';
+import { Sword, Monitor, Smartphone, Gamepad2, ChevronRight, Database, Clock, Shield, GraduationCap, Trophy, Zap, Lock } from 'lucide-react';
 import Image from 'next/image';
 import { GAME_TAB_ITEMS, DEV_TAB_ITEMS } from './constants';
 import type { GameSelection } from './types';
@@ -182,24 +182,19 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
           <div className="absolute bottom-3 left-3 w-6 h-6 border-b border-l border-lol-gold/30" />
         </motion.button>
 
-        <motion.button
-          onClick={() => onSelectGame('wildrift')}
-          className="group relative overflow-hidden rounded-2xl p-6 sm:p-8 lg:p-10 text-left cursor-pointer transition-all duration-500 border border-lol-success/20"
+        <motion.div
+          className="group relative overflow-hidden rounded-2xl p-6 sm:p-8 lg:p-10 text-left transition-all duration-500 border border-lol-success/10"
           style={{
-            background: 'linear-gradient(135deg, rgba(10,203,230,0.08), rgba(10,203,230,0.02))',
+            background: 'linear-gradient(135deg, rgba(10,203,230,0.04), rgba(10,203,230,0.01))',
             backdropFilter: 'blur(20px)',
+            opacity: 0.6,
           }}
           initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
+          animate={{ opacity: 0.6, x: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          whileHover={{
-            scale: 1.03,
-            boxShadow: '0 0 60px rgba(10,203,230,0.15), 0 0 120px rgba(10,203,230,0.05)',
-            borderColor: 'rgba(10,203,230,0.5)',
-          }}
-          whileTap={{ scale: 0.98 }}
           role="button"
-          aria-label="Seleccionar Wild Rift"
+          aria-label="Wild Rift — Proximamente"
+          aria-disabled="true"
         >
           <div
             className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -233,7 +228,14 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
           </div>
           <div className="absolute top-3 right-3 w-6 h-6 border-t border-r border-lol-success/30" />
           <div className="absolute bottom-3 left-3 w-6 h-6 border-b border-l border-lol-success/30" />
-        </motion.button>
+          {/* Proximamente badge */}
+          <div className="absolute inset-0 flex items-center justify-center z-20">
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full" style={{ background: 'rgba(10,14,26,0.85)', border: '1.5px solid rgba(10,203,230,0.3)', backdropFilter: 'blur(8px)' }}>
+              <Lock className="w-3.5 h-3.5 text-lol-success" />
+              <span className="text-xs font-bold text-lol-success tracking-wider uppercase">Proximamente</span>
+            </div>
+          </div>
+        </motion.div>
       </div>
 
       {/* Champion Showcase Strip — sm+ only */}

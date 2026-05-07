@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "created": "2026-05-07T02:00:00Z",
+  "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
+  "lastTick": "2026-05-07T10:51:52Z",
+  "lastSlot": "10",
+  "lastTask": "BrokenThings Audit",
+  "lastStatus": "OK",
+  "lastBuild": "OK",
+  "consecutiveFails": 0,
+  "totalTicks": 11,
+  "totalSuccess": 11,
+  "totalFail": 0,
+  "history": [
+    {
+      "tick": "2026-05-07T02:00:00Z",
+      "slot": "02",
+      "task": "Data Sync",
+      "taskCode": "data-sync",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "CLEAN — 76 feed = 74+2 data",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-07T02:51:48Z",
+      "slot": "02",
+      "task": "Data Sync",
+      "taskCode": "data-sync",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "CLEAN — 94 champs cross-checked",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-07T03:52:10Z",
+      "slot": "03",
+      "task": "Meta Builds Verify",
+      "taskCode": "meta-builds",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 55000,
+      "changes": "CLEAN — 3-way cross-check 22 champs",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-07T04:17:45Z",
+      "slot": "04",
+      "task": "Tierlist Web Search",
+      "taskCode": "tierlist-search",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 120000,
+      "changes": "MAJOR — 6 S-tier promos, tierlist v11->v12, data.ts 4 champs updated",
+      "filesChanged": ["public/tierlist-feed.json", "src/lib/data.ts"]
+    },
+    {
+      "tick": "2026-05-07T04:51:51Z",
+      "slot": "05",
+      "task": "Builds Refresh",
+      "taskCode": "meta-builds-refresh",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "5 new S-tier builds (Taliyah JG, Shyvana JG, Brand ADC, Nami, Sona). Malphite WR fix. 22->27 builds.",
+      "filesChanged": ["public/meta-builds.json"]
+    },
+    {
+      "tick": "2026-05-07T05:51:44Z",
+      "slot": "05",
+      "task": "Builds Refresh",
+      "taskCode": "meta-builds-refresh",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 27 builds verified, all WR 0.0% delta",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-07T06:51:59Z",
+      "slot": "06",
+      "task": "Patch Watch",
+      "taskCode": "patch-watch",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "DDragon 16.9.1. Patch 26.10 PBE preview: buffs/nerfs/adjusts. Updated patch-analysis + patches-feed.",
+      "filesChanged": ["public/patch-analysis.json", "public/patches-feed.json"]
+    },
+    {
+      "tick": "2026-05-07T07:51:48Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 120000,
+      "changes": "New guide: Shyvana Jungle (57.6% WR). guides-feed 23->24.",
+      "filesChanged": ["data/guides/BA_20260507_0755_guia_shyvana_jungle_lol269.md", "public/guides-feed.json"]
+    },
+    {
+      "tick": "2026-05-07T08:51:53Z",
+      "slot": "08",
+      "task": "Skin Names Expansion",
+      "taskCode": "skin-names",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "18 SKIN_NAMES added. Coverage 51->69/69 (100%).",
+      "filesChanged": ["src/data/champion-data.ts"]
+    },
+    {
+      "tick": "2026-05-07T09:51:52Z",
+      "slot": "09",
+      "task": "Champion Data",
+      "taskCode": "champion-data",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 75000,
+      "changes": "14 SKILL_NAMES added. Total 88->102. K'Sante, Gragas, Sion, Shyvana, Sona, Naafiri, Rell, Singed, Smolder, Zilean + 4 more.",
+      "filesChanged": ["src/data/champion-data.ts"]
+    },
+    {
+      "tick": "2026-05-07T10:51:52Z",
+      "slot": "10",
+      "task": "BrokenThings Audit",
+      "taskCode": "broken-things",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 80000,
+      "changes": "12 champs fixed to 3 brokenThings. 6 added from 0 (Graves, Morgana, Xin Zhao, Vel'Koz, Mordekaiser, Urgot). 6 added 1 more (Senna, Draven, Elise, Ekko, Kennen, Caitlyn WR). Coverage: 73->85/85 (100%).",
+      "filesChanged": ["src/lib/data.ts"]
+    }
+  ]
+}

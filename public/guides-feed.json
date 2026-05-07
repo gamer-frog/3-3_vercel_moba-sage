@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-24T14:20:00Z",
+  "lastUpdated": "2026-05-06T15:00:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 7,
+  "totalGuides": 5,
   "guides": [
     {
       "id": "zeri-rework-269",
@@ -21,25 +21,7 @@
       ],
       "fileName": "BA_20260424_1430_guia_zeri_rework_lol269.md"
     },
-    {
-      "id": "valorant-1207-meta",
-      "champion": "General",
-      "role": "All",
-      "patch": "12.07",
-      "game": "valorant",
-      "title": "Meta Update: Valorant 12.07 — Season 2026 Act 2",
-      "summary": "Meta consolidado: Clove/Sage/Omen dominan. Bind rotated out Act 3. Discord integration beta.",
-      "tags": ["meta", "tierlist", "agents", "comps"],
-      "keyPoints": [
-        "S-Tier: Clove, Sage, Omen",
-        "A-Tier: Jett, Killjoy, Gekko (rising)",
-        "B-Tier: Reyna, Breach, Waylay (nerfed)",
-        "Bind rotated out para Act 3",
-        "Comp ranked: Jett/Omen/Clove/Gekko/Sage",
-        "Discord integration beta rolling out"
-      ],
-      "fileName": "BA_20260424_1440_valorant_1207_meta_update.md"
-    },
+
     {
       "id": "hwei-mid-268",
       "champion": "Hwei",
@@ -72,22 +54,7 @@
       ],
       "fileName": "guia_ksante_wr_2026-04-18_ciclo13.md"
     },
-    {
-      "id": "clove-valorant-1207",
-      "champion": "Clove",
-      "role": "Duelist",
-      "patch": "12.07",
-      "game": "valorant",
-      "title": "Clove — Guía Completa Valorant",
-      "summary": "Clove se mantiene como S-tier en 12.07. Utilidad única con su ultimate global.",
-      "tags": ["build", "abilities", "strategy"],
-      "keyPoints": [
-        "Ultimate global permite impacto sin estar en sitio",
-        "Pick rate alto en ranked",
-        "Synergia fuerte con controllers (Omen, Brimstone)"
-      ],
-      "fileName": "guia_clove_valorant_2026-04-18_ciclo9.md"
-    },
+
     {
       "id": "lol-269-season2-prep",
       "champion": "General",

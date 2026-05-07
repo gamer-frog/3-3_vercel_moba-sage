@@ -72,6 +72,13 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Sett':         { Q: 'Knuckle Down', W: 'Haymaker', E: 'Facebreaker', R: 'The Show Stopper' },
   'Volibear':     { Q: 'Thundering Smash', W: 'Frenzied Maul', E: 'Sky Splitter', R: 'Stormbringer' },
   'Mordekaiser':  { Q: 'Obliterate', W: 'Indestructible', E: "Death's Grasp", R: 'Realm of Death' },
+  // --- Ralph Loop #13 additions ---
+  'Nasus':        { Q: 'Siphoning Strike', W: 'Wither', E: 'Spirit Fire', R: 'Fury of the Sands' },
+  'Karthus':      { Q: 'Lay Waste', W: 'Wall of Pain', E: 'Defile', R: 'Requiem' },
+  'Taliyah':      { Q: 'Threaded Volley', W: 'Seismic Shove', E: 'Unraveled Earth', R: "Weaver's Wall" },
+  'Viego':        { Q: 'Blade of the Ruined King', W: 'Spectral Maw', E: 'Harrowed Path', R: 'Heartbreaker' },
+  'Nami':         { Q: 'Aqua Prison', W: 'Ebb and Flow', E: "Tidecaller's Blessing", R: 'Tidal Wave' },
+  "Kha'Zix":      { Q: 'Taste Their Fear', W: 'Void Spike', E: 'Leap', R: 'Void Assault' },
 };
 
 export function getAbilityName(championName: string, skill: 'Q'|'W'|'E'|'R'): string {
@@ -121,6 +128,23 @@ export const SKIN_NAMES: Record<string, Record<number, string>> = {
   'Soraka':        { 0: 'Clásica', 1: 'Dryad', 2: 'Divine', 3: 'Teacher', 4: 'Celestine', 5: 'Order of the Banana', 6: 'Program', 7: 'Star Guardian', 8: 'Prestige' },
   'Zyra':          { 0: 'Clásica', 1: 'Wildfire', 2: 'Haunted', 3: 'SKT T1', 4: 'Battlecast', 5: 'Dragon Sorceress', 6: 'Psi Ops' },
   'Kennen':        { 0: 'Clásica', 1: 'Deadly Kennen', 2: 'Karan', 3: 'Swamp Master', 4: 'Ninja', 5: 'Arctic', 6: 'Giant', 7: 'PROJECT:' },
+  // --- Ralph Loop #13 additions ---
+  'Zaahen':        { 0: 'Clásica', 1: 'Prestige' },
+  'Sion':          { 0: 'Clásica', 1: 'Lumberjack', 2: 'Hextech', 3: 'Mecha', 4: 'Worldbreaker', 5: 'Cultist', 6: 'Battlecast', 7: 'Arclight' },
+  'Gragas':        { 0: 'Clásica', 1: 'Gragas, Ok', 2: 'Eggnog', 3: 'Caskmaster', 4: 'Marquis', 5: 'Vandal', 6: 'Pool Party', 7: 'Mecha', 8: 'Arctic Ops', 9: 'Beekeeper', 10: 'Lancer' },
+  'Malzahar':      { 0: 'Clásica', 1: 'Vizier', 2: 'Shadow Prince', 3: 'Overlord', 4: 'Firelord', 5: 'DJ', 6: 'Control', 7: 'Elderwood', 8: 'Riftwalker', 9: 'Lunar Revel' },
+  'Tahm Kench':    { 0: 'Clásica', 1: 'Master Chef', 2: 'Urf', 3: 'Coast Guard', 4: 'Eternals', 5: 'Conqueror' },
+  'Teemo':         { 0: 'Clásica', 1: 'Happy Elf', 2: 'Bad Santa', 3: 'Astronaut', 4: 'Cottontail', 5: 'Super Hero', 6: 'Recon', 7: 'Omega Squad', 8: 'Beemo', 9: 'Spirit Blossom', 10: 'Bee Keeper' },
+  'Warwick':       { 0: 'Clásica', 1: 'Urf the Manatee', 2: 'Big Bad', 3: 'Tundra', 4: 'Firefang', 5: 'Feral', 6: 'Blood Moon', 7: 'Project', 8: 'Lunar Revel', 9: 'Eternal Dreamer' },
+  'Ezreal':        { 0: 'Clásica', 1: 'Nottingham', 2: 'Frost', 3: 'Striker', 4: 'Explorer', 5: 'Pulsefire', 6: 'Debonair', 7: 'Star Guardian', 8: 'Arcade', 9: 'Battle Academia', 10: 'PsyOps' },
+  'Elise':         { 0: 'Clásica', 1: 'Death Blossom', 2: 'Victorious', 3: 'Blood Moon', 4: 'SKT T1', 5: 'Program', 6: 'Battlecast', 7: 'Coven' },
+  'Syndra':        { 0: 'Clásica', 1: 'Justicar', 2: 'Atlantean', 3: 'SKT T1', 4: 'Star Guardian', 5: 'Dark Cosmic', 6: 'Prestige', 7: 'Immortal Journey', 8: 'Coven', 9: 'PsyOps' },
+  'Orianna':       { 0: 'Clásica', 1: 'Blade Mistress', 2: 'Sewn Chaos', 3: 'Gothic', 4: 'TPA', 5: 'Winter Wonder', 6: 'Battlecast', 7: 'Ethereal' },
+  'Miss Fortune':  { 0: 'Clásica', 1: 'Cowgirl', 2: 'Secret Agent', 3: 'Lady of Fortune', 4: 'Arcade', 5: 'Captain Fortune', 6: 'Pool Party', 7: 'Gun Goddess', 8: 'Star Guardian', 9: 'Mafia', 10: 'Prestige' },
+  'Kassadin':      { 0: 'Clásica', 1: 'Harbinger', 2: 'Fleet Admiral', 3: 'Deep Sea', 4: 'Pre-Void', 5: 'Mecha', 6: 'Cosmic Reaver' },
+  'Lux':           { 0: 'Clásica', 1: 'Sorceress', 2: 'Spellthief', 3: 'Imperial', 4: 'Steel Legion', 5: 'Star Guardian', 6: 'Elementalist', 7: 'Cosmic', 8: 'Battle Academia', 9: 'Prestige Battle Academia', 10: 'Porcelain' },
+  'Xerath':        { 0: 'Clásica', 1: 'Battlecast', 2: 'Runeborn', 3: 'Scarab', 4: 'Star Guardian', 5: 'Dark Star', 6: 'PsyOps' },
+  'Corki':         { 0: 'Clásica', 1: 'Urfrider', 2: 'Ice Toboggan', 3: 'Phantom', 4: 'Arcane', 5: 'Battlecast', 6: 'Arcade', 7: 'Lunar Revel', 8: 'Arclight' },
 };
 
 export function getSkinLabel(championName: string, skinNum: number): string {

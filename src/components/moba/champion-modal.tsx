@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { ExternalLink, Sparkles, Wrench, AlertTriangle, Eye, ShieldCheck, TrendingUp, X } from 'lucide-react';
 import { TIER_CONFIG } from './constants';
-import { getBuildExternalUrl, getItemIconUrl, parseBuildItems, getChampionSplashUrl } from './helpers';
+import { getBuildExternalUrl, getItemIconUrl, parseBuildItems, getChampionSplashUrl, CHAMPION_NAME_MAP } from './helpers';
 import { RoleBadge } from './badges';
 import { CollapsibleSection } from './collapsible-section';
 import { CopyBuildButton } from './copy-build-button';
@@ -106,7 +106,7 @@ export function ChampionModal({ champion, onClose }: { champion: Champion; onClo
   };
 
   const currentSplashUrl = getChampionSplashUrl(champion.name, activeSkin);
-  const championTileUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/${champion.name.replace(/['\s.]/g, '')}_${activeSkin}.jpg`;
+  const championTileUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/${CHAMPION_NAME_MAP[champion.name] || champion.name.replace(/['\s.]/g, '')}_${activeSkin}.jpg`;
 
   return (
     <motion.div

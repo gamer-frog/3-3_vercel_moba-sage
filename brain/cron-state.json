@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-07T17:55:00Z",
-  "lastSlot": "17",
-  "lastTask": "i18n + Quality",
+  "lastTick": "2026-05-07T18:55:00Z",
+  "lastSlot": "18",
+  "lastTask": "Recovery Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 18,
-  "totalSuccess": 18,
+  "totalTicks": 19,
+  "totalSuccess": 19,
   "totalFail": 0,
   "history": [
     {
@@ -209,6 +209,17 @@
       "duration_ms": 60000,
       "changes": "FIX: Keyboard shortcut OS detection (ORD-011). Created useModKey() hook, applied to 3 locations: page.tsx (⌘→dynamic), sidebar-nav.tsx (Ctrl→dynamic), app-header.tsx (aria/title Ctrl→dynamic). i18n audit: app well-localized, no critical English strings. Quality: 0 client console.log, 0 TODO/FIXME. Commit d38f548.",
       "filesChanged": ["src/hooks/use-mod-key.ts", "src/app/page.tsx", "src/components/moba/sidebar-nav.tsx", "src/components/moba/app-header.tsx"]
+    },
+    {
+      "tick": "2026-05-07T18:55:00Z",
+      "slot": "18",
+      "task": "Recovery Check",
+      "taskCode": "recovery",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "RECOVERY: Checkpoint commit 11 files (data feeds + source from ticks #12-18). 3 false positive orders closed: ORD-004 (DEV tab exists), ORD-005 (carousel doubling intentional), ORD-006 (timestamps by design). Data freshness: tierlist 28h, meta-builds 16h, guides 28h — all OK. S-tier 14=14 aligned. A-tier 30=30 aligned. data.ts 89 champs, no syntax errors. Commit 1eff367.",
+      "filesChanged": ["WORKLOG.md", "public/tierlist-feed.json", "public/meta-builds.json", "public/guides-feed.json", "public/patch-analysis.json", "src/data/champion-data.ts", "src/data/combos-data.ts", "src/lib/activity.ts", "src/lib/time.ts"]
     }
   ]
 }

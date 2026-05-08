@@ -1,8 +1,26 @@
 {
-  "lastUpdated": "2026-05-06T15:00:00Z",
+  "lastUpdated": "2026-05-08T07:55:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 5,
+  "totalGuides": 6,
   "guides": [
+    {
+      "id": "masteryi-jungle-269",
+      "champion": "Master Yi",
+      "role": "Jungle",
+      "patch": "26.9",
+      "title": "Master Yi Jungle — Build Oneshot, Runas, Matchups",
+      "summary": "El jungler con el WR más alto del meta (56.8%). Builds, combos, matchups y sinergias para dominar con el Buscador de Wuju en Season 2 Pandemonium.",
+      "tags": ["build", "runas", "matchups", "jungle", "snowball", "oneshot"],
+      "keyPoints": [
+        "Build Oneshot: Filo de la Noche → Eclipse → Hydratación Letal → Última Piedad (54.8% WR)",
+        "Build Persistente: Eclipse → Ángel Guardián → El Protegido (52.1% WR)",
+        "Runas: Pies Veloces + Colección de Ojos — max clear speed y DPS",
+        "Combo clave: Q → Auto → E → Auto → Q (reset) para chain-kills",
+        "Sinergia tóxica: Master Yi + Taric invulnerabilidad doble",
+        "56.8% WR — highest jungle WR en 26.9, ban rate 15.2%"
+      ],
+      "fileName": "BA_20260508_0755_guia_masteryi_jungle_lol269.md"
+    },
     {
       "id": "zeri-rework-269",
       "champion": "Zeri",

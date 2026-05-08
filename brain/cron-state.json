@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-08T09:51:00Z",
-  "lastSlot": "09",
-  "lastTask": "Champion Data",
+  "lastTick": "2026-05-08T10:51:00Z",
+  "lastSlot": "10",
+  "lastTask": "BrokenThings Audit",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 24,
-  "totalSuccess": 24,
+  "totalTicks": 25,
+  "totalSuccess": 25,
   "totalFail": 0,
   "history": [
     {
@@ -286,6 +286,17 @@
       "duration_ms": 60000,
       "changes": "27 SKILL_NAMES added. Total 66->93. Amumu, Bard, Blitzcrank, Braum, Elise, Gragas, Graves, Ivern, Kalista, Leona, Lulu, Nidalee, Nocturne, Rakan, Senna, Shen, Sion, Skarner, Tahm Kench, Teemo, Tristana, Urgot, Warwick, Wukong, Xin Zhao, Yorick, Zaahen.",
       "filesChanged": ["src/data/champion-data.ts"]
+    },
+    {
+      "tick": "2026-05-08T10:51:00Z",
+      "slot": "10",
+      "task": "BrokenThings Audit",
+      "taskCode": "broken-things",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 77/77 LoL champs have 3+ brokenThings entries. 0 gaps found.",
+      "filesChanged": []
     }
   ]
 }

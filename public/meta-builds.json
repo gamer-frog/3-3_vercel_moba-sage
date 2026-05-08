@@ -1,11 +1,11 @@
 {
-  "lastScraped": "2026-05-07T03:00:00Z",
+  "lastScraped": "2026-05-08T05:51:00Z",
   "source": "U.GG + OP.GG + Mobalytics + LoLalytics",
   "patch": "26.9",
   "season": "Pandemonium (Season 2)",
   "champions": {
     "garen": {
-      "wr": 54.7,
+      "wr": 52.1,
       "pick": 8.5,
       "ban": 3.2,
       "role": "Top",
@@ -419,7 +419,7 @@
       ]
     },
     "ahri": {
-      "wr": 51.8,
+      "wr": 54.2,
       "pick": 7.2,
       "ban": 1.9,
       "role": "Mid",
@@ -494,7 +494,7 @@
       "note": "R sustain nerf en 26.9"
     },
     "jinx": {
-      "wr": 52.0,
+      "wr": 55.1,
       "pick": 9.5,
       "ban": 3.0,
       "role": "ADC",
@@ -831,6 +831,1083 @@
         "Short-range ADCs",
         "Peel supports"
       ]
+    },
+    "darius": {
+      "wr": 54.5,
+      "pick": 9.8,
+      "ban": 10.1,
+      "role": "Top",
+      "core_items": [
+        "Fuerza de la Trinidad",
+        "Eclipse",
+        "Hidra Titánica",
+        "Resistencia Divina"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Vayne",
+        "Gwen"
+      ],
+      "strong_vs": [
+        "Garen",
+        "Ornn",
+        "Fiora"
+      ],
+      "note": "S-tier dominant pick, ban rate highest in game"
+    },
+    "leesin": {
+      "wr": 53.5,
+      "pick": 12.1,
+      "ban": 8.5,
+      "role": "Jungle",
+      "core_items": [
+        "Eclipse",
+        "Hidra Titánica",
+        "Fuerza de la Trinidad",
+        "Resistencia Divina"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Dominación",
+        "Golpe de Gracia",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Nidalee",
+        "Elise",
+        "Evelynn"
+      ],
+      "strong_vs": [
+        "Squishy junglers",
+        "Immobile carries"
+      ],
+      "note": "S-tier jungle, Insec combo dominates soloQ"
+    },
+    "masteryi": {
+      "wr": 56.8,
+      "pick": 16.3,
+      "ban": 15.2,
+      "role": "Jungle",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Hydratación Letal",
+        "Fuerza de la Trinidad"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Pies Veloces",
+        "Dominación",
+        "Colección de Ojos",
+        "Valor",
+        "Segunda Vida"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Rammus",
+        "Malzahar",
+        "Teemo"
+      ],
+      "strong_vs": [
+        "Low CC comps",
+        "Squishy teams"
+      ],
+      "note": "Highest WR jungler 26.9, Q reset snowball"
+    },
+    "thresh": {
+      "wr": 52.8,
+      "pick": 16.5,
+      "ban": 2.1,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Convergencia de Zeke",
+        "Medallón de los Solari de Hierro",
+        "Mikael"
+      ],
+      "boots": [
+        "Botas de Movilidad"
+      ],
+      "runes": [
+        "Valor",
+        "Guardián",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Morgana",
+        "Nautilus",
+        "Leona"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Vayne",
+        "Caitlyn"
+      ],
+      "note": "S-tier support, most versatile kit in game"
+    },
+    "amumu": {
+      "wr": 51.3,
+      "pick": 3.1,
+      "ban": 0.9,
+      "role": "Jungle",
+      "core_items": [
+        "Sed de Sangre",
+        "Jak'Sho, el Proteico",
+        "Resistencia Divina",
+        "Hidra Titánica"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Valor",
+        "Demolir",
+        "Brujería",
+        "Sobrecrecimiento",
+        "Precisión",
+        "Pies Veloces"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Nidalee",
+        "Elise",
+        "Shaco"
+      ],
+      "strong_vs": [
+        "Melee comps",
+        "AD-heavy teams"
+      ],
+      "note": "Tank jungle, R AoE CC"
+    },
+    "blitzcrank": {
+      "wr": 51.7,
+      "pick": 2.6,
+      "ban": 1.5,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Medallón de los Solari",
+        "Convergencia de Zeke",
+        "Mikael"
+      ],
+      "boots": [
+        "Botas de Movilidad"
+      ],
+      "runes": [
+        "Valor",
+        "Guardián",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Morgana",
+        "Thresh",
+        "Alistar"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Ashe",
+        "Caitlyn"
+      ],
+      "note": "Hook support, one grab = game changing"
+    },
+    "camille": {
+      "wr": 50.4,
+      "pick": 6.2,
+      "ban": 2.5,
+      "role": "Top",
+      "core_items": [
+        "Filo de la Noche",
+        "Divinidad Trituradora",
+        "Guardián Angel",
+        "Fuerza de la Trinidad"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Teemo",
+        "Gwen",
+        "Fiora"
+      ],
+      "strong_vs": [
+        "Melee tops",
+        "Squishy midlaners"
+      ],
+      "note": "R single target lockdown, dive threat"
+    },
+    "ezreal": {
+      "wr": 50.8,
+      "pick": 10.2,
+      "ban": 0.8,
+      "role": "ADC",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "El Colector",
+        "Filo Infinito"
+      ],
+      "boots": [
+        "Botas de Movilidad"
+      ],
+      "runes": [
+        "Precisión",
+        "Pies Veloces",
+        "Brujería",
+        "Gusto de Sangre",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Samira",
+        "Draven",
+        "Sivir"
+      ],
+      "strong_vs": [
+        "Enchanter supports",
+        "Poke lanes"
+      ],
+      "note": "Safe ADC, Q poke dominant in lane"
+    },
+    "fiora": {
+      "wr": 50.6,
+      "pick": 3.9,
+      "ban": 1.8,
+      "role": "Top",
+      "core_items": [
+        "Filo de la Noche",
+        "Divinidad Trituradora",
+        "Guardián Angel",
+        "Bailarín Espectral"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Teemo",
+        "Pantheon",
+        "Quinn"
+      ],
+      "strong_vs": [
+        "Tanky tops",
+        "Duelists"
+      ],
+      "note": "True damage duelista, vital proc dominant"
+    },
+    "graves": {
+      "wr": 49.8,
+      "pick": 5.1,
+      "ban": 0.8,
+      "role": "Jungle",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Hydratación Letal",
+        "Última Piedad"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Pies Veloces",
+        "Dominación",
+        "Colección de Ojos",
+        "Valor",
+        "Segunda Vida"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Nidalee",
+        "Elise",
+        "Kindred"
+      ],
+      "strong_vs": [
+        "Melee junglers",
+        "AD assassins"
+      ],
+      "note": "ADC jungler, strong early clears"
+    },
+    "jhin": {
+      "wr": 52.0,
+      "pick": 7.8,
+      "ban": 1.2,
+      "role": "ADC",
+      "core_items": [
+        "Filo Infinito",
+        "Huracán de Runaan",
+        "Lord Dominik",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Pies Veloces",
+        "Dominación",
+        "Colección de Ojos",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "W",
+        "Q",
+        "E"
+      ],
+      "counters": [
+        "Samira",
+        "Draven",
+        "Vayne"
+      ],
+      "strong_vs": [
+        "Enchanter supports",
+        "Peel comps"
+      ],
+      "note": "Burst ADC, R execute mechanic"
+    },
+    "katarina": {
+      "wr": 50.6,
+      "pick": 7.8,
+      "ban": 2.8,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Morellonomicon",
+        "Llamarada Sombría",
+        "Reloj de Zhonya"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Dominación",
+        "Golpe de Gracia",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Malzahar",
+        "Diana",
+        "Ahri"
+      ],
+      "strong_vs": [
+        "Squishy comps",
+        "Low CC teams"
+      ],
+      "note": "Reset assassin, teamfight snowball"
+    },
+    "kennen": {
+      "wr": 50.7,
+      "pick": 2.2,
+      "ban": 0.9,
+      "role": "Top",
+      "core_items": [
+        "Llamarada Sombría",
+        "Morellonomicon",
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Darius",
+        "Garen"
+      ],
+      "strong_vs": [
+        "Melee tops",
+        "Dive comps"
+      ],
+      "note": "AoE engage top, R teamfight stun"
+    },
+    "leona": {
+      "wr": 51.0,
+      "pick": 3.4,
+      "ban": 0.7,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Medallón de los Solari",
+        "Convergencia de Zeke",
+        "Jak'Sho, el Proteico"
+      ],
+      "boots": [
+        "Botas de Placas"
+      ],
+      "runes": [
+        "Valor",
+        "Demolir",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "counters": [
+        "Morgana",
+        "Lux",
+        "Zyra"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Lucian",
+        "Draven"
+      ],
+      "note": "All-in engage support, lock-down queen"
+    },
+    "lulu": {
+      "wr": 50.9,
+      "pick": 8.1,
+      "ban": 0.5,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Convergencia de Zeke",
+        "Mikael",
+        "Medallón de los Solari"
+      ],
+      "boots": [
+        "Botas de Celeridad"
+      ],
+      "runes": [
+        "Valor",
+        "Guardián",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "counters": [
+        "Leona",
+        "Nautilus",
+        "Blitzcrank"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Vayne",
+        "Nilah"
+      ],
+      "note": "Peel enchanter, W+R save machine"
+    },
+    "morgana": {
+      "wr": 51.0,
+      "pick": 9.5,
+      "ban": 1.5,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Morellonomicon",
+        "Mikael",
+        "Medallón de los Solari"
+      ],
+      "boots": [
+        "Botas de Celeridad"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Valor",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Thresh",
+        "Blitzcrank",
+        "Leona"
+      ],
+      "strong_vs": [
+        "Jhin",
+        "Varus",
+        "Ashe"
+      ],
+      "note": "Black shield counters engage, Q root lockdown"
+    },
+    "nami": {
+      "wr": 50.9,
+      "pick": 3.5,
+      "ban": 0.2,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Convergencia de Zeke",
+        "Mikael",
+        "Medallón de los Solari"
+      ],
+      "boots": [
+        "Botas de Celeridad"
+      ],
+      "runes": [
+        "Brujería",
+        "Invocar Aery",
+        "Determinación",
+        "Segunda Vida",
+        "Precisión",
+        "Presencia de Campeón"
+      ],
+      "skill_order": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "counters": [
+        "Leona",
+        "Nautilus",
+        "Blitzcrank"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Vayne",
+        "Caitlyn"
+      ],
+      "note": "Enchanter sustain, R AoE knockup"
+    },
+    "nautilus": {
+      "wr": 51.3,
+      "pick": 4.8,
+      "ban": 1.2,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Medallón de los Solari",
+        "Convergencia de Zeke",
+        "Jak'Sho, el Proteico"
+      ],
+      "boots": [
+        "Botas de Placas"
+      ],
+      "runes": [
+        "Valor",
+        "Demolir",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Morgana",
+        "Lux",
+        "Zyra"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Caitlyn",
+        "Ashe"
+      ],
+      "note": "CC tank support, R point-click lockdown"
+    },
+    "orianna": {
+      "wr": 51.2,
+      "pick": 6.3,
+      "ban": 0.8,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya",
+        "Llamarada Sombría",
+        "Morellonomicon"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Invocar Aery",
+        "Precisión",
+        "Presencia de Campeón",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Zed",
+        "Talon",
+        "Kassadin"
+      ],
+      "strong_vs": [
+        "Jarvan IV",
+        "Wukong",
+        "Malphite"
+      ],
+      "note": "Control mage, R shockwave teamfight"
+    },
+    "renekton": {
+      "wr": 50.4,
+      "pick": 5.3,
+      "ban": 1.5,
+      "role": "Top",
+      "core_items": [
+        "Fuerza de la Trinidad",
+        "Eclipse",
+        "Hidra Titánica",
+        "Resistencia Divina"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Fiora",
+        "Kennen"
+      ],
+      "strong_vs": [
+        "Melee tops",
+        "Dive comps"
+      ],
+      "note": "Early game bully, fury window trades"
+    },
+    "soraka": {
+      "wr": 52.0,
+      "pick": 3.0,
+      "ban": 0.5,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Convergencia de Zeke",
+        "Mikael",
+        "Medallón de los Solari"
+      ],
+      "boots": [
+        "Botas de Celeridad"
+      ],
+      "runes": [
+        "Valor",
+        "Guardián",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "W",
+        "E",
+        "Q"
+      ],
+      "counters": [
+        "Blitzcrank",
+        "Pyke",
+        "Nautilus"
+      ],
+      "strong_vs": [
+        "Nilah",
+        "Jinx",
+        "KogMaw"
+      ],
+      "note": "Global heal, sustain queen"
+    },
+    "tahmkench": {
+      "wr": 51.5,
+      "pick": 2.9,
+      "ban": 0.4,
+      "role": "Support",
+      "core_items": [
+        "Redención",
+        "Medallón de los Solari",
+        "Convergencia de Zeke",
+        "Jak'Sho, el Proteico"
+      ],
+      "boots": [
+        "Botas de Placas"
+      ],
+      "runes": [
+        "Valor",
+        "Guardián",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Morgana",
+        "Lux",
+        "Zyra"
+      ],
+      "strong_vs": [
+        "Jinx",
+        "Vayne",
+        "KogMaw"
+      ],
+      "note": "Devour save, anti-dive tank"
+    },
+    "taliyah": {
+      "wr": 51.5,
+      "pick": 4.0,
+      "ban": 0.2,
+      "role": "Mid",
+      "core_items": [
+        "Llamarada Sombría",
+        "Sombrero de Rabadón",
+        "Morellonomicon",
+        "Reloj de Zhonya"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Precisión",
+        "Presencia de Campeón",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Zed",
+        "Katarina",
+        "Ahri"
+      ],
+      "strong_vs": [
+        "Yasuo",
+        "Gragas",
+        "Wukong"
+      ],
+      "note": "AoE control mage, E+Q combo"
+    },
+    "vayne": {
+      "wr": 51.2,
+      "pick": 5.5,
+      "ban": 0.6,
+      "role": "ADC",
+      "core_items": [
+        "Filo Infinito",
+        "Bailarín Espectral",
+        "Guardián Angel",
+        "Lord Dominik"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Pies Veloces",
+        "Valor",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Draven",
+        "Caitlyn",
+        "Jhin"
+      ],
+      "strong_vs": [
+        "Tanky comps",
+        "Peel supports"
+      ],
+      "note": "True damage hypercarry, late game monster"
+    },
+    "veigar": {
+      "wr": 52.5,
+      "pick": 4.9,
+      "ban": 0.6,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Llamarada Sombría",
+        "Morellonomicon",
+        "Reloj de Zhonya"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Precisión",
+        "Golpe de Gracia",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Zed",
+        "Talon",
+        "Katarina"
+      ],
+      "strong_vs": [
+        "Control mages",
+        "Squishy midlaners"
+      ],
+      "note": "Infinite AP scaling, cage prison"
+    },
+    "vi": {
+      "wr": 51.5,
+      "pick": 6.8,
+      "ban": 1.8,
+      "role": "Jungle",
+      "core_items": [
+        "Eclipse",
+        "Fuerza de la Trinidad",
+        "Hidra Titánica",
+        "Resistencia Divina"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Dominación",
+        "Golpe de Gracia",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Elise",
+        "Nidalee",
+        "Shaco"
+      ],
+      "strong_vs": [
+        "Squishy comps",
+        "Immobile carries"
+      ],
+      "note": "Point-click R engage, gank machine"
+    },
+    "zed": {
+      "wr": 50.3,
+      "pick": 9.1,
+      "ban": 4.5,
+      "role": "Mid",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "El Colector",
+        "Última Piedad"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Dominación",
+        "Golpe de Gracia",
+        "Precisión",
+        "Presencia de Campeón",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Galio",
+        "Morgana",
+        "Garen"
+      ],
+      "strong_vs": [
+        "Squishy mages",
+        "Low mobility carries"
+      ],
+      "note": "AD assassin, shadow swap burst"
+    },
+    "zyra": {
+      "wr": 51.5,
+      "pick": 3.2,
+      "ban": 0.4,
+      "role": "Support",
+      "core_items": [
+        "Morellonomicon",
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya",
+        "Llamarada Sombría"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Cometa Arcano",
+        "Dominación",
+        "Colección de Ojos",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Leona",
+        "Nautilus",
+        "Blitzcrank"
+      ],
+      "strong_vs": [
+        "Nilah",
+        "KogMaw",
+        "Jinx"
+      ],
+      "note": "Damage support, plants zone control"
     }
   }
 }

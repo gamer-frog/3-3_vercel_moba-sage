@@ -256,15 +256,15 @@ async function runPatchUpdate(): Promise<OpResult> {
       previousPatch: storedVersion,
       summary: cdNotes.length > 0
         ? `Patch ${seasonPatch} detectado. ${cdNotes[0].substring(0, 300)}`
-        : `Patch ${seasonPatch} detectado automaticamente. Analisis detallado pendiente.`,
+        : `Patch ${seasonPatch} detectado automáticamente. Análisis detallado pendiente.`,
       digest: `Patch ${seasonPatch} (${currentFull}) — Datos iniciales cargados.`,
       highlights: [
-        `Patch ${seasonPatch} (${currentFull}) detectado automaticamente`,
+        `Patch ${seasonPatch} (${currentFull}) detectado automáticamente`,
         ...(cdTitle !== `Patch ${seasonPatch}` ? [`CommunityDragon: ${cdTitle}`] : []),
         `Patch anterior: ${storedVersion} (${storedFull})`,
       ],
       changes: {
-        buffs: [{ champion: 'Pendiente', details: 'Analisis automatico en proceso', severity: 'LOW' }],
+        buffs: [{ champion: 'Pendiente', details: 'Análisis automático en proceso', severity: 'LOW' }],
         nerfs: [],
       },
     };
@@ -288,13 +288,13 @@ async function runPatchUpdate(): Promise<OpResult> {
           id: `patch-${seasonPatch.replace('.', '-')}`,
           version: seasonPatch,
           title: `Patch ${seasonPatch} — Nuevo Parche Detectado`,
-          summary: `Patch ${seasonPatch} (${currentFull}) detectado automaticamente por el cron de MOBA SAGE.`,
+          summary: `Patch ${seasonPatch} (${currentFull}) detectado automáticamente por el cron de MOBA SAGE.`,
           digest: `Patch ${seasonPatch} · Auto-detectado · ${currentFull}`,
           date: today,
           sourceGame: 'lol',
           changes: { buffs: [], nerfs: [], adjustments: [] },
           highlights: [
-            `Patch ${seasonPatch} detectado automaticamente`,
+            `Patch ${seasonPatch} detectado automáticamente`,
             `Version Data Dragon: ${currentFull}`,
           ],
         };

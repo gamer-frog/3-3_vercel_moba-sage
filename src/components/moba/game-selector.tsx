@@ -193,7 +193,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
           animate={{ opacity: 0.6, x: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
           role="button"
-          aria-label="Wild Rift — Proximamente"
+          aria-label="Wild Rift — Próximamente"
           aria-disabled="true"
         >
           <div
@@ -232,7 +232,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
           <div className="absolute inset-0 flex items-center justify-center z-20">
             <div className="flex items-center gap-2 px-4 py-2 rounded-full" style={{ background: 'rgba(10,14,26,0.85)', border: '1.5px solid rgba(10,203,230,0.3)', backdropFilter: 'blur(8px)' }}>
               <Lock className="w-3.5 h-3.5 text-lol-success" />
-              <span className="text-xs font-bold text-lol-success tracking-wider uppercase">Proximamente</span>
+              <span className="text-xs font-bold text-lol-success tracking-wider uppercase">Próximamente</span>
             </div>
           </div>
         </motion.div>

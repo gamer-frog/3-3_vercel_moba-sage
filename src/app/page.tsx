@@ -264,7 +264,7 @@ export default function Home() {
                       handleSearchSelect(searchResults[0]);
                     }
                   }}
-                  placeholder="Buscar campeon..."
+                  placeholder="Buscar campeón..."
                   className="flex-1 bg-transparent text-lol-text text-lg placeholder:text-lol-dim outline-none lol-title"
                   style={{ fontFamily: 'inherit', letterSpacing: '0.05em' }}
                   role="searchbox"

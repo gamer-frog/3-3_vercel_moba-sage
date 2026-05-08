@@ -224,7 +224,7 @@ export function FloatingNotes() {
                   {notes.length === 0 && (
                     <div className="text-center py-8">
                       <Sparkles className="w-10 h-10 mx-auto mb-2 text-lol-gold/30" />
-                      <p className="text-xs text-lol-muted">Sin notas todavia</p>
+                      <p className="text-xs text-lol-muted">Sin notas todavía</p>
                       <p className="text-[10px] text-lol-dim mt-1">Agregá la primera idea para mejorar la app</p>
                     </div>
                   )}

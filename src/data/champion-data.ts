@@ -107,6 +107,8 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Xin Zhao':     { Q: 'Three Talon Strike', W: 'Battle Cry', E: 'Audacious Charge', R: 'Crescent Guard' },
   'Yorick':       { Q: 'Last Rites', W: 'Dark Procession', E: 'Mourning Mist', R: 'Eulogy of the Isles' },
   'Zaahen':       { Q: 'Ethereal Strike', W: 'Aether Shield', E: 'Aether Dash', R: 'Aether Metamorphosis' },
+  // --- Slot 13 Tick #28 addition ---
+  "K'Sante":      { Q: 'All Out Strike', W: 'Mastodon Bash', E: 'Footwork', R: 'All Out' },
 };
 
 export function getAbilityName(championName: string, skill: 'Q'|'W'|'E'|'R'): string {

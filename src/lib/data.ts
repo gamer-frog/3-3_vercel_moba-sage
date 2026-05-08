@@ -31,7 +31,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
   // Tier S — Dioses del Meta
   // NOTA: Master Yi fue demoted a A en 26.8 (run 02) pero queda primero por posición en el array. El campo tier determina su sección real.
   {
-    name: 'Master Yi', title: 'el Buscador de Wuju', role: 'Jungle', tier: 'A', winRate: 50.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Master Yi', title: 'el Buscador de Wuju', role: 'Jungle', tier: 'A', winRate: 56.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Q resetea en kills → snowball infinito', 'Combo Yi+Taric invulnerable → sin interacción', 'Alpha Strike dodgea habilidades siendo intocable'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/masteryi/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/masteryi"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/masteryi"}],
     builds: [
@@ -45,7 +45,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Dominación — Colección de Ojos', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Jinx', title: 'la Pistolera Loca', role: 'ADC', tier: 'S', winRate: 52.0, pickRate: 9.5, banRate: 3.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Jinx', title: 'la Pistolera Loca', role: 'ADC', tier: 'S', winRate: 55.1, pickRate: 9.5, banRate: 3.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg', 'U.GG'],
     brokenThings: ['Pasiva: 1 kill = limpia teamfight', 'W rango buff → poke sin respuesta', 'Kraken + Runaan = AoE masivo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/jinx/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/jinx"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/jinx"}],
@@ -60,7 +60,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Inspiración — Calzado Mágico', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Lee Sin', title: 'el Monje Ciego', role: 'Jungle', tier: 'B', winRate: 49.2, pickRate: 7.0, banRate: 4.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Lee Sin', title: 'el Monje Ciego', role: 'Jungle', tier: 'B', winRate: 53.5, pickRate: 7.0, banRate: 4.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Insec Q→R→Flash → pick sin counterplay', 'Pressure level 2-3 inigualable', 'Eclipse burst → mata carries en 1 combo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/leesin/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/leesin"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/leesin"}],
     builds: [
@@ -74,7 +74,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Dominación — Golpe de Gracia', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Thresh', title: 'el Guardián de Cadenas', role: 'Support', tier: 'B', winRate: 50.1, pickRate: 12.0, banRate: 1.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Thresh', title: 'el Guardián de Cadenas', role: 'Support', tier: 'B', winRate: 52.8, pickRate: 12.0, banRate: 1.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg'],
     brokenThings: ['Lantern repositiona ADC sin riesgo', 'Engage + Peel en un kit → nunca mal pick', 'Pick rate 25%+ → siempre funciona'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/thresh/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/thresh"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/thresh"}],
@@ -89,7 +89,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Valor — Guardián', secondary: 'Brujería — Debilidad', shards: 'Armadura + Fuerza + Resistencia' },
   },
   {
-    name: 'Darius', title: 'la Mano de Noxus', role: 'Top', tier: 'B', winRate: 49.8, pickRate: 5.5, banRate: 5.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Darius', title: 'la Mano de Noxus', role: 'Top', tier: 'B', winRate: 54.5, pickRate: 5.5, banRate: 5.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg'],
     brokenThings: ['Q curación + hemorragia → gana todos los trades', 'E anchor bajo torre → dive gratis', 'Ban rate 10%+ → nadie quiere enfrentarse'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/darius/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/darius"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/darius"}],
@@ -104,7 +104,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
   {
-    name: 'Ahri', title: 'el Zorro de Nueve Colas', role: 'Mid', tier: 'S', winRate: 51.8, pickRate: 7.2, banRate: 1.9, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Ahri', title: 'el Zorro de Nueve Colas', role: 'Mid', tier: 'S', winRate: 54.2, pickRate: 7.2, banRate: 1.9, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg', 'Mobalytics'],
     brokenThings: ['Charm range buff → acierto fácil', 'R 3 cargas → roaming impredecible', 'One-shot Rabadon → elimina carries'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/ahri/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/ahri"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/ahri"}],
@@ -360,7 +360,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 5.8,
     runes: {"primary":"Valor — Guardián","secondary":"Brujería — Debilidad","shards":"Armadura + Fuerza + Resistencia"},
   },
-  { name: 'Garen', title: 'el Poder de Demacia', role: 'Top', tier: 'S', winRate: 54.7, pickRate: 8.5, banRate: 2.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Garen', title: 'el Poder de Demacia', role: 'Top', tier: 'S', winRate: 52.1, pickRate: 8.5, banRate: 2.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg', 'Mobalytics'],
     brokenThings: ['E CD reducido → más spins más daño', 'Pasiva sustain → nunca backea', 'Villain → punish carries sin esfuerzo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/garen/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/garen"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/garen"}],
@@ -373,7 +373,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 2.1,
     runes: {"primary":"Precisión — Conquistador","secondary":"Valor — Segunda Vida","shards":"Adaptativo + Velocidad + Resistencia"},
   },
-  { name: 'Katarina', title: 'la Hoja Siniestra', role: 'Mid', tier: 'A', winRate: 53.0, pickRate: 5.8, banRate: 3.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Katarina', title: 'la Hoja Siniestra', role: 'Mid', tier: 'A', winRate: 50.6, pickRate: 5.8, banRate: 3.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['U.GG', 'Metabot'],
     brokenThings: ['R dagas AoE → teamwipe instantáneo', 'Movilidad → imposible de atrapar', '1 kill = snowball teamfight'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/katarina/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/katarina"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/katarina"}],
@@ -1124,10 +1124,10 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
 
 const PATCHES_DATA: Omit<PatchNote, 'id' | 'date'>[] = [
   {
-    version: '26.8',
-    title: 'Patch 26.8 — Ajustes de Temporada',
+    version: '26.9',
+    title: 'Patch 26.9 — Ajustes de Temporada',
     summary: 'Ajustes de balance para la temporada 2026. Meta estable pre-Season 2. Cambios a Ornn, Garen, Nocturne y varios bruisers.',
-    digest: 'Patch 26.8 trae cambios significativos al meta actual. Garen asciende a #1 en Top, Nocturne domina jungle, Katarina y Ahri lideran mid. Graves post-nerf mantiene S-tier. Brand y Blitzcrank entran al tier S en soporte. El meta se mantiene estable con Season 2 próxima.',
+    digest: 'Patch 26.9 trae cambios significativos al meta actual. Garen asciende a #1 en Top, Nocturne domina jungle, Katarina y Ahri lideran mid. Graves post-nerf mantiene S-tier. Brand y Blitzcrank entran al tier S en soporte. El meta se mantiene estable con Season 2 próxima.',
     sourceGame: 'LoL',
   },
   {
@@ -1181,22 +1181,22 @@ const TASKS_DATA: Omit<TaskItem, 'id'>[] = [
 ];
 
 const PRO_PICKS_DATA: Omit<ProPick, 'id'>[] = [
-  { champion: 'Ahri', role: 'Mid', tournament: 'LCK', region: 'KR', pickRate: 18.5, banRate: 12.3, winRate: 56.2, patch: '26.8' },
-  { champion: 'Jinx', role: 'ADC', tournament: 'LCK', region: 'KR', pickRate: 22.1, banRate: 8.5, winRate: 54.8, patch: '26.8' },
-  { champion: 'Lee Sin', role: 'Jungle', tournament: 'LPL', region: 'CN', pickRate: 15.3, banRate: 18.2, winRate: 51.1, patch: '26.8' },
-  { champion: 'Thresh', role: 'Support', tournament: 'LCK', region: 'KR', pickRate: 25.6, banRate: 3.1, winRate: 53.5, patch: '26.8' },
-  { champion: 'Azir', role: 'Mid', tournament: 'LCK', region: 'KR', pickRate: 14.2, banRate: 22.5, winRate: 57.3, patch: '26.8' },
-  { champion: 'Rakan', role: 'Support', tournament: 'LEC', region: 'EU', pickRate: 18.3, banRate: 5.2, winRate: 52.8, patch: '26.8' },
-  { champion: 'Jhin', role: 'ADC', tournament: 'LEC', region: 'EU', pickRate: 16.8, banRate: 6.1, winRate: 51.9, patch: '26.8' },
-  { champion: 'Camille', role: 'Top', tournament: 'LCK', region: 'KR', pickRate: 13.5, banRate: 20.1, winRate: 48.7, patch: '26.8' },
-  { champion: 'Xin Zhao', role: 'Jungle', tournament: 'LCS', region: 'NA', pickRate: 11.2, banRate: 4.5, winRate: 49.3, patch: '26.8' },
-  { champion: 'Orianna', role: 'Mid', tournament: 'LPL', region: 'CN', pickRate: 19.8, banRate: 15.3, winRate: 55.1, patch: '26.8' },
-  { champion: 'Vayne', role: 'ADC', tournament: 'LCK', region: 'KR', pickRate: 8.5, banRate: 3.2, winRate: 58.9, patch: '26.8' },
-  { champion: 'Maokai', role: 'Support', tournament: 'LCS', region: 'NA', pickRate: 14.1, banRate: 2.8, winRate: 53.2, patch: '26.8' },
-  { champion: 'Darius', role: 'Top', tournament: 'LPL', region: 'CN', pickRate: 10.3, banRate: 12.8, winRate: 52.5, patch: '26.8' },
-  { champion: 'Master Yi', role: 'Jungle', tournament: 'LCS', region: 'NA', pickRate: 5.2, banRate: 8.1, winRate: 45.3, patch: '26.8' },
-  { champion: 'Caitlyn', role: 'ADC', tournament: 'LPL', region: 'CN', pickRate: 20.5, banRate: 9.3, winRate: 54.6, patch: '26.8' },
-  { champion: 'Gwen', role: 'Top', tournament: 'LEC', region: 'EU', pickRate: 12.7, banRate: 16.5, winRate: 50.8, patch: '26.8' },
+  { champion: 'Ahri', role: 'Mid', tournament: 'LCK', region: 'KR', pickRate: 18.5, banRate: 12.3, winRate: 56.2, patch: '26.9' },
+  { champion: 'Jinx', role: 'ADC', tournament: 'LCK', region: 'KR', pickRate: 22.1, banRate: 8.5, winRate: 54.8, patch: '26.9' },
+  { champion: 'Lee Sin', role: 'Jungle', tournament: 'LPL', region: 'CN', pickRate: 15.3, banRate: 18.2, winRate: 51.1, patch: '26.9' },
+  { champion: 'Thresh', role: 'Support', tournament: 'LCK', region: 'KR', pickRate: 25.6, banRate: 3.1, winRate: 53.5, patch: '26.9' },
+  { champion: 'Azir', role: 'Mid', tournament: 'LCK', region: 'KR', pickRate: 14.2, banRate: 22.5, winRate: 57.3, patch: '26.9' },
+  { champion: 'Rakan', role: 'Support', tournament: 'LEC', region: 'EU', pickRate: 18.3, banRate: 5.2, winRate: 52.8, patch: '26.9' },
+  { champion: 'Jhin', role: 'ADC', tournament: 'LEC', region: 'EU', pickRate: 16.8, banRate: 6.1, winRate: 51.9, patch: '26.9' },
+  { champion: 'Camille', role: 'Top', tournament: 'LCK', region: 'KR', pickRate: 13.5, banRate: 20.1, winRate: 48.7, patch: '26.9' },
+  { champion: 'Xin Zhao', role: 'Jungle', tournament: 'LCS', region: 'NA', pickRate: 11.2, banRate: 4.5, winRate: 49.3, patch: '26.9' },
+  { champion: 'Orianna', role: 'Mid', tournament: 'LPL', region: 'CN', pickRate: 19.8, banRate: 15.3, winRate: 55.1, patch: '26.9' },
+  { champion: 'Vayne', role: 'ADC', tournament: 'LCK', region: 'KR', pickRate: 8.5, banRate: 3.2, winRate: 58.9, patch: '26.9' },
+  { champion: 'Maokai', role: 'Support', tournament: 'LCS', region: 'NA', pickRate: 14.1, banRate: 2.8, winRate: 53.2, patch: '26.9' },
+  { champion: 'Darius', role: 'Top', tournament: 'LPL', region: 'CN', pickRate: 10.3, banRate: 12.8, winRate: 52.5, patch: '26.9' },
+  { champion: 'Master Yi', role: 'Jungle', tournament: 'LCS', region: 'NA', pickRate: 5.2, banRate: 8.1, winRate: 45.3, patch: '26.9' },
+  { champion: 'Caitlyn', role: 'ADC', tournament: 'LPL', region: 'CN', pickRate: 20.5, banRate: 9.3, winRate: 54.6, patch: '26.9' },
+  { champion: 'Gwen', role: 'Top', tournament: 'LEC', region: 'EU', pickRate: 12.7, banRate: 16.5, winRate: 50.8, patch: '26.9' },
 ];
 
 // Add IDs

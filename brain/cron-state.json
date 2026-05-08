@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-08T16:51:00Z",
-  "lastSlot": "16",
-  "lastTask": "Runes Verification",
+  "lastTick": "2026-05-08T17:52:00Z",
+  "lastSlot": "17",
+  "lastTask": "i18n + Quality",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 31,
-  "totalSuccess": 31,
+  "totalTicks": 32,
+  "totalSuccess": 32,
   "totalFail": 0,
   "history": [
     {
@@ -374,6 +374,17 @@
       "duration_ms": 15000,
       "changes": "CLEAN — 0 keystone mismatches, 0 tree mismatches. 29/29 LoL champs with runes aligned vs meta-builds.",
       "filesChanged": []
+    },
+    {
+      "tick": "2026-05-08T17:52:00Z",
+      "slot": "17",
+      "task": "i18n + Quality",
+      "taskCode": "i18n-quality",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "FIX: 6 Spanish accent/orthography errors across 4 files. game-selector (Proximamente→Próximamente x2), floating-notes (todavia→todavía), page.tsx (campeon→campeón), cron/route.ts (automaticamente→automáticamente x4, Analisis→Análisis, automatico→automático). Full i18n+quality audit: no i18n system (by design, single locale), 0 debugger, 0 @ts-ignore, good ARIA. Commit 74cc4f5.",
+      "filesChanged": ["src/components/moba/game-selector.tsx", "src/components/moba/floating-notes.tsx", "src/app/page.tsx", "src/app/api/cron/route.ts"]
     }
   ]
 }

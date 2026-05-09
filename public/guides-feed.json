@@ -1,8 +1,26 @@
 {
-  "lastUpdated": "2026-05-08T07:55:00Z",
+  "lastUpdated": "2026-05-09T07:55:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 6,
+  "totalGuides": 7,
   "guides": [
+    {
+      "id": "jinx-adc-269",
+      "champion": "Jinx",
+      "role": "ADC",
+      "patch": "26.9",
+      "title": "Jinx ADC — Build Hypercarry, Runas, Matchups, Combos",
+      "summary": "ADC con el WR mas alto del meta (55.1%). Build Hypercarry, runas Pies Veloces, combos de teamfight y la mejor sinergia del parche con Thresh.",
+      "tags": ["build", "runas", "matchups", "adc", "hypercarry", "combos"],
+      "keyPoints": [
+        "Build Hypercarry: Filo Infinito → Huracan de Runaan → Bailarin Espectral → Sed de Sangre → Angel Guardián (55.3% WR)",
+        "Build Early Power: Kraken Slayer → La Septima → Infinito (53.1% WR)",
+        "Runas: Pies Veloces + Calzado Magico — max AS scaling",
+        "Combo clave: Q (Minigun stacks) → Q (Lanzacohetes) → Auto (AoE) en teamfights",
+        "Mejor duo: Thresh (52%+ WR combinado)",
+        "55.1% WR — 1ro entre ADCs, 22.1% pro pick rate"
+      ],
+      "fileName": "BA_20260509_0755_guia_jinx_adc_lol269.md"
+    },
     {
       "id": "masteryi-jungle-269",
       "champion": "Master Yi",

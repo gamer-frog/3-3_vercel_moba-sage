@@ -110,7 +110,48 @@
     "version": "26.10",
     "scheduledDate": "2026-05-13",
     "pbeStatus": "active",
-    "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/"
+    "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
+    "title": "Lee Sin Modernization + DFT Nerf + Starting Item Buffs",
+    "summary": "Refinamiento de Season 2 systems. Lee Sin modernization QoL. DFT nerf. Doran's Bow/Helm buffeados. Stormraider's Surge buff. Ambessa/Galio/Wukong/Zeri buff. Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Lich Bane buff. Arena 6 teams of 3.",
+    "sources": [
+      "https://www.sheepesports.com/en/all/articles/lol-patch-26-10-preview-lee-sin-gets-a-modernized-rework-and-doran-s-bow-helm-buffed/en",
+      "https://gameriv.com/league-of-legends-patch-26-10-preview-all-buffs-nerfs-changes-and-more",
+      "https://www.sportskeeda.com/esports/league-legends-patch-26-10-preview-galio-buffs-anivia-nerfs-system-adjustments"
+    ],
+    "buffs": [
+      { "champion": "Ambessa", "ability": "Q1/Q2 + R", "details": "Q % target max HP 2-6%->4-6%. R healing 10-15%->15-20%. Revert parcial del nerf 26.9, restore power sin buffear movilidad.", "severity": "MEDIUM" },
+      { "champion": "Galio", "ability": "Q + E + R", "details": "Q mana 70-90->60-80. E damage +100% AP (was 90%). R damage scales with 100% bonus MR.", "severity": "MEDIUM" },
+      { "champion": "Wukong", "ability": "W + E", "details": "W Clone Damage 30-50->40-60, Duration 3.25->4s. E AS 35-55->40-60 AD.", "severity": "MEDIUM" },
+      { "champion": "Zeri", "ability": "Q + R bugfix", "details": "Q base 21-33->22-38. Excess AS to AD 50%->60%. R attacks extend duration 1.5s.", "severity": "MEDIUM" },
+      { "champion": "Lee Sin", "ability": "W + E + R (Modernization)", "details": "W CD flat 7s (ward hops sin penalidad). Shield on minion/ward jumps. E +100%AD->+90%AD. R body flying on kill.", "severity": "HIGH" },
+      { "champion": "Quinn", "ability": "P + Q + R", "details": "P +50 dmg monsters. Q +50% dmg monsters. R mana 100/50/0->50/25/0.", "severity": "LOW" },
+      { "champion": "Lich Bane", "ability": "Item", "details": "AP ratio 40%->45%. MS 4%->6%. Differentiation vs Dusk and Dawn.", "severity": "MEDIUM" },
+      { "champion": "Stormraider's Surge", "ability": "Rune", "details": "Duration 3s->4s. MS 40/30%->48/36% (Melee/Ranged). Buff significativo.", "severity": "HIGH" },
+      { "champion": "Doran's Bow", "ability": "Item", "details": "AD 6->8. Most efficient starting item, tradeoff: gank vulnerability.", "severity": "MEDIUM" },
+      { "champion": "Doran's Helm", "ability": "Item", "details": "Health 110->130. Broadened users beyond K'Sante.", "severity": "LOW" }
+    ],
+    "nerfs": [
+      { "champion": "Anivia", "ability": "Base Stats", "details": "Base Armor 21->19. Armor growth 4.1. Targeted: limitar viabilidad Top lane.", "severity": "MEDIUM" },
+      { "champion": "Ashe", "ability": "Q", "details": "Q AD Ratio 110-140%->110-130%. Reduccion de ratio.", "severity": "LOW" },
+      { "champion": "Naafiri", "ability": "P + W", "details": "P Monster Mod 155%->145%. W Mana 60->85/80/75/70/65. Jungle nerf. Cyclosword interaction.", "severity": "MEDIUM" },
+      { "champion": "Shyvana", "ability": "HP + W", "details": "HP/level 100->95 (2do HP growth nerf). W CD 13-9->13-10.", "severity": "MEDIUM" },
+      { "champion": "Zed", "ability": "E + P", "details": "E damage +80%AD->+70%AD. P % max HP 6/8/10%->5/7/9/10%. Cyclosword nerf.", "severity": "MEDIUM" },
+      { "champion": "Deathfire Touch", "ability": "Rune", "details": "DPS reducido. Nerf a la runa dominante del meta 26.9.", "severity": "HIGH" },
+      { "champion": "Gluttonous Greaves", "ability": "Item", "details": "Nerf esperado. Demasiado fuerte en fighters y AD assassins.", "severity": "MEDIUM" },
+      { "champion": "Cyclosword", "ability": "Item", "details": "Nerf. Zed y Naafiri disproportionately strong con su passive.", "severity": "MEDIUM" }
+    ],
+    "metaImpact": [
+      "DFT nerf impacta a Karthus, Brand, Malzahar, Teemo — principales beneficiaries de la runa",
+      "Lee Sin modernization puede moverlo de B-tier hacia arriba si el buff es significativo",
+      "Ambessa buff restaura su poder post-26.9 nerf — puede volver a A-tier",
+      "Stormraider's Surge buff benefiticia assassins y mages con engage",
+      "Anivia Top targeted nerf — reduce off-meta abuse",
+      "Zed nerf puede consolidar su posicion en A-tier o empujarlo a B",
+      "Doran's Bow buff beneficia ADCs agresivos (Caitlyn, Jinx, Draven)",
+      "Galio buff puede volverlo viable como control mage en mid/support",
+      "Shyvana segundo HP nerf consecutivo — impact negativo acumulativo",
+      "Cleaver + DFT internal CD en 26.11 — cambio mayor diferido"
+    ]
   },
   "officialNotes": {
     "en": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-9-notes/",

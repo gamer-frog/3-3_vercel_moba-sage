@@ -101,6 +101,7 @@ Session reset perdio todos los cambios de ORDEN 001-021 del filesystem. Solo sob
 - [2026-05-09 09:30] ORDEN 029: 6 S-tier guides created (Garen, Malphite, Karthus, Jinx, Ahri, Ashe), guides-feed 6->12 — Ralph Loop #18
 - [2026-05-09 10:30] ORDEN 030: metaUpdated added to 40 champions (37->77, 100% cobertura) — Ralph Loop #19
 - [2026-05-09 11:30] ORDEN 031: aiAnalysis expanded for 11 B/C-tier champions (120-190->820-920 chars each) — Ralph Loop #20
+- [2026-05-09 12:30] ORDEN 032: Patch 26.10 PBE prep — 3 files updated (patches-feed +26.10 entry, patch-analysis nextPatch enriched, tierlist-feed nextPatch). 3 sources scraped. — Ralph Loop #21
 
 ---
 
@@ -165,6 +166,15 @@ Zed estaba en data.ts (A-tier Mid, 49.2% WR) pero no en tierlist-feed. Vel'Koz t
 
 ---
 
-## ORDEN 032 — Patch 26.10 preparation: scrape PBE + update feeds [PENDING]
+## ORDEN 032 — Patch 26.10 preparation: scrape PBE + update feeds [DONE]
 **Prioridad**: P1 | **Riesgo**: Medio
-**Descripcion**: Patch 26.10 programado May 13 (5 dias). Crear entrada en patches-feed.json. Actualizar tierlist-feed nextPatch status. patch-analysis.json ya tiene nextPatch pero sin datos de cambios. Depende de PBE data availability.
+**Estado**: [x] DONE — Ralph Loop #21 (2026-05-09 12:30)
+
+Patch 26.10 programado May 13. Se scrapeo PBE preview de 3 fuentes (Sheep Esports, GameRiv, Sportskeeda).
+
+**Resultado**: 3 archivos modificados.
+- patches-feed.json: Nueva entrada 26.10 con buffs/nerfs/adjustments detallados (6 buffs, 6 nerfs, 10 adjustments, 10 highlights).
+- patch-analysis.json: nextPatch enriquecido con 10 buffs, 8 nerfs, 10 metaImpact items, 3 sources.
+- tierlist-feed.json: nextPatch con summary, keyChanges (buffs/nerfs/adjustments lists), metaImpact.
+- Datos PBE: Lee Sin modernization (HIGH severity), DFT nerf (HIGH), Stormraider buff (HIGH). Ambessa/Galio/Wukong/Zeri buff. Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Cleaver + DFT internal CD diferido a 26.11.
+- Build clean, 19 pages, 0 errors

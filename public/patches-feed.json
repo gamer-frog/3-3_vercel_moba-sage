@@ -1,5 +1,65 @@
 [
   {
+    "id": "patch-26-10",
+    "version": "26.10",
+    "title": "Lee Sin Modernization + DFT Nerf + Starting Item Buffs",
+    "summary": "Lee Sin recibe modernizacion QoL (ward hops sin penalidad). Deathfire Touch nerfeado. Doran's Bow +2 AD, Doran's Helm +20 HP. Stormraider's Surge buff. Ambessa/Galio/Wukong/Zeri buffeados. Anivia/Ashe/Naafiri/Shyvana/Zed nerfeados. Lich Bane buff. Arena 6 teams of 3. Cleaver + DFT internal CD en 26.11.",
+    "digest": "Lee Sin modernization · DFT nerf · Doran Bow/Helm buff · Stormraider buff · Ambessa/Galio/Wukong/Zeri buff · Anivia/Ashe/Naafiri/Shyvana/Zed nerf · Lich Bane buff · Arena 6v3",
+    "date": "2026-05-13",
+    "sourceGame": "lol",
+    "status": "upcoming",
+    "pbeStatus": "active",
+    "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-10-notes/",
+    "changes": {
+      "newChampions": [],
+      "newRunes": [],
+      "removedRunes": [],
+      "reworkedRunes": [],
+      "newItems": [],
+      "reworkedItems": [],
+      "removedItems": [],
+      "buffs": [
+        "Ambessa — Q1/Q2 % target max HP damage 2-6%->4-6%. R healing 10-15%->15-20%. Q1/Q2 bonus monster damage 125->75. R healing vs monsters 40%->25%. Revert parcial del nerf de 26.9, restore power sin buffear movilidad.",
+        "Galio — Q mana cost 70-90->60-80. E damage 90-250(+90%AP)->100-240(+100%AP). R damage escala con 100% bonus MR. Buff significativo para control mage engage.",
+        "Wukong — W Clone Damage 30-50->40-60. W Clone Duration 3.25->4s. E AS 35-55->40-60 AD. Bufeo a split push y teamfight.",
+        "Zeri — Q base damage 21-33->22-38. Excess AS to AD conversion 50%->60%. Bugfix: Attacks during R extend duration by 1.5s.",
+        "Lee Sin — Modernization: W shield 70-250->60-240. W CD flat 7s (sin penalidad ward hops). Shield on ward/minion jumps. E +100%AD->+90%AD. R body sent flying when killed. QoL para jugar mas fluido.",
+        "Quinn — P +50 damage to monsters. Q 50% increased damage to monsters. R mana 100/50/0->50/25/0."
+      ],
+      "nerfs": [
+        "Anivia — Base Armor 21->19. Armor growth 4.1. Targeted nerf para reducir viabilidad fuera de mid lane (Top Anivia).",
+        "Ashe — Q AD Ratio 110-140%->110-130%. Reduccion de ratio AD en Q.",
+        "Naafiri — P Monster Mod 155%->145%. W Mana Cost 60->85/80/75/70/65. Jungle Naafiri nerfeada.",
+        "Shyvana — HP Per Level 100->95. W Cooldown 13-9->13-10. Nerf directo a sustain y uptime.",
+        "Zed — E damage 70-170(+80%AD)->70-160(+70%AD). P % target max HP 6/8/10%->5/7/9/10%. Nerf por Cyclosword interaction.",
+        "Deathfire Touch — DPS reducido. Riot no dio numeros exactos pero confirmo nerf."
+      ],
+      "adjustments": [
+        "Doran's Bow — AD 6->8. Mas eficiente como starting item, tradeoff: vulnerabilidad a ganks.",
+        "Doran's Helm — Health 110->130. Buff para broaden users mas alla de K'Sante.",
+        "Lich Bane — AP ratio 40%->45%. Movespeed 4%->6%. Diferenciacion con Dusk and Dawn.",
+        "Stormraider's Surge — MS Duration 3s->4s. MS Amount 40/30%->48/36% (Melee/Ranged). Buff significativo.",
+        "Gluttonous Greaves — Nerf esperado (demasiado fuerte en fighters y AD assassins).",
+        "Cyclosword — Nerf. Zed y Naafiri too strong con Cyclosword new passive.",
+        "Cleaver + DFT — Internal cooldown planeado para 26.11 (demasiado riesgoso para 26.10).",
+        "Arena — 6 teams of 3. Nuevo formato.",
+        "Apex Ranked — Sin cambios a duo queue por ahora. Evaluando en 26.11."
+      ]
+    },
+    "highlights": [
+      "Lee Sin modernization — Ward hops sin penalidad, CD flat 7s, shield en minions",
+      "Deathfire Touch nerf — Rune dominante del meta 26.9 recibe nerf significativo",
+      "Doran's Bow 8 AD — Mas eficiente, buff para ADCs agresivos en early game",
+      "Ambessa revert parcial — R healing buffeado, compensation por nerf 26.9",
+      "Galio E +100% AP ratio — Control mage mas fuerte para engage comps",
+      "Anivia top targeted — Armor reducido para limitar roles no-mid",
+      "Zed + Naafiri nerf — Cyclosword interaction demasiado fuerte",
+      "Shyvana HP 100->95 — Segundo HP growth nerf consecutivo",
+      "Stormraider's 48% MS Melee — Buff masivo para engages sorpresa",
+      "Arena 6 teams of 3 — Nuevo formato de Arena"
+    ]
+  },
+  {
     "id": 1,
     "version": "26.9",
     "title": "Pandemonium — Season 2 Launch",

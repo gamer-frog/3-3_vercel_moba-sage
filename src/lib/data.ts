@@ -835,7 +835,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 0.6,
     runes: {"primary":"Precisión — Conquistador","secondary":"Valor — Segunda Vida","shards":"Adaptativo + Velocidad + Resistencia"},
   },
-  { name: 'Malphite', title: 'el Monolito de Piedra', passiveAbility: { name: 'Granite Shield', description: "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for a few seconds, this effect recharges." }, role: 'Top', tier: 'S', winRate: 54.7, pickRate: 7.1, banRate: 1.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Malphite', title: 'el Monolito de Piedra', passiveAbility: { name: 'Granite Shield', description: "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for a few seconds, this effect recharges." }, role: 'Top', tier: 'S', winRate: 54.7, pickRate: 7.1, banRate: 5.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Buildzcrank', 'PropelRC', 'Blitz.gg'],
     brokenThings: ['R AoE knockup → mejor engage Teamfight del juego', 'E armor scaling → imposible de lastimar en lane vs AD', 'W steroid → thunderclap instantáneo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/malphite/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/malphite"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/malphite"}],

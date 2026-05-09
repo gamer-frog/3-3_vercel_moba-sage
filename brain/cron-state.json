@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T15:52:00Z",
-  "lastSlot": "15",
+  "lastTick": "2026-05-09T16:52:00Z",
+  "lastSlot": "16",
   "lastTask": "Runes Verification",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 45,
-  "totalSuccess": 45,
+  "totalTicks": 46,
+  "totalSuccess": 46,
   "totalFail": 0,
   "history": [
     {
@@ -564,6 +564,19 @@
       "build": "OK",
       "duration_ms": 30000,
       "changes": "2 keystone fixes: Morgana Invocar Aery->Cometa Arcano, Nautilus Guardián->Demolir + secondary Debilidad->Segunda Vida. 43/77 LoL champs with runes cross-checked vs meta-builds. 15 champs missing runes (lower-tier, no meta-builds entry).",
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
+    },
+    {
+      "tick": "2026-05-09T16:52:00Z",
+      "slot": "16",
+      "task": "Runes Verification",
+      "taskCode": "runes-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "2 keystone fixes: Leona Guardián->Demolir + secondary Debilidad->Determinación/Segunda Vida, Zed Cosecha Oscura->Golpe de Gracia + shards updated. 50/50 meta-builds champs cross-checked. Previous fixes (Amumu, Katarina) still aligned.",
       "filesChanged": [
         "src/lib/data.ts"
       ]

@@ -30,7 +30,7 @@ export function useSummonerSearch() {
       setSummonerData(data);
     } catch (err) {
       console.error('Summoner search error:', err);
-      setSummonerError('Error de conexion. Intenta de nuevo.');
+      setSummonerError('Error de conexión. Intenta de nuevo.');
     } finally {
       setSummonerLoading(false);
     }

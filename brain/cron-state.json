@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T16:52:00Z",
-  "lastSlot": "16",
-  "lastTask": "Runes Verification",
+  "lastTick": "2026-05-09T17:52:00Z",
+  "lastSlot": "17",
+  "lastTask": "i18n + Quality",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 46,
-  "totalSuccess": 46,
+  "totalTicks": 47,
+  "totalSuccess": 47,
   "totalFail": 0,
   "history": [
     {
@@ -579,6 +579,23 @@
       "changes": "2 keystone fixes: Leona Guardián->Demolir + secondary Debilidad->Determinación/Segunda Vida, Zed Cosecha Oscura->Golpe de Gracia + shards updated. 50/50 meta-builds champs cross-checked. Previous fixes (Amumu, Katarina) still aligned.",
       "filesChanged": [
         "src/lib/data.ts"
+      ]
+    },
+    {
+      "tick": "2026-05-09T17:52:00Z",
+      "slot": "17",
+      "task": "i18n + Quality",
+      "taskCode": "i18n-quality",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "i18n: 10 Spanish accent fixes (3x Despues→Después, 2x esta→estás, inútil, héroe, Stopwarch→Stopwatch). Quality: 2 aria-label added to favorite toggle buttons. conexion→conexión (2 files). Próximamente (1 file). coaching-data.tsx full accent audit.",
+      "filesChanged": [
+        "src/data/coaching-data.tsx",
+        "src/components/moba/tabs/tier-list-tab.tsx",
+        "src/components/moba/tabs/coaching-tab.tsx",
+        "src/hooks/use-summoner-search.ts",
+        "src/components/moba/tab-content.tsx"
       ]
     }
   ]

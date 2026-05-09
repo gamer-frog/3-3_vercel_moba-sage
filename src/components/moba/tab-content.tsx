@@ -95,7 +95,7 @@ export function TabContent() {
           >
             <WifiOff className="w-12 h-12 mx-auto mb-4 text-lol-danger/60" />
             <h3 className="lol-title text-lg text-lol-text mb-2">Error al cargar datos</h3>
-            <p className="text-sm text-lol-muted mb-6">No se pudo conectar con el servidor. Verifica tu conexion e intenta de nuevo.</p>
+            <p className="text-sm text-lol-muted mb-6">No se pudo conectar con el servidor. Verifica tu conexión e intenta de nuevo.</p>
             <motion.button
               onClick={ctx.onRetryFetch}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-200 cursor-pointer bg-lol-gold text-lol-bg"

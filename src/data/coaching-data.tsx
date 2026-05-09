@@ -99,19 +99,19 @@ export const ERROLO_COLORS: Record<string, { bg: string; border: string; text: s
 
 export const erroresData: ErrorEntry[] = [
   // Hierro / Plata
-  { elo: 'Hierro/Plata', severity: 'critical', title: 'Chasear kills por el mapa', description: 'Si un enemigo esta con 5% HP y se retira a base, NO lo persigas. Es una trampa. Vas a perder tiempo de farm, objetivar, y probablemente te ganken. La kill no vale tanto como cres.' },
-  { elo: 'Hierro/Plata', severity: 'critical', title: 'Ignorar el minimap', description: 'Mirar el minimap cada 3-5 segundos es habito #1 de los jugadores que suben de rank. Si el rival mid no esta en tu mapa, no empujes tu ola. Si ves al jungler rival bot, podes empujar top libremente.' },
-  { elo: 'Hierro/Plata', severity: 'critical', title: 'Forzar teamfights sin ventaja', description: 'No inicies peleas si estas detras en niveles, oro o items. Espera a que tu equipo alcance sus power spikes. Forzar pelea en desventaja es la forma mas rapida de perder una partida que podias ganar.' },
+  { elo: 'Hierro/Plata', severity: 'critical', title: 'Chasear kills por el mapa', description: 'Si un enemigo está con 5% HP y se retira a base, NO lo persigas. Es una trampa. Vas a perder tiempo de farm, objetivar, y probablemente te ganken. La kill no vale tanto como cres.' },
+  { elo: 'Hierro/Plata', severity: 'critical', title: 'Ignorar el minimap', description: 'Mirar el minimap cada 3-5 segundos es habito #1 de los jugadores que suben de rank. Si el rival mid no está en tu mapa, no empujes tu ola. Si ves al jungler rival bot, podes empujar top libremente.' },
+  { elo: 'Hierro/Plata', severity: 'critical', title: 'Forzar teamfights sin ventaja', description: 'No inicies peleas si estás detrás en niveles, oro o items. Espera a que tu equipo alcance sus power spikes. Forzar pelea en desventaja es la forma más rápida de perder una partida que podias ganar.' },
   // Oro
-  { elo: 'Oro', severity: 'common', title: 'No comprar Control Wards', description: 'Cada recall deberias comprar al menos 1 Control Ward (hasta el limite de 3 en el mapa). La vision es el recurso mas subestimado del juego. Un ward bien colocado puede prevenir una muerte o enable una kill.' },
-  { elo: 'Oro', severity: 'common', title: 'No adaptar tu build', description: 'Si el rival ADC tiene 3 kills a los 10 minutos, compra Armadura. Si su mid lane AP te esta oneshoteando, compra MR. Seguir el mismo build siempre es un error. Adapta tu build al partido.' },
-  { elo: 'Oro', severity: 'common', title: 'Usar flash innecesariamente', description: 'Flash tiene 5 minutos de cooldown. No lo uses para asegurar una kill que ya esta garantizada. Guardalo para escapes criticos o para iniciar teamfights. Un flash malgastado es una desventaja enorme.' },
+  { elo: 'Oro', severity: 'common', title: 'No comprar Control Wards', description: 'Cada recall deberias comprar al menos 1 Control Ward (hasta el limite de 3 en el mapa). La vision es el recurso más subestimado del juego. Un ward bien colocado puede prevenir una muerte o enable una kill.' },
+  { elo: 'Oro', severity: 'common', title: 'No adaptar tu build', description: 'Si el rival ADC tiene 3 kills a los 10 minutos, compra Armadura. Si su mid lane AP te está oneshoteando, compra MR. Seguir el mismo build siempre es un error. Adapta tu build al partido.' },
+  { elo: 'Oro', severity: 'common', title: 'Usar flash innecesariamente', description: 'Flash tiene 5 minutos de cooldown. No lo uses para asegurar una kill que ya está garantizada. Guardalo para escapes criticos o para iniciar teamfights. Un flash malgastado es una desventaja enorme.' },
   // Platino
-  { elo: 'Platino', severity: 'common', title: 'Recall sin cobertura', description: 'Antes de recallar, preguntate: esta mi jungler cerca? El rival mid puede roamear? Tengo wards que me avisen si viene alguien? Recalear en mala posicion puede costar un dragon o una torre.' },
+  { elo: 'Platino', severity: 'common', title: 'Recall sin cobertura', description: 'Antes de recallar, preguntate: está mi jungler cerca? El rival mid puede roamear? Tengo wards que me avisen si viene alguien? Recalear en mala posicion puede costar un dragon o una torre.' },
   { elo: 'Platino', severity: 'critical', title: 'Ignorar el tiempo de objetivos', description: 'Dragon spawnea a los 5:00, Baron a los 20:00, Herald a los 14:00. Saber los timers te permite prepararte con antelacion. Muchos equipos pierden objetivos porque no estaban preparados cuando spawnearon.' },
   // Esmeralda / Diamante
-  { elo: 'Esmeralda/Diamante', severity: 'subtle', title: 'No resetear oleadas', description: 'Despues de matar al rival o forzarlo a recall, pushea la ola hasta la torre para que se resetee. Si no lo haces, el rival pierde menos CS y puede freezearte cerca de su torre, negandote oro y experiencia.' },
-  { elo: 'Esmeralda/Diamante', severity: 'subtle', title: 'Flamear a tu equipo', description: 'El flame no mejora nada. Solo baja la moral del equipo y hace que tus companeros jueguen peor. Usa senales y pings constructivos. Si alguien esta jugando mal, ayudalo en lugar de insultarlo.' },
+  { elo: 'Esmeralda/Diamante', severity: 'subtle', title: 'No resetear oleadas', description: 'Después de matar al rival o forzarlo a recall, pushea la ola hasta la torre para que se resetee. Si no lo haces, el rival pierde menos CS y puede freezearte cerca de su torre, negandote oro y experiencia.' },
+  { elo: 'Esmeralda/Diamante', severity: 'subtle', title: 'Flamear a tu equipo', description: 'El flame no mejora nada. Solo baja la moral del equipo y hace que tus compañeros jueguen peor. Usa señales y pings constructivos. Si alguien está jugando mal, ayudalo en lugar de insultarlo.' },
   // Maestro
   { elo: 'Maestro', severity: 'critical', title: 'Sobrestimar el power spike individual', description: 'En Maestro, los rivales saben configurar tu power spike y evitarte. Saltear spikes o enganchar mal significa perder la partida. Tus picks y posicionamiento necesitan ser perfectos, no basta con solo saber que tenes ventaja.' },
   { elo: 'Maestro', severity: 'subtle', title: 'No identificar la win condition rival', description: 'En alto elo, cada team tiene una win condition clara (split push, teamfight, poke). Si no identificas la del rival y no la counteras, pierdes. Analiza el team comp rival en champion select y planifica tu respuesta.' },
@@ -142,9 +142,9 @@ export const roleTipsData: RoleTipSection[] = [
     icon: <Swords className="w-4 h-4" />,
     color: '#0fba81',
     tips: [
-      { title: 'Pathing Inteligente', description: 'No hagas el mismo pathing cada partida. Si tu top lane esta perdiendo, ganka mid/bot. Si el rival jungler empezo bot, contesta top. Lee el minimap para decidir donde ir. Un buen jungler adapta su ruta al estado de las 3 lanes, no sigue un script fijo.', icon: <Map className="w-4 h-4 text-lol-green" /> },
+      { title: 'Pathing Inteligente', description: 'No hagas el mismo pathing cada partida. Si tu top lane está perdiendo, ganka mid/bot. Si el rival jungler empezó bot, contesta top. Lee el minimap para decidir donde ir. Un buen jungler adapta su ruta al estado de las 3 lanes, no sigue un script fijo.', icon: <Map className="w-4 h-4 text-lol-green" /> },
       { title: 'Smite Control', description: 'Track the enemy jungler timers. Dragon: 6 min respawn, Herald: 5 min, Baron: 6 min. Llega 30 seg antes de que spawnee. Ten smite SIEMPRE up para objetivar. Un smite steal puede ganar o perder la partida. Practica el timing en Practice Tool.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
-      { title: 'Gank Setup', description: 'Antes de gankear, pregunta: esta la ola empujando hacia tu torre? Tiene el rival flash? Tiene escape? Si la ola esta empujando hacia su torre, es mala idea gankear. Busca lanes donde tu aliado tiene control de la ola. Communication con pings es clave.', icon: <Target className="w-4 h-4 text-lol-danger" /> },
+      { title: 'Gank Setup', description: 'Antes de gankear, pregunta: está la ola empujando hacia tu torre? Tiene el rival flash? Tiene escape? Si la ola está empujando hacia su torre, es mala idea gankear. Busca lanes donde tu aliado tiene control de la ola. Communication con pings es clave.', icon: <Target className="w-4 h-4 text-lol-danger" /> },
     ],
   },
   {
@@ -152,7 +152,7 @@ export const roleTipsData: RoleTipSection[] = [
     icon: <Zap className="w-4 h-4" />,
     color: '#5b8af5',
     tips: [
-      { title: 'Roaming Windows', description: 'Despues de pushear tu ola a la torre rival, tienes 15-20 segundos para roam. Roama bot para dragon setup o top para herald. Si no puedes roam, farmia jungle camps cercanos. El mid laner que mas impacto tiene en las side lanes gana partidas.', icon: <Map className="w-4 h-4 text-[#5b8af5]" /> },
+      { title: 'Roaming Windows', description: 'Después de pushear tu ola a la torre rival, tienes 15-20 segundos para roam. Roama bot para dragon setup o top para herald. Si no puedes roam, farmia jungle camps cercanos. El mid laner que mas impacto tiene en las side lanes gana partidas.', icon: <Map className="w-4 h-4 text-[#5b8af5]" /> },
       { title: 'Wave Management Avanzado', description: 'Si vas ganando, freeze cerca de tu torre para negar al rival xp y oro. Si vas perdiendo, slow push para crear una ola grande y buscar roam. Reset la ola antes de recall para no perder CS. El control de oleadas en mid es mas impactante que en cualquier otra lane.', icon: <Shield className="w-4 h-4 text-lol-gold" /> },
       { title: 'Burst vs DPS Positioning', description: 'Si sos burst mage (LeBlanc, Syndra, Ahri), posicionate para oneshot carries. Si sos DPS (Orianna, Azir, Viktor), quedate detras del frontline y output constante. Conoce tu rol en teamfight — no todos los mid laners juegan igual.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
     ],
@@ -163,8 +163,8 @@ export const roleTipsData: RoleTipSection[] = [
     color: '#e84057',
     tips: [
       { title: 'Kiting is Everything', description: 'El ADC que mejor kitea gana teamfights. Practica attack-move (A-click) en Practice Tool. Nunca te quedes quieto en una pelea — move between autos. Si usas Right Click, practica moverte entre cada auto-attack. El posicionamiento vale mas que tu build.', icon: <Crosshair className="w-4 h-4 text-lol-danger" /> },
-      { title: 'Farm is Non-Negotiable', description: 'Apunta a 10+ CS/min en lane phase. Si llegas a 20 min con 180+ CS, estas en buen camino. El ADC sin items es inutil — cada CS cuenta. En late game, side wave + jungle = mas income. No skips CS para ir a una teamfight que no vas a ganar.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
-      { title: 'Peeling vs Carrying', description: 'Si tu equipo tiene peel (Nautilus, Lulu, Yuumi), podes carry more aggressively. Si no hay peel, jugá mas seguro y usá tus defensivos (GA, QSS, Stopwarch). Adapta tu playstyle a tu team comp, no siempre podes ser el heroe.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
+      { title: 'Farm is Non-Negotiable', description: 'Apunta a 10+ CS/min en lane phase. Si llegas a 20 min con 180+ CS, estás en buen camino. El ADC sin items es inútil — cada CS cuenta. En late game, side wave + jungle = mas income. No skips CS para ir a una teamfight que no vas a ganar.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
+      { title: 'Peeling vs Carrying', description: 'Si tu equipo tiene peel (Nautilus, Lulu, Yuumi), podes carry more aggressively. Si no hay peel, jugá mas seguro y usá tus defensivos (GA, QSS, Stopwatch). Adapta tu playstyle a tu team comp, no siempre podes ser el héroe.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
     ],
   },
   {
@@ -174,7 +174,7 @@ export const roleTipsData: RoleTipSection[] = [
     tips: [
       { title: 'Engage vs Peel', description: 'Si tu ADC es Jinx/Kog/Vayne con 3 items, tu trabajo es PEEL, no engage. Si tu ADC es early game (Draven, Lucian), busca engage para snowball. Adapta tu playstyle al poder del ADC y al state de la partida. Un support que no adapta pierde.', icon: <Swords className="w-4 h-4 text-lol-success" /> },
       { title: 'Vision Economy', description: 'Oracle Lens en mid game (cuando el soporte rival tiene vision). Pink wards en objectives clave. NO pongas wards en la misma bush que tu ADC — cubri diferentes angulos. La vision es tu recurso mas valioso, usala inteligentemente.', icon: <Eye className="w-4 h-4 text-lol-warning" /> },
-      { title: 'Roaming Support', description: 'Despues de pushear bot, roam con tu jungler o mid. Ward enemy jungle, help contest scuttle, or set up ganks. En late game, STAY with your team — no split push. El support que roams bien en early game gana la partida antes de que empiece.', icon: <Map className="w-4 h-4 text-lol-green" /> },
+      { title: 'Roaming Support', description: 'Después de pushear bot, roam con tu jungler o mid. Ward enemy jungle, help contest scuttle, or set up ganks. En late game, STAY with your team — no split push. El support que roams bien en early game gana la partida antes de que empiece.', icon: <Map className="w-4 h-4 text-lol-green" /> },
     ],
   },
 ];

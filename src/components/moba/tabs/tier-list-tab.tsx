@@ -1066,7 +1066,7 @@ function BoardView({ champions, favorites, onChampionClick, onToggleFavorite, tr
                                   style={{ textShadow: '0 1px 4px rgba(0,0,0,0.8)' }}>
                                   {champ.name}
                                 </h3>
-                                <button onClick={e => { e.stopPropagation(); onToggleFavorite(champ.id); }} className="shrink-0 cursor-pointer">
+                                <button onClick={e => { e.stopPropagation(); onToggleFavorite(champ.id); }} aria-label={`Favoritar ${champ.name}`} className="shrink-0 cursor-pointer">
                                   <Star className="w-3.5 h-3.5 transition-colors"
                                     style={{ color: favorites.has(champ.id) ? '#f0c646' : '#5b5a56' }}
                                     fill={favorites.has(champ.id) ? '#f0c646' : 'none'} />

@@ -43,7 +43,7 @@ export function CoachingTab({ selectedGame }: { selectedGame: GameSelection }) {
       <div className="flex flex-col items-center justify-center py-20 text-center">
         <GraduationCap className="w-16 h-16 text-lol-gold-dark mb-4 opacity-30" />
         <h2 className="text-lg font-bold text-lol-text mb-2">Coaching para Wild Rift</h2>
-        <p className="text-sm text-lol-dim max-w-md">Proximamente: guías de mecánicas, warding y macro adaptadas a Wild Rift.</p>
+        <p className="text-sm text-lol-dim max-w-md">Próximamente: guías de mecánicas, warding y macro adaptadas a Wild Rift.</p>
       </div>
     );
   }

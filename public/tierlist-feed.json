@@ -399,6 +399,14 @@
         "pickRate": 8.3,
         "banRate": 3.8,
         "trend": "stable"
+      },
+      {
+        "name": "K'Sante",
+        "role": "Top",
+        "winRate": 49.8,
+        "pickRate": 5.1,
+        "banRate": 2.5,
+        "trend": "stable"
       }
     ],
     "bTier": [

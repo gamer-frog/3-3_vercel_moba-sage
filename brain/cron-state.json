@@ -2,18 +2,18 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T18:52:00Z",
-  "lastSlot": "18",
-  "lastTask": "Recovery Check",
+  "lastTick": "2026-05-09T19:52:00Z",
+  "lastSlot": "19",
+  "lastTask": "Cross-File Consistency",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 48,
-  "totalSuccess": 48,
+  "totalTicks": 49,
+  "totalSuccess": 49,
   "totalFail": 0,
   "history": [
     {
-      "tick": "2026-05-07T02:00:00Z",
+      "tick": "2026-05-07T02:51:48Z",
       "slot": "02",
       "task": "Data Sync",
       "taskCode": "data-sync",
@@ -608,6 +608,20 @@
       "duration_ms": 30000,
       "changes": "CLEAN — S-tier 15=15 aligned. Feed 22h fresh. 0 content diffs (7 permission-only). All 032 orders DONE. Patch 26.10 PBE 3 days away. 30+ unpushed commits (PAT expired). No data integrity issues.",
       "filesChanged": []
+    },
+    {
+      "tick": "2026-05-09T19:52:00Z",
+      "slot": "19",
+      "task": "Cross-File Consistency",
+      "taskCode": "consistency",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "2 fixes: K'Sante added to tierlist-feed A-tier (known gap resolved), 18 WR entries patch 6.8→7.1c. 10/10 checks pass. 77 LoL champs, 0 dupes, 15/15 S-tier aligned (was 15 feed + 15 data but K'Sante was missing from feed), 0 tier mismatches, 0 WR deltas, 77/77 patch 26.9, 50/50 runes aligned.",
+      "filesChanged": [
+        "public/tierlist-feed.json",
+        "src/lib/data.ts"
+      ]
     }
   ]
 }

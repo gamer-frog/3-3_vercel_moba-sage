@@ -29,9 +29,9 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
   // Tier S — Dioses del Meta
-  // NOTA: Master Yi fue demoted a A en 26.8 (run 02) pero queda primero por posición en el array. El campo tier determina su sección real.
+  // NOTA: Master Yi promovido a S en 26.9 (tick #04 tierlist-search, WR 56.8% confirmado web).
   {
-    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'A', winRate: 56.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'S', winRate: 56.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Q resetea en kills → snowball infinito', 'Combo Yi+Taric invulnerable → sin interacción', 'Alpha Strike dodgea habilidades siendo intocable'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/masteryi/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/masteryi"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/masteryi"}],
     builds: [
@@ -181,7 +181,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 3.8,
     runes: { primary: 'Brujería — Deathfire Touch', secondary: 'Dominación — Sabor a Sangre', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
-  { name: "K'Sante", title: 'el Orgullo de Nazumah', role: 'Top', tier: 'A', winRate: 49.8, pickRate: 5.1, banRate: 2.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: "K'Sante", title: 'el Orgullo de Nazumah', passiveAbility: { name: 'Dauntless Instinct', description: "K'Sante's Abilities mark targets to take more damage on his next Attack. When All Out, K'Sante deals more damage with all Attacks and Abilities." }, role: 'Top', tier: 'A', winRate: 49.8, pickRate: 5.1, banRate: 2.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg'],
     brokenThings: ['R transform → bruiser con resistencias masivas', 'W CC multi-target → peel + engage', 'All-in lvl 6 → kill garantizado'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/ksante/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/ksante"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/ksante"}],

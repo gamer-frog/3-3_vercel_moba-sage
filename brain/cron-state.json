@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T03:51:53Z",
-  "lastSlot": "03",
-  "lastTask": "Meta Builds Verify",
+  "lastTick": "2026-05-09T04:51:00Z",
+  "lastSlot": "04",
+  "lastTask": "Tierlist Web Search",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 33,
-  "totalSuccess": 33,
+  "totalTicks": 34,
+  "totalSuccess": 34,
   "totalFail": 0,
   "history": [
     {
@@ -54,7 +54,10 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "MAJOR — 6 S-tier promos, tierlist v11->v12, data.ts 4 champs updated",
-      "filesChanged": ["public/tierlist-feed.json", "src/lib/data.ts"]
+      "filesChanged": [
+        "public/tierlist-feed.json",
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T04:51:51Z",
@@ -65,7 +68,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "5 new S-tier builds (Taliyah JG, Shyvana JG, Brand ADC, Nami, Sona). Malphite WR fix. 22->27 builds.",
-      "filesChanged": ["public/meta-builds.json"]
+      "filesChanged": [
+        "public/meta-builds.json"
+      ]
     },
     {
       "tick": "2026-05-07T05:51:44Z",
@@ -87,7 +92,10 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "DDragon 16.9.1. Patch 26.10 PBE preview: buffs/nerfs/adjusts. Updated patch-analysis + patches-feed.",
-      "filesChanged": ["public/patch-analysis.json", "public/patches-feed.json"]
+      "filesChanged": [
+        "public/patch-analysis.json",
+        "public/patches-feed.json"
+      ]
     },
     {
       "tick": "2026-05-07T07:51:48Z",
@@ -98,7 +106,10 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "New guide: Shyvana Jungle (57.6% WR). guides-feed 23->24.",
-      "filesChanged": ["data/guides/BA_20260507_0755_guia_shyvana_jungle_lol269.md", "public/guides-feed.json"]
+      "filesChanged": [
+        "data/guides/BA_20260507_0755_guia_shyvana_jungle_lol269.md",
+        "public/guides-feed.json"
+      ]
     },
     {
       "tick": "2026-05-07T08:51:53Z",
@@ -109,7 +120,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "18 SKIN_NAMES added. Coverage 51->69/69 (100%).",
-      "filesChanged": ["src/data/champion-data.ts"]
+      "filesChanged": [
+        "src/data/champion-data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T09:51:52Z",
@@ -120,7 +133,9 @@
       "build": "OK",
       "duration_ms": 75000,
       "changes": "14 SKILL_NAMES added. Total 88->102. K'Sante, Gragas, Sion, Shyvana, Sona, Naafiri, Rell, Singed, Smolder, Zilean + 4 more.",
-      "filesChanged": ["src/data/champion-data.ts"]
+      "filesChanged": [
+        "src/data/champion-data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T10:51:52Z",
@@ -131,7 +146,9 @@
       "build": "OK",
       "duration_ms": 80000,
       "changes": "12 champs fixed to 3 brokenThings. 6 added from 0 (Graves, Morgana, Xin Zhao, Vel'Koz, Mordekaiser, Urgot). 6 added 1 more (Senna, Draven, Elise, Ekko, Kennen, Caitlyn WR). Coverage: 73->85/85 (100%).",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T11:51:38Z",
@@ -142,7 +159,9 @@
       "build": "OK",
       "duration_ms": 65000,
       "changes": "1 fix: K'Sante counterPick (Gwen->Fiora). Cross-file audit: 9 mismatches checked, 8 already fixed in previous ticks, 1 remaining fixed now. Shyvana+Sona missing from data.ts noted.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T12:51:38Z",
@@ -153,7 +172,9 @@
       "build": "OK",
       "duration_ms": 180000,
       "changes": "CRITICAL FIX: 11 champions missing from data.ts added (2 S-tier: Karthus, Nasus; 7 A-tier: Malzahar, Sion, Gragas, Warwick, Teemo, Tahm Kench, Fiora; 1 B: Riven; 1 C: Vel'Koz). S-tier now 14=14 (100% aligned). LoL total 88 champs.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T13:51:42Z",
@@ -164,7 +185,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "Vel'Koz duplicate removed (old A-tier 26.8). 6 stale patches updated 26.8->26.9 (Caitlyn, Blitzcrank, K'Sante, Orianna, Vi, Zed). All LoL now 26.9. 0 tier mismatches. 0 WR deltas. 41 missing metaUpdated noted.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T14:51:42Z",
@@ -197,7 +220,9 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "FIXED 10 keystone mismatches vs meta-builds. Previous slot 15 audit was parsing error — all 77 LoL champs already had runes. Real issue: keystones out of sync. Ahri/Brand/Diana/AurelionSol→DFT, Briar→Conq, Cait→Fleet, Malphite→Comet, Nilah→LT, Nocturne→ToB, Ornn→Demolish. Build OK.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-07T17:55:00Z",
@@ -208,7 +233,12 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "FIX: Keyboard shortcut OS detection (ORD-011). Created useModKey() hook, applied to 3 locations: page.tsx, sidebar-nav.tsx, app-header.tsx. i18n audit: well-localized. Quality: 0 console.log, 0 TODO/FIXME. Commit d38f548.",
-      "filesChanged": ["src/hooks/use-mod-key.ts", "src/app/page.tsx", "src/components/moba/sidebar-nav.tsx", "src/components/moba/app-header.tsx"]
+      "filesChanged": [
+        "src/hooks/use-mod-key.ts",
+        "src/app/page.tsx",
+        "src/components/moba/sidebar-nav.tsx",
+        "src/components/moba/app-header.tsx"
+      ]
     },
     {
       "tick": "2026-05-07T18:55:00Z",
@@ -219,7 +249,17 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "RECOVERY: Checkpoint commit 11 files. 3 false positive orders closed (ORD-004/005/006). Data freshness OK. S-tier 14=14 aligned. Commit 1eff367.",
-      "filesChanged": ["WORKLOG.md", "public/tierlist-feed.json", "public/meta-builds.json", "public/guides-feed.json", "public/patch-analysis.json", "src/data/champion-data.ts", "src/data/combos-data.ts", "src/lib/activity.ts", "src/lib/time.ts"]
+      "filesChanged": [
+        "WORKLOG.md",
+        "public/tierlist-feed.json",
+        "public/meta-builds.json",
+        "public/guides-feed.json",
+        "public/patch-analysis.json",
+        "src/data/champion-data.ts",
+        "src/data/combos-data.ts",
+        "src/lib/activity.ts",
+        "src/lib/time.ts"
+      ]
     },
     {
       "tick": "2026-05-07T19:51:00Z",
@@ -252,7 +292,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "MAJOR — 22->50 builds. 28 new S+A tier builds (4 S: Darius, Lee Sin, Master Yi, Thresh + 24 A-tier). 3 WR fixes: Ahri 51.8->54.2, Garen 54.7->52.1, Jinx 52.0->55.1. Full S+A coverage 50/50.",
-      "filesChanged": ["public/meta-builds.json"]
+      "filesChanged": [
+        "public/meta-builds.json"
+      ]
     },
     {
       "tick": "2026-05-08T06:51:00Z",
@@ -263,7 +305,9 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "9 stale 26.8 refs in aiAnalysis updated to 26.9 (Nocturne, Ornn, Briar, Aurelion Sol, Nilah, Diana, Malphite, Nautilus, K'Sante). DDragon 16.9.1 unchanged. Patch 26.10 PBE active, 4 days away.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-08T07:51:00Z",
@@ -274,7 +318,10 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "New guide: Master Yi Jungle (56.8% WR, highest jungle). guides-feed 5->6.",
-      "filesChanged": ["data/guides/BA_20260508_0755_guia_masteryi_jungle_lol269.md", "public/guides-feed.json"]
+      "filesChanged": [
+        "data/guides/BA_20260508_0755_guia_masteryi_jungle_lol269.md",
+        "public/guides-feed.json"
+      ]
     },
     {
       "tick": "2026-05-08T09:51:00Z",
@@ -285,7 +332,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "27 SKILL_NAMES added. Total 66->93. Amumu, Bard, Blitzcrank, Braum, Elise, Gragas, Graves, Ivern, Kalista, Leona, Lulu, Nidalee, Nocturne, Rakan, Senna, Shen, Sion, Skarner, Tahm Kench, Teemo, Tristana, Urgot, Warwick, Wukong, Xin Zhao, Yorick, Zaahen.",
-      "filesChanged": ["src/data/champion-data.ts"]
+      "filesChanged": [
+        "src/data/champion-data.ts"
+      ]
     },
     {
       "tick": "2026-05-08T10:51:00Z",
@@ -307,7 +356,9 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "2 synergy formatting fixes (Yasuo, Master Yi). 74/74 LoL champs have counterPick+synergy. 71 refs to champs not in dataset are valid LoL matchups. CLEAN overall.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-08T12:51:00Z",
@@ -329,7 +380,10 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "8 WR syncs vs meta-builds (Master Yi +6%, Darius +4.7%, Lee Sin +4.3%, Jinx +3.1%, Thresh +2.7%, Ahri +2.4%, Katarina -2.4%, Garen -2.6%). PATCH_NOTES + 16 ProPicks 26.8→26.9. K'Sante SKILL_NAMES added (93→94). passiveAbility missing ALL (noted). 39 no metaUpdated (noted). 37 missing SKIN_NAMES (noted).",
-      "filesChanged": ["src/lib/data.ts", "src/data/champion-data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts",
+        "src/data/champion-data.ts"
+      ]
     },
     {
       "tick": "2026-05-08T14:51:00Z",
@@ -384,7 +438,12 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "FIX: 6 Spanish accent/orthography errors across 4 files. game-selector (Proximamente→Próximamente x2), floating-notes (todavia→todavía), page.tsx (campeon→campeón), cron/route.ts (automaticamente→automáticamente x4, Analisis→Análisis, automatico→automático). Full i18n+quality audit: no i18n system (by design, single locale), 0 debugger, 0 @ts-ignore, good ARIA. Commit 74cc4f5.",
-      "filesChanged": ["src/components/moba/game-selector.tsx", "src/components/moba/floating-notes.tsx", "src/app/page.tsx", "src/app/api/cron/route.ts"]
+      "filesChanged": [
+        "src/components/moba/game-selector.tsx",
+        "src/components/moba/floating-notes.tsx",
+        "src/app/page.tsx",
+        "src/app/api/cron/route.ts"
+      ]
     },
     {
       "tick": "2026-05-09T03:51:53Z",
@@ -396,6 +455,19 @@
       "duration_ms": 45000,
       "changes": "CLEAN — 89 LoL champs vs 50 meta-builds. 7 WR deltas < 2% (max 1.3% Ezreal). 0 build WR anomalies. Meta-builds fresh (22h). No sync needed.",
       "filesChanged": []
+    },
+    {
+      "tick": "2026-05-09T04:51:00Z",
+      "slot": "04",
+      "task": "Tierlist Web Search",
+      "taskCode": "tierlist-search",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 120000,
+      "changes": "Master Yi A→S promo (56.8% WR, web-confirmed). 7 WR syncs (Garen -2.6%, Ahri +2.4%, Jinx +3.1%, Katarina -2.4%, Darius +4.7%, Lee Sin +4.3%, Thresh +2.7%). Zed added to A-tier. Feed v11→v12. S-tier 14→15. 76 LoL total.",
+      "filesChanged": [
+        "public/tierlist-feed.json"
+      ]
     }
   ]
 }

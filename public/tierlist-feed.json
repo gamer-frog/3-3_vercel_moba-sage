@@ -1,41 +1,49 @@
 {
-  "lastUpdated": "2026-05-06T15:00:00Z",
+  "lastUpdated": "2026-05-09T04:51:00Z",
   "source": "Ralph Loop v3 — MOBA SAGE auto-update (web search + CDragon + DDragon)",
-  "version": 11,
+  "version": 12,
   "sources": [
     {
       "name": "Mobalytics",
       "url": "https://mobalytics.gg/lol/tier-list",
-      "lastScraped": "2026-05-06T15:00:00Z"
+      "lastScraped": "2026-05-09T04:51:00Z"
     },
     {
       "name": "U.GG",
       "url": "https://u.gg/lol/tier-list",
-      "lastScraped": "2026-05-06T15:00:00Z"
+      "lastScraped": "2026-05-09T04:51:00Z"
     },
     {
       "name": "Skill Capped",
       "url": "https://www.skill-capped.com/lol#TierList2609",
-      "lastScraped": "2026-05-06T15:00:00Z"
+      "lastScraped": "2026-05-09T04:51:00Z"
     },
     {
       "name": "Riot Phroxzon (X)",
       "url": "https://x.com/RiotPhroxzon",
-      "lastScraped": "2026-05-06T15:00:00Z"
+      "lastScraped": "2026-05-09T04:51:00Z"
     },
     {
       "name": "DDragon 16.9.1",
       "url": "https://ddragon.leagueoflegends.com/cdn/16.9.1",
-      "lastScraped": "2026-05-06T15:00:00Z"
+      "lastScraped": "2026-05-09T04:51:00Z"
     }
   ],
   "lol": {
     "patch": "26.9 — Season 2 Pandemonium",
     "sTier": [
       {
+        "name": "Master Yi",
+        "role": "Jungle",
+        "winRate": 56.8,
+        "pickRate": 7.5,
+        "banRate": 6.1,
+        "trend": "stable"
+      },
+      {
         "name": "Garen",
         "role": "Top",
-        "winRate": 54.7,
+        "winRate": 52.1,
         "pickRate": 8.5,
         "banRate": 3.2,
         "trend": "stable"
@@ -106,6 +114,14 @@
         "trend": "stable"
       },
       {
+        "name": "Jinx",
+        "role": "ADC",
+        "winRate": 55.1,
+        "pickRate": 9.5,
+        "banRate": 3.0,
+        "trend": "stable"
+      },
+      {
         "name": "Ornn",
         "role": "Top",
         "winRate": 51.9,
@@ -124,7 +140,7 @@
       {
         "name": "Ahri",
         "role": "Mid",
-        "winRate": 51.8,
+        "winRate": 54.2,
         "pickRate": 7.2,
         "banRate": 1.9,
         "trend": "stable"
@@ -137,17 +153,17 @@
         "banRate": 3.5,
         "trend": "falling",
         "reason": "R sustain nerf en 26.9"
-      },
-      {
-        "name": "Jinx",
-        "role": "ADC",
-        "winRate": 52.0,
-        "pickRate": 9.5,
-        "banRate": 3.0,
-        "trend": "stable"
       }
     ],
     "aTier": [
+      {
+        "name": "Sion",
+        "role": "Top",
+        "winRate": 54.6,
+        "pickRate": 2.4,
+        "banRate": 0.6,
+        "trend": "rising"
+      },
       {
         "name": "Malzahar",
         "role": "Mid",
@@ -162,14 +178,6 @@
         "winRate": 53.2,
         "pickRate": 3.6,
         "banRate": 0.8,
-        "trend": "stable"
-      },
-      {
-        "name": "Katarina",
-        "role": "Mid",
-        "winRate": 53.0,
-        "pickRate": 5.8,
-        "banRate": 2.2,
         "trend": "stable"
       },
       {
@@ -189,14 +197,6 @@
         "trend": "stable"
       },
       {
-        "name": "Sion",
-        "role": "Top",
-        "winRate": 54.6,
-        "pickRate": 2.4,
-        "banRate": 0.6,
-        "trend": "rising"
-      },
-      {
         "name": "Teemo",
         "role": "Top",
         "winRate": 52.1,
@@ -211,6 +211,30 @@
         "pickRate": 3.9,
         "banRate": 0.7,
         "trend": "rising"
+      },
+      {
+        "name": "Soraka",
+        "role": "Support",
+        "winRate": 52.0,
+        "pickRate": 3.0,
+        "banRate": 0.5,
+        "trend": "stable"
+      },
+      {
+        "name": "Blitzcrank",
+        "role": "Support",
+        "winRate": 51.7,
+        "pickRate": 2.6,
+        "banRate": 1.5,
+        "trend": "stable"
+      },
+      {
+        "name": "Jhin",
+        "role": "ADC",
+        "winRate": 51.7,
+        "pickRate": 7.3,
+        "banRate": 0.9,
+        "trend": "stable"
       },
       {
         "name": "Zyra",
@@ -238,27 +262,19 @@
         "reason": "Buff en 26.9"
       },
       {
-        "name": "Soraka",
+        "name": "Nautilus",
         "role": "Support",
-        "winRate": 52.0,
-        "pickRate": 3.0,
-        "banRate": 0.5,
+        "winRate": 51.3,
+        "pickRate": 4.8,
+        "banRate": 1.1,
         "trend": "stable"
       },
       {
-        "name": "Blitzcrank",
-        "role": "Support",
-        "winRate": 51.7,
-        "pickRate": 2.6,
-        "banRate": 1.5,
-        "trend": "stable"
-      },
-      {
-        "name": "Jhin",
-        "role": "ADC",
-        "winRate": 51.7,
-        "pickRate": 7.3,
-        "banRate": 0.9,
+        "name": "Amumu",
+        "role": "Jungle",
+        "winRate": 51.3,
+        "pickRate": 3.1,
+        "banRate": 0.3,
         "trend": "stable"
       },
       {
@@ -278,19 +294,11 @@
         "trend": "stable"
       },
       {
-        "name": "Nautilus",
+        "name": "Leona",
         "role": "Support",
-        "winRate": 51.3,
-        "pickRate": 4.8,
-        "banRate": 1.1,
-        "trend": "stable"
-      },
-      {
-        "name": "Amumu",
-        "role": "Jungle",
-        "winRate": 51.3,
-        "pickRate": 3.1,
-        "banRate": 0.3,
+        "winRate": 51.0,
+        "pickRate": 3.4,
+        "banRate": 0.6,
         "trend": "stable"
       },
       {
@@ -303,19 +311,27 @@
         "reason": "Enchanter renaissance"
       },
       {
-        "name": "Master Yi",
-        "role": "Jungle",
-        "winRate": 50.8,
-        "pickRate": 7.5,
-        "banRate": 6.5,
-        "trend": "stable"
-      },
-      {
         "name": "Vi",
         "role": "Jungle",
         "winRate": 50.8,
         "pickRate": 5.2,
         "banRate": 1.2,
+        "trend": "stable"
+      },
+      {
+        "name": "Kennen",
+        "role": "Top",
+        "winRate": 50.7,
+        "pickRate": 2.2,
+        "banRate": 0.5,
+        "trend": "stable"
+      },
+      {
+        "name": "Katarina",
+        "role": "Mid",
+        "winRate": 50.6,
+        "pickRate": 5.8,
+        "banRate": 2.2,
         "trend": "stable"
       },
       {
@@ -336,11 +352,19 @@
         "trend": "stable"
       },
       {
-        "name": "Kennen",
+        "name": "Morgana",
+        "role": "Support",
+        "winRate": 50.5,
+        "pickRate": 6.8,
+        "banRate": 0.7,
+        "trend": "stable"
+      },
+      {
+        "name": "Renekton",
         "role": "Top",
-        "winRate": 50.7,
-        "pickRate": 2.2,
-        "banRate": 0.5,
+        "winRate": 50.4,
+        "pickRate": 5.3,
+        "banRate": 1.5,
         "trend": "stable"
       },
       {
@@ -361,35 +385,19 @@
         "trend": "stable"
       },
       {
-        "name": "Renekton",
-        "role": "Top",
-        "winRate": 50.4,
-        "pickRate": 5.3,
-        "banRate": 1.5,
-        "trend": "stable"
-      },
-      {
-        "name": "Morgana",
-        "role": "Support",
-        "winRate": 50.5,
-        "pickRate": 6.8,
-        "banRate": 0.7,
-        "trend": "stable"
-      },
-      {
-        "name": "Leona",
-        "role": "Support",
-        "winRate": 51.0,
-        "pickRate": 3.4,
-        "banRate": 0.6,
-        "trend": "stable"
-      },
-      {
         "name": "Lulu",
         "role": "Support",
         "winRate": 50.1,
         "pickRate": 3.1,
         "banRate": 0.2,
+        "trend": "stable"
+      },
+      {
+        "name": "Zed",
+        "role": "Mid",
+        "winRate": 49.2,
+        "pickRate": 8.3,
+        "banRate": 3.8,
         "trend": "stable"
       }
     ],
@@ -397,7 +405,7 @@
       {
         "name": "Darius",
         "role": "Top",
-        "winRate": 49.8,
+        "winRate": 54.5,
         "pickRate": 5.5,
         "banRate": 4.0,
         "trend": "stable"
@@ -413,7 +421,7 @@
       {
         "name": "Thresh",
         "role": "Support",
-        "winRate": 50.1,
+        "winRate": 52.8,
         "pickRate": 12.0,
         "banRate": 1.0,
         "trend": "stable"
@@ -437,7 +445,7 @@
       {
         "name": "Lee Sin",
         "role": "Jungle",
-        "winRate": 49.2,
+        "winRate": 53.5,
         "pickRate": 7.0,
         "banRate": 3.8,
         "trend": "stable"
@@ -652,40 +660,139 @@
       "Malzahar (DFT synergy — 53.8% WR en mid lane)",
       "Warwick (sustain buff — jungle dominante)",
       "Volibear (bruiser resurgence — top lane subiendo)",
-      "Shen (global pressure — split push meta)"
+      "Shen (global pressure — split push meta)",
+      "Master Yi (56.8% WR — promoted to S-tier)"
     ],
     "falling": [
       "Briar (R sustain nerf — menos dominante en ranked)",
       "Mordekaiser (item nerfs — meta shift)",
-      "Kha'Zix (base damage nerf)",
       "Yasuo (crit item adjustments)",
-      "Pyke (assassin item nerfs)"
+      "Zed (26.10 nerf announced — accumulating)"
     ],
     "weeklyTop": [
-      { "name": "Garen", "role": "Top", "currentWR": 54.7, "change": 1.8 },
-      { "name": "Malphite", "role": "Top", "currentWR": 54.7, "change": 1.2 },
-      { "name": "Sion", "role": "Top", "currentWR": 54.6, "change": 2.4 },
-      { "name": "Malzahar", "role": "Mid", "currentWR": 53.8, "change": 2.0 },
-      { "name": "Karthus", "role": "Jungle", "currentWR": 53.7, "change": 0.5 },
-      { "name": "Briar", "role": "Jungle", "currentWR": 51.8, "change": -1.6 },
-      { "name": "Mordekaiser", "role": "Top", "currentWR": 45.2, "change": -3.1 },
-      { "name": "Kha'Zix", "role": "Jungle", "currentWR": 49.5, "change": -1.4 },
-      { "name": "Yasuo", "role": "Mid", "currentWR": 49.3, "change": -1.1 },
-      { "name": "Pyke", "role": "Support", "currentWR": 48.2, "change": -1.8 }
+      {
+        "name": "Master Yi",
+        "role": "Jungle",
+        "currentWR": 56.8,
+        "change": 6.0
+      },
+      {
+        "name": "Jinx",
+        "role": "ADC",
+        "currentWR": 55.1,
+        "change": 3.1
+      },
+      {
+        "name": "Ahri",
+        "role": "Mid",
+        "currentWR": 54.2,
+        "change": 2.4
+      },
+      {
+        "name": "Garen",
+        "role": "Top",
+        "currentWR": 52.1,
+        "change": -2.6
+      },
+      {
+        "name": "Darius",
+        "role": "Top",
+        "currentWR": 54.5,
+        "change": 4.7
+      },
+      {
+        "name": "Lee Sin",
+        "role": "Jungle",
+        "currentWR": 53.5,
+        "change": 4.3
+      },
+      {
+        "name": "Thresh",
+        "role": "Support",
+        "currentWR": 52.8,
+        "change": 2.7
+      },
+      {
+        "name": "Katarina",
+        "role": "Mid",
+        "currentWR": 50.6,
+        "change": -2.4
+      },
+      {
+        "name": "Briar",
+        "role": "Jungle",
+        "currentWR": 51.8,
+        "change": -1.6
+      },
+      {
+        "name": "Mordekaiser",
+        "role": "Top",
+        "currentWR": 45.2,
+        "change": -3.1
+      }
     ]
   },
   "wildrift": {
     "patch": "7.1c",
     "sTier": [
-      { "name": "Master Yi", "role": "Jungle", "winRate": 54.2, "pickRate": 12.5, "banRate": 18.3, "trend": "stable" },
-      { "name": "Ahri", "role": "Mid", "winRate": 53.1, "pickRate": 9.8, "banRate": 4.2, "trend": "stable" },
-      { "name": "Darius", "role": "Top", "winRate": 52.8, "pickRate": 8.1, "banRate": 5.6, "trend": "rising" },
-      { "name": "Jinx", "role": "ADC", "winRate": 52.3, "pickRate": 11.2, "banRate": 2.8, "trend": "stable" }
+      {
+        "name": "Master Yi",
+        "role": "Jungle",
+        "winRate": 54.2,
+        "pickRate": 12.5,
+        "banRate": 18.3,
+        "trend": "stable"
+      },
+      {
+        "name": "Ahri",
+        "role": "Mid",
+        "winRate": 53.1,
+        "pickRate": 9.8,
+        "banRate": 4.2,
+        "trend": "stable"
+      },
+      {
+        "name": "Darius",
+        "role": "Top",
+        "winRate": 52.8,
+        "pickRate": 8.1,
+        "banRate": 5.6,
+        "trend": "rising"
+      },
+      {
+        "name": "Jinx",
+        "role": "ADC",
+        "winRate": 52.3,
+        "pickRate": 11.2,
+        "banRate": 2.8,
+        "trend": "stable"
+      }
     ],
     "aTier": [
-      { "name": "Lee Sin", "role": "Jungle", "winRate": 51.5, "pickRate": 10.3, "banRate": 3.1, "trend": "stable" },
-      { "name": "Thresh", "role": "Support", "winRate": 51.2, "pickRate": 14.5, "banRate": 1.5, "trend": "stable" },
-      { "name": "Amumu", "role": "Jungle", "winRate": 50.8, "pickRate": 5.2, "banRate": 0.8, "trend": "stable" }
+      {
+        "name": "Lee Sin",
+        "role": "Jungle",
+        "winRate": 51.5,
+        "pickRate": 10.3,
+        "banRate": 3.1,
+        "trend": "stable"
+      },
+      {
+        "name": "Thresh",
+        "role": "Support",
+        "winRate": 51.2,
+        "pickRate": 14.5,
+        "banRate": 1.5,
+        "trend": "stable"
+      },
+      {
+        "name": "Amumu",
+        "role": "Jungle",
+        "winRate": 50.8,
+        "pickRate": 5.2,
+        "banRate": 0.8,
+        "trend": "stable"
+      }
     ],
     "rising": [
       "Darius (bruiser meta — WR subiendo en ranked)",
@@ -696,7 +803,7 @@
       "Pyke (assassin item changes)"
     ]
   },
-  "metaLastUpdated": "2026-05-06T15:00:00Z",
+  "metaLastUpdated": "2026-05-09T04:51:00Z",
   "patch": "26.9 — Season 2 Pandemonium (live)",
   "nextPatch": {
     "version": "26.10",
@@ -705,9 +812,33 @@
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
     "summary": "Lee Sin modernization, DFT nerf, Doran's Bow/Helm buff, Stormraider buff. Ambessa/Galio/Wukong/Zeri buff, Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Lich Bane buff. Arena 6 teams of 3.",
     "keyChanges": {
-      "buffs": ["Ambessa", "Galio", "Wukong", "Zeri", "Lee Sin (modernization)", "Quinn", "Lich Bane", "Stormraider's Surge", "Doran's Bow", "Doran's Helm"],
-      "nerfs": ["Anivia", "Ashe", "Naafiri", "Shyvana", "Zed", "Deathfire Touch", "Gluttonous Greaves", "Cyclosword"],
-      "adjustments": ["Cleaver + DFT (26.11)", "Arena 6v3", "Apex Ranked (no duo changes)"]
+      "buffs": [
+        "Ambessa",
+        "Galio",
+        "Wukong",
+        "Zeri",
+        "Lee Sin (modernization)",
+        "Quinn",
+        "Lich Bane",
+        "Stormraider's Surge",
+        "Doran's Bow",
+        "Doran's Helm"
+      ],
+      "nerfs": [
+        "Anivia",
+        "Ashe",
+        "Naafiri",
+        "Shyvana",
+        "Zed",
+        "Deathfire Touch",
+        "Gluttonous Greaves",
+        "Cyclosword"
+      ],
+      "adjustments": [
+        "Cleaver + DFT (26.11)",
+        "Arena 6v3",
+        "Apex Ranked (no duo changes)"
+      ]
     },
     "metaImpact": "DFT nerf mayor impacto. Lee Sin modernization puede subir tier. Ambessa revert parcial. Stormraider buff. Zed/Shyvana nerf acumulativo."
   }

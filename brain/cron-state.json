@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T12:52:00Z",
-  "lastSlot": "12",
-  "lastTask": "Health Check Deep",
+  "lastTick": "2026-05-09T13:52:00Z",
+  "lastSlot": "13",
+  "lastTask": "Deep Analysis",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 42,
-  "totalSuccess": 42,
+  "totalTicks": 43,
+  "totalSuccess": 43,
   "totalFail": 0,
   "history": [
     {
@@ -556,16 +556,17 @@
       ]
     },
     {
-      "tick": "2026-05-09T12:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
+      "tick": "2026-05-09T13:52:00Z",
+      "slot": "13",
+      "task": "Deep Analysis",
+      "taskCode": "ai-analysis",
       "status": "OK",
       "build": "OK",
       "duration_ms": 90000,
-      "changes": "CRITICAL FIX: Master Yi tier A→S sync (stale since slot 04 promo). K'Sante passiveAbility added (Dauntless Instinct) — last champ missing. S-tier now 15=15 aligned. 77 LoL vs 76 feed (+K'Sante not in feed, known).",
+      "changes": "7 aiAnalysis stale WR fixed (Master Yi 50.8->56.8, Lee Sin 49.2->53.5, Darius 49.8->54.5, Ahri 51.1->54.2, Thresh 50.1->52.8, Katarina 53->50.6, Garen 54.7->52.1). 5 pick/ban synced vs meta-builds (Master Yi, Lee Sin, Darius, Thresh, Ezreal). Zaahen note 26.8->26.9.",
       "filesChanged": [
-        "src/lib/data.ts"
+        "src/lib/data.ts",
+        "public/meta-builds.json"
       ]
     }
   ]

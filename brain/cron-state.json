@@ -2,14 +2,14 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T11:52:00Z",
-  "lastSlot": "11",
-  "lastTask": "Matchup Analysis",
+  "lastTick": "2026-05-09T12:52:00Z",
+  "lastSlot": "12",
+  "lastTask": "Health Check Deep",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 41,
-  "totalSuccess": 41,
+  "totalTicks": 42,
+  "totalSuccess": 42,
   "totalFail": 0,
   "history": [
     {
@@ -551,6 +551,19 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "1 fix: KogMaw->Kog'Maw typo in 5 synergy fields (Brand, Lulu, Soraka, Tahm Kench, Zyra). 22 dangling refs are valid LoL champs not in dataset. 75/75 counterPick+synergy coverage.",
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
+    },
+    {
+      "tick": "2026-05-09T12:52:00Z",
+      "slot": "12",
+      "task": "Health Check Deep",
+      "taskCode": "health-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "CRITICAL FIX: Master Yi tier A→S sync (stale since slot 04 promo). K'Sante passiveAbility added (Dauntless Instinct) — last champ missing. S-tier now 15=15 aligned. 77 LoL vs 76 feed (+K'Sante not in feed, known).",
       "filesChanged": [
         "src/lib/data.ts"
       ]

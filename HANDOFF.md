@@ -1,7 +1,7 @@
 # HANDOFF — MOBA SAGE
 
 > Creado: 2026-05-05 | Boot Session
-> Actualizado: 2026-05-09 21:52 | Slot 13 Deep Analysis (Tick #43)
+> Actualizado: 2026-05-10 03:52 | Slot 19 Cross-File Consistency (Tick #49)
 > **NOTA**: Session reset perdio cambios de ORDEN 001-021. Re-aplicados criticos en ORDEN 022-026. Data pipeline nearly complete. brokenThings + data quality fixes remaining.
 > Proyecto: gamer-frog/moba-sage
 > Deploy: https://moba-sage.vercel.app
@@ -19,7 +19,7 @@
 | Build | Clean (0 errors, 19 pages) |
 | Push ID | electronica-frog |
 | Git Author | bautiarmanijuegos@gmail.com |
-| Commit | 4de923f (PUSHED) |
+| Commit | 7356e8d (local) |
 
 ## Archivos Clave
 - `src/app/page.tsx` — Monolito principal (~644 lineas, 30+ useState)
@@ -47,13 +47,13 @@
 ## Datos del Proyecto
 - Campeones LoL en data.ts: 77 (14 S / 31 A / 24 B / 8 C — 100% synced, 100% metaUpdated)
 - Campeones WR: 18 (6 S-tier, 11 A-tier, 1 B-tier)
-- Tier list feed: 14 S / 30 A / 24 B / 8 C = 76 LoL + 18 WR
+- Tier list feed: 15 S / 31 A / 24 B / 8 C = 77 LoL + 18 WR
 - Pro comps: 26 entries (17 classic + 9 patch 26.9-specific)
 - Skill names: 88 champions (100% coverage)
 - Skin names: ~80 champions (~93% coverage)
 - Meta builds: 50 entries (14 S-tier + 36 A-tier) synced
 - Guides: 12 total (10 LoL champion + 2 general, 100% LoL)
-- Patch refs: All LoL on 26.9, All WR on 7.1c
+- Patch refs: All LoL on 26.9, All WR on 7.1c (fixed 18 stale 6.8→7.1c)
 - metaUpdated: 77/77 (100%)
 - aiAnalysis: 77/77 with 3+ paragraph analysis (100%)
 

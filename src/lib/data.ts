@@ -31,7 +31,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
   // Tier S — Dioses del Meta
   // NOTA: Master Yi promovido a S en 26.9 (tick #04 tierlist-search, WR 56.8% confirmado web).
   {
-    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'S', winRate: 56.8, pickRate: 16.3, banRate: 15.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'S', winRate: 56.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Q resetea en kills → snowball infinito', 'Combo Yi+Taric invulnerable → sin interacción', 'Alpha Strike dodgea habilidades siendo intocable'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/masteryi/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/masteryi"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/masteryi"}],
     builds: [
@@ -60,7 +60,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Inspiración — Calzado Mágico', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Lee Sin', title: 'el Monje Ciego', passiveAbility: { name: 'Flurry', description: "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy." }, role: 'Jungle', tier: 'B', winRate: 53.5, pickRate: 12.1, banRate: 8.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Lee Sin', title: 'el Monje Ciego', passiveAbility: { name: 'Flurry', description: "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy." }, role: 'Jungle', tier: 'B', winRate: 53.5, pickRate: 7.0, banRate: 3.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Insec Q→R→Flash → pick sin counterplay', 'Pressure level 2-3 inigualable', 'Eclipse burst → mata carries en 1 combo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/leesin/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/leesin"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/leesin"}],
     builds: [
@@ -74,7 +74,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Dominación — Golpe de Gracia', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Thresh', title: 'el Guardián de Cadenas', passiveAbility: { name: 'Damnation', description: "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power." }, role: 'Support', tier: 'B', winRate: 52.8, pickRate: 16.5, banRate: 2.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Thresh', title: 'el Guardián de Cadenas', passiveAbility: { name: 'Damnation', description: "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power." }, role: 'Support', tier: 'B', winRate: 52.8, pickRate: 12.0, banRate: 1.0, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg'],
     brokenThings: ['Lantern repositiona ADC sin riesgo', 'Engage + Peel en un kit → nunca mal pick', 'Pick rate 25%+ → siempre funciona'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/thresh/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/thresh"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/thresh"}],
@@ -89,7 +89,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Valor — Guardián', secondary: 'Brujería — Debilidad', shards: 'Armadura + Fuerza + Resistencia' },
   },
   {
-    name: 'Darius', title: 'la Mano de Noxus', passiveAbility: { name: 'Hemorrhage', description: "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when his target reaches max ..." }, role: 'Top', tier: 'B', winRate: 54.5, pickRate: 9.8, banRate: 10.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+    name: 'Darius', title: 'la Mano de Noxus', passiveAbility: { name: 'Hemorrhage', description: "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when his target reaches max ..." }, role: 'Top', tier: 'B', winRate: 54.5, pickRate: 5.5, banRate: 4.0, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg'],
     brokenThings: ['Q curación + hemorragia → gana todos los trades', 'E anchor bajo torre → dive gratis', 'Ban rate 10%+ → nadie quiere enfrentarse'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/darius/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/darius"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/darius"}],
@@ -336,7 +336,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 4.5,
     runes: {"primary":"Precisión — Conquistador","secondary":"Dominación — Golpe de Gracia","shards":"Adaptativo + Velocidad + Resistencia"},
   },
-  { name: 'Ezreal', title: 'el Explorador Pródigo', passiveAbility: { name: 'Rising Spell Force', description: "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times." }, role: 'ADC', tier: 'B', winRate: 49.5, pickRate: 10.2, banRate: 0.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Ezreal', title: 'el Explorador Pródigo', passiveAbility: { name: 'Rising Spell Force', description: "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times." }, role: 'ADC', tier: 'B', winRate: 49.5, pickRate: 8.9, banRate: 0.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['Q spam → nunca en peligro en lane', 'E escape → imposible de gankear', 'Blue build → damage sin riesgo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/ezreal/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/ezreal"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/ezreal"}],
     builds: [

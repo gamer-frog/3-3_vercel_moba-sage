@@ -2,101 +2,16 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-09T20:52:00Z",
-  "lastSlot": "20",
-  "lastTask": "Tierlist Evening Check",
+  "lastTick": "2026-05-10T02:52:00Z",
+  "lastSlot": "02",
+  "lastTask": "Data Sync",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 50,
-  "totalSuccess": 50,
+  "totalTicks": 56,
+  "totalSuccess": 56,
   "totalFail": 0,
   "history": [
-    {
-      "tick": "2026-05-07T02:51:48Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "CLEAN — 76 feed = 74+2 data",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-07T02:51:48Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "CLEAN — 94 champs cross-checked",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-07T03:52:10Z",
-      "slot": "03",
-      "task": "Meta Builds Verify",
-      "taskCode": "meta-builds",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 55000,
-      "changes": "CLEAN — 3-way cross-check 22 champs",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-07T04:17:45Z",
-      "slot": "04",
-      "task": "Tierlist Web Search",
-      "taskCode": "tierlist-search",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "MAJOR — 6 S-tier promos, tierlist v11->v12, data.ts 4 champs updated",
-      "filesChanged": [
-        "public/tierlist-feed.json",
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-07T04:51:51Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "5 new S-tier builds (Taliyah JG, Shyvana JG, Brand ADC, Nami, Sona). Malphite WR fix. 22->27 builds.",
-      "filesChanged": [
-        "public/meta-builds.json"
-      ]
-    },
-    {
-      "tick": "2026-05-07T05:51:44Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 27 builds verified, all WR 0.0% delta",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-07T06:51:59Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "DDragon 16.9.1. Patch 26.10 PBE preview: buffs/nerfs/adjusts. Updated patch-analysis + patches-feed.",
-      "filesChanged": [
-        "public/patch-analysis.json",
-        "public/patches-feed.json"
-      ]
-    },
     {
       "tick": "2026-05-07T07:51:48Z",
       "slot": "07",
@@ -633,6 +548,74 @@
       "duration_ms": 15000,
       "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 40h old but between patches. 26.10 in 3 days (May 13). Slot 19 consistency fixes still holding. No tier movements detected.",
       "filesChanged": []
+    },
+    {
+      "tick": "2026-05-09T21:52:00Z",
+      "slot": "21",
+      "task": "Health Evening",
+      "taskCode": "health-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "CLEAN — 77/77 LoL aligned (0 name, 0 tier mismatches). Feed v12, 25h fresh. All patches 26.9/7.1c. 50 meta-builds. 7 guides. 16 console.log (all server cron route, acceptable). 0 @ts-ignore. WR: feed 7 vs data 18 (data richer, known). 30+ unpushed commits (PAT expired). Patch 26.10 in 3 days.",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-09T22:52:00Z",
+      "slot": "22",
+      "task": "Deep Audit",
+      "taskCode": "deep-audit",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 120000,
+      "changes": "CLEAN — 11-point deep audit. 77/77 name aligned, 0 tier mismatches, 15/15 S-tier aligned, 0 dupes, 0 stale patches (93 LoL 26.9 + 18 WR 7.1c). 50 meta-builds, 0 WR deltas >=2%. All 5 JSON valid. 7 guides, 6 patches. Field coverage: 95/95 runes/counter/synergy/broken/builds/links/pro, 76/77 passive (Vel'Koz known), 37/77 metaUpdated (partial, non-critical). Code: 16 console.log (server), 0 @ts-ignore, 0 debugger. WR feed 7 vs data 18 (known). 30+ unpushed commits (PAT).",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-09T23:52:00Z",
+      "slot": "23",
+      "task": "Night Report",
+      "taskCode": "night-report",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "NIGHT REPORT — Session: ticks #49-53 (21-23 UTC). Streak 53/53, 0 fails. Data health: 77 LoL (15S/31A/23B/8C), 18 WR, 50 builds, 7 guides, feed v12. Known gaps: Vel'Koz passive, metaUpdated 37/77, WR feed 7 vs data 18. All 032 orders DONE. Patch 26.10 May 13. 544 total commits, 30+ unpushed (PAT expired).",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-10T00:52:00Z",
+      "slot": "00",
+      "task": "Tierlist Check",
+      "taskCode": "tierlist-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 0 tier mismatches, 0 missing champs. Feed ~28h old, between patches. 26.10 in 3 days (May 13). Streak 54/54.",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-10T01:52:00Z",
+      "slot": "01",
+      "task": "Health Lite",
+      "taskCode": "health-lite",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — Feed v12, 77 LoL, 15S/31A/23B/8C, 50 builds, 7 guides. Patch 26.9, 26.10 in 3 days. Feed ~29h old, within freshness. Streak 55/55.",
+      "filesChanged": []
+    },
+    {
+      "tick": "2026-05-10T02:52:00Z",
+      "slot": "02",
+      "task": "Data Sync",
+      "taskCode": "data-sync",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "5 pickRate+banRate fixes vs tierlist-feed: Master Yi (16.3→7.5%, 15.2→6.1%), Lee Sin (12.1→7.0%, 8.5→3.8%), Thresh (16.5→12.0%, 2.1→1.0%), Darius (9.8→5.5%, 10.1→4.0%), Ezreal (10.2→8.9%, 0.8→0.5%). 0 tier mismatches, 0 WR deltas. Commit 36dda38.",
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     }
   ]
 }

@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-11T13:52:00Z",
-  "lastSlot": "13",
-  "lastTask": "Deep Analysis",
+  "lastTick": "2026-05-11T14:52:00Z",
+  "lastSlot": "14",
+  "lastTask": "WR Delta Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 72,
-  "totalSuccess": 72,
+  "totalTicks": 73,
+  "totalSuccess": 73,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-11T14:52:00Z",
+      "slot": "14",
+      "task": "WR Delta Check",
+      "taskCode": "wr-deltas",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 0 WR deltas >= 2% across data.ts/tierlist-feed/meta-builds. 77/77 LoL WRs match feed exactly. 50/50 meta-builds WRs aligned (max delta 1.3% Ezreal). 15/15 S-tier aligned, all tiers verified. All WRs in sync. Patch 26.10 in ~1.5 days.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-11T13:52:00Z",
       "slot": "13",
@@ -580,57 +591,6 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "CLEAN — DDragon 16.9.1 unchanged. Patch 26.10 confirmed May 13 (Riot schedule). PBE active, existing data comprehensive (10 buffs, 8 nerfs, system changes). 0 new PBE changes detected. 0 hotfixes. 26.10 in 2 days.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-11T07:52:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "3 new S-tier guides: Garen Top (54.7% WR, bruiser split push), Ahri Mid (54.2% WR, burst hibrido + roaming), Malphite Top (54.7% WR, anti-AD tank AP). guides-feed 7->10. 5/15 S-tier now covered (Jinx, Master Yi, Garen, Ahri, Malphite). Previous session guides (Nasus/Nocturne/Diana) lost — recreated coverage from 2->5.",
-      "filesChanged": [
-        "data/guides/BA_20260511_0755_guia_garen_top_lol269.md",
-        "data/guides/BA_20260511_0756_guia_ahri_mid_lol269.md",
-        "data/guides/BA_20260511_0757_guia_malphite_top_lol269.md",
-        "public/guides-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-11T09:52:00Z",
-      "slot": "09",
-      "task": "Champion Data",
-      "taskCode": "champion-data",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "CLEAN — 77 LoL champs verified. SKILL_NAMES 77/77 (100%), passiveAbility ~76/77, SKIN_NAMES 100% (per DDragon 16.9.1). metaUpdated ~37/77 (known non-critical gap). Feed v12, 77=77 aligned. Patch 26.10 in 2 days. No new data to add.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-11T11:52:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "1 fix: RekSai->Rek'Sai typo in Nidalee counterPick. 77/77 counterPick+synergy+brokenThings coverage (100%). 0 format issues. Dangling refs are valid LoL champs not in dataset + Spanish descriptions.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-11T11:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "CLEAN — 77 LoL (15S/31A/23B/8C), 50 builds, 10 guides, feed v12. 0 tier mismatches, 0 WR deltas >=2%, 0 stale patches, 15/15 S-tier aligned, 77=77 feed aligned. All 4 JSON valid. Feed ~54h old, between patches. Patch 26.10 in 2 days.",
       "filesChanged": []
     }
   ]

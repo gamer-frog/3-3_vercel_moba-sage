@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-09T07:55:00Z",
+  "lastUpdated": "2026-05-11T07:55:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 7,
+  "totalGuides": 10,
   "guides": [
     {
       "id": "jinx-adc-269",
@@ -38,6 +38,60 @@
         "56.8% WR — highest jungle WR en 26.9, ban rate 15.2%"
       ],
       "fileName": "BA_20260508_0755_guia_masteryi_jungle_lol269.md"
+    },
+    {
+      "id": "garen-top-269",
+      "champion": "Garen",
+      "role": "Top",
+      "patch": "26.9",
+      "title": "Garen Top — Build Bruiser, Conquistador, Matchups, Combos",
+      "summary": "Top laner más consistente del meta (52.1% WR). Build bruiser split push, runas Conquistador, Villain targeting y combos de engage para Season 2 Pandemonium.",
+      "tags": ["build", "runas", "matchups", "top", "bruiser", "splitpush"],
+      "keyPoints": [
+        "Build Bruiser: Filo de la Noche → Angel Guardián → Fuerza de la Trinidad → Resistencia Divina (52.1% WR)",
+        "Build Tank Split: Fuerza de la Trinidad → Eclipse → Resistencia Divina → Hidra Titánica (52.3% WR)",
+        "Runas: Conquistador + Determinación — trades extendidos dominantes",
+        "Combo Villain Execute: Q → E → R (true damage basado en HP faltante) → Ignite",
+        "Villain tracking: priorizar el carry enemigo marcado como Villain en teamfights",
+        "52.1% WR — S-tier top, 3.2% ban rate"
+      ],
+      "fileName": "BA_20260511_0755_guia_garen_top_lol269.md"
+    },
+    {
+      "id": "ahri-mid-269",
+      "champion": "Ahri",
+      "role": "Mid",
+      "patch": "26.9",
+      "title": "Ahri Mid — Build Burst Híbrido, Aery, Matchups, Combos",
+      "summary": "Mage-assassin más versátil del meta (54.2% WR). Build burst hibrido, runas Aery, roaming dominante y combos de Charm para Season 2 Pandemonium.",
+      "tags": ["build", "runas", "matchups", "mid", "burst", "roaming"],
+      "keyPoints": [
+        "Build Burst Híbrido: Llamarada Sombría → Rabadón → Cetro de Rylai → Morellonomicon (54.2% WR)",
+        "Build Control: Llamarada Sombría → Cetro de Rylai → Zhonya → Morellonomicon (51.5% WR)",
+        "Runas: Aery + Determinación + Presencia de Campeón — poke constante",
+        "Combo de Burst: E (Charm) → Q (return hit) → W → Auto → R → Q → W → Ignite",
+        "Roaming dominante: R (1 stack) → E → Q → W → R (2-3 stacks) para execute",
+        "54.2% WR — S-tier mid, perfil más versátil del rol"
+      ],
+      "fileName": "BA_20260511_0756_guia_ahri_mid_lol269.md"
+    },
+    {
+      "id": "malphite-top-269",
+      "champion": "Malphite",
+      "role": "Top",
+      "patch": "26.9",
+      "title": "Malphite Top — Build Cometa Arcano Tank AP, Anti-AD, Combos",
+      "summary": "Anti-AD tank más dominante del meta (54.7% WR). Build Cometa Arcano AP, counter a compositions AD, R engage incontestable para Season 2 Pandemonium.",
+      "tags": ["build", "runas", "matchups", "top", "tank", "anti-ad", "engage"],
+      "keyPoints": [
+        "Build Cometa Arcano: Hielo Eterno → Rabadón → Zhonya → Morellonomicon (54.7% WR)",
+        "Build Tank Anti-AD: Hielo Eterno → Cetro de Rylai → Zhonya → Jak'Sho (51.2% WR)",
+        "Runas: Cometa Arcano + Determinación — poke + engage confiable",
+        "Teamfight Combo: R (knockup AoE) → E (slow AS) → Q → W (escudo)",
+        "Sinergia devastadora: R Malphite + R Orianna (ball attached) = team wipe",
+        "54.7% WR — S-tier top, 5.8% ban rate (counter pick definitivo vs AD)"
+      ],
+      "fileName": "BA_20260511_0757_guia_malphite_top_lol269.md"
     },
     {
       "id": "zeri-rework-269",

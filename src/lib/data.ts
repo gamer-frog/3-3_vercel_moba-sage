@@ -147,7 +147,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 20.5,
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
-  // Nuevos S-Tier (Patch 26.8 — datos reales de Mobalytics/U.GG/PropelRC)
+  // Nuevos S-Tier (Patch 26.9 — datos reales de Mobalytics/U.GG/PropelRC)
   { name: 'Nocturne', title: 'el Pesadilla Eterna', passiveAbility: { name: 'Umbra Blades', description: "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. Nocturne's basic attacks reduce this cooldown." }, role: 'Jungle', tier: 'S', winRate: 52.3, pickRate: 4.3, banRate: 2.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Blitz.gg', 'Mobalytics', 'Metabot'],
     brokenThings: ['R global → apaga visión del mapa', 'E fear point-click → sin counterplay', 'W spellescudo → immune a CC'],
@@ -199,12 +199,12 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     builds: [{ name: 'Build Bruiser', items: 'Pisotón Brutal → Eclipse → Hidra Titánica → Fuerza de la Trinidad → Botas de Mercurio', winRate: 51.5 }],
     counterPick: 'Lee Sin, Nidalee, Elise',
     synergy: 'Katarina, Ahri — Comps que garantizan kills para R resets',
-    aiAnalysis: "Viego asciende a A-tier con 52.3% WR. Su capacidad de reseteo en teamfights lo hace devastador con composiciones de pick. Build de Eclipse → Stridebreaker → Filo de la Noche. Consejo: Busca la primera eliminación para activar resets.",
+    aiAnalysis: "Viego asciende a A-tier con 52.3% WR. Su capacidad de reseteo en teamfights lo hace devastador con composiciones de pick, ya que al poseer un enemigo caído puede usar sus habilidades desde el cuerpo del campeón poseído, generando snowballs masivos en teamfights cerrados.\n\nEl build bruiser de Eclipse → Pisotón Brutal → Hidra Titánica maximiza su daño sostenido y supervivencia. La sinergia con Katarina y Ahri garantiza elimaciones rápidas para encadenar resets.\n\nConsejo principal: Busca la primera eliminación en teamfights para activar tu pasiva. No uses W sin objetivo — la invisibilidad es clave para reposicionarte entre resets.",
     proPickRate: 6.8,
     runes: { primary: 'Precisión — Conquistador', secondary: 'Dominación — Golpe de Gracia', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
 
-  // Tier S — Nuevos del Meta 26.8 (datos verificados Blitz.gg / Mobalytics / U.GG / Metabot)
+  // Tier S — Nuevos del Meta 26.9 (datos verificados Blitz.gg / Mobalytics / U.GG / Metabot)
   { name: 'Ornn', title: 'el Dios del Forja', passiveAbility: { name: 'Living Forge', description: "Ornn gains an additional bonus Armor and Magic Resist from all sources.Ornn can spend gold to forge non-consumable items anywhere.Additionally, he can create masterwork items for himself and for hi..." }, role: 'Top', tier: 'S', winRate: 51.9, pickRate: 2.8, banRate: 0.9, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Metabot', 'Blitz.gg', 'U.GG'],
     brokenThings: ['R knockup global → engage desde cualquier lado', 'Upgrades de items → team power spike gratis', 'W brittle → true damage en autoattacks'],
@@ -607,7 +607,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     brokenThings: ['Spear → one-shot carries', 'Movilidad cougar → imposible de atrapar', 'Counter jungle → starves enemy'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/nidalee/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/nidalee"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/nidalee"}],
     builds: [{ name: 'Build AP', items: 'Sombrero de Rabadón → Morellonomicon → Llamarada Sombría → Reloj de Zhonya → Botas del Vacío', winRate: 47.0 }],
-    counterPick: 'Lee Sin, Elise, RekSai',
+    counterPick: "Lee Sin, Elise, Rek'Sai",
     synergy: 'Syndra, Orianna, Lux',
     aiAnalysis: "Nidalee cae a B-tier con 46.5% WR, la mas baja entre junglers frecuentes. Su weakside es el early game dependency — necesita llegar a nivel 6 para tener un impacto real con la transformación cougar. Sin embargo, una vez que escala, su daño de spear (Javelin Toss) y su movilidad en forma cougar la convierten en una amenaza en skirmishes.\n\nEl build de Llamarada Sombría → Morellonomicon maximiza su burst AP. Cometa Arcano es el keystone preferido para harass en early game con spears. Su clear de jungle con Q en forma humana es eficiente y permite full-clear rápido para ganks o invasiones.\n\nConsejo principal: Tus spears en early game son tu herramienta mas importante — apunta a los carries en teamfights y a los jungle objectives. En forma cougar, tu combo E → W → Q es execution garantizado contra objetivos debiles. Evita fights directos antes de nivel 6.",
     proPickRate: 2,

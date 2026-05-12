@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T20:52:00Z",
-  "lastSlot": "20",
-  "lastTask": "Tierlist Evening Check",
+  "lastTick": "2026-05-12T21:52:00Z",
+  "lastSlot": "21",
+  "lastTask": "Health Evening",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 85,
-  "totalSuccess": 85,
+  "totalTicks": 86,
+  "totalSuccess": 86,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T21:52:00Z",
+      "slot": "21",
+      "task": "Health Evening",
+      "taskCode": "health-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 77/77 LoL aligned, 16/16 S-tier match feed v13. 5/5 JSON valid. 50 meta-builds, 11 guides, 6 patches. Feed v13 ~17h, builds ~16h (between patches). 16 console.log (server cron route). 0 @ts-ignore, 0 debugger. Patch 26.10 drops TODAY (May 13). 30+ unpushed commits (PAT expired). Streak 86/86.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-12T20:52:00Z",
       "slot": "20",
@@ -585,30 +596,6 @@
       "build": "OK",
       "duration_ms": 30000,
       "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 0 tier mismatches, 0 missing champs. Feed ~28h old, between patches. 26.10 in 3 days (May 13). Streak 54/54.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-10T02:52:00Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "5 pickRate+banRate fixes vs tierlist-feed: Master Yi (16.3→7.5%, 15.2→6.1%), Lee Sin (12.1→7.0%, 8.5→3.8%), Thresh (16.5→12.0%, 2.1→1.0%), Darius (9.8→5.5%, 10.1→4.0%), Ezreal (10.2→8.9%, 0.8→0.5%). 0 tier mismatches, 0 WR deltas. Commit 36dda38.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-12T18:52:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 9-point recovery audit. 16/16 S-tier aligned, 77/77 LoL champs, 5/5 JSON valid, all patches 26.9 (0 stale), 50 builds, 11 guides, 33/33 orders DONE. Feed v13 ~62h old. Patch 26.10 drops today (May 13). 30+ unpushed commits (PAT expired). No data integrity issues.",
       "filesChanged": []
     }
   ]

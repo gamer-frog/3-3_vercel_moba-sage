@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T21:52:00Z",
-  "lastSlot": "21",
-  "lastTask": "Health Evening",
+  "lastTick": "2026-05-12T22:52:00Z",
+  "lastSlot": "22",
+  "lastTask": "Deep Audit",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 86,
-  "totalSuccess": 86,
+  "totalTicks": 87,
+  "totalSuccess": 87,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T22:52:00Z",
+      "slot": "22",
+      "task": "Deep Audit",
+      "taskCode": "deep-audit",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "CLEAN — 11-point deep audit. 77/77 LoL (16S/30A/23B/8C), 16/16 S-tier aligned, 0 dupes, 0 WR deltas >=2%, 0 stale patches (93 LoL 26.9 + 18 WR 7.1c). 50 meta-builds, 11 guides, 6 patches, 5/5 JSON valid. Field coverage: 76/77 passive (Vel'Koz known), 37/77 metaUpdated (partial). Code: 16 console.log (server), 0 @ts-ignore, 0 debugger. Feed v13 ~18h, builds ~17h. Patch 26.10 TODAY. Streak 87/87.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-12T21:52:00Z",
       "slot": "21",
@@ -585,17 +596,6 @@
       "build": "OK",
       "duration_ms": 15000,
       "changes": "NIGHT REPORT — Session: ticks #49-53 (21-23 UTC). Streak 53/53, 0 fails. Data health: 77 LoL (15S/31A/23B/8C), 18 WR, 50 builds, 7 guides, feed v12. Known gaps: Vel'Koz passive, metaUpdated 37/77, WR feed 7 vs data 18. All 032 orders DONE. Patch 26.10 May 13. 544 total commits, 30+ unpushed (PAT expired).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-10T00:52:00Z",
-      "slot": "00",
-      "task": "Tierlist Check",
-      "taskCode": "tierlist-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 0 tier mismatches, 0 missing champs. Feed ~28h old, between patches. 26.10 in 3 days (May 13). Streak 54/54.",
       "filesChanged": []
     }
   ]

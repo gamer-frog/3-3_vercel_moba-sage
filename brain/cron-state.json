@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T18:52:00Z",
-  "lastSlot": "18",
-  "lastTask": "Recovery Check",
+  "lastTick": "2026-05-12T19:52:00Z",
+  "lastSlot": "19",
+  "lastTask": "Cross-File Consistency",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 83,
-  "totalSuccess": 83,
+  "totalTicks": 84,
+  "totalSuccess": 84,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T19:52:00Z",
+      "slot": "19",
+      "task": "Cross-File Consistency",
+      "taskCode": "consistency",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "1 fix: Taliyah runes Cometa Arcano→Cosecha Oscura + Inspinación (align jungle build 58.8% WR). 10/10 checks: 77/77 names aligned, 0 tier mismatches, 0 WR deltas, 0 dupes, 1 26.8 historical comment (not stale), 4/4 JSON valid, 50/50 builds, 16/16 S-tier. 49/50 runes aligned (was 48). Patch 26.10 ready.",
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
+    },
     {
       "tick": "2026-05-12T08:52:00Z",
       "slot": "08",
@@ -586,17 +599,6 @@
       "filesChanged": [
         "src/lib/data.ts"
       ]
-    },
-    {
-      "tick": "2026-05-10T01:52:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — Feed v12, 77 LoL, 15S/31A/23B/8C, 50 builds, 7 guides. Patch 26.9, 26.10 in 3 days. Feed ~29h old, within freshness. Streak 55/55.",
-      "filesChanged": []
     },
     {
       "tick": "2026-05-12T18:52:00Z",

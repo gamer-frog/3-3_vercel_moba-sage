@@ -1,8 +1,26 @@
 {
-  "lastUpdated": "2026-05-11T07:55:00Z",
+  "lastUpdated": "2026-05-12T07:52:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 10,
+  "totalGuides": 11,
   "guides": [
+    {
+      "id": "taliyah-jungle-269",
+      "champion": "Taliyah",
+      "role": "Jungle",
+      "patch": "26.9",
+      "title": "Taliyah Jungle — Build Dark Harvest, Runas, Matchups, Combos",
+      "summary": "La jungla con el WR mas alto de TODO LoL (58.8%). Build Dark Harvest burst, combos AoE y R game-changing para Season 2 Pandemonium.",
+      "tags": ["build", "runas", "matchups", "jungle", "burst", "aoe", "control"],
+      "keyPoints": [
+        "Build Dark Harvest: Antorcha de Fuego Negro → Sombra de Fuego → Zhonya → Rylai → Rabadon (58.8% WR)",
+        "Build First Strike Scaling: Eco de Luden → Baston de la Vacuidad → Rylai → Liandry (52.1% WR)",
+        "Runas: Cosecha Oscura + Perspicacia Cosmica — escala infinita en teamfights",
+        "Combo Teamfight: W (centro) → Q (AoE) → E (zona) → R (divide) → Zhonya",
+        "Insec con R: R aisla carry → Q → W → Q → E para burst",
+        "58.8% WR — #1 de TODO LoL, nerf probable en 26.10"
+      ],
+      "fileName": "BA_20260512_0755_guia_taliyah_jungle_lol269.md"
+    },
     {
       "id": "jinx-adc-269",
       "champion": "Jinx",

@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T22:52:00Z",
-  "lastSlot": "22",
-  "lastTask": "Deep Audit",
+  "lastTick": "2026-05-12T23:52:00Z",
+  "lastSlot": "23",
+  "lastTask": "Night Report",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 87,
-  "totalSuccess": 87,
+  "totalTicks": 88,
+  "totalSuccess": 88,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T23:52:00Z",
+      "slot": "23",
+      "task": "Night Report",
+      "taskCode": "night-report",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "NIGHT REPORT — Period: May 10-13 (ticks 54-88). Streak 88/88, 0 fails. Data: 77 LoL (16S/30A/23B/8C), 18 WR, 50 builds, 11 guides, feed v13. Key events: Taliyah mega-sync (slots 04-07-19: A→S promo, Mid→Jungle, 58.8% WR, new guide, rune fix), feed v12→v13, Garen guide WR fix, 2 stale 26.8 comments, Viego aiAnalysis expanded. 27 CLEAN slots. Patch 26.10 TODAY. 30+ unpushed commits (PAT expired).",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-12T22:52:00Z",
       "slot": "22",
@@ -585,17 +596,6 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "CLEAN — 11-point deep audit. 77/77 name aligned, 0 tier mismatches, 15/15 S-tier aligned, 0 dupes, 0 stale patches (93 LoL 26.9 + 18 WR 7.1c). 50 meta-builds, 0 WR deltas >=2%. All 5 JSON valid. 7 guides, 6 patches. Field coverage: 95/95 runes/counter/synergy/broken/builds/links/pro, 76/77 passive (Vel'Koz known), 37/77 metaUpdated (partial, non-critical). Code: 16 console.log (server), 0 @ts-ignore, 0 debugger. WR feed 7 vs data 18 (known). 30+ unpushed commits (PAT).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T23:52:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "NIGHT REPORT — Session: ticks #49-53 (21-23 UTC). Streak 53/53, 0 fails. Data health: 77 LoL (15S/31A/23B/8C), 18 WR, 50 builds, 7 guides, feed v12. Known gaps: Vel'Koz passive, metaUpdated 37/77, WR feed 7 vs data 18. All 032 orders DONE. Patch 26.10 May 13. 544 total commits, 30+ unpushed (PAT expired).",
       "filesChanged": []
     }
   ]

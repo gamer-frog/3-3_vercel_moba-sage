@@ -311,7 +311,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
 
-  // Tier A — Fuertes (ex-S: Master Yi, Lee Sin, Yasuo demoted en 26.8; Thresh, Darius, Caitlyn, K'Sante, Graves, Blitzcrank demoted en update de datos reales)
+  // Tier A — Fuertes (ex-S: Lee Sin, Yasuo demoted en 26.8; Thresh, Darius, Caitlyn, K'Sante, Graves, Blitzcrank demoted en update de datos reales; Master Yi promovido a S)
   { name: 'Orianna', title: 'la Dama de Relojería', passiveAbility: { name: 'Clockwork Windup', description: "Orianna's Attacks deal additional magic damage. This damage increases the more Orianna Attacks the same target." }, role: 'Mid', tier: 'A', winRate: 51.2, pickRate: 6.3, banRate: 0.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['R teamwide → mejor initiate', 'Ball = harass y peel simultáneo', 'Scaling ilimitado → late monster'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/orianna/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/orianna"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/orianna"}],
@@ -623,8 +623,8 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 1.5,
     runes: {"primary":"Valor — Guardián","secondary":"Brujería — Debilidad","shards":"Armadura + Fuerza + Resistencia"},
   },
-  // Vel'Koz (A-tier 26.8) removido — duplicado de C-tier 26.9 agregado en tick #13 health-check
-  { name: 'Taliyah', title: 'la Tejedora de Piedras', passiveAbility: { name: 'Rock Surfing', description: "Taliyah gains Move Speed near walls." }, role: 'Mid', tier: 'A', winRate: 51.5, pickRate: 4.0, banRate: 0.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  // Vel'Koz (A-tier) removido — ahora C-tier, duplicado resuelto en tick #13 health-check
+  { name: 'Taliyah', title: 'la Tejedora de Piedras', passiveAbility: { name: 'Rock Surfing', description: "Taliyah gains Move Speed near walls." }, role: 'Jungle', tier: 'S', winRate: 58.8, pickRate: 1.2, banRate: 1.0, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     brokenThings: ['R isolation → 1v1 garantizado', 'Q AoE → teamfight monster', 'Pasiva: escudo → sustain sin items'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/taliyah/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/taliyah"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/taliyah"}],
     builds: [{ name: 'Build AP', items: 'Sombrero de Rabadón → Morellonomicon → Llamarada Sombría → Reloj de Zhonya → Botas del Vacío', winRate: 46.5 }],

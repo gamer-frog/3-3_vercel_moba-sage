@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-09T04:51:00Z",
-  "source": "Ralph Loop v3 — MOBA SAGE auto-update (web search + CDragon + DDragon)",
-  "version": 12,
+  "lastUpdated": "2026-05-12T04:52:00Z",
+  "source": "Cron Slot 04 — MOBA SAGE auto-update (web search: Amber.gg, Mobalytics, MetaBot, BeatCop, U.GG)",
+  "version": 13,
   "sources": [
     {
       "name": "Mobalytics",
@@ -153,6 +153,15 @@
         "banRate": 3.5,
         "trend": "falling",
         "reason": "R sustain nerf en 26.9"
+      },
+      {
+        "name": "Taliyah",
+        "role": "Jungle",
+        "winRate": 58.8,
+        "pickRate": 1.2,
+        "banRate": 1.0,
+        "trend": "rising",
+        "reason": "58.8% WR jungle — dominante 26.9, nerf probable 26.10"
       }
     ],
     "aTier": [
@@ -253,15 +262,6 @@
         "trend": "stable"
       },
       {
-        "name": "Taliyah",
-        "role": "Mid",
-        "winRate": 51.5,
-        "pickRate": 4.0,
-        "banRate": 1.0,
-        "trend": "rising",
-        "reason": "Buff en 26.9"
-      },
-      {
         "name": "Nautilus",
         "role": "Support",
         "winRate": 51.3,
@@ -324,7 +324,8 @@
         "winRate": 50.7,
         "pickRate": 2.2,
         "banRate": 0.5,
-        "trend": "stable"
+        "trend": "rising",
+        "reason": "AD/crit build nuevo en 26.9"
       },
       {
         "name": "Katarina",
@@ -505,7 +506,8 @@
         "winRate": 48.7,
         "pickRate": 2.8,
         "banRate": 0.5,
-        "trend": "stable"
+        "trend": "rising",
+        "reason": "AP jungle build nuevo en 26.9"
       },
       {
         "name": "Elise",
@@ -664,20 +666,29 @@
       }
     ],
     "rising": [
+      "Taliyah (58.8% WR jungle — dominante 26.9, promoted to S-tier)",
       "Sion (bruiser tank meta — 54.6% WR subiendo)",
       "Malzahar (DFT synergy — 53.8% WR en mid lane)",
       "Warwick (sustain buff — jungle dominante)",
       "Volibear (bruiser resurgence — top lane subiendo)",
       "Shen (global pressure — split push meta)",
-      "Master Yi (56.8% WR — promoted to S-tier)"
+      "Kennen (AD/crit build nuevo)",
+      "Xin Zhao (AP jungle build nuevo)"
     ],
     "falling": [
+      "Ambessa (F-tier 26.9, 45.2% WR — buff programado 26.10)",
       "Briar (R sustain nerf — menos dominante en ranked)",
       "Mordekaiser (item nerfs — meta shift)",
       "Yasuo (crit item adjustments)",
-      "Zed (26.10 nerf announced — accumulating)"
+      "Zed (26.10 nerf confirmed — E dmg + P %maxHP)"
     ],
     "weeklyTop": [
+      {
+        "name": "Taliyah",
+        "role": "Jungle",
+        "currentWR": 58.8,
+        "change": 7.3
+      },
       {
         "name": "Master Yi",
         "role": "Jungle",

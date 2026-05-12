@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T03:52:00Z",
-  "lastSlot": "03",
-  "lastTask": "Meta Builds Verify",
+  "lastTick": "2026-05-12T04:52:00Z",
+  "lastSlot": "04",
+  "lastTask": "Tierlist Web Search",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 77,
-  "totalSuccess": 77,
+  "totalTicks": 78,
+  "totalSuccess": 78,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T04:52:00Z",
+      "slot": "04",
+      "task": "Tierlist Web Search",
+      "taskCode": "tierlist-search",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "Taliyah A→S promo (58.8% WR jungle, #1 champ 26.9). Feed v12→v13. S:15→16, A:31→30. 3 trend updates: Kennen rising (AD/crit), Xin Zhao rising (AP jg), Zed falling confirmed (26.10). Ambessa added to falling (F-tier 26.9). Rising/falling lists updated. Taliyah #1 weeklyTop. 5 sources: Amber, Mobalytics, MetaBot, BeatCop, U.GG.",
+      "filesChanged": [
+        "public/tierlist-feed.json"
+      ]
+    },
     {
       "tick": "2026-05-12T03:52:00Z",
       "slot": "03",
@@ -576,65 +589,6 @@
       "build": "OK",
       "duration_ms": 30000,
       "changes": "CLEAN — 35/77 LoL with runes (S:13/15, A:16/31, B:5/23, C:1/8). 42 missing are lower-tier. 0 keystone mismatches vs meta-builds.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-10T17:52:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "17 Spanish accent fixes across 7 aiAnalysis fields (Rakan, Nidalee, Braum, Yorick, Ivern, Bard, Urgot, Tristana): dano→daño, coordinacion→coordinación, proteccion→protección, transformacion→transformación, debil→débil, rapido→rápido, publico→público, especificos→específicos, traves→través, contribucion→contribución, unico→único, especificas→específicas, automaticamente→automáticamente. Quality: 0 @ts-ignore, 0 debugger, 0 TODO. 29 ARIA attrs across 11 files.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-10T17:52:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "RECOVERY: Checkpoint commit — 8 aiAnalysis accent fixes from slot 17 (coordinacion→coordinación, debil→débil, etc). S-tier 15/15 aligned, 15/15 in builds. Feed v12, 77 LoL (15S/31A/23B/8C), 50 builds, 7 guides. 0 content diffs remaining. All 32 orders DONE. Patch 26.10 in 2 days. 30+ unpushed commits (PAT expired). Commit a5997c3.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-10T17:52:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "CLEAN — 10/10 checks pass. 77 LoL (15S/31A/23B/8C), 50 builds, 7 guides, feed v12. 0 tier mismatches, 0 WR deltas >=2%, 0 stale patches, 0 dupes, 15/15 S-tier aligned, 15/15 S-tier in builds. 5/5 JSON valid. Vel'Koz in feed not data (known). Feed 42h old, between patches. Patch 26.10 in 2 days (May 13).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-10T20:52:00Z",
-      "slot": "20",
-      "task": "Tierlist Evening Check",
-      "taskCode": "tierlist-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 40h old, between patches. 26.10 in 2 days (May 13). S-tier 15=15 aligned. No tier movements detected.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-11T06:52:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "CLEAN — DDragon 16.9.1 unchanged. Patch 26.10 confirmed May 13 (Riot schedule). PBE active, existing data comprehensive (10 buffs, 8 nerfs, system changes). 0 new PBE changes detected. 0 hotfixes. 26.10 in 2 days.",
       "filesChanged": []
     }
   ]

@@ -632,7 +632,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     synergy: 'Yasuo, Gragas, Wukong',
     aiAnalysis: "Taliyah es la mid laner con el mejor control de mapa del juego. Su R (Weaver's Wall) puede aislar carries del teamfight, su Q (Threaded Volley) es daño AoE masivo, y su pasiva de escudo le da sustain sin items. Es especialista en crear ventajas con map control.\n\nEl build AP maximiza su burst y control. Rabadon + Morellonomicon la convierte en una máquina de daño AoE.\n\nConsejo principal: Usa tu R para dividir teamfights y aislar carries. La sinergia con Yasuo (wall combo) es devastadora para team wipes.",
     proPickRate: 1.2,
-    runes: {"primary":"Brujería — Cometa Arcano","secondary":"Precisión — Presencia de Campeón","shards":"Adaptativo + Fuerza + Resistencia"},
+    runes: {"primary":"Dominación — Cosecha Oscura","secondary":"Inspinación — Perspicacia Cósmica","shards":"Adaptativo + Fuerza + Resistencia"},
   },
 
   // Tier A — Agregados tick #13 health-check (faltaban de tierlist-feed)

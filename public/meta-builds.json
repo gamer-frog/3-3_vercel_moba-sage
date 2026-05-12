@@ -1,5 +1,5 @@
 {
-  "lastScraped": "2026-05-08T05:51:00Z",
+  "lastScraped": "2026-05-12T05:52:00Z",
   "source": "U.GG + OP.GG + Mobalytics + LoLalytics",
   "patch": "26.9",
   "season": "Pandemonium (Season 2)",
@@ -1680,43 +1680,43 @@
       "note": "Devour save, anti-dive tank"
     },
     "taliyah": {
-      "wr": 51.5,
-      "pick": 4.0,
-      "ban": 0.2,
-      "role": "Mid",
+      "wr": 58.8,
+      "pick": 1.2,
+      "ban": 1.0,
+      "role": "Jungle",
       "core_items": [
-        "Llamarada Sombría",
-        "Sombrero de Rabadón",
-        "Morellonomicon",
-        "Reloj de Zhonya"
+        "Antorcha de Fuego Negro",
+        "Sombra de Fuego",
+        "Reloj de Zhonya",
+        "Cetro de Cristal de Rylai"
       ],
       "boots": [
-        "Botas del Vacío"
+        "Botas de Hechicero"
       ],
       "runes": [
-        "Brujería",
-        "Cometa Arcano",
-        "Precisión",
-        "Presencia de Campeón",
-        "Inspiración",
-        "Calzado Mágico"
+        "Dominación",
+        "Cosecha Oscura",
+        "Inspitación",
+        "Perspicacia Cósmica",
+        "Brutalidad",
+        "Golpe de Gracia"
       ],
       "skill_order": [
         "Q",
-        "E",
-        "W"
+        "W",
+        "E"
       ],
       "counters": [
-        "Zed",
-        "Katarina",
-        "Ahri"
+        "Evelynn",
+        "Nocturne",
+        "Karthus"
       ],
       "strong_vs": [
-        "Yasuo",
-        "Gragas",
-        "Wukong"
+        "Master Yi",
+        "Diana",
+        "Gragas"
       ],
-      "note": "AoE control mage, E+Q combo"
+      "note": "Jungle dominante patch 26.9 — 58.8% WR. Dark Harvest + Blackfire Torch. E+Q burst combo."
     },
     "vayne": {
       "wr": 51.2,

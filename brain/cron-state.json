@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T19:52:00Z",
-  "lastSlot": "19",
-  "lastTask": "Cross-File Consistency",
+  "lastTick": "2026-05-12T20:52:00Z",
+  "lastSlot": "20",
+  "lastTask": "Tierlist Evening Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 84,
-  "totalSuccess": 84,
+  "totalTicks": 85,
+  "totalSuccess": 85,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-12T20:52:00Z",
+      "slot": "20",
+      "task": "Tierlist Evening Check",
+      "taskCode": "tierlist-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), ~64h old, between patches. 26.10 drops TODAY (May 13). Slot 19 Taliyah rune fix holding. No tier movements. Rising/falling lists current.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-12T19:52:00Z",
       "slot": "19",
@@ -574,17 +585,6 @@
       "build": "OK",
       "duration_ms": 30000,
       "changes": "CLEAN — Feed v12, 77 LoL (15S/31A/23B/8C), 0 tier mismatches, 0 missing champs. Feed ~28h old, between patches. 26.10 in 3 days (May 13). Streak 54/54.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-10T01:52:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — Feed v12, 77 LoL, 15S/31A/23B/8C, 50 builds, 7 guides. Patch 26.9, 26.10 in 3 days. Feed ~29h old, within freshness. Streak 55/55.",
       "filesChanged": []
     },
     {

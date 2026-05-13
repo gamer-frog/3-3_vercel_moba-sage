@@ -2,16 +2,41 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-13T02:52:00Z",
-  "lastSlot": "02",
-  "lastTask": "Data Sync",
+  "lastTick": "2026-05-13T13:52:00Z",
+  "lastSlot": "13",
+  "lastTask": "Deep Analysis",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 91,
-  "totalSuccess": 91,
+  "totalTicks": 93,
+  "totalSuccess": 93,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-13T13:52:00Z",
+      "slot": "13",
+      "task": "Deep Analysis",
+      "taskCode": "ai-analysis",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "2 fixes: Karthus brokenThings 'PBE 26.9'→live state (DFT sin internal CD, CD diferido 26.11), Karthus meta-builds note same fix. 0 PBE refs remaining in source data. Audit: 77/77 LoL (16S/30A/23B/8C), 16/16 S-tier aligned, 0 stale patches in data.ts, 0 WR deltas, metaUpdated 37/75. proPickRate 75/75. Commit 78f4f0d. Streak 93/93.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/meta-builds.json"
+      ]
+    },
+    {
+      "tick": "2026-05-13T12:52:00Z",
+      "slot": "12",
+      "task": "Health Check Deep",
+      "taskCode": "health-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "CLEAN — 7-point audit. 77/77 LoL (16S/30A/23B/8C), 16/16 S-tier aligned, 0 WR deltas >=1%, 0 stale patches (94x 26.9, 0x 26.8/26.10), 5/5 JSON valid, 50 meta-builds (16/16 S), 11 guides (6/16 S), 6 patches. metaUpdated 37/75 (49%). passiveAbility 76/75. Feed v13 ~32h old. Patch 26.10 scheduled TODAY (May 13). Streak 92/92.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-13T02:52:00Z",
       "slot": "02",
@@ -220,383 +245,6 @@
       "duration_ms": 30000,
       "changes": "CLEAN — 0 WR deltas >= 2% across data.ts/tierlist-feed/meta-builds. 77/77 LoL WRs match feed exactly. 50/50 meta-builds WRs aligned (max delta 1.3% Ezreal). 15/15 S-tier aligned, all tiers verified. All WRs in sync. Patch 26.10 in ~1.5 days.",
       "filesChanged": []
-    },
-    {
-      "tick": "2026-05-11T13:52:00Z",
-      "slot": "13",
-      "task": "Deep Analysis",
-      "taskCode": "ai-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "3 fixes: 2 stale 26.8 comments→26.9 (lines 150, 207), Viego aiAnalysis expanded 233→580 chars (single-para→3 paras). 6-point audit: 15/15 S-tier aligned, 0 WR deltas >=2% LoL, 0 stale patches, 77/77 proPickRate, metaUpdated 53/77 (68.8%). 3 WR deltas in WR pipeline (acceptable).",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-11T12:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "1 fix: Garen guide WR 54.7%->52.1% (copy-paste error from Malphite guide). 6-point audit: 15/15 S-tier aligned, 0 WR deltas, 0 stale patches, 5/5 JSON valid, 50 builds, 10 guides. Feed v12 60h old (between patches, acceptable). Patch 26.10 in ~2 days.",
-      "filesChanged": [
-        "public/guides-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-07T19:51:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "RECOVERY checkpoint (tick #19, commit 44f68c4). 3 false positive orders closed.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T05:51:00Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "MAJOR — 22->50 builds. 28 new S+A tier builds (4 S: Darius, Lee Sin, Master Yi, Thresh + 24 A-tier). 3 WR fixes: Ahri 51.8->54.2, Garen 54.7->52.1, Jinx 52.0->55.1. Full S+A coverage 50/50.",
-      "filesChanged": [
-        "public/meta-builds.json"
-      ]
-    },
-    {
-      "tick": "2026-05-08T06:51:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "9 stale 26.8 refs in aiAnalysis updated to 26.9 (Nocturne, Ornn, Briar, Aurelion Sol, Nilah, Diana, Malphite, Nautilus, K'Sante). DDragon 16.9.1 unchanged. Patch 26.10 PBE active, 4 days away.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-08T07:51:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "New guide: Master Yi Jungle (56.8% WR, highest jungle). guides-feed 5->6.",
-      "filesChanged": [
-        "data/guides/BA_20260508_0755_guia_masteryi_jungle_lol269.md",
-        "public/guides-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-08T09:51:00Z",
-      "slot": "09",
-      "task": "Champion Data",
-      "taskCode": "champion-data",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "27 SKILL_NAMES added. Total 66->93. Amumu, Bard, Blitzcrank, Braum, Elise, Gragas, Graves, Ivern, Kalista, Leona, Lulu, Nidalee, Nocturne, Rakan, Senna, Shen, Sion, Skarner, Tahm Kench, Teemo, Tristana, Urgot, Warwick, Wukong, Xin Zhao, Yorick, Zaahen.",
-      "filesChanged": [
-        "src/data/champion-data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-08T10:51:00Z",
-      "slot": "10",
-      "task": "BrokenThings Audit",
-      "taskCode": "broken-things",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 77/77 LoL champs have 3+ brokenThings entries. 0 gaps found.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T11:51:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "2 synergy formatting fixes (Yasuo, Master Yi). 74/74 LoL champs have counterPick+synergy. 71 refs to champs not in dataset are valid LoL matchups. CLEAN overall.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-08T12:51:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "CLEAN — 74 LoL champs, 0 tier mismatches, 0 WR deltas, 0 stale patches, 0 missing runes/counterPick. Zed in data but not feed (known). Regex parsing false positives for Vel'Koz/Vi (apostrophe names).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T13:51:00Z",
-      "slot": "13",
-      "task": "Deep Analysis",
-      "taskCode": "ai-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "8 WR syncs vs meta-builds (Master Yi +6%, Darius +4.7%, Lee Sin +4.3%, Jinx +3.1%, Thresh +2.7%, Ahri +2.4%, Katarina -2.4%, Garen -2.6%). PATCH_NOTES + 16 ProPicks 26.8→26.9. K'Sante SKILL_NAMES added (93→94). passiveAbility missing ALL (noted). 39 no metaUpdated (noted). 37 missing SKIN_NAMES (noted).",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "src/data/champion-data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-08T14:51:00Z",
-      "slot": "14",
-      "task": "WR Delta Check",
-      "taskCode": "wr-deltas",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 0 WR deltas >= 2%. Max delta 1.3% (Ezreal). 14/14 S-tier aligned, 30/30 A, 23/23 B, 8/8 C. All from slot 13 WR sync still fresh.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T15:51:00Z",
-      "slot": "15",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 29/29 LoL champs with runes, 0 keystone mismatches vs meta-builds. Slot 16 fixes from previous cycle still holding.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T15:51:00Z",
-      "slot": "15",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 29/29 LoL champs with runes, 0 keystone mismatches vs meta-builds. Slot 16 fixes from previous cycle still holding.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T16:51:00Z",
-      "slot": "16",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 0 keystone mismatches, 0 tree mismatches. 29/29 LoL champs with runes aligned vs meta-builds.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-08T17:52:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "FIX: 6 Spanish accent/orthography errors across 4 files. game-selector (Proximamente→Próximamente x2), floating-notes (todavia→todavía), page.tsx (campeon→campeón), cron/route.ts (automaticamente→automáticamente x4, Analisis→Análisis, automatico→automático). Full i18n+quality audit: no i18n system (by design, single locale), 0 debugger, 0 @ts-ignore, good ARIA. Commit 74cc4f5.",
-      "filesChanged": [
-        "src/components/moba/game-selector.tsx",
-        "src/components/moba/floating-notes.tsx",
-        "src/app/page.tsx",
-        "src/app/api/cron/route.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T03:51:53Z",
-      "slot": "03",
-      "task": "Meta Builds Verify",
-      "taskCode": "meta-builds",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "CLEAN — 89 LoL champs vs 50 meta-builds. 7 WR deltas < 2% (max 1.3% Ezreal). 0 build WR anomalies. Meta-builds fresh (22h). No sync needed.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T04:51:00Z",
-      "slot": "04",
-      "task": "Tierlist Web Search",
-      "taskCode": "tierlist-search",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "Master Yi A→S promo (56.8% WR, web-confirmed). 7 WR syncs (Garen -2.6%, Ahri +2.4%, Jinx +3.1%, Katarina -2.4%, Darius +4.7%, Lee Sin +4.3%, Thresh +2.7%). Zed added to A-tier. Feed v11→v12. S-tier 14→15. 76 LoL total.",
-      "filesChanged": [
-        "public/tierlist-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-09T05:53:00Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 50 builds verified vs tierlist-feed v12. 15/15 S-tier + 30/30 A-tier coverage (100%). 7 WR deltas < 2% (max 1.3% Ezreal). 0 missing entries. Builds age 24h.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T06:53:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — DDragon 16.9.1 unchanged. Patch 26.10 PBE active (May 13, 4 days). 0 stale 26.8 refs. 0 premature 26.10 refs in source. All patch data current (Order 032). No new PBE changes detected.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T07:52:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "New guide: Jinx ADC (55.1% WR, highest ADC). guides-feed 6->7.",
-      "filesChanged": [
-        "data/guides/BA_20260509_0755_guia_jinx_adc_lol269.md",
-        "public/guides-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-09T08:52:00Z",
-      "slot": "08",
-      "task": "Skin Names Expansion",
-      "taskCode": "skin-names",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "54 SKIN_NAMES added from DDragon 16.9.1. Coverage 39->93/93 (100%). All champs now have skin data. Chromas filtered out.",
-      "filesChanged": [
-        "src/data/champion-data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T09:52:00Z",
-      "slot": "09",
-      "task": "Champion Data",
-      "taskCode": "champion-data",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "75 passiveAbility added from DDragon 16.9.1 (0->75, 100% LoL coverage). Each with name + cleaned description.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T10:52:00Z",
-      "slot": "10",
-      "task": "BrokenThings Audit",
-      "taskCode": "broken-things",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 75 LoL champs verified. All have 3+ brokenThings entries. 0 gaps found.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T11:52:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "1 fix: KogMaw->Kog'Maw typo in 5 synergy fields (Brand, Lulu, Soraka, Tahm Kench, Zyra). 22 dangling refs are valid LoL champs not in dataset. 75/75 counterPick+synergy coverage.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T15:52:00Z",
-      "slot": "15",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "2 keystone fixes: Morgana Invocar Aery->Cometa Arcano, Nautilus Guardián->Demolir + secondary Debilidad->Segunda Vida. 43/77 LoL champs with runes cross-checked vs meta-builds. 15 champs missing runes (lower-tier, no meta-builds entry).",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T16:52:00Z",
-      "slot": "16",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "2 keystone fixes: Leona Guardián->Demolir + secondary Debilidad->Determinación/Segunda Vida, Zed Cosecha Oscura->Golpe de Gracia + shards updated. 50/50 meta-builds champs cross-checked. Previous fixes (Amumu, Katarina) still aligned.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-09T17:52:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "i18n: 10 Spanish accent fixes (3x Despues→Después, 2x esta→estás, inútil, héroe, Stopwarch→Stopwatch). Quality: 2 aria-label added to favorite toggle buttons. conexion→conexión (2 files). Próximamente (1 file). coaching-data.tsx full accent audit.",
-      "filesChanged": [
-        "src/data/coaching-data.tsx",
-        "src/components/moba/tabs/tier-list-tab.tsx",
-        "src/components/moba/tabs/coaching-tab.tsx",
-        "src/hooks/use-summoner-search.ts",
-        "src/components/moba/tab-content.tsx"
-      ]
-    },
-    {
-      "tick": "2026-05-09T18:52:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — S-tier 15=15 aligned. Feed 22h fresh. 0 content diffs (7 permission-only). All 032 orders DONE. Patch 26.10 PBE 3 days away. 30+ unpushed commits (PAT expired). No data integrity issues.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T19:52:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 90000,
-      "changes": "2 fixes: K'Sante added to tierlist-feed A-tier (known gap resolved), 18 WR entries patch 6.8→7.1c. 10/10 checks pass. 77 LoL champs, 0 dupes, 15/15 S-tier aligned (was 15 feed + 15 data but K'Sante was missing from feed), 0 tier mismatches, 0 WR deltas, 77/77 patch 26.9, 50/50 runes aligned.",
-      "filesChanged": [
-        "public/tierlist-feed.json",
-        "src/lib/data.ts"
-      ]
     }
   ]
 }

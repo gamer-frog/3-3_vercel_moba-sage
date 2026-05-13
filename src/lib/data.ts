@@ -286,7 +286,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
   // Tier S — Agregados tick #13 health-check (faltaban de tierlist-feed)
   { name: 'Karthus', title: 'el Cantante de la Muerte', passiveAbility: { name: 'Death Defied', description: "Upon dying, Karthus enters a spirit form that allows him to continue casting spells." }, role: 'Jungle', tier: 'S', winRate: 53.7, pickRate: 6.1, banRate: 1.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
     metaUpdated: true, metaSources: ['Mobalytics', 'U.GG', 'Metabot'],
-    brokenThings: ['DFT broken — 100K+ daño PBE 26.9', 'R global → teamfight desde base', 'Q spam jungle → clear instantáneo sin Items'],
+    brokenThings: ['DFT sin internal CD → daño sostenido masivo en teamfights', 'R global → teamfight desde base', 'Q spam jungle → clear instantáneo sin Items'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/karthus/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/karthus"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/karthus"}],
     builds: [
       { name: 'Build AP Mage', items: 'Sombrero de Rabadón → Reloj de Zhonya → Llamarada Sombría → Morellonomicon → Botas del Vacío', winRate: 53.7 },

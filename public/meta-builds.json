@@ -75,7 +75,7 @@
         "Fiora"
       ],
       "strong_vs": [
-        "AD tops",
+        "Tops AD",
         "AA-based champs"
       ]
     },
@@ -154,7 +154,7 @@
         "Melee tops",
         "New champion advantage"
       ],
-      "note": "New champion 26.9, dominant top lane"
+      "note": "Campeón nuevo 26.9, dominante en top lane"
     },
     "nilah": {
       "wr": 52.5,
@@ -189,10 +189,10 @@
         "Samira"
       ],
       "strong_vs": [
-        "Enchanter supports",
+        "Soportes enchanters",
         "Peel comps"
       ],
-      "note": "Highest WR ADC 26.9"
+      "note": "ADC con WR más alto 26.9"
     },
     "nasus": {
       "wr": 52.4,
@@ -231,7 +231,7 @@
         "Ornn",
         "Sion"
       ],
-      "note": "Ghost buff + split push meta"
+      "note": "Buff de Ghost + meta de split push"
     },
     "diana": {
       "wr": 52.4,
@@ -266,7 +266,7 @@
         "Lillia"
       ],
       "strong_vs": [
-        "Squishy junglers",
+        "Junglers squishy",
         "AP assassins"
       ]
     },
@@ -303,8 +303,8 @@
         "Udyr"
       ],
       "strong_vs": [
-        "Squishy midlaners",
-        "Immobile ADCs"
+        "Midlaners squishy",
+        "ADCs immóviles"
       ]
     },
     "aurelionsol": {
@@ -340,8 +340,8 @@
         "Yasuo"
       ],
       "strong_vs": [
-        "Control mages",
-        "Short-range midlaners"
+        "Mages de control",
+        "Midlaners de corto alcance"
       ]
     },
     "ornn": {
@@ -377,8 +377,8 @@
         "Fiora"
       ],
       "strong_vs": [
-        "Tanky tops",
-        "Dive comps"
+        "Tops tanques",
+        "Comps de dive"
       ]
     },
     "ashe": {
@@ -414,8 +414,8 @@
         "Ezreal"
       ],
       "strong_vs": [
-        "Immobile ADCs",
-        "Peel supports"
+        "ADCs immóviles",
+        "Soportes de peel"
       ]
     },
     "ahri": {
@@ -451,8 +451,8 @@
         "Fizz"
       ],
       "strong_vs": [
-        "Melee midlaners",
-        "Immobile mages"
+        "Midlaners melee",
+        "Mages immóviles"
       ]
     },
     "briar": {
@@ -488,8 +488,8 @@
         "Poppy"
       ],
       "strong_vs": [
-        "Squishy comps",
-        "Low CC comps"
+        "Comps squishy",
+        "Comps con poco CC"
       ],
       "note": "R sustain nerf en 26.9"
     },
@@ -526,8 +526,8 @@
         "Samira"
       ],
       "strong_vs": [
-        "Immobile ADCs",
-        "Peel supports"
+        "ADCs immóviles",
+        "Soportes de peel"
       ]
     },
     "sion": {
@@ -639,7 +639,7 @@
         "Graves"
       ],
       "strong_vs": [
-        "Melee junglers",
+        "Junglers melee",
         "Engage comps"
       ],
       "note": "W buffeado 26.9"
@@ -677,7 +677,7 @@
         "Lillia"
       ],
       "strong_vs": [
-        "Squishy comps",
+        "Comps squishy",
         "Reset opportunities"
       ]
     },
@@ -753,8 +753,8 @@
         "Nidalee"
       ],
       "strong_vs": [
-        "Squishy junglers",
-        "Low CC comps"
+        "Junglers squishy",
+        "Comps con poco CC"
       ],
       "note": "Buffeado 26.9"
     },
@@ -791,8 +791,8 @@
         "Sylas"
       ],
       "strong_vs": [
-        "Engage supports",
-        "Melee mid"
+        "Soportes de engage",
+        "Mid melee"
       ]
     },
     "caitlyn": {
@@ -828,8 +828,8 @@
         "Ezreal"
       ],
       "strong_vs": [
-        "Short-range ADCs",
-        "Peel supports"
+        "ADCs de corto alcance",
+        "Soportes de peel"
       ]
     },
     "darius": {
@@ -869,7 +869,7 @@
         "Ornn",
         "Fiora"
       ],
-      "note": "S-tier dominant pick, ban rate highest in game"
+      "note": "Pick dominante S-tier, ban rate más alto del juego"
     },
     "leesin": {
       "wr": 53.5,
@@ -904,10 +904,10 @@
         "Evelynn"
       ],
       "strong_vs": [
-        "Squishy junglers",
-        "Immobile carries"
+        "Junglers squishy",
+        "Carries immóviles"
       ],
-      "note": "S-tier jungle, Insec combo dominates soloQ"
+      "note": "Jungla S-tier, combo Insec domina en soloQ"
     },
     "masteryi": {
       "wr": 56.8,
@@ -942,10 +942,10 @@
         "Teemo"
       ],
       "strong_vs": [
-        "Low CC comps",
-        "Squishy teams"
+        "Comps con poco CC",
+        "Teams squishy"
       ],
-      "note": "Highest WR jungler 26.9, Q reset snowball"
+      "note": "Jungler con WR más alto 26.9, snowball por reset Q"
     },
     "thresh": {
       "wr": 52.8,
@@ -984,7 +984,7 @@
         "Vayne",
         "Caitlyn"
       ],
-      "note": "S-tier support, most versatile kit in game"
+      "note": "Soporte S-tier, kit más versátil del juego"
     },
     "amumu": {
       "wr": 51.3,
@@ -1020,9 +1020,9 @@
       ],
       "strong_vs": [
         "Melee comps",
-        "AD-heavy teams"
+        "Teams con mucho AD"
       ],
-      "note": "Tank jungle, R AoE CC"
+      "note": "Jungla tank, CC AoE con R"
     },
     "blitzcrank": {
       "wr": 51.7,
@@ -1061,7 +1061,7 @@
         "Ashe",
         "Caitlyn"
       ],
-      "note": "Hook support, one grab = game changing"
+      "note": "Soporte de hook, un grab cambia el juego"
     },
     "camille": {
       "wr": 50.4,
@@ -1097,9 +1097,9 @@
       ],
       "strong_vs": [
         "Melee tops",
-        "Squishy midlaners"
+        "Midlaners squishy"
       ],
-      "note": "R single target lockdown, dive threat"
+      "note": "Lockdown single target con R, amenaza de dive"
     },
     "ezreal": {
       "wr": 50.8,
@@ -1134,10 +1134,10 @@
         "Sivir"
       ],
       "strong_vs": [
-        "Enchanter supports",
+        "Soportes enchanters",
         "Poke lanes"
       ],
-      "note": "Safe ADC, Q poke dominant in lane"
+      "note": "ADC seguro, Q poke dominante en lane"
     },
     "fiora": {
       "wr": 50.6,
@@ -1172,10 +1172,10 @@
         "Quinn"
       ],
       "strong_vs": [
-        "Tanky tops",
-        "Duelists"
+        "Tops tanques",
+        "Duelistas"
       ],
-      "note": "True damage duelista, vital proc dominant"
+      "note": "Duelista de true damage, vital proc dominante"
     },
     "graves": {
       "wr": 49.8,
@@ -1210,10 +1210,10 @@
         "Kindred"
       ],
       "strong_vs": [
-        "Melee junglers",
-        "AD assassins"
+        "Junglers melee",
+        "Asesinos AD"
       ],
-      "note": "ADC jungler, strong early clears"
+      "note": "ADC jungler, clears fuertes en early"
     },
     "jhin": {
       "wr": 52.0,
@@ -1248,10 +1248,10 @@
         "Vayne"
       ],
       "strong_vs": [
-        "Enchanter supports",
+        "Soportes enchanters",
         "Peel comps"
       ],
-      "note": "Burst ADC, R execute mechanic"
+      "note": "ADC burst, mecánica de execute con R"
     },
     "katarina": {
       "wr": 50.6,
@@ -1286,10 +1286,10 @@
         "Ahri"
       ],
       "strong_vs": [
-        "Squishy comps",
-        "Low CC teams"
+        "Comps squishy",
+        "Teams con poco CC"
       ],
-      "note": "Reset assassin, teamfight snowball"
+      "note": "Asesino con reset, snowball en teamfights"
     },
     "kennen": {
       "wr": 50.7,
@@ -1325,9 +1325,9 @@
       ],
       "strong_vs": [
         "Melee tops",
-        "Dive comps"
+        "Comps de dive"
       ],
-      "note": "AoE engage top, R teamfight stun"
+      "note": "Engage AoE top, stun de teamfight con R"
     },
     "leona": {
       "wr": 51.0,
@@ -1366,7 +1366,7 @@
         "Lucian",
         "Draven"
       ],
-      "note": "All-in engage support, lock-down queen"
+      "note": "Soporte engage all-in, reina del lockdown"
     },
     "lulu": {
       "wr": 50.9,
@@ -1405,7 +1405,7 @@
         "Vayne",
         "Nilah"
       ],
-      "note": "Peel enchanter, W+R save machine"
+      "note": "Enchanter de peel, máquina de save con W+R"
     },
     "morgana": {
       "wr": 51.0,
@@ -1444,7 +1444,7 @@
         "Varus",
         "Ashe"
       ],
-      "note": "Black shield counters engage, Q root lockdown"
+      "note": "Black shield counter engage, lockdown con Q root"
     },
     "nami": {
       "wr": 50.9,
@@ -1483,7 +1483,7 @@
         "Vayne",
         "Caitlyn"
       ],
-      "note": "Enchanter sustain, R AoE knockup"
+      "note": "Sustain enchanter, knockup AoE con R"
     },
     "nautilus": {
       "wr": 51.3,
@@ -1522,7 +1522,7 @@
         "Caitlyn",
         "Ashe"
       ],
-      "note": "CC tank support, R point-click lockdown"
+      "note": "Soporte tank CC, lockdown point-click con R"
     },
     "orianna": {
       "wr": 51.2,
@@ -1561,7 +1561,7 @@
         "Wukong",
         "Malphite"
       ],
-      "note": "Control mage, R shockwave teamfight"
+      "note": "Mage de control, shockwave de teamfight con R"
     },
     "renekton": {
       "wr": 50.4,
@@ -1597,9 +1597,9 @@
       ],
       "strong_vs": [
         "Melee tops",
-        "Dive comps"
+        "Comps de dive"
       ],
-      "note": "Early game bully, fury window trades"
+      "note": "Bully de early game, trades en ventana de fury"
     },
     "soraka": {
       "wr": 52.0,
@@ -1638,7 +1638,7 @@
         "Jinx",
         "KogMaw"
       ],
-      "note": "Global heal, sustain queen"
+      "note": "Heal global, reina del sustain"
     },
     "tahmkench": {
       "wr": 51.5,
@@ -1677,7 +1677,7 @@
         "Vayne",
         "KogMaw"
       ],
-      "note": "Devour save, anti-dive tank"
+      "note": "Save con Devour, tank anti-dive"
     },
     "taliyah": {
       "wr": 58.8,
@@ -1752,9 +1752,9 @@
       ],
       "strong_vs": [
         "Tanky comps",
-        "Peel supports"
+        "Soportes de peel"
       ],
-      "note": "True damage hypercarry, late game monster"
+      "note": "Hipercarry de true damage, monstruo en late game"
     },
     "veigar": {
       "wr": 52.5,
@@ -1789,10 +1789,10 @@
         "Katarina"
       ],
       "strong_vs": [
-        "Control mages",
-        "Squishy midlaners"
+        "Mages de control",
+        "Midlaners squishy"
       ],
-      "note": "Infinite AP scaling, cage prison"
+      "note": "Escalado AP infinito, prisión de cage"
     },
     "vi": {
       "wr": 51.5,
@@ -1827,10 +1827,10 @@
         "Shaco"
       ],
       "strong_vs": [
-        "Squishy comps",
-        "Immobile carries"
+        "Comps squishy",
+        "Carries immóviles"
       ],
-      "note": "Point-click R engage, gank machine"
+      "note": "Engage point-click con R, máquina de ganks"
     },
     "zed": {
       "wr": 50.3,
@@ -1865,10 +1865,10 @@
         "Garen"
       ],
       "strong_vs": [
-        "Squishy mages",
+        "Mages squishy",
         "Low mobility carries"
       ],
-      "note": "AD assassin, shadow swap burst"
+      "note": "Asesino AD, burst con shadow swap"
     },
     "zyra": {
       "wr": 51.5,
@@ -1907,7 +1907,7 @@
         "KogMaw",
         "Jinx"
       ],
-      "note": "Damage support, plants zone control"
+      "note": "Soporte de daño, control de zona con plantas"
     }
   }
 }

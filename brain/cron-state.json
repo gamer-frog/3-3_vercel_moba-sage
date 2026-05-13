@@ -2,16 +2,31 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-13T16:52:00Z",
-  "lastSlot": "16",
-  "lastTask": "Runes Verification",
+  "lastTick": "2026-05-13T17:52:00Z",
+  "lastSlot": "17",
+  "lastTask": "i18n + Quality",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 96,
-  "totalSuccess": 96,
+  "totalTicks": 97,
+  "totalSuccess": 97,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-13T17:52:00Z",
+      "slot": "17",
+      "task": "i18n + Quality",
+      "taskCode": "i18n-quality",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "79 i18n fixes in 3 files. meta-builds.json: 47 strong_vs translations (EN→ES), 30 note translations (EN→ES). patches-feed.json: Chinese characters removed from highlight, English title translated. data.ts: 1 counterPick fix. Code quality: 0 @ts-ignore, 0 debugger, 0 client console.log, 23 server-side any types (DDragon/cron routes, acceptable). Streak 97/97.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/meta-builds.json",
+        "public/patches-feed.json"
+      ]
+    },
     {
       "tick": "2026-05-13T16:52:00Z",
       "slot": "16",

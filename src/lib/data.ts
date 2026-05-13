@@ -291,7 +291,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     builds: [
       { name: 'Build AP Mage', items: 'Sombrero de Rabadón → Reloj de Zhonya → Llamarada Sombría → Morellonomicon → Botas del Vacío', winRate: 53.7 },
     ],
-    counterPick: "Kha'Zix, Lee Sin, Rek'Sai — Junglers con invade early",
+    counterPick: "Kha'Zix, Lee Sin, Rek'Sai — Junglers con invade en early",
     synergy: 'Malzahar, Brand, Amumu — Comps con CC para R garantizado',
     aiAnalysis: "Karthus es el jungler mage más dominante del meta 26.9 (S-tier, 53.7% WR). Su sinergia con Deathfire Touch lo convierte en una máquina de daño AoE masivo. Su R (Requiem) permite teamfights globales desde cualquier posición del mapa.\n\nEl build AP maximiza su burst en teamfights. Rabadón + Zhonya le da daño masivo con la seguridad de Zhonya para canalizar R.\n\nConsejo principal: Farm hasta nivel 6 y busca ganks con R. Tu R cambia teamfights — no lo desperdicies.",
     proPickRate: 4.2,

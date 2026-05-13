@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-12T23:52:00Z",
-  "lastSlot": "23",
-  "lastTask": "Night Report",
+  "lastTick": "2026-05-13T00:52:00Z",
+  "lastSlot": "00",
+  "lastTask": "Tierlist Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 88,
-  "totalSuccess": 88,
+  "totalTicks": 89,
+  "totalSuccess": 89,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-13T00:52:00Z",
+      "slot": "00",
+      "task": "Tierlist Check",
+      "taskCode": "tierlist-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 0 tier mismatches, 0 WR deltas >=1% S-tier, all champs present both sides. Feed ~20h old, between patches. Patch 26.9 live, 26.10 TODAY. Streak 89/89.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-12T23:52:00Z",
       "slot": "23",
@@ -585,17 +596,6 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "CLEAN — 77/77 LoL aligned (0 name, 0 tier mismatches). Feed v12, 25h fresh. All patches 26.9/7.1c. 50 meta-builds. 7 guides. 16 console.log (all server cron route, acceptable). 0 @ts-ignore. WR: feed 7 vs data 18 (data richer, known). 30+ unpushed commits (PAT expired). Patch 26.10 in 3 days.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-09T22:52:00Z",
-      "slot": "22",
-      "task": "Deep Audit",
-      "taskCode": "deep-audit",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 120000,
-      "changes": "CLEAN — 11-point deep audit. 77/77 name aligned, 0 tier mismatches, 15/15 S-tier aligned, 0 dupes, 0 stale patches (93 LoL 26.9 + 18 WR 7.1c). 50 meta-builds, 0 WR deltas >=2%. All 5 JSON valid. 7 guides, 6 patches. Field coverage: 95/95 runes/counter/synergy/broken/builds/links/pro, 76/77 passive (Vel'Koz known), 37/77 metaUpdated (partial, non-critical). Code: 16 console.log (server), 0 @ts-ignore, 0 debugger. WR feed 7 vs data 18 (known). 30+ unpushed commits (PAT).",
       "filesChanged": []
     }
   ]

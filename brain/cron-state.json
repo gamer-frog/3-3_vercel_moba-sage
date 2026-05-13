@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-13T15:52:00Z",
-  "lastSlot": "15",
-  "lastTask": "Combo Review",
+  "lastTick": "2026-05-13T16:52:00Z",
+  "lastSlot": "16",
+  "lastTask": "Runes Verification",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 95,
-  "totalSuccess": 95,
+  "totalTicks": 96,
+  "totalSuccess": 96,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-13T16:52:00Z",
+      "slot": "16",
+      "task": "Runes Verification",
+      "taskCode": "runes-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "8 fixes in 2 files (data.ts + meta-builds.json). data.ts: Nocturne secondary Dom→Det (same-tree invalid), Malphite secondary Bru→Det (same-tree S-tier), Taliyah Inspinación→Inspiración (typo), 4 shards format fixes (Katarina/Leona/Zed/Amumu: rune-path→stat-shard). meta-builds: Taliyah Inspitación→Inspiración + Brutalidad→Precisión (invalid path), Sion Second Wind→Segundo Viento (i18n), Ezreal Brujería→Dominación for Gusto de Sangre (wrong path). 16/16 S-tier rune coverage verified. Streak 96/96.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/meta-builds.json"
+      ]
+    },
     {
       "tick": "2026-05-13T15:52:00Z",
       "slot": "15",

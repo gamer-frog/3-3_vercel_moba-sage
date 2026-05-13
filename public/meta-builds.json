@@ -548,7 +548,7 @@
         "Precisión",
         "Conquistador",
         "Determinación",
-        "Second Wind",
+        "Segundo Viento",
         "Inspiración",
         "Calzado Mágico"
       ],
@@ -1118,7 +1118,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Brujería",
+        "Dominación",
         "Gusto de Sangre",
         "Inspiración",
         "Calzado Mágico"
@@ -1696,9 +1696,9 @@
       "runes": [
         "Dominación",
         "Cosecha Oscura",
-        "Inspitación",
+        "Inspiración",
         "Perspicacia Cósmica",
-        "Brutalidad",
+        "Precisión",
         "Golpe de Gracia"
       ],
       "skill_order": [

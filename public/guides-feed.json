@@ -1,8 +1,26 @@
 {
-  "lastUpdated": "2026-05-12T07:52:00Z",
+  "lastUpdated": "2026-05-14T07:55:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 11,
+  "totalGuides": 12,
   "guides": [
+    {
+      "id": "karthus-jungle-2610",
+      "champion": "Karthus",
+      "role": "Jungle/Mid",
+      "patch": "26.10",
+      "title": "Karthus Jungle — Build DFT Sostenido, Runas, Matchups, Combos",
+      "summary": "Jungler AP #1 en U.GG (54.8% WR). Sinergia DFT sin CD interno, R global, presion de mapa dominante. S-tier consistente en 26.10.",
+      "tags": ["build", "runas", "matchups", "jungle", "ap", "dft", "global"],
+      "keyPoints": [
+        "Build DFT: Llamarada Sombría → Rabadón → Zhonya → Morellonomicon + Botas del Vacío (53.7% WR)",
+        "Build Control: Eco de Luden → Rylai → Liandry → Rabadón (51.4% WR)",
+        "Runas: Deathfire Touch + Segunda Vida — DFT sin CD interno (diferido 26.11)",
+        "Combo Teamfight: E (activo) → W (zona) → Q spam → R (si mueres)",
+        "Inmortal: E activo → Zhonya → Q spam → R (pasiva 7s)",
+        "53.7% WR — #1 U.GG (54.8%), presion global con R"
+      ],
+      "fileName": "BA_20260514_0755_guia_karthus_jungle_lol2610.md"
+    },
     {
       "id": "taliyah-jungle-269",
       "champion": "Taliyah",

@@ -15,8 +15,8 @@
     },
     {
       "name": "Skill Capped",
-      "url": "https://www.skill-capped.com/lol#TierList2609",
-      "lastScraped": "2026-05-09T04:51:00Z"
+      "url": "https://www.skill-capped.com/lol#TierList2610",
+      "lastScraped": "2026-05-14T06:52:00Z"
     },
     {
       "name": "Riot Phroxzon (X)",
@@ -24,13 +24,13 @@
       "lastScraped": "2026-05-09T04:51:00Z"
     },
     {
-      "name": "DDragon 16.9.1",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.9.1",
-      "lastScraped": "2026-05-09T04:51:00Z"
+      "name": "DDragon 16.10.1",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.10.1",
+      "lastScraped": "2026-05-14T06:52:00Z"
     }
   ],
   "lol": {
-    "patch": "26.9 — Season 2 Pandemonium",
+    "patch": "26.10 — Season 2 Pandemonium",
     "sTier": [
       {
         "name": "Master Yi",
@@ -161,7 +161,7 @@
         "pickRate": 1.2,
         "banRate": 1.0,
         "trend": "rising",
-        "reason": "58.8% WR jungle — dominante 26.9, nerf probable 26.10"
+        "reason": "58.8% WR jungle 26.9 — DFT nerf impacto pendiente evaluacion 26.10"
       }
     ],
     "aTier": [
@@ -325,7 +325,7 @@
         "pickRate": 2.2,
         "banRate": 0.5,
         "trend": "rising",
-        "reason": "AD/crit build nuevo en 26.9"
+        "reason": "AD/crit build — estable 26.10"
       },
       {
         "name": "Katarina",
@@ -342,7 +342,7 @@
         "pickRate": 3.9,
         "banRate": 1.8,
         "trend": "rising",
-        "reason": "Conqueror buffs"
+        "reason": "Conqueror buffs — estable 26.10"
       },
       {
         "name": "Vayne",
@@ -375,7 +375,7 @@
         "pickRate": 5.5,
         "banRate": 2.0,
         "trend": "rising",
-        "reason": "Stabilize buff"
+        "reason": "Stabilize buff — estable 26.10"
       },
       {
         "name": "Caitlyn",
@@ -466,7 +466,7 @@
         "pickRate": 8.0,
         "banRate": 3.0,
         "trend": "falling",
-        "reason": "Crit item adjustments"
+        "reason": "Crit item adjustments 26.10"
       },
       {
         "name": "Senna",
@@ -507,7 +507,7 @@
         "pickRate": 2.8,
         "banRate": 0.5,
         "trend": "rising",
-        "reason": "AP jungle build nuevo en 26.9"
+        "reason": "AP jungle build — estable 26.10"
       },
       {
         "name": "Elise",
@@ -596,7 +596,7 @@
         "pickRate": 2.3,
         "banRate": 0.6,
         "trend": "falling",
-        "reason": "Item nerfs + meta shift"
+        "reason": "Item nerfs + meta shift 26.10"
       }
     ],
     "cTier": [
@@ -676,7 +676,7 @@
       "Xin Zhao (AP jungle build nuevo)"
     ],
     "falling": [
-      "Ambessa (F-tier 26.9, 45.2% WR — buff programado 26.10)",
+      "Ambessa (buff 26.10 aplicado — evaluando impacto)",
       "Briar (R sustain nerf — menos dominante en ranked)",
       "Mordekaiser (item nerfs — meta shift)",
       "Yasuo (crit item adjustments)",
@@ -823,42 +823,26 @@
     ]
   },
   "metaLastUpdated": "2026-05-09T04:51:00Z",
-  "patch": "26.9 — Season 2 Pandemonium (live)",
+  "patch": "26.10 — Season 2 Pandemonium (live)",
   "nextPatch": {
-    "version": "26.10",
-    "scheduledDate": "2026-05-13",
-    "pbeStatus": "active",
+    "version": "26.11",
+    "scheduledDate": "~2026-05-27",
+    "pbeStatus": "not_started",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "summary": "Lee Sin modernization, DFT nerf, Doran's Bow/Helm buff, Stormraider buff. Ambessa/Galio/Wukong/Zeri buff, Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Lich Bane buff. Arena 6 teams of 3.",
+    "summary": "Cleaver + DFT interaction deferred from 26.10. Sin PBE aun.",
     "keyChanges": {
-      "buffs": [
-        "Ambessa",
-        "Galio",
-        "Wukong",
-        "Zeri",
-        "Lee Sin (modernization)",
-        "Quinn",
-        "Lich Bane",
-        "Stormraider's Surge",
-        "Doran's Bow",
-        "Doran's Helm"
-      ],
-      "nerfs": [
-        "Anivia",
-        "Ashe",
-        "Naafiri",
-        "Shyvana",
-        "Zed",
-        "Deathfire Touch",
-        "Gluttonous Greaves",
-        "Cyclosword"
-      ],
+      "buffs": [],
+      "nerfs": [],
       "adjustments": [
-        "Cleaver + DFT (26.11)",
-        "Arena 6v3",
-        "Apex Ranked (no duo changes)"
+        "Cleaver + DFT interaction (deferred from 26.10)"
       ]
     },
-    "metaImpact": "DFT nerf mayor impacto. Lee Sin modernization puede subir tier. Ambessa revert parcial. Stormraider buff. Zed/Shyvana nerf acumulativo."
+    "metaImpact": "Pendiente — sin datos PBE aun."
+  },
+  "previousPatch": {
+    "version": "26.10",
+    "liveDate": "2026-05-13",
+    "summary": "Lee Sin modernization, DFT nerf, Doran's Bow/Helm buff, Stormraider buff. Ambessa/Galio/Wukong/Zeri buff, Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Lich Bane buff. Arena 6 teams of 3.",
+    "metaImpact": "DFT nerf impacto mayor. Lee Sin modernization sube tier. Taliyah/Master Yi DFT nerf. Smolder/Rammus/Bel'Veth nuevas S-tier. Vex/Zac rising."
   }
 }

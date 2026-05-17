@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-17T05:53:00Z",
-  "lastSlot": "05",
-  "lastTask": "Builds Refresh",
+  "lastTick": "2026-05-17T06:53:00Z",
+  "lastSlot": "06",
+  "lastTask": "Patch Watch",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 156,
-  "totalSuccess": 156,
+  "totalTicks": 157,
+  "totalSuccess": 157,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-17T06:53:00Z",
+      "slot": "06",
+      "task": "Patch Watch",
+      "taskCode": "patch-watch",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "CRITICAL: Patch 26.10 was stale (live since May 13 but still marked upcoming). Fixed: patches-feed status upcoming→live, pbeStatus active→inactive. patch-analysis promoted 26.9→26.10, nextPatch 26.10→26.11 (scheduled May 27). Summary/digest/officialNotes updated.",
+      "filesChanged": ["public/patches-feed.json", "public/patch-analysis.json"]
+    },
     {
       "tick": "2026-05-17T05:53:00Z",
       "slot": "05",
@@ -20,7 +31,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 60000,
-      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn — Precisión duplicated at tree1+tree3, changed tree3 to Inspiración/Calzado Mágico (standard ADC pattern). 52 builds, 0 empty, 0 violations remaining.",
+      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn — Precisión dup→Inspiración.",
       "filesChanged": ["public/meta-builds.json"]
     },
     {
@@ -31,7 +42,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 120000,
-      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression. Feed was downgraded during git merge conflict resolution (checkout --ours picked old v13 instead of v15). Full v15 rebuilt: 92 LoL (18S/44A/23B/7C), patch 26.10, 8 sources.",
+      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression.",
       "filesChanged": ["public/tierlist-feed.json"]
     },
     {
@@ -42,7 +53,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK). S-tier: 13/18 (missing: Riven, Rek'Sai, Fizz, Bel'Veth, Vladimir). All pre-existing.",
+      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK).",
       "filesChanged": []
     },
     {
@@ -53,18 +64,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — All pre-existing gaps confirmed. Full 26.10 sync needs ORDEN.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-17T01:52:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — JSON 7/7 valid. Feed v15: 92 (18S/44A/23B/7C), 45h old (OK).",
+      "changes": "CLEAN — All pre-existing gaps confirmed.",
       "filesChanged": []
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "version": "26.9",
-  "patchFull": "16.9.1",
-  "date": "2026-04-28",
+  "version": "26.10",
+  "patchFull": "26.10",
+  "date": "2026-05-13",
   "status": "current",
   "season": "Season 2 — Pandemonium",
   "previousPatch": "26.9",
-  "summary": "Patch 26.9 lanza Season 2 Pandemonium con cambios masivos. Deathfire Touch y Stormraider's Surge regresan como keystones de Brujería, reemplazando Phase Rush. Nuevos items iniciales Doran's Bow y Doran's Helm. Statikk Shiv recibe rework a on-hit. Role Quests mejorados con roaming permitido y penalties reducidos. Arena recibe overhaul con Events. Briar y Ambessa nerfeados. AP Ezreal revivido.",
-  "digest": "Season 2 Pandemonium. DFT + Stormraider regresan. Phase Rush eliminada. Shiv on-hit rework. Doran's Bow/Helm nuevos. Role Quests roaming. Arena Events. Briar/Ambessa nerf. AP Ezreal revive. WASD ranked.",
+  "summary": "Patch 26.10 refinea Season 2 Pandemonium. Lee Sin modernization QoL (ward hops sin penalidad). Deathfire Touch nerfeado. Doran's Bow +2 AD, Doran's Helm +20 HP. Stormraider's Surge buff. Ambessa/Galio/Wukong/Zeri buffeados. Anivia/Ashe/Naafiri/Shyvana/Zed nerfeados. Lich Bane buff. Arena 6 teams of 3. Cleaver + DFT internal CD diferido a 26.11.",
+  "digest": "26.10 Lee Sin modernization · DFT nerf · Doran Bow/Helm buff · Stormraider buff · Ambessa/Galio/Wukong/Zeri buff · Anivia/Ashe/Naafiri/Shyvana/Zed nerf · Lich Bane buff · Arena 6v3",
   "highlights": [
     "Season 2 Pandemonium — Temática demoníaca para toda la temporada con skins themed",
     "Deathfire Touch regresa — Keyston dominante para mages de control: Karthus, Brand, Malzahar, Teemo",
@@ -107,12 +107,12 @@
     ]
   },
   "nextPatch": {
-    "version": "26.10",
-    "scheduledDate": "2026-05-13",
-    "pbeStatus": "active",
+    "version": "26.11",
+    "scheduledDate": "2026-05-27",
+    "pbeStatus": "upcoming",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "title": "Lee Sin Modernization + DFT Nerf + Starting Item Buffs",
-    "summary": "Refinamiento de Season 2 systems. Lee Sin modernization QoL. DFT nerf. Doran's Bow/Helm buffeados. Stormraider's Surge buff. Ambessa/Galio/Wukong/Zeri buff. Anivia/Ashe/Naafiri/Shyvana/Zed nerf. Lich Bane buff. Arena 6 teams of 3.",
+    "title": "Cleaver + DFT Internal CD — Expected",
+    "summary": "Esperado: Cleaver + Deathfire Touch internal cooldown (diferido desde 26.10). Posibles ajustes adicionales al ecosistema Season 2.",
     "sources": [
       "https://www.sheepesports.com/en/all/articles/lol-patch-26-10-preview-lee-sin-gets-a-modernized-rework-and-doran-s-bow-helm-buffed/en",
       "https://gameriv.com/league-of-legends-patch-26-10-preview-all-buffs-nerfs-changes-and-more",
@@ -154,7 +154,7 @@
     ]
   },
   "officialNotes": {
-    "en": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-9-notes/",
-    "es": "https://www.leagueoflegends.com/es-es/news/game-updates/league-of-legends-patch-26-9-notes/"
+    "en": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-10-notes/",
+    "es": "https://www.leagueoflegends.com/es-es/news/game-updates/league-of-legends-patch-26-10-notes/"
   }
 }

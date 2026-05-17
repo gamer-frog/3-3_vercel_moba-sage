@@ -2,501 +2,70 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-16T14:52:00Z",
-  "lastSlot": "14",
-  "lastTask": "WR Delta Check",
+  "lastTick": "2026-05-17T04:52:00Z",
+  "lastSlot": "04",
+  "lastTask": "Tierlist Web Search",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 142,
-  "totalSuccess": 142,
+  "totalTicks": 155,
+  "totalSuccess": 155,
   "totalFail": 0,
   "history": [
     {
-      "tick": "2026-05-16T14:52:00Z",
-      "slot": "14",
-      "task": "WR Delta Check",
-      "taskCode": "wr-deltas",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 0 WR deltas >=2% across all 3 sources (data.ts/tierlist-feed/meta-builds). 77/77 LoL, 50 builds, 16/16 S-tier aligned (all WR match exactly). data.ts<->feed: zero deltas at any threshold. Known pick/ban deltas (5 pick >=3%, 3 ban >=2%) between meta-builds and data.ts unchanged — same root cause (different source aggregation). Streak 142/142.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-16T13:52:00Z",
-      "slot": "13",
-      "task": "Deep Analysis",
-      "taskCode": "ai-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "2 fixes in 1 file (data.ts). Brand aiAnalysis WR stale 52.5%→51.2% (delta 1.3%, matched field), Nocturne aiAnalysis WR stale 52.8%→52.3% (delta 0.5%, matched field). Audit: 95/95 aiAnalysis non-empty (100%), 0 short entries (<100 chars), 0 stale PBE refs, 0 English text, 0 empty entries. 2 minor deltas noted (Zaahen 53.8% vs 53.5%, Blitzcrank 51.8% vs 51.7% — within tolerance). Commit 7e598f3. Streak 141/141.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-16T12:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 10-point deep health. 5/5 JSON valid. Feed v13: 77 LoL (16S/30A/23B/8C), patch 26.10 label. Builds: 50 (patch 26.9, keys lowercase — normalized match confirms 16/16 S-tier have builds). Guides: 12. Code: 0 console.log, 0 @ts-ignore, 0 debugger. 95/95 counterPick + synergy + brokenThings + aiAnalysis. Build OK. Known gaps (pre-existing): builds patch 26.9 (needs 26.10 refresh), patch-analysis v26.9 (needs 26.10 promotion), Kai'Sa + Kha'Zix SKIN_NAMES missing. Streak 140/140.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-16T11:52:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 95/95 counterPick populated, 95/95 synergy populated, 0 empty. Matchup data is kit-based (stable across patches). No legacy counters/synergies fields. Streak 139/139.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-16T10:52:00Z",
-      "slot": "10",
-      "task": "BrokenThings Audit",
-      "taskCode": "broken-things",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 95 brokenThings entries (89 LoL + 6 extras). 0 empty, 0 PBE refs, 0 stale 26.8/26.9 patch refs in brokenThings fields. All entries contain 3 kit-based observations. Known: Kai'Sa + Kha'Zix missing SKIN_NAMES (95/97 vs SKILL_NAMES 97/97) — slot scope is brokenThings only, noted for next champion-data/skin-names slot. Streak 138/138.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-16T00:52:00Z",
-      "slot": "00",
-      "task": "Tierlist Check",
-      "taskCode": "tierlist-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 0 tier mismatches, 0 S-tier WR deltas >=1%, 75/77 champs in both (2 known orphans: K'Sante, Vel'Koz). Feed ~92h old, patch 26.10. Streak 137/137.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T23:52:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "NIGHT REPORT — Period: May 13-16 (ticks 89-135). Streak 136/136, 0 fails. 34 ticks, 8 with changes, 26 CLEAN. Data: 77 LoL (16S/30A/23B/8C), 93 entries, 50 builds, 12 guides, feed v13, patch 26.10 LIVE ~72h. Key events: (1) Patch 26.10 LIVE detected + feed v13 updated (slot 06), (2) Karthus jungle guide created (slot 07), (3) Vel'Koz passiveAbility + 40 metaUpdated added (slot 09), (4) Malphite/Diana aiAnalysis WR stale fixes (slot 13), (5) Karthus PBE→live brokenThings fix (slot 13 May 14), (6) 8 rune fixes + 1 path fix (slot 16 May 13), (7) 79 i18n translations EN→ES (slot 17 May 13), (8) 52 i18n fixes round 2 (slot 17 May 15). Outstanding: data.ts still 26.9 (tier sync pending), 96 unpushed commits (PAT expired), 2 S-tier missing builds (Master Yi, Aurelion Sol), 2 feed orphans (K'Sante, Vel'Koz).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T22:52:00Z",
-      "slot": "22",
-      "task": "Deep Audit",
-      "taskCode": "deep-audit",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 12-point deep audit. 6/6 JSON valid, 77 LoL (16S/30A/23B/8C), 50 builds, 12 guides, 26 combos, 6 patches. 93x 26.9 refs (0 stale 26.8, 0 premature 26.10). 0 empty aiAnalysis/brokenThings/counterPick/synergy. 0 @ts-ignore, 0 debugger, 0 client console.log. 14/16 S-tier builds (known gap). Feed v13 ~90h old. Streak 135/135.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T21:52:00Z",
-      "slot": "21",
-      "task": "Health Evening",
-      "taskCode": "health-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 50 builds, 12 guides, 6 patches, patch 26.10. 4/4 JSON valid. Streak 134/134.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T20:52:00Z",
-      "slot": "20",
-      "task": "Tierlist Evening Check",
-      "taskCode": "tierlist-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — Feed v13 ~88h old, 77 LoL (16S/30A/23B/8C), patch 26.10. Rising 8, falling 5, weekly top 11, 5 sources. No tier movements. data.ts still 26.9 (tier sync deferred). Streak 133/133.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T19:52:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 10-point cross-file check. 77 LoL champs, 75/75 tier match (0 mismatches), 0 S-tier WR deltas >=1%, 0 S-tier pick deltas >=3%. 14/16 S-tier have builds (missing Master Yi, Aurelion Sol — known). 2 feed orphans (K'Sante, Vel'Koz — known). data.ts=26.9, feed=26.10, builds=26.9 — expected gap. Streak 132/132.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T18:52:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 7-point recovery audit. 5/5 JSON valid. 93 champs in data.ts, 0 stale 26.8 refs, 0 premature 26.10 refs. Feed v13: 77 LoL (16S/30A/23B/8C), patch 26.10. 50 builds (14/16 S-tier). 14 guide files, 12 in feed (2 orphaned legacy). 0 empty aiAnalysis, 0 empty brokenThings. Streak 131/131.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T17:52:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "52 i18n fixes in 2 files. meta-builds.json: 44 strong_vs translations (EN→ES: squishy→frágiles, melee→cuerpo a cuerpo, enchanters→encantadores, etc.) + 6 spelling fixes (immóviles→inmóviles) + 1 note translation (Taliyah EN→ES). tierlist-feed.json: 6 reason translations (EN→ES: Ghost buff, Enchanter renaissance, Stabilize buff, Crit adjustments, Item nerfs, AP jungle build) + 1 accent fix (evaluacion→evaluación). Code quality: 0 @ts-ignore, 0 debugger, 0 client console.log, 0 non-API any types. Streak 130/130.",
-      "filesChanged": [
-        "public/meta-builds.json",
-        "public/tierlist-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-15T16:52:00Z",
-      "slot": "16",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 77/77 data.ts rune entries (35 single-quote + 42 double-quote format), 52 meta-builds. 0 same-tree violations, 0 empty, 0 invalid paths, 0 typos. All shards 3/3 complete. 6 DFT/Conqueror keystones kept in English (settled convention). Streak 129/129.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T15:52:00Z",
-      "slot": "15",
-      "task": "Combo Review",
-      "taskCode": "combos",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 26 combos (12 classic + 14 26.9-specific), 61 unique champion names. 0 stale patch refs, 0 invalid items. 20 combo champs outside 77-champ roster = valid LoL champions. Streak 128/128.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-15T14:52:00Z",
-      "slot": "14",
-      "task": "WR Delta Check",
-      "taskCode": "wr-deltas",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 0 WR deltas >=2% across all 3 sources (data.ts/tierlist-feed/meta-builds). 77/77 LoL, 50 builds, 16/16 S-tier aligned. data.ts<->feed: zero deltas at any threshold. Known pick/ban deltas (5 pick >=3%, 3 ban >=2%) between meta-builds and data.ts unchanged from prior slot 14 — same root cause (different source aggregation). Streak 118/118.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T13:52:00Z",
-      "slot": "13",
-      "task": "Deep Analysis",
-      "taskCode": "ai-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "2 fixes in 1 file (data.ts). Malphite aiAnalysis WR stale 52.5%/52.8%→54.7% (matched field), Diana aiAnalysis WR stale 51%→52.4% (matched field). 5-point audit: 77/77 aiAnalysis non-empty (100%), 0 short entries (<100 chars), 0 stale PBE/patch refs, 0 English text, 14/16 S-tier WR accuracy verified. 6 S-tier omit own WR in text (acceptable). 1 comment + 1 patch-analysis entry with historical 26.8 ref (contextually valid, not aiAnalysis). Commit f7b9b79. Streak 117/117.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-14T12:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 10-point audit. 77/77 LoL (16S/30A/23B/8C) matches feed v13 exactly. 50 builds, 12 guides, 6 patches. 5/5 JSON valid. 77/77 passiveAbility, 77/77 metaUpdated, 77/77 brokenThings, 77/77 counterPick, 77/77 synergy, 77/77 aiAnalysis (100% all fields). 0 WR deltas S-tier vs feed. 0 stale 26.8 refs, 77x 26.9 in data.ts. 0 empty fields. metaUpdated 77/77 (was 37/77 before slot 09). passiveAbility 77/77 (was 76/77 before slot 09). Patch 26.10 LIVE ~51h, 48h consensus CLOSED — tier update ready for next tierlist slot. Streak 116/116.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T11:52:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 77/77 counterPick (100%, 72 single-quoted + 5 double-quoted). 77/77 synergy (100%). 0 empty, 0 stale PBE/patch refs, 0 short entries (<10 chars). Avg counterPick 28 chars, avg synergy 32 chars. All in Spanish. Slot 11 previously never executed — now cleared. Streak 115/115.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T10:52:00Z",
-      "slot": "10",
-      "task": "BrokenThings Audit",
-      "taskCode": "broken-things",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 77/77 LoL champs have brokenThings (100% coverage). 0 empty arrays. 0 stale PBE/patch refs. 0 short entries (<15 chars). 0 duplicates within champions. All entries in Spanish. All S-tier (16) have 3+ entries highlighting meta power. All C-tier (8) have 2+ entries covering niche strengths. Streak 114/114.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T09:52:00Z",
-      "slot": "09",
-      "task": "Champion Data",
-      "taskCode": "champion-data",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "41 fixes in 1 file (data.ts). passiveAbility: Vel'Koz Organic Deconstruction added (76→77, 100% coverage). metaUpdated: 40 champions added (37→77, 100% coverage). Sources: Feed v13 sync. All 77 LoL champs now have passiveAbility + metaUpdated. Build OK. Streak 113/113.",
-      "filesChanged": [
-        "src/lib/data.ts"
-      ]
-    },
-    {
-      "tick": "2026-05-14T08:52:00Z",
-      "slot": "08",
-      "task": "Skin Names Expansion",
-      "taskCode": "skin-names",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — SKILL_NAMES 93/93, SKIN_NAMES 93/93 (100% cobertura desde May 09). Zaahen verified present in both maps. 0 gaps. No new champs since last check. Streak 112/112.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T07:52:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "New guide: Karthus Jungle (53.7% WR, #1 U.GG 54.8%, S-tier, DFT sin CD). 2 builds (DFT sostenido 53.7%, Control de Mapa 51.4%), 4 combos, 4+3 matchups, 2 jungle routes, 5 key tips. guides-feed 11→12. S-tier guides: 7/16. Remaining without guides: Zaahen, Nilah, Nasus, Diana, Nocturne, Aurelion Sol, Ornn, Ashe, Briar (9). Commit 3049608. Streak 111/111.",
-      "filesChanged": [
-        "data/guides/BA_20260514_0755_guia_karthus_jungle_lol2610.md",
-        "public/guides-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-14T06:52:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "14 fixes in 1 file (tierlist-feed.json). Patch 26.10 LIVE confirmed: lol.patch 26.9→26.10, top-level patch 26.9→26.10 (live), DDragon 16.9.1→16.10.1 (verified 200 OK), nextPatch 26.10→26.11 (~May 27), added previousPatch 26.10 summary, Skill Capped URL #TierList2609→2610, 8 stale 26.9 reason strings updated, Ambessa 'buff programado'→'buff aplicado'. 0 hotfixes. data.ts still 93x 26.9 (tier data update deferred to consensus). Commit c07d5f8. Streak 110/110.",
-      "filesChanged": [
-        "public/tierlist-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-14T05:52:00Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 50 builds, 16/16 S-tier (masteryi key verified), patch 26.9, ~48h old. Patch 26.10 LIVE ~45h. Full refresh deferred: 48h consensus window still open. Slot 04 gathered 26.10 tier data (Smolder, Rammus, Bel'Veth new S; Taliyah, Yi dropped). Next slot 20 or 00 should do full feed+builds+data.ts 26.10 sync. Streak 109/109.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T04:52:00Z",
+      "tick": "2026-05-17T04:52:00Z",
       "slot": "04",
       "task": "Tierlist Web Search",
       "taskCode": "tierlist-search",
       "status": "OK",
       "build": "OK",
-      "duration_ms": 60000,
-      "changes": "CLEAN — Web search 8 queries, 4 sources (U.GG, Mobalytics, Blitz.gg, METAsrc). Patch 26.10 LIVE ~44h. 48h consensus window NOT yet closed. Key findings for next feed update: Smolder new S (54.6-54.7%), Rammus new S jungle (54.3%), Bel'Veth rising (53.9%), Taliyah dropped 58.8→53.5% (DFT nerf), Yi double DFT nerf (Reddit confirms), Karthus #1 U.GG (54.8%), Zac top lane rising (53.3%), Vex mid rising (54.3%). Feed v13 held at 26.9. Next slot 20 or 00 should update feed v14 if consensus solidifies. Streak 108/108.",
-      "filesChanged": []
+      "duration_ms": 120000,
+      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression. Feed was downgraded during git merge conflict resolution (checkout --ours picked old v13 instead of v15). Full v15 rebuilt: 92 LoL (18S/44A/23B/7C), patch 26.10, 8 sources. Web search confirmed data alignment with U.GG, Mobalytics, METAsrc, metabot.gg.",
+      "filesChanged": ["public/tierlist-feed.json"]
     },
     {
-      "tick": "2026-05-14T03:52:00Z",
+      "tick": "2026-05-17T03:52:00Z",
       "slot": "03",
       "task": "Meta Builds Verify",
       "taskCode": "meta-builds",
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — 50 builds, 16/16 S-tier coverage, 0 WR deltas >= 2% across all 50 builds vs feed. Builds ~46h old (May 12, patch 26.9). Patch 26.10 LIVE ~43h. Full refresh deferred pending 26.10 statistical data. Streak 107/107.",
+      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK). 0 empty builds. S-tier: 13/18 (missing: Riven, Rek'Sai, Fizz, Bel'Veth, Vladimir — all new 26.10). A-tier WR>=52%: 9/18. All pre-existing gaps, no regressions.",
       "filesChanged": []
     },
     {
-      "tick": "2026-05-14T02:52:00Z",
+      "tick": "2026-05-17T02:52:00Z",
       "slot": "02",
       "task": "Data Sync",
       "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 16/16 S-tier spot checks pass (WR/pick/tier match feed v13). 30/30 A-tier spot checks pass. 77 LoL champs, 0 tier mismatches, 0 stale 26.8 refs, 0 premature 26.10 refs. Feed v13 ~54h old, patch 26.10 LIVE ~42h. Tier placements held at 26.9 pending 48h statistical consensus. Streak 106/106.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-14T01:52:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 50 builds, 18 guides, 6 patches. All JSON valid. Patch 26.9 live, 26.10 LIVE (~42h). Streak 105/105.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T20:52:00Z",
-      "slot": "20",
-      "task": "Tierlist Evening Check",
-      "taskCode": "tierlist-evening",
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — Feed v13 ~40h old, 77 LoL (16S/30A/23B/8C), patch 26.9. Patch 26.10 LIVE (~34h). No tier movements. Rising 8, falling 5. 5 sources. Tier placements held at 26.9 pending 26.10 statistical consensus. Streak 100/100.",
+      "changes": "CLEAN — All pre-existing gaps confirmed, no new regressions. data.ts: 75 champs (0@26.10, 57@26.9, 18@other). Tier mismatches: 15, WR deltas>=1%: 14, feed gaps: 17. Full 26.10 sync needs ORDEN.",
       "filesChanged": []
     },
     {
-      "tick": "2026-05-13T19:52:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 10-point cross-file check. 75 LoL champs parsed. 0 tier mismatches (regex false positives verified: all 7 flagged actually match feed). 0 WR deltas >=2% (Caitlyn 50.2% both sides). All names in data.ts present in feed. 2 known orphans in feed (Vel'Koz C-tier, K'Sante A-tier — known gaps). 18/18 S-tier have builds. 0 S-tier WR deltas vs builds. All data.ts on 26.9 (1 historical 26.8 mention, contextually accurate). Feed v13 ~39h old. Streak 99/99.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T18:52:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 7-point recovery audit. 6/6 JSON valid. 93 champs in data.ts, 0 stale 26.8 refs, 0 premature 26.10 refs. All tierlist-feed names in data.ts. 13 guide files, 11 in feed (2 orphaned legacy 26.8 articles, not critical). metaUpdated 37 true. 0 empty aiAnalysis, 0 empty brokenThings. Streak 98/98.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T17:52:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "79 i18n fixes in 3 files. meta-builds.json: 47 strong_vs translations (EN→ES), 30 note translations (EN→ES). patches-feed.json: Chinese characters removed from highlight, English title translated. data.ts: 1 counterPick fix. Code quality: 0 @ts-ignore, 0 debugger, 0 client console.log, 23 server-side any types (DDragon/cron routes, acceptable). Streak 97/97.",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "public/meta-builds.json",
-        "public/patches-feed.json"
-      ]
-    },
-    {
-      "tick": "2026-05-13T16:52:00Z",
-      "slot": "16",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "8 fixes in 2 files (data.ts + meta-builds.json). data.ts: Nocturne secondary Dom→Det (same-tree invalid), Malphite secondary Bru→Det (same-tree S-tier), Taliyah Inspinación→Inspiración (typo), 4 shards format fixes (Katarina/Leona/Zed/Amumu: rune-path→stat-shard). meta-builds: Taliyah Inspitación→Inspiración + Brutalidad→Precisión (invalid path), Sion Second Wind→Segundo Viento (i18n), Ezreal Brujería→Dominación for Gusto de Sangre (wrong path). 16/16 S-tier rune coverage verified. Streak 96/96.",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "public/meta-builds.json"
-      ]
-    },
-    {
-      "tick": "2026-05-13T15:52:00Z",
-      "slot": "15",
-      "task": "Combo Review",
-      "taskCode": "combos",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 26 pro comps (17 classic + 9 patch-specific). 9-point audit: all names valid, 0 stale refs, 0 invalid items, 0 role issues, 0 dupes. 1 near-duplicate pair (Enchanter Protect/Enchanter ADC 4/5 overlap — different ADCs, acceptable). 20 comp champs not in data.ts (expected). Doran's Bow confirmed real 26.10 item. Streak 95/95.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T14:52:00Z",
-      "slot": "14",
-      "task": "WR Delta Check",
-      "taskCode": "wr-deltas",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CLEAN — 0 WR deltas >=2% across all 3 sources (data.ts/tierlist-feed/meta-builds). 77/77 LoL, 50 builds, 16/16 S-tier aligned. 2 minor pick deltas (Ezreal 1.3%, Zed 1.1%) between meta-builds and feed (known: global vs role-specific aggregation). 5 pick deltas >=3% and 3 ban deltas >=2% (same root cause). data.ts<->feed: zero deltas at any threshold. Feed v13 ~34h old, patch 26.10 LIVE TODAY. Streak 94/94.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T13:52:00Z",
-      "slot": "13",
-      "task": "Deep Analysis",
-      "taskCode": "ai-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "2 fixes: Karthus brokenThings 'PBE 26.9'→live state (DFT sin internal CD, CD diferido 26.11), Karthus meta-builds note same fix. 0 PBE refs remaining in source data. Audit: 77/77 LoL (16S/30A/23B/8C), 16/16 S-tier aligned, 0 stale patches in data.ts, 0 WR deltas, metaUpdated 37/75. proPickRate 75/75. Commit 78f4f0d. Streak 93/93.",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "public/meta-builds.json"
-      ]
-    },
-    {
-      "tick": "2026-05-13T12:52:00Z",
-      "slot": "12",
-      "task": "Health Check Deep",
-      "taskCode": "health-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "CLEAN — 7-point audit. 77/77 LoL (16S/30A/23B/8C), 16/16 S-tier aligned, 0 WR deltas >=1%, 0 stale patches (94x 26.9, 0x 26.8/26.10), 5/5 JSON valid, 50 meta-builds (16/16 S), 11 guides (6/16 S), 6 patches. metaUpdated 37/75 (49%). passiveAbility 76/75. Feed v13 ~32h old. Patch 26.10 scheduled TODAY (May 13). Streak 92/92.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T02:52:00Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 16/16 S-tier spot checks pass (WR/pick/tier match feed v13). 77 LoL champs, 0 tier mismatches. Feed v13 ~21h old, between patches. Patch 26.10 TODAY. Streak 91/91.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-13T01:52:00Z",
+      "tick": "2026-05-17T01:52:00Z",
       "slot": "01",
       "task": "Health Lite",
       "taskCode": "health-lite",
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 7 WR, 50 builds, 11 guides, 6 patches. All 4 JSON valid. Patch 26.9 live, 26.10 TODAY. Streak 90/90.",
+      "changes": "CLEAN — JSON 7/7 valid. Feed v15: 92 (18S/44A/23B/7C), 45h old (OK). Build OK.",
       "filesChanged": []
     },
     {
-      "tick": "2026-05-13T00:52:00Z",
+      "tick": "2026-05-17T00:52:00Z",
       "slot": "00",
       "task": "Tierlist Check",
       "taskCode": "tierlist-check",
       "status": "OK",
       "build": "OK",
       "duration_ms": 30000,
-      "changes": "CLEAN — Feed v13, 77 LoL (16S/30A/23B/8C), 0 tier mismatches, 0 WR deltas >=1% S-tier, all champs present both sides. Feed ~20h old, between patches. Patch 26.9 live, 26.10 TODAY. Streak 89/89.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-12T23:52:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "NIGHT REPORT — Period: May 10-13 (ticks 54-88). Streak 88/88, 0 fails. Data: 77 LoL (16S/30A/23B/8C), 18 WR, 50 builds, 11 guides, feed v13. Key events: Taliyah mega-sync (slots 04-07-19: A→S promo, Mid→Jungle, 58.8% WR, new guide, rune fix), feed v12→v13, Garen guide WR fix, 2 stale 26.8 comments, Viego aiAnalysis expanded. 27 CLEAN slots. Patch 26.10 TODAY. 30+ unpushed commits (PAT expired).",
-      "filesChanged": []
+      "changes": "2 fixes: Yasuo + Mordekaiser added to falling list (trend=falling but missing from list). Feed v15: 92 LoL (18S/44A/23B/7C). Age: 44h (OK). 0 field issues, 0 dupes, 0 WR anomalies, 0 S-tier WR<51%, 0 C-tier WR>48%.",
+      "filesChanged": ["public/tierlist-feed.json"]
     }
   ]
 }

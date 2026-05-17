@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-17T07:53:00Z",
-  "lastSlot": "07",
-  "lastTask": "Guide Creation",
+  "lastTick": "2026-05-17T08:53:00Z",
+  "lastSlot": "08",
+  "lastTask": "Skin Names Expansion",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 158,
-  "totalSuccess": 158,
+  "totalTicks": 159,
+  "totalSuccess": 159,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-17T08:53:00Z",
+      "slot": "08",
+      "task": "Skin Names Expansion",
+      "taskCode": "skin-names",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "CLEAN — SKIN_NAMES: 93 entries, covers all 77+ data.ts champions (100%+ coverage). No gaps found.",
+      "filesChanged": []
+    },
     {
       "tick": "2026-05-17T07:53:00Z",
       "slot": "07",
@@ -20,7 +31,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 90000,
-      "changes": "2 new guides: Riven Mid (S-tier #1, 54.7% WR, Conquistador Bruiser build, E max, combos) + Smolder ADC (S-tier, 54.6% WR, 24.1% pick, Hypercarry/On-Hit builds, stacking guide). Guides-feed 12->14. Remaining S-tier gaps: Rek'Sai, Rammus, Fizz, Bel'Veth, Vladimir (5 new 26.10).",
+      "changes": "2 new guides: Riven Mid + Smolder ADC. Guides-feed 12->14.",
       "filesChanged": ["public/guides-feed.json"]
     },
     {
@@ -31,7 +42,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 45000,
-      "changes": "CRITICAL: Patch 26.10 promoted to current. patches-feed upcoming->live, patch-analysis 26.9->26.10, nextPatch 26.10->26.11.",
+      "changes": "CRITICAL: Patch 26.10 promoted to current.",
       "filesChanged": ["public/patches-feed.json", "public/patch-analysis.json"]
     },
     {
@@ -42,7 +53,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 60000,
-      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn.",
+      "changes": "4 same-tree rune violations fixed.",
       "filesChanged": ["public/meta-builds.json"]
     },
     {
@@ -53,19 +64,8 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 120000,
-      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression.",
+      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored.",
       "filesChanged": ["public/tierlist-feed.json"]
-    },
-    {
-      "tick": "2026-05-17T03:52:00Z",
-      "slot": "03",
-      "task": "Meta Builds Verify",
-      "taskCode": "meta-builds",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 52 builds.",
-      "filesChanged": []
     }
   ]
 }

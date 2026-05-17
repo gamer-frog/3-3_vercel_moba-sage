@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-17T06:53:00Z",
-  "lastSlot": "06",
-  "lastTask": "Patch Watch",
+  "lastTick": "2026-05-17T07:53:00Z",
+  "lastSlot": "07",
+  "lastTask": "Guide Creation",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 157,
-  "totalSuccess": 157,
+  "totalTicks": 158,
+  "totalSuccess": 158,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-17T07:53:00Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "2 new guides: Riven Mid (S-tier #1, 54.7% WR, Conquistador Bruiser build, E max, combos) + Smolder ADC (S-tier, 54.6% WR, 24.1% pick, Hypercarry/On-Hit builds, stacking guide). Guides-feed 12->14. Remaining S-tier gaps: Rek'Sai, Rammus, Fizz, Bel'Veth, Vladimir (5 new 26.10).",
+      "filesChanged": ["public/guides-feed.json"]
+    },
     {
       "tick": "2026-05-17T06:53:00Z",
       "slot": "06",
@@ -20,7 +31,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 45000,
-      "changes": "CRITICAL: Patch 26.10 was stale (live since May 13 but still marked upcoming). Fixed: patches-feed status upcoming→live, pbeStatus active→inactive. patch-analysis promoted 26.9→26.10, nextPatch 26.10→26.11 (scheduled May 27). Summary/digest/officialNotes updated.",
+      "changes": "CRITICAL: Patch 26.10 promoted to current. patches-feed upcoming->live, patch-analysis 26.9->26.10, nextPatch 26.10->26.11.",
       "filesChanged": ["public/patches-feed.json", "public/patch-analysis.json"]
     },
     {
@@ -31,7 +42,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 60000,
-      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn — Precisión dup→Inspiración.",
+      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn.",
       "filesChanged": ["public/meta-builds.json"]
     },
     {
@@ -53,18 +64,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK).",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-17T02:52:00Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — All pre-existing gaps confirmed.",
+      "changes": "CLEAN — 52 builds.",
       "filesChanged": []
     }
   ]

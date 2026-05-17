@@ -109,6 +109,21 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Zaahen':       { Q: 'Ethereal Strike', W: 'Aether Shield', E: 'Aether Dash', R: 'Aether Metamorphosis' },
   // --- Slot 13 Tick #28 addition ---
   "K'Sante":      { Q: 'All Out Strike', W: 'Mastodon Bash', E: 'Footwork', R: 'All Out' },
+  // --- Slot 09 Tick #160 additions (14 champions missing from tierlist-feed) ---
+  "Bel'Veth":     { Q: 'Void Surge', W: 'Royal Maelstrom', E: 'Scourge', R: 'Empyrean' },
+  'Cassiopeia':   { Q: 'Noxious Blast', W: 'Miasma', E: 'Twin Fang', R: 'Petrifying Gaze' },
+  'Evelynn':      { Q: 'Hate Spike', W: 'Allure', E: 'Whiplash', R: "Last Caress" },
+  'Hwei':         { Q: 'Paint the World', W: 'Palette', E: 'Imaginary Canvas', R: 'Disordered Mind' },
+  'Kayle':        { Q: 'Radiant Blast', W: 'Celestial Blessing', E: 'Starfire Spellblade', R: 'Divine Judgment' },
+  'Naafiri':      { Q: 'Darkin Torrent', W: 'Faithful Companion', E: "Hunters' Instinct", R: "Call of the Pack" },
+  'Olaf':         { Q: 'Undertow', W: 'Vicious Strikes', E: 'Reckless Swing', R: 'Ragnarok' },
+  'Rammus':       { Q: 'Powerball', W: 'Defensive Ball Curl', E: 'Puncturing Taunt', R: 'Tremors' },
+  "Rek'Sai":      { Q: "Queen's Wrath", W: 'Burrow', E: 'Furious Bite', R: 'Void Rush' },
+  'Seraphine':    { Q: 'High Note', W: 'Surround Sound', E: 'Beat Drop', R: 'Encore' },
+  'Smolder':      { Q: 'Super Scorch', W: 'Dragon Compound', E: 'Molten Bronze', R: 'Super Dragon' },
+  'Sona':         { Q: 'Hymn of Valor', W: 'Aria of Perseverance', E: 'Song of Celerity', R: 'Crescendo' },
+  'Taric':        { Q: 'Resolute Smash', W: 'Starlight\'s Touch', E: 'Dazzle', R: 'Cosmic Radiance' },
+  'Vladimir':     { Q: 'Transfusion', W: 'Sanguine Pool', E: 'Tides of Blood', R: 'Hemoplague' },
 };
 
 export function getAbilityName(championName: string, skill: 'Q'|'W'|'E'|'R'): string {

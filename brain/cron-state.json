@@ -2,16 +2,27 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-17T04:52:00Z",
-  "lastSlot": "04",
-  "lastTask": "Tierlist Web Search",
+  "lastTick": "2026-05-17T05:53:00Z",
+  "lastSlot": "05",
+  "lastTask": "Builds Refresh",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 155,
-  "totalSuccess": 155,
+  "totalTicks": 156,
+  "totalSuccess": 156,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-17T05:53:00Z",
+      "slot": "05",
+      "task": "Builds Refresh",
+      "taskCode": "meta-builds-refresh",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "4 same-tree rune violations fixed: nilah, ashe, jinx, caitlyn — Precisión duplicated at tree1+tree3, changed tree3 to Inspiración/Calzado Mágico (standard ADC pattern). 52 builds, 0 empty, 0 violations remaining.",
+      "filesChanged": ["public/meta-builds.json"]
+    },
     {
       "tick": "2026-05-17T04:52:00Z",
       "slot": "04",
@@ -20,7 +31,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 120000,
-      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression. Feed was downgraded during git merge conflict resolution (checkout --ours picked old v13 instead of v15). Full v15 rebuilt: 92 LoL (18S/44A/23B/7C), patch 26.10, 8 sources. Web search confirmed data alignment with U.GG, Mobalytics, METAsrc, metabot.gg.",
+      "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored after merge regression. Feed was downgraded during git merge conflict resolution (checkout --ours picked old v13 instead of v15). Full v15 rebuilt: 92 LoL (18S/44A/23B/7C), patch 26.10, 8 sources.",
       "filesChanged": ["public/tierlist-feed.json"]
     },
     {
@@ -31,7 +42,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK). 0 empty builds. S-tier: 13/18 (missing: Riven, Rek'Sai, Fizz, Bel'Veth, Vladimir — all new 26.10). A-tier WR>=52%: 9/18. All pre-existing gaps, no regressions.",
+      "changes": "CLEAN — 52 builds, patch 26.10, 46h old (OK). S-tier: 13/18 (missing: Riven, Rek'Sai, Fizz, Bel'Veth, Vladimir). All pre-existing.",
       "filesChanged": []
     },
     {
@@ -42,7 +53,7 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — All pre-existing gaps confirmed, no new regressions. data.ts: 75 champs (0@26.10, 57@26.9, 18@other). Tier mismatches: 15, WR deltas>=1%: 14, feed gaps: 17. Full 26.10 sync needs ORDEN.",
+      "changes": "CLEAN — All pre-existing gaps confirmed. Full 26.10 sync needs ORDEN.",
       "filesChanged": []
     },
     {
@@ -53,19 +64,8 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 15000,
-      "changes": "CLEAN — JSON 7/7 valid. Feed v15: 92 (18S/44A/23B/7C), 45h old (OK). Build OK.",
+      "changes": "CLEAN — JSON 7/7 valid. Feed v15: 92 (18S/44A/23B/7C), 45h old (OK).",
       "filesChanged": []
-    },
-    {
-      "tick": "2026-05-17T00:52:00Z",
-      "slot": "00",
-      "task": "Tierlist Check",
-      "taskCode": "tierlist-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "2 fixes: Yasuo + Mordekaiser added to falling list (trend=falling but missing from list). Feed v15: 92 LoL (18S/44A/23B/7C). Age: 44h (OK). 0 field issues, 0 dupes, 0 WR anomalies, 0 S-tier WR<51%, 0 C-tier WR>48%.",
-      "filesChanged": ["public/tierlist-feed.json"]
     }
   ]
 }

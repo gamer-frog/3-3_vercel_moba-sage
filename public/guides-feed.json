@@ -1,8 +1,46 @@
 {
-  "lastUpdated": "2026-05-14T07:55:00Z",
+  "lastUpdated": "2026-05-17T07:53:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 12,
+  "totalGuides": 14,
   "guides": [
+    {
+      "id": "riven-mid-2610",
+      "champion": "Riven",
+      "role": "Mid",
+      "patch": "26.10",
+      "title": "Riven Mid — Build Conquistador Bruiser, Runas, Matchups, Combos",
+      "summary": "Nueva S-tier #1 del meta 26.10 (54.7% WR). Riven Mid domina con Conquistador + E max para tradeo y roaming. Movida desde Top, explota matchups de mid lane.",
+      "tags": ["build", "runas", "matchups", "mid", "bruiser", "conquistador", "combo"],
+      "keyPoints": [
+        "Build Bruiser: Filo de la Noche → Eclipse → Guardián Angel → Resistencia Divina (54.7% WR)",
+        "Build CDR: Eclipse → Hidra Titánica → Fuerza de la Trinidad → Jak'Sho (52.1% WR)",
+        "Runas: Conquistador + Determinación + Inspiración — trades extendidos + sustain en lane",
+        "E max primero: escudo más grande para sobrevivir matchups AP, roaming con R + E",
+        "Combo Burst: E → AA → Q → AA → W → AA → Q3 (knockup) → R (execute)",
+        "Combo Fast: R1 → Flash → R2 → Q3 → W para burst instantáneo en teamfights",
+        "54.7% WR — S-tier #1, trend rising, 5.0% pick, 2.5% ban"
+      ],
+      "fileName": "BA_20260517_0753_guia_riven_mid_lol2610.md"
+    },
+    {
+      "id": "smolder-adc-2610",
+      "champion": "Smolder",
+      "role": "ADC",
+      "patch": "26.10",
+      "title": "Smolder ADC — Build Hypercarry, Runas, Matchups, Stacking Guide",
+      "summary": "S-tier ADC 26.10 (54.6% WR). El dragón más jugado de LoL con 24.1% pick y 46.8% ban rate. Hypercarry scaling infinito con stacks de pasiva, domina late game.",
+      "tags": ["build", "runas", "matchups", "adc", "hypercarry", "stacking", "late-game"],
+      "keyPoints": [
+        "Build Hypercarry: Filo Infinito → Huracán de Runaan → Bailarín Espectral → Sed de Sangre → Ángel Guardián (54.6% WR)",
+        "Build On-Hit: Shiv → Kraken Slayer → Filo Infinito → Runaan (52.3% WR)",
+        "Runas: Pies Veloces + Calzado Mágico — max AS para stacks más rápidos",
+        "Stacking: cada W en campeón da stacks, R se mejora con 125/175/225 stacks",
+        "R upgrades: 225 stacks = R cubre toda la pantalla, team wipe potencial",
+        "Posicionarse detrás del frontline, stackear W en cooldown para maximizar passiva",
+        "54.6% WR — 24.1% pick / 46.8% ban (ban rate más alto del juego), trend rising"
+      ],
+      "fileName": "BA_20260517_0753_guia_smolder_adc_lol2610.md"
+    },
     {
       "id": "karthus-jungle-2610",
       "champion": "Karthus",

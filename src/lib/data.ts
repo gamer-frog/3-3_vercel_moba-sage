@@ -31,8 +31,8 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
   // Tier S — Dioses del Meta
   // NOTA: Master Yi promovido a S en 26.9 (tick #04 tierlist-search, WR 56.8% confirmado web).
   {
-    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'S', winRate: 56.8, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
-    metaUpdated: true, metaSources: ['Feed v13 sync'],
+    name: 'Master Yi', title: 'el Buscador de Wuju', passiveAbility: { name: 'Double Strike', description: "Every few consecutive basic attack, Master Yi strikes twice." }, role: 'Jungle', tier: 'A', winRate: 51.5, pickRate: 7.5, banRate: 6.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
+    metaUpdated: true, metaSources: ['tierlist-feed v15'],
     brokenThings: ['Q resetea en kills → snowball infinito', 'Combo Yi+Taric invulnerable → sin interacción', 'Alpha Strike dodgea habilidades siendo intocable'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/masteryi/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/masteryi"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/masteryi"}],
     builds: [
@@ -46,8 +46,8 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Pies Veloces', secondary: 'Dominación — Colección de Ojos', shards: 'Adaptativo + Fuerza + Resistencia' },
   },
   {
-    name: 'Jinx', title: 'la Pistolera Loca', passiveAbility: { name: 'Get Excited!', description: "Jinx receives massively increased Move Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure." }, role: 'ADC', tier: 'S', winRate: 55.1, pickRate: 9.5, banRate: 3.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
-    metaUpdated: true, metaSources: ['Blitz.gg', 'U.GG'],
+    name: 'Jinx', title: 'la Pistolera Loca', passiveAbility: { name: 'Get Excited!', description: "Jinx receives massively increased Move Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure." }, role: 'ADC', tier: 'A', winRate: 49.5, pickRate: 9.5, banRate: 3.0, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
+    metaUpdated: true, metaSources: ['tierlist-feed v15'],
     brokenThings: ['Pasiva: 1 kill = limpia teamfight', 'W rango buff → poke sin respuesta', 'Kraken + Runaan = AoE masivo'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/jinx/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/jinx"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/jinx"}],
     builds: [
@@ -106,8 +106,8 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
   {
-    name: 'Ahri', title: 'el Zorro de Nueve Colas', passiveAbility: { name: 'Essence Theft', description: "After killing 9 minions or monsters, Ahri heals.After taking down an enemy champion, Ahri heals for a greater amount." }, role: 'Mid', tier: 'S', winRate: 54.2, pickRate: 7.2, banRate: 1.9, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
-    metaUpdated: true, metaSources: ['Blitz.gg', 'Mobalytics'],
+    name: 'Ahri', title: 'el Zorro de Nueve Colas', passiveAbility: { name: 'Essence Theft', description: "After killing 9 minions or monsters, Ahri heals.After taking down an enemy champion, Ahri heals for a greater amount." }, role: 'Mid', tier: 'A', winRate: 49.8, pickRate: 7.2, banRate: 1.9, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
+    metaUpdated: true, metaSources: ['tierlist-feed v15'],
     brokenThings: ['Charm range buff → acierto fácil', 'R 3 cargas → roaming impredecible', 'One-shot Rabadon → elimina carries'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/ahri/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/ahri"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/ahri"}],
     builds: [
@@ -219,7 +219,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 4.2,
     runes: { primary: 'Valor — Demolir', secondary: 'Brujería — Debilidad', shards: 'Armadura + Velocidad + Resistencia' },
   },
-  { name: 'Briar', title: 'la Cachorra Excéntrica', passiveAbility: { name: 'Crimson Curse', description: "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing Health, but lacks inna..." }, role: 'Jungle', tier: 'S', winRate: 51.8, pickRate: 4.8, banRate: 2.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Briar', title: 'la Cachorra Excéntrica', passiveAbility: { name: 'Crimson Curse', description: "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing Health, but lacks inna..." }, role: 'Jungle', tier: 'A', winRate: 50.5, pickRate: 4.8, banRate: 3.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Metabot', 'Blitz.gg', 'Mobalytics'],
     brokenThings: ['R chase → sin escape para carries', 'W bite → execute + heal masivo', 'Pasiva CC immunity → unstoppable dive'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/briar/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/briar"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/briar"}],
@@ -439,7 +439,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 4.2,
     runes: {"primary":"Precisión — Conquistador","secondary":"Valor — Segunda Vida","shards":"Adaptativo + Velocidad + Resistencia"},
   },
-  { name: 'Zed', title: 'el Maestro de Sombras', passiveAbility: { name: 'Contempt for the Weak', description: "Zed's basic attacks against low health targets deals bonus Magic Damage. This effect can only occur once every few seconds against the same enemy champion." }, role: 'Mid', tier: 'A', winRate: 49.2, pickRate: 8.3, banRate: 3.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Zed', title: 'el Maestro de Sombras', passiveAbility: { name: 'Contempt for the Weak', description: "Zed's basic attacks against low health targets deals bonus Magic Damage. This effect can only occur once every few seconds against the same enemy champion." }, role: 'Mid', tier: 'B', winRate: 49.2, pickRate: 8.3, banRate: 3.8, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Feed v13 sync'],
     brokenThings: ['R shadow → assassinar sin riesgo', 'Energy → sin mana, spam abilities', 'Wave clear → nunca pierde CS'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/zed/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/zed"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/zed"}],
@@ -628,7 +628,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 3,
     runes: {"primary":"Brujería — Cometa Arcano","secondary":"Precisión — Golpe de Gracia","shards":"Adaptativo + Fuerza + Resistencia"},
   },
-  { name: 'Nidalee', title: 'la Cazadora Bestial', passiveAbility: { name: 'Prowl', description: "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range.Hitting champions or monsters with Javelin Toss or Bushwh..." }, role: 'Jungle', tier: 'B', winRate: 46.5, pickRate: 2.0, banRate: 0.4, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Nidalee', title: 'la Cazadora Bestial', passiveAbility: { name: 'Prowl', description: "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range.Hitting champions or monsters with Javelin Toss or Bushwh..." }, role: 'Jungle', tier: 'A', winRate: 52.4, pickRate: 3.2, banRate: 0.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Feed v13 sync'],
     brokenThings: ['Spear → one-shot carries', 'Movilidad cougar → imposible de atrapar', 'Counter jungle → starves enemy'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/nidalee/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/nidalee"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/nidalee"}],
@@ -651,7 +651,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: {"primary":"Valor — Guardián","secondary":"Brujería — Debilidad","shards":"Armadura + Fuerza + Resistencia"},
   },
   // Vel'Koz (A-tier) removido — ahora C-tier, duplicado resuelto en tick #13 health-check
-  { name: 'Taliyah', title: 'la Tejedora de Piedras', passiveAbility: { name: 'Rock Surfing', description: "Taliyah gains Move Speed near walls." }, role: 'Jungle', tier: 'S', winRate: 58.8, pickRate: 1.2, banRate: 1.0, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Taliyah', title: 'la Tejedora de Piedras', passiveAbility: { name: 'Rock Surfing', description: "Taliyah gains Move Speed near walls." }, role: 'Mid', tier: 'B', winRate: 51.5, pickRate: 3.5, banRate: 0.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Feed v13 sync'],
     brokenThings: ['R isolation → 1v1 garantizado', 'Q AoE → teamfight monster', 'Pasiva: escudo → sustain sin items'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/taliyah/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/taliyah"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/taliyah"}],
@@ -755,32 +755,20 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 7.2,
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
-  { name: 'Riven', title: 'la Espada Exiliada', passiveAbility: { name: 'Runic Blade', description: "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage." }, role: 'Top', tier: 'B', winRate: 49.0, pickRate: 3.4, banRate: 1.2, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
+  { name: 'Riven', title: 'la Espada Exiliada', passiveAbility: { name: 'Runic Blade', description: "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage." }, role: 'Mid', tier: 'S', winRate: 54.7, pickRate: 5.0, banRate: 2.5, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Mobalytics'],
     brokenThings: ['Animation cancel → burst sin aviso', 'R3 knockup → engage masivo', 'Snowball early → invencible con lead'],
     buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/riven/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/riven"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/riven"}],
     builds: [
-      { name: 'Build Bruiser', items: 'Fuerza de la Trinidad → Eclipse → Hidra Titánica → Sed de Sangre → Botas de Mercurio', winRate: 49.0 },
+      { name: 'Build Conquistador Bruiser', items: 'Eclipse → Hidra Titánica → Fuerza de la Trinidad → Sed de Sangre → Botas de Mercurio', winRate: 54.7 },
     ],
-    counterPick: 'Teemo, Pantheon, Renekton — Early bullies',
-    synergy: 'Orianna, Wukong, Yasuo — Comps con engage AoE',
-    aiAnalysis: "Riven se mantiene en B-tier con 49.0% WR. Su kit de animation canceling la hace un duelist fearsome, pero el meta actual no favorece su scaling. Con proficiency, puede dominar cualquier lane.\n\nEl build bruiser maximiza su burst y sustain. Eclipse + Fuerza de la Trinidad le da daño y utilidad en teamfights.\n\nConsejo principal: Practica animation cancels para maximizar tu burst. Busca ventajas early para snowballar.",
-    proPickRate: 4.5,
+    counterPick: 'Malphite, Ornn, Sion — Tanks que outscaled su bruiser early',
+    synergy: 'Orianna, Diana — Mid engage comps con follow-up',
+    aiAnalysis: "Riven es el campeón #1 del meta 26.10 con 54.7% WR, ascendiendo de B a S-tier. Su kit de animation canceling la convierte en la duelist más temida del parche. El meta de bruiser mid favorece su scaling con Conquistador + E max.\n\nEl build bruiser con Eclipse maximiza su burst en trades cortos. Su R3 knockup + engage la hace devastadora en teamfights.\n\nConsejo principal: Max E primero para sustain y burst. Practica animation cancels para maximizar tu DPS. Busca ventajas early para snowballar al late game.",
+    proPickRate: 8.2,
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
-  { name: "Vel'Koz", title: 'el Ojo del Vacío', passiveAbility: { name: 'Organic Deconstruction', description: 'Vel\'Koz aplica stacks de Desconstrucción con ataques básicos y habilidades. A 3 stacks, el objetivo recibe daño verdadero.' }, role: 'Mid', tier: 'C', winRate: 46.0, pickRate: 1.5, banRate: 0.1, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',
-    metaUpdated: true, metaSources: ['Mobalytics'],
-    brokenThings: ['R true damage → % HP masivo en teamfight', 'Q+E combo → stun garantizado', 'Pasiva: research → burst bonus en rotations'],
-    buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/velkoz/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/velkoz"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/velkoz"}],
-    builds: [
-      { name: 'Build AP Mage', items: 'Sombrero de Rabadón → Llamarada Sombría → Morellonomicon → Reloj de Zhonya → Botas del Vacío', winRate: 46.0 },
-    ],
-    counterPick: 'Zed, Talon, Katarina — Assassins con gap close',
-    synergy: 'Nautilus, Leona, Braum — CC para R follow-up',
-    aiAnalysis: "Vel'Koz cae a C-tier con 46.0% WR. Su falta de mobility lo hace vulnerable contra assassins. Sin embargo, su daño AoE y true damage del R siguen siendo relevantes.\n\nEl build AP maximiza su burst. Rabadón + Morellonomicon le da daño masivo en teamfights.\n\nConsejo principal: Posicionamiento es todo — mantenete detrás de tu team. Tu R es team-wiping si se acierta.",
-    proPickRate: 0.8,
-    runes: { primary: 'Brujería — Cometa Arcano', secondary: 'Precisión — Presencia de Campeón', shards: 'Adaptativo + Fuerza + Resistencia' },
-  },
+  // Vel'Koz A-tier entry moved to slot-09 additions (patch 26.10, 53.6% WR)
 
   // Tier B — Jugables (LoL)
   { name: 'Yorick', title: 'el Pastor de Almas', passiveAbility: { name: 'Shepherd of Souls', description: "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies." }, role: 'Top', tier: 'C', winRate: 46.2, pickRate: 1.4, banRate: 0.3, image: '', aiInsight: '', build: '', counters: '', synergies: '', patch: '26.9', game: 'LoL',

@@ -76,7 +76,7 @@
       ],
       "strong_vs": [
         "Tops AD",
-        "AA-based champs"
+        "Campeones basados en AA"
       ]
     },
     "karthus": {
@@ -151,8 +151,8 @@
         "Sion"
       ],
       "strong_vs": [
-        "Melee tops",
-        "New champion advantage"
+        "Tops cuerpo a cuerpo",
+        "Ventaja de campeón nuevo"
       ],
       "note": "Campeón nuevo 26.9, dominante en top lane"
     },
@@ -175,8 +175,8 @@
         "Lethal Tempo",
         "Valor",
         "Segunda Vida",
-        "Precisión",
-        "Presencia de Campeón"
+        "Inspiración",
+        "Calzado Mágico"
       ],
       "skill_order": [
         "Q",
@@ -189,8 +189,8 @@
         "Samira"
       ],
       "strong_vs": [
-        "Soportes enchanters",
-        "Peel comps"
+        "Soportes encantadores",
+        "Comps de peel"
       ],
       "note": "ADC con WR más alto 26.9"
     },
@@ -266,8 +266,8 @@
         "Lillia"
       ],
       "strong_vs": [
-        "Junglers squishy",
-        "AP assassins"
+        "Junglers frágiles",
+        "Asesinos AP"
       ]
     },
     "nocturne": {
@@ -303,8 +303,8 @@
         "Udyr"
       ],
       "strong_vs": [
-        "Midlaners squishy",
-        "ADCs immóviles"
+        "Midlaners frágiles",
+        "ADCs inmóviles"
       ]
     },
     "aurelionsol": {
@@ -400,8 +400,8 @@
         "Pies Veloces",
         "Valor",
         "Segunda Vida",
-        "Precisión",
-        "Presencia de Campeón"
+        "Inspiración",
+        "Calzado Mágico"
       ],
       "skill_order": [
         "W",
@@ -414,7 +414,7 @@
         "Ezreal"
       ],
       "strong_vs": [
-        "ADCs immóviles",
+        "ADCs inmóviles",
         "Soportes de peel"
       ]
     },
@@ -451,8 +451,8 @@
         "Fizz"
       ],
       "strong_vs": [
-        "Midlaners melee",
-        "Mages immóviles"
+        "Midlaners cuerpo a cuerpo",
+        "Mages inmóviles"
       ]
     },
     "briar": {
@@ -488,7 +488,7 @@
         "Poppy"
       ],
       "strong_vs": [
-        "Comps squishy",
+        "Comps frágiles",
         "Comps con poco CC"
       ],
       "note": "R sustain nerf en 26.9"
@@ -512,8 +512,8 @@
         "Pies Veloces",
         "Valor",
         "Segunda Vida",
-        "Precisión",
-        "Golpe de Gracia"
+        "Inspiración",
+        "Calzado Mágico"
       ],
       "skill_order": [
         "Q",
@@ -526,7 +526,7 @@
         "Samira"
       ],
       "strong_vs": [
-        "ADCs immóviles",
+        "ADCs inmóviles",
         "Soportes de peel"
       ]
     },
@@ -639,8 +639,8 @@
         "Graves"
       ],
       "strong_vs": [
-        "Junglers melee",
-        "Engage comps"
+        "Junglers cuerpo a cuerpo",
+        "Comps de engage"
       ],
       "note": "W buffeado 26.9"
     },
@@ -677,8 +677,8 @@
         "Lillia"
       ],
       "strong_vs": [
-        "Comps squishy",
-        "Reset opportunities"
+        "Comps frágiles",
+        "Oportunidades de reset"
       ]
     },
     "teemo": {
@@ -753,7 +753,7 @@
         "Nidalee"
       ],
       "strong_vs": [
-        "Junglers squishy",
+        "Junglers frágiles",
         "Comps con poco CC"
       ],
       "note": "Buffeado 26.9"
@@ -792,7 +792,7 @@
       ],
       "strong_vs": [
         "Soportes de engage",
-        "Mid melee"
+        "Mids cuerpo a cuerpo"
       ]
     },
     "caitlyn": {
@@ -814,8 +814,8 @@
         "Pies Veloces",
         "Valor",
         "Segunda Vida",
-        "Precisión",
-        "Presencia de Campeón"
+        "Inspiración",
+        "Calzado Mágico"
       ],
       "skill_order": [
         "Q",
@@ -904,8 +904,8 @@
         "Evelynn"
       ],
       "strong_vs": [
-        "Junglers squishy",
-        "Carries immóviles"
+        "Junglers frágiles",
+        "Carries inmóviles"
       ],
       "note": "Jungla S-tier, combo Insec domina en soloQ"
     },
@@ -943,7 +943,7 @@
       ],
       "strong_vs": [
         "Comps con poco CC",
-        "Teams squishy"
+        "Teams frágiles"
       ],
       "note": "Jungler con WR más alto 26.9, snowball por reset Q"
     },
@@ -1019,7 +1019,7 @@
         "Shaco"
       ],
       "strong_vs": [
-        "Melee comps",
+        "Comps cuerpo a cuerpo",
         "Teams con mucho AD"
       ],
       "note": "Jungla tank, CC AoE con R"
@@ -1096,8 +1096,8 @@
         "Fiora"
       ],
       "strong_vs": [
-        "Melee tops",
-        "Midlaners squishy"
+        "Tops cuerpo a cuerpo",
+        "Midlaners frágiles"
       ],
       "note": "Lockdown single target con R, amenaza de dive"
     },
@@ -1134,8 +1134,8 @@
         "Sivir"
       ],
       "strong_vs": [
-        "Soportes enchanters",
-        "Poke lanes"
+        "Soportes encantadores",
+        "Lanes de poke"
       ],
       "note": "ADC seguro, Q poke dominante en lane"
     },
@@ -1210,7 +1210,7 @@
         "Kindred"
       ],
       "strong_vs": [
-        "Junglers melee",
+        "Junglers cuerpo a cuerpo",
         "Asesinos AD"
       ],
       "note": "ADC jungler, clears fuertes en early"
@@ -1248,8 +1248,8 @@
         "Vayne"
       ],
       "strong_vs": [
-        "Soportes enchanters",
-        "Peel comps"
+        "Soportes encantadores",
+        "Comps de peel"
       ],
       "note": "ADC burst, mecánica de execute con R"
     },
@@ -1286,7 +1286,7 @@
         "Ahri"
       ],
       "strong_vs": [
-        "Comps squishy",
+        "Comps frágiles",
         "Teams con poco CC"
       ],
       "note": "Asesino con reset, snowball en teamfights"
@@ -1324,7 +1324,7 @@
         "Garen"
       ],
       "strong_vs": [
-        "Melee tops",
+        "Tops cuerpo a cuerpo",
         "Comps de dive"
       ],
       "note": "Engage AoE top, stun de teamfight con R"
@@ -1596,7 +1596,7 @@
         "Kennen"
       ],
       "strong_vs": [
-        "Melee tops",
+        "Tops cuerpo a cuerpo",
         "Comps de dive"
       ],
       "note": "Bully de early game, trades en ventana de fury"
@@ -1716,7 +1716,7 @@
         "Diana",
         "Gragas"
       ],
-      "note": "Jungle dominante patch 26.9 — 58.8% WR. Dark Harvest + Blackfire Torch. E+Q burst combo."
+      "note": "Jungla dominante patch 26.9 — 58.8% WR. Dark Harvest + Blackfire Torch. Combo burst E+Q."
     },
     "vayne": {
       "wr": 51.2,
@@ -1751,7 +1751,7 @@
         "Jhin"
       ],
       "strong_vs": [
-        "Tanky comps",
+        "Comps tanques",
         "Soportes de peel"
       ],
       "note": "Hipercarry de true damage, monstruo en late game"
@@ -1790,7 +1790,7 @@
       ],
       "strong_vs": [
         "Mages de control",
-        "Midlaners squishy"
+        "Midlaners frágiles"
       ],
       "note": "Escalado AP infinito, prisión de cage"
     },
@@ -1827,8 +1827,8 @@
         "Shaco"
       ],
       "strong_vs": [
-        "Comps squishy",
-        "Carries immóviles"
+        "Comps frágiles",
+        "Carries inmóviles"
       ],
       "note": "Engage point-click con R, máquina de ganks"
     },
@@ -1865,8 +1865,8 @@
         "Garen"
       ],
       "strong_vs": [
-        "Mages squishy",
-        "Low mobility carries"
+        "Mages frágiles",
+        "Carries con baja movilidad"
       ],
       "note": "Asesino AD, burst con shadow swap"
     },

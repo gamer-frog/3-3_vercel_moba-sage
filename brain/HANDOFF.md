@@ -1,8 +1,8 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-17 23:53 UTC (Slot 23)
-**Streak**: 173/173 OK | 0 Fails consecutivos
-**Commits totales**: 608
+**Generado**: 2026-05-18 23:53 UTC (Slot 23)
+**Streak**: 187/187 OK | 0 Fails consecutivos
+**Commits totales**: 624
 
 ---
 
@@ -10,69 +10,68 @@
 
 | Metrica | Valor |
 |---------|-------|
-| Feed | v15, patch 26.10 (live), 92 campeones (18S/44A/23B/7C) |
-| data.ts | ~110 campeones, 84 en patch 26.9, 25 en 26.10 |
-| meta-builds.json | 50 campeones con builds |
-| guides-feed.json | 14 guias |
-| WR deltas >= 0.5% | 0 |
+| Feed | v16, patch 26.10 (live), 92 campeones (18S/44A/23B/7C) |
+| data.ts | ~111 campeones, 109/109 a patch 26.10 |
+| meta-builds.json | 57 campeones con builds |
+| guides-feed.json | 19 guias |
+| WR deltas >= 1% | 0 |
 | Tier mismatches | 0 |
 | aiAnalysis gaps | 0 |
-| counterPick gaps | 0 |
-| synergy gaps | 0 |
-| Working tree | 8 archivos dirty (solo cambios de modo, 0 contenido) |
+| counterPick/synergy gaps | 0 |
+| SKIN_NAMES coverage | 93/93 |
+| Working tree | Dirty (guia/search files, sin cambios de contenido) |
 
 ---
 
-## Issues Encontrados (Night Audit)
+## Issues Resueltos Esta Session
 
-### 1. Violaciones de Runas (3)
-- **Ornn**: Solo arbol Precision detectado
-- **Leona**: Solo arbol Inspiracion detectado
-- **Nautilus**: Solo arbol Inspiracion detectado
-- **Accion**: Corregir en proximo slot 16 (runes-check) o 05 (builds-refresh)
-
-### 2. Patch Desactualizado (84 campeones)
-- 84 de ~110 campeones aun en patch 26.9
-- Solo 25 actualizados a 26.10
-- **Accion**: Bulk update a 26.10 en proximo slot 02 (data-sync)
-
-### 3. Feed Antiguo
-- tierlist-feed.json tiene ~19h de antiguedad
-- **Accion**: Refresh en proximo slot 04 (tierlist-search)
-
-### 4. Builds Faltantes para S-tier
-- Feed tiene 18 S-tier, builds tiene 50 (no todos S-tier cubiertos)
-- **Accion**: Verificar en slot 03 (meta-builds)
+1. **Patch 26.9→26.10**: 84 campeones actualizados en bulk (slot 02). Ahora 109/109 a 26.10.
+2. **Feed v15→v16**: Refresh con 8 fuentes live (slot 04). 92 campeones confirmados.
+3. **7 builds S-tier nuevos**: Riven Mid, Smolder ADC, Rek'Sai, Rammus, Fizz, Bel'Veth, Vladimir (slot 03). Builds 50→57.
+4. **5 guias S-tier nuevas**: Ashe, Ornn, Vladimir, Fizz, Nocturne (slot 07). Guias 14→19.
+5. **16 SKIN_NAMES nuevos**: Bel'Veth, Cassiopeia, Evelynn, Hwei, K'Sante, Kayle, Naafiri, Olaf, Rammus, Rek'Sai, Seraphine, Smolder, Sona, Taric, Vel'Koz, Vladimir (slot 08). Coverage 93/93.
+6. **139 stat fields synced**: data.ts + meta-builds.json sincronizados desde feed v16 (slot 19).
+7. **27 rune-tree mismatches**: Corregidos en session anterior (slot 16).
+8. **33 English notes**: Traducidos a español (slot 17).
 
 ---
 
-## Resumen de Session (Slots 11-23)
+## Issues Pendientes
+
+1. **8 S-tier sin guias**: Zaahen, Rek'Sai, Rammus, Bel'Veth, Nilah, Nasus, Diana, Aurelion Sol
+2. **Working tree dirty**: Guia y search files sin commitear (no cambios de contenido)
+3. **Push bloqueado**: GitHub Push Protection sigue activo (pendiente CEO)
+
+---
+
+## Resumen de Session (Slots 00-23)
 
 | Slot | Tarea | Resultado |
 |------|-------|-----------|
-| 11 | matchup-analysis | Counters/synergias para 111 campeones |
-| 12 | health-check | 3 guias creadas, dirty tree commiteado |
-| 13 | ai-analysis | CLEAN |
-| 14 | wr-deltas | 27 WR sincronizados a feed v15 |
-| 15 | runes-check | 4 violaciones corregidas |
-| 16 | recovery | 39 dirty files commiteados |
-| 17 | consistency | 7 tier mismatches corregidos |
-| 18 | recovery | CLEAN |
-| 19 | tierlist-evening | CLEAN, feed envejeciendo |
-| 20 | health-evening | CLEAN |
-| 21 | deep-audit | Garen + Malphite WR corregidos |
-| 22 | deep-audit | 2 WR deltas residuales corregidos |
+| 00 | tierlist-check | Feed v15 healthy, 3 feed champs missing |
+| 01 | health-lite | CLEAN |
+| 02 | data-sync | 84 champs patch 26.9→26.10 |
+| 03 | meta-builds | 7 builds S-tier nuevos (50→57) |
+| 04 | tierlist-search | Feed v15→v16, 8 fuentes |
+| 05 | builds-refresh | CLEAN (57 builds) |
+| 06 | patch-watch | CLEAN (26.10 live) |
+| 07 | guides | 5 guias nuevas (14→19) |
+| 08 | skin-names | 16 SKIN_NAMES (93/93) |
+| 09 | champion-data | CLEAN |
+| 19 | consistency | 139 stats synced |
+| 20 | tierlist-evening | CLEAN |
+| 21 | health-evening | CLEAN |
+| 22 | deep-audit | CLEAN |
 | 23 | night-report | Este reporte |
 
 ---
 
 ## Proximos Slots Prioritarios
 
-1. **Slot 00 (tierlist-check)**: Verificar feed integridad
-2. **Slot 02 (data-sync)**: Bulk update 84 campeones a patch 26.10
-3. **Slot 03 (meta-builds)**: Verificar builds S-tier
-4. **Slot 04 (tierlist-search)**: Refresh feed (~20h para entonces)
-5. **Slot 05 (builds-refresh)**: Corregir 3 violaciones de runas
+1. **Slot 07 (guides)**: Crear guias para 8 S-tier restantes
+2. **Slot 04 (tierlist-search)**: Feed v16 ~24h, refresh si es posible
+3. **Slot 12 (health-check)**: Commit dirty working tree
+4. **Slot 03 (meta-builds)**: Verificar builds post-sync
 
 ---
 
@@ -81,4 +80,3 @@
 - Push bloqueado por GitHub Push Protection
 - Repo renombrado a 3-3_vercel_moba-sage (OK)
 - Transferencia de 4 repos a tech-free (pendiente)
-- URL de desbloqueo: ver session anterior

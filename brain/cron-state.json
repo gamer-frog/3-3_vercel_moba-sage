@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-18T07:53:00Z",
-  "lastSlot": "07",
-  "lastTask": "Guide Creation",
+  "lastTick": "2026-05-18T08:53:00Z",
+  "lastSlot": "08",
+  "lastTask": "Skin Names Expansion",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 181,
-  "totalSuccess": 181,
+  "totalTicks": 182,
+  "totalSuccess": 182,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-18T08:53:00Z",
+      "slot": "08",
+      "task": "Skin Names Expansion",
+      "taskCode": "skin-names",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "16 champions added to SKIN_NAMES (Bel'Veth, Cassiopeia, Evelynn, Hwei, K'Sante, Kayle, Naafiri, Olaf, Rammus, Rek'Sai, Seraphine, Smolder, Sona, Taric, Vel'Koz, Vladimir). Coverage: 93/93 data.ts champions now have skin data. Build OK.",
+      "filesChanged": [
+        "src/data/champion-data.ts",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-18T07:53:00Z",
       "slot": "07",

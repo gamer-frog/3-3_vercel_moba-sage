@@ -5,7 +5,7 @@
   "season": "Pandemonium (Season 2)",
   "champions": {
     "garen": {
-      "wr": 52.1,
+      "wr": 51.6,
       "pick": 8.5,
       "ban": 3.2,
       "role": "Top",
@@ -43,7 +43,7 @@
       ]
     },
     "malphite": {
-      "wr": 54.7,
+      "wr": 51.6,
       "pick": 7.1,
       "ban": 5.8,
       "role": "Top/Support",
@@ -419,7 +419,7 @@
       ]
     },
     "ahri": {
-      "wr": 54.2,
+      "wr": 49.8,
       "pick": 7.2,
       "ban": 1.9,
       "role": "Mid",
@@ -456,7 +456,7 @@
       ]
     },
     "briar": {
-      "wr": 51.8,
+      "wr": 50.5,
       "pick": 4.8,
       "ban": 3.5,
       "role": "Jungle",
@@ -494,7 +494,7 @@
       "note": "R sustain nerf en 26.9"
     },
     "jinx": {
-      "wr": 55.1,
+      "wr": 49.5,
       "pick": 9.5,
       "ban": 3.0,
       "role": "ADC",
@@ -833,9 +833,9 @@
       ]
     },
     "darius": {
-      "wr": 54.5,
-      "pick": 9.8,
-      "ban": 10.1,
+      "wr": 49.8,
+      "pick": 5.5,
+      "ban": 4.0,
       "role": "Top",
       "core_items": [
         "Fuerza de la Trinidad",
@@ -948,9 +948,9 @@
       "note": "Jungler con WR más alto 26.9, snowball por reset Q"
     },
     "thresh": {
-      "wr": 52.8,
-      "pick": 16.5,
-      "ban": 2.1,
+      "wr": 50.1,
+      "pick": 12.0,
+      "ban": 1.0,
       "role": "Support",
       "core_items": [
         "Redención",
@@ -989,7 +989,7 @@
     "amumu": {
       "wr": 51.3,
       "pick": 3.1,
-      "ban": 0.9,
+      "ban": 0.3,
       "role": "Jungle",
       "core_items": [
         "Sed de Sangre",
@@ -1064,9 +1064,9 @@
       "note": "Soporte de hook, un grab cambia el juego"
     },
     "camille": {
-      "wr": 50.4,
-      "pick": 6.2,
-      "ban": 2.5,
+      "wr": 50.2,
+      "pick": 5.5,
+      "ban": 2.0,
       "role": "Top",
       "core_items": [
         "Filo de la Noche",
@@ -1102,9 +1102,9 @@
       "note": "Lockdown single target con R, amenaza de dive"
     },
     "ezreal": {
-      "wr": 50.8,
-      "pick": 10.2,
-      "ban": 0.8,
+      "wr": 49.5,
+      "pick": 8.9,
+      "ban": 0.5,
       "role": "ADC",
       "core_items": [
         "Filo de la Noche",
@@ -1178,8 +1178,8 @@
       "note": "Duelista de true damage, vital proc dominante"
     },
     "graves": {
-      "wr": 49.8,
-      "pick": 5.1,
+      "wr": 50.3,
+      "pick": 4.1,
       "ban": 0.8,
       "role": "Jungle",
       "core_items": [
@@ -1216,9 +1216,9 @@
       "note": "ADC jungler, clears fuertes en early"
     },
     "jhin": {
-      "wr": 52.0,
-      "pick": 7.8,
-      "ban": 1.2,
+      "wr": 51.7,
+      "pick": 7.3,
+      "ban": 0.9,
       "role": "ADC",
       "core_items": [
         "Filo Infinito",
@@ -1254,9 +1254,9 @@
       "note": "ADC burst, mecánica de execute con R"
     },
     "katarina": {
-      "wr": 50.6,
-      "pick": 7.8,
-      "ban": 2.8,
+      "wr": 53.0,
+      "pick": 5.8,
+      "ban": 2.2,
       "role": "Mid",
       "core_items": [
         "Sombrero de Rabadón",
@@ -1294,7 +1294,7 @@
     "kennen": {
       "wr": 50.7,
       "pick": 2.2,
-      "ban": 0.9,
+      "ban": 0.5,
       "role": "Top",
       "core_items": [
         "Llamarada Sombría",
@@ -1369,9 +1369,9 @@
       "note": "Soporte engage all-in, reina del lockdown"
     },
     "lulu": {
-      "wr": 50.9,
-      "pick": 8.1,
-      "ban": 0.5,
+      "wr": 50.1,
+      "pick": 3.1,
+      "ban": 0.2,
       "role": "Support",
       "core_items": [
         "Redención",
@@ -1408,9 +1408,9 @@
       "note": "Enchanter de peel, máquina de save con W+R"
     },
     "morgana": {
-      "wr": 51.0,
-      "pick": 9.5,
-      "ban": 1.5,
+      "wr": 50.5,
+      "pick": 6.8,
+      "ban": 0.7,
       "role": "Support",
       "core_items": [
         "Redención",
@@ -1680,9 +1680,9 @@
       "note": "Save con Devour, tank anti-dive"
     },
     "taliyah": {
-      "wr": 58.8,
-      "pick": 1.2,
-      "ban": 1.0,
+      "wr": 51.5,
+      "pick": 3.5,
+      "ban": 0.5,
       "role": "Jungle",
       "core_items": [
         "Antorcha de Fuego Negro",
@@ -1719,9 +1719,9 @@
       "note": "Jungla dominante patch 26.9 — 58.8% WR. Dark Harvest + Blackfire Torch. Combo burst E+Q."
     },
     "vayne": {
-      "wr": 51.2,
-      "pick": 5.5,
-      "ban": 0.6,
+      "wr": 50.6,
+      "pick": 4.2,
+      "ban": 1.0,
       "role": "ADC",
       "core_items": [
         "Filo Infinito",
@@ -1795,9 +1795,9 @@
       "note": "Escalado AP infinito, prisión de cage"
     },
     "vi": {
-      "wr": 51.5,
-      "pick": 6.8,
-      "ban": 1.8,
+      "wr": 50.8,
+      "pick": 5.2,
+      "ban": 1.2,
       "role": "Jungle",
       "core_items": [
         "Eclipse",
@@ -1833,9 +1833,9 @@
       "note": "Engage point-click con R, máquina de ganks"
     },
     "zed": {
-      "wr": 50.3,
-      "pick": 9.1,
-      "ban": 4.5,
+      "wr": 49.2,
+      "pick": 8.3,
+      "ban": 3.8,
       "role": "Mid",
       "core_items": [
         "Filo de la Noche",
@@ -1910,9 +1910,9 @@
       "note": "Soporte de daño, control de zona con plantas"
     },
     "riven": {
-      "wr": 53.2,
-      "pick": 5.8,
-      "ban": 2.4,
+      "wr": 54.7,
+      "pick": 5.0,
+      "ban": 2.5,
       "role": "Mid",
       "core_items": [
         "Filo de la Noche",
@@ -1948,9 +1948,9 @@
       "note": "S-tier mid 26.10, Conqueror scaling + burst combo, snowball en early"
     },
     "smolder": {
-      "wr": 52.8,
-      "pick": 7.5,
-      "ban": 1.8,
+      "wr": 54.6,
+      "pick": 24.1,
+      "ban": 46.8,
       "role": "ADC",
       "core_items": [
         "Filo Infinito",
@@ -2024,8 +2024,8 @@
       "note": "S-tier jungler 26.10, true damage + tremor sense, snowball con ganks"
     },
     "rammus": {
-      "wr": 54.1,
-      "pick": 4.2,
+      "wr": 53.4,
+      "pick": 1.6,
       "ban": 3.1,
       "role": "Jungle",
       "core_items": [
@@ -2062,9 +2062,9 @@
       "note": "S-tier tank jungler 26.10, counter AD auto-attackers, taunt de teamfight"
     },
     "fizz": {
-      "wr": 53.8,
-      "pick": 6.4,
-      "ban": 2.0,
+      "wr": 52.7,
+      "pick": 5.1,
+      "ban": 5.4,
       "role": "Mid",
       "core_items": [
         "Llamarada Sombría",
@@ -2138,9 +2138,9 @@
       "note": "S-tier jungler 26.10, Lethal Tempo + true damage void, 1v9 potential en late"
     },
     "vladimir": {
-      "wr": 53.4,
-      "pick": 5.1,
-      "ban": 1.7,
+      "wr": 52.0,
+      "pick": 3.0,
+      "ban": 1.5,
       "role": "Mid",
       "core_items": [
         "Llamarada Sombría",

@@ -1,48 +1,16 @@
 {
-  "lastUpdated": "2026-05-15T04:52:00Z",
-  "source": "Cron Slot 04 — MOBA SAGE auto-update (web search: U.GG, Mobalytics, Blitz.gg, METAsrc, Reddit, Skill Capped, Riot Phroxzon)",
-  "version": 15,
+  "lastUpdated": "2026-05-18T04:54:57Z",
+  "source": "Cron Slot 04 — MOBA SAGE auto-update (web search: U.GG, Mobalytics, Blitz.gg, METAsrc, Reddit, Skill Capped, metabot.gg) — verified against live sources",
+  "version": 16,
   "sources": [
-    {
-      "name": "U.GG",
-      "url": "https://u.gg/lol/tier-list",
-      "lastScraped": "2026-05-15T04:52:00Z"
-    },
-    {
-      "name": "Mobalytics",
-      "url": "https://mobalytics.gg/lol/tier-list",
-      "lastScraped": "2026-05-15T04:52:00Z"
-    },
-    {
-      "name": "Blitz.gg",
-      "url": "https://blitz.gg/lol/tier-list",
-      "lastScraped": "2026-05-14T18:30:00Z"
-    },
-    {
-      "name": "METAsrc",
-      "url": "https://www.metasrc.com/5v5",
-      "lastScraped": "2026-05-14T20:15:00Z"
-    },
-    {
-      "name": "Reddit",
-      "url": "https://www.reddit.com/r/leagueoflegends/",
-      "lastScraped": "2026-05-15T02:00:00Z"
-    },
-    {
-      "name": "Skill Capped",
-      "url": "https://www.skill-capped.com/lol#TierList2610",
-      "lastScraped": "2026-05-14T06:52:00Z"
-    },
-    {
-      "name": "Riot Phroxzon (X)",
-      "url": "https://x.com/RiotPhroxzon",
-      "lastScraped": "2026-05-14T22:10:00Z"
-    },
-    {
-      "name": "DDragon 16.10.1",
-      "url": "https://ddragon.leagueoflegends.com/cdn/16.10.1",
-      "lastScraped": "2026-05-14T06:52:00Z"
-    }
+    "U.GG",
+    "Mobalytics",
+    "Blitz.gg",
+    "METAsrc",
+    "Reddit r/leagueoflegends",
+    "Skill Capped",
+    "metabot.gg",
+    "DTGre"
   ],
   "lol": {
     "patch": "26.10 — Season 2 Pandemonium (live)",
@@ -956,7 +924,7 @@
       "Pyke (assassin item changes)"
     ]
   },
-  "metaLastUpdated": "2026-05-15T04:52:00Z",
+  "metaLastUpdated": "2026-05-18T04:54:57Z",
   "patch": "26.10 — Season 2 Pandemonium (live)",
   "nextPatch": {
     "version": "26.11",

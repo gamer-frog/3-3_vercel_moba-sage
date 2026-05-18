@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-18T03:53:00Z",
-  "lastSlot": "03",
-  "lastTask": "Meta Builds Verify",
+  "lastTick": "2026-05-18T04:53:00Z",
+  "lastSlot": "04",
+  "lastTask": "Tierlist Web Search",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 177,
-  "totalSuccess": 177,
+  "totalTicks": 178,
+  "totalSuccess": 178,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-18T04:53:00Z",
+      "slot": "04",
+      "task": "Tierlist Web Search",
+      "taskCode": "tierlist-search",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "Feed verified against 8 live sources (metabot.gg, blitz.gg, mobalytics, u.gg, metasrc, etc.). S-tier aligned with metabot.gg top picks. Feed v15→v16, added metabot.gg+DTGre sources. 92 champs, patch 26.10 confirmed.",
+      "filesChanged": [
+        "public/tierlist-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-18T03:53:00Z",
       "slot": "03",

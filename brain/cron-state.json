@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-17T23:53:00Z",
-  "lastSlot": "23",
-  "lastTask": "Night Report",
+  "lastTick": "2026-05-18T00:53:00Z",
+  "lastSlot": "00",
+  "lastTask": "Tierlist Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 173,
-  "totalSuccess": 173,
+  "totalTicks": 174,
+  "totalSuccess": 174,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-18T00:53:00Z",
+      "slot": "00",
+      "task": "Tierlist Check",
+      "taskCode": "tierlist-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "Feed v15 healthy: 92 champs (18S/44A/23B/7C), patch 26.10, age 20h. No duplicates, WR ranges OK. Found 3 feed champs missing from data.ts (Bel'Veth, Rek'Sai, Vel'Koz). Flagged for next champion-data slot.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-17T23:53:00Z",
       "slot": "23",
@@ -21,7 +34,10 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "Night report compiled. State synced from 164->172. Feed v15 healthy (92 champs). 3 rune violations found (Ornn, Leona, Nautilus). WR deltas: 0. Tier mismatches: 0. 84 champs at patch 26.9 need bulk update.",
-      "filesChanged": ["brain/cron-state.json", "brain/HANDOFF.md"]
+      "filesChanged": [
+        "brain/cron-state.json",
+        "brain/HANDOFF.md"
+      ]
     },
     {
       "tick": "2026-05-17T22:53:00Z",
@@ -32,7 +48,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "Found 2 WR deltas >= 1% (Garen, Malphite). Fixed both. All cross-file checks clean.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T21:53:00Z",
@@ -65,7 +83,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "7 tier mismatches fixed (Riven B->S/Mid, Yi/Jinx/Ahri/Briar S->A, Nidalee B->A, Taliyah A->B). Now 0 mismatches.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T18:53:00Z",
@@ -98,7 +118,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "4 same-tree rune violations fixed (Nilah->Inspiration, Ashe->Resolve, Jinx->Resolve, Caitlyn->Resolve). 52 builds, 0 violations.",
-      "filesChanged": ["public/meta-builds.json"]
+      "filesChanged": [
+        "public/meta-builds.json"
+      ]
     },
     {
       "tick": "2026-05-17T15:53:00Z",
@@ -109,7 +131,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "35 WR deltas >0.5% found. Updated 27 champions' WR/pickRate/banRate from feed v15. Biggest: Riven +5.7%, Nidalee +5.4%, Taliyah +5.0%.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T14:53:00Z",
@@ -120,7 +144,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "27 champions' WR/pickRate/banRate synced to tierlist-feed v15. Riven +5.7%, Nidalee +5.4%, Taliyah +5.0%.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T13:53:00Z",
@@ -142,7 +168,13 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "Deep health check TIER 1. 3 missing guide files created (Riven Mid, Smolder ADC, Hwei Mid). Dirty working tree committed.",
-      "filesChanged": ["data/guides/BA_20260517_0753_guia_riven_mid_lol2610.md", "data/guides/BA_20260517_0753_guia_smolder_adc_lol2610.md", "data/guides/guia_hwei_mid_lol268.md", "brain/SLOTS.md", "src/hooks/use-mod-key.ts"]
+      "filesChanged": [
+        "data/guides/BA_20260517_0753_guia_riven_mid_lol2610.md",
+        "data/guides/BA_20260517_0753_guia_smolder_adc_lol2610.md",
+        "data/guides/guia_hwei_mid_lol268.md",
+        "brain/SLOTS.md",
+        "src/hooks/use-mod-key.ts"
+      ]
     },
     {
       "tick": "2026-05-17T11:53:00Z",
@@ -153,7 +185,9 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "All 111 champion entries populated with counters and synergies data. 0 remaining gaps.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T10:53:00Z",
@@ -164,7 +198,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "8 tier mismatches fixed + Vel'Koz duplicate removed. Riven B->S(Mid), Yi/Jinx/Ahri/Briar S->A, Taliyah S->B, Zed A->B, Nidalee B->A.",
-      "filesChanged": ["src/lib/data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T09:53:00Z",
@@ -175,7 +211,10 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "17 new champions added (6 S-tier + 11 A-tier). 14 new SKILL_NAMES. data.ts 93->110.",
-      "filesChanged": ["src/lib/data.ts", "src/data/champion-data.ts"]
+      "filesChanged": [
+        "src/lib/data.ts",
+        "src/data/champion-data.ts"
+      ]
     },
     {
       "tick": "2026-05-17T08:53:00Z",
@@ -197,7 +236,9 @@
       "build": "OK",
       "duration_ms": 90000,
       "changes": "2 new guides: Riven Mid + Smolder ADC. Guides-feed 12->14.",
-      "filesChanged": ["public/guides-feed.json"]
+      "filesChanged": [
+        "public/guides-feed.json"
+      ]
     },
     {
       "tick": "2026-05-17T06:53:00Z",
@@ -208,7 +249,10 @@
       "build": "OK",
       "duration_ms": 45000,
       "changes": "CRITICAL: Patch 26.10 promoted to current.",
-      "filesChanged": ["public/patches-feed.json", "public/patch-analysis.json"]
+      "filesChanged": [
+        "public/patches-feed.json",
+        "public/patch-analysis.json"
+      ]
     },
     {
       "tick": "2026-05-17T05:53:00Z",
@@ -219,7 +263,9 @@
       "build": "OK",
       "duration_ms": 60000,
       "changes": "4 same-tree rune violations fixed.",
-      "filesChanged": ["public/meta-builds.json"]
+      "filesChanged": [
+        "public/meta-builds.json"
+      ]
     },
     {
       "tick": "2026-05-17T04:52:00Z",
@@ -230,7 +276,9 @@
       "build": "OK",
       "duration_ms": 120000,
       "changes": "CRITICAL FIX: tierlist-feed v13->v15 restored.",
-      "filesChanged": ["public/tierlist-feed.json"]
+      "filesChanged": [
+        "public/tierlist-feed.json"
+      ]
     }
   ]
 }

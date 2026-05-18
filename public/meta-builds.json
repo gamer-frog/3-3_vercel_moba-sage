@@ -1908,6 +1908,272 @@
         "Jinx"
       ],
       "note": "Soporte de daño, control de zona con plantas"
+    },
+    "riven": {
+      "wr": 53.2,
+      "pick": 5.8,
+      "ban": 2.4,
+      "role": "Mid",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Fuerza de la Trinidad",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Malzahar",
+        "Ahri",
+        "Annie"
+      ],
+      "strong_vs": [
+        "Mages de control",
+        "Midlaners de corto alcance"
+      ],
+      "note": "S-tier mid 26.10, Conqueror scaling + burst combo, snowball en early"
+    },
+    "smolder": {
+      "wr": 52.8,
+      "pick": 7.5,
+      "ban": 1.8,
+      "role": "ADC",
+      "core_items": [
+        "Filo Infinito",
+        "Huracán de Runaan",
+        "Lord Dominik",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Lethal Tempo",
+        "Dominación",
+        "Gusto de Sangre",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Draven",
+        "Samira",
+        "Caitlyn"
+      ],
+      "strong_vs": [
+        "ADCs inmóviles",
+        "Soportes de peel"
+      ],
+      "note": "S-tier ADC 26.10, Lethal Tempo + scaling, stacking dominante en late game"
+    },
+    "reksai": {
+      "wr": 53.5,
+      "pick": 3.8,
+      "ban": 1.2,
+      "role": "Jungle",
+      "core_items": [
+        "Eclipse",
+        "Sed de Sangre",
+        "Fuerza de la Trinidad",
+        "Resistencia Divina"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Dominación",
+        "Golpe de Gracia",
+        "Determinación",
+        "Segunda Vida"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Lee Sin",
+        "Nidalee",
+        "Elise"
+      ],
+      "strong_vs": [
+        "Junglers frágiles",
+        "Carries inmóviles"
+      ],
+      "note": "S-tier jungler 26.10, true damage + tremor sense, snowball con ganks"
+    },
+    "rammus": {
+      "wr": 54.1,
+      "pick": 4.2,
+      "ban": 3.1,
+      "role": "Jungle",
+      "core_items": [
+        "Jak'Sho, el Proteico",
+        "Sed de Sangre",
+        "Resistencia Divina",
+        "Hidra Titánica"
+      ],
+      "boots": [
+        "Grebas de Placas"
+      ],
+      "runes": [
+        "Valor",
+        "Demolir",
+        "Precisión",
+        "Pies Veloces",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Master Yi",
+        "Kindred",
+        "Vayne"
+      ],
+      "strong_vs": [
+        "Teams AD heavy",
+        "Carries basados en AA"
+      ],
+      "note": "S-tier tank jungler 26.10, counter AD auto-attackers, taunt de teamfight"
+    },
+    "fizz": {
+      "wr": 53.8,
+      "pick": 6.4,
+      "ban": 2.0,
+      "role": "Mid",
+      "core_items": [
+        "Llamarada Sombría",
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya",
+        "Morellonomicon"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Dominación",
+        "Electrocuto",
+        "Brujería",
+        "Debilidad",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "W",
+        "Q",
+        "E"
+      ],
+      "counters": [
+        "Malzahar",
+        "Ahri",
+        "Annie"
+      ],
+      "strong_vs": [
+        "Mages inmóviles",
+        "Midlaners cuerpo a cuerpo"
+      ],
+      "note": "S-tier assassin mid 26.10, Electrocute burst, one-shot con R+Q+W"
+    },
+    "belveth": {
+      "wr": 53.0,
+      "pick": 4.5,
+      "ban": 1.6,
+      "role": "Jungle",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Hydratación Letal",
+        "Fuerza de la Trinidad"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Lethal Tempo",
+        "Dominación",
+        "Golpe de Gracia",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Warwick",
+        "Lee Sin",
+        "Poppy"
+      ],
+      "strong_vs": [
+        "Junglers frágiles",
+        "Teams sin peel"
+      ],
+      "note": "S-tier jungler 26.10, Lethal Tempo + true damage void, 1v9 potential en late"
+    },
+    "vladimir": {
+      "wr": 53.4,
+      "pick": 5.1,
+      "ban": 1.7,
+      "role": "Mid",
+      "core_items": [
+        "Llamarada Sombría",
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya",
+        "Cetro de Rylai"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Phase Rush",
+        "Determinación",
+        "Segunda Vida",
+        "Inspiración",
+        "Calzado Mágico"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Varus",
+        "Katarina",
+        "Diana"
+      ],
+      "strong_vs": [
+        "Mages de control",
+        "Comps de poke"
+      ],
+      "note": "S-tier mage mid 26.10, Phase Rush + sustain, teamfight AoE con R"
     }
   }
 }

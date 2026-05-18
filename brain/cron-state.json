@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-18T02:53:00Z",
-  "lastSlot": "02",
-  "lastTask": "Data Sync",
+  "lastTick": "2026-05-18T03:53:00Z",
+  "lastSlot": "03",
+  "lastTask": "Meta Builds Verify",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 176,
-  "totalSuccess": 176,
+  "totalTicks": 177,
+  "totalSuccess": 177,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-18T03:53:00Z",
+      "slot": "03",
+      "task": "Meta Builds Verify",
+      "taskCode": "meta-builds",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 90000,
+      "changes": "7 new S-tier builds added (Riven Mid, Smolder ADC, Rek'Sai, Rammus, Fizz, Bel'Veth, Vladimir). Builds 50->57. S-tier coverage 10/18. 3 pre-existing rune violations (Ornn, Leona, Nautilus).",
+      "filesChanged": [
+        "public/meta-builds.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-18T02:53:00Z",
       "slot": "02",

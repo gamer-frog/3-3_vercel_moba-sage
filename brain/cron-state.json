@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-18T06:53:00Z",
-  "lastSlot": "06",
-  "lastTask": "Patch Watch",
+  "lastTick": "2026-05-18T07:53:00Z",
+  "lastSlot": "07",
+  "lastTask": "Guide Creation",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 180,
-  "totalSuccess": 180,
+  "totalTicks": 181,
+  "totalSuccess": 181,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-18T07:53:00Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 120000,
+      "changes": "5 new S-tier guides created: Ashe ADC, Ornn Top, Vladimir Mid, Fizz Mid, Nocturne Jungle. Guides 14->19. 8 S-tier still without guides (Zaahen, Rek'Sai, Rammus, Bel'Veth, Nilah, Nasus, Diana, Aurelion Sol).",
+      "filesChanged": [
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-18T06:53:00Z",
       "slot": "06",

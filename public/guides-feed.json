@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-17T07:53:00Z",
+  "lastUpdated": "2026-06-14T12:00:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 14,
+  "totalGuides": 19,
   "guides": [
     {
       "id": "riven-mid-2610",
@@ -249,6 +249,249 @@
         "Shyvana reajuste iterativo (potencial S-tier)"
       ],
       "fileName": "BA_20260423_0530_patches_lol269_fullpreview_cs2_shake.md"
+    },
+    {
+      "id": "guia_ashe_adc_lol2610",
+      "champion": "Ashe",
+      "role": "ADC",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Ashe ADC — Build Lethal Tempo Kraken Slayer, Runas, Matchups, Combos",
+      "summary": "Ashe ADC es S-tier en 26.10 (53.8% WR) con build Lethal Tempo + Kraken Slayer. Domina la poke meta con W, provee utilidad de equipo con R y E, y escala como hypercarry en late game.",
+      "tags": ["build", "runas", "matchups", "adc", "lethal-tempo", "kraken-slayer", "poke"],
+      "keyPoints": [
+        "Build principal: Kraken Slayer → Filo Infinito → Huracán de Runaan → Bailarín Espectral → Ángel Guardián (53.8% WR)",
+        "Build poke: Kraken Slayer → Coleccionista → Filo Infinito → Runaan (51.9% WR)",
+        "Runas: Paso Lethal + Calzado Mágico + Calidad/Celeridad + Golpe de Gracia + Sabor a Sangre + Leyenda: Linaje — sustain en lane y DPS en late",
+        "Max W primero: rango 1200 de poke, slow del 30% + procs Kraken cada 3er AA en wavo",
+        "Combo de tradeo: W → AA → Q (slow) → AA → AA (proc Kraken) → retroceder",
+        "Combo all-in: R → Flash → W → AA → Q → AA → Kraken proc → Ignite",
+        "Consejo clave: usar E como scout antes de objectives, siempre guardar R para pelear o engage"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "La build estándar de Ashe en 26.10 prioriza Kraken Slayer como primer item. Kraken encaja perfecto con Lethal Tempo porque cada proc de Kraken se activa con el 3er ataque potenciado por Lethal, dando daño explosivo en trades cortos. El segundo item es Filo Infinito para criticar y escalar. Huracán de Runaan tercero para teamfights y clear de oleada. Bailarín Espectral cuarto para kiting y safety. Ángel Guardián como item defensivo para revivir en teamfights decisivos. Boot order: Grebas de Berserker → upgrade a Calzado Mágico gratis con la runa.",
+          "details": "Alternativa poke: Kraken Slayer → Coleccionista → Filo Infinito → Runaan → Bailarín Espectral. Esta build da más daño early y funciona mejor si vas por encima en lane. Contra compositions con mucho engage, considera Estaque de Señuelo como 4to item en vez de Bailarín Espectral. Contra healers (Soraka, Yuumi, Nami), reemplaza un item por Morellonomicon 3ero o 4to."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Paso Lethal (Precision) + Calzado Mágico + Calidad o Celeridad + Golpe de Gracia. Página secundaria: Sabor a Sangre + Leyenda: Linaje (Domination). Stats: +10% velocidad de ataque, +9 fuerza adaptable, +8 resistencias mágicas. Lethal Tempo escala perfectamente con el kit de Ashe: más AS = más procs de W con Q, más stacks en teamfights, más procs de Kraken. Calzado Mágico ahorra 300 gold, permitiendo completar Kraken más rápido. Sabor a Sangre da sustain en lane phase que Ashe necesita porque no tiene movilidad.",
+          "details": "Summoner spells: Flash + Heal (estándar) o Flash + Exhaust contra assassins. Contra compositions con mucho CC, Barrier puede ser mejor que Heal. Nunca lleves Cleanse — el Q de Ashe ya quita slows y el passive de Q es más importante."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Caitlyn (ashear sus trampas con E, W poke gana trades), Varus (rango similar pero Ashe tiene más utilidad), Sivir (spell shield no bloquea W AA combo), Miss Fortune (rango mayor con W, R counter con tu R). Neutrales: Jinx (igual scaling, gana quien scalee primero), Kog'Maw (depende del support), Samira (peligrosa si usa R bien). Desfavorables: Draven (early game brutal, needs jungle help), Lucian/Nami (lane presión intensa), Vayne (1v1 imposible en late, evitar duelos).",
+          "details": "Consejo general contra matchups difíciles: farm pasivamente hasta Kraken Slayer, pedir ganks de tu jungler, y usar W para last hit desde distancia segura. Contra Draven, NEVER intentar trades antes de nivel 4 — solo last hit con W y esperar al jungler."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Poke combo (lane phase): W → AA (slow) → AA → retroceder. Esto gana cualquier trade corto porque W + passive slow te permite 2-3 autos gratis. Trade extendido con Lethal: W → AA → Q (activate) → AA → AA → AA (Kraken proc) → Q deactivate → W cooldown. En teamfights: R (initiate o peel) → W → Q (toggle on para kite) → AA spam con Lethal stacks. Kiting avanzado: alternar Q on/off entre autos para mantener slows mientras te mueves. El Q no tiene costo de mana, así que úsalo liberalmente.",
+          "details": "Truco de R: no siempre usar R para engage. En muchos casos, guardar R para peel (proteger tu support) o para execute a enemigos que se retiran con poca vida es mejor. R tiene 80s cooldown a nivel 16 — no lo desperdicies."
+        },
+        {
+          "title": "Tips de Macro y Posicionamiento",
+          "content": "Ashe es uno de los ADCs con mejor utilidad del juego. Tu R es un global engage que cambia teamfights. Comunica con tu equipo antes de usar R. En objectives, posiciona E para scout jungle entrances. En lane phase, pushea con W + Q cuando el support enemigo roama para ganar ventaja de plating. Tu objetivo principal en teamfights: vivir y hacer DPS constante. Ashe sin GA es Ashe muerta — prioriza Ángel Guardián como 5to item. En late game, tu daño con Lethal + Kraken + IE + Runaan es comparable a cualquier ADC del meta.",
+          "details": "53.8% WR — S-tier ADC, 7.3% pick rate, 4.1% ban rate. Fuerte en todas las elos pero especialmente en Plat+ donde el macro y el R usage son decisivos. Trend estable con ligera subida."
+        }
+      ],
+      "url": "/guides/guia_ashe_adc",
+      "fileName": "BA_20260614_1200_guia_ashe_adc_lol2610.md"
+    },
+    {
+      "id": "guia_ornn_top_lol2610",
+      "champion": "Ornn",
+      "role": "Top",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Ornn Top — Build Tank Demolir, Upgrades de Items, Matchups, Combos",
+      "summary": "Ornn Top es S-tier en 26.10 (53.2% WR) como tank/support top lane. Demolir + item upgrades para el equipo lo convierten en el pick más valioso para team comps. Innato invulnerable con R engage.",
+      "tags": ["build", "runas", "matchups", "top", "tank", "demolir", "upgrades", "team-value"],
+      "keyPoints": [
+        "Build Tank: Égida de Fuego Solar → Jak'Sho, El Indomable → Coraza del Muerto → Fuerza de la Naturaleza (53.2% WR)",
+        "Build Anti-AP: Égida de Fuego Solar → Rylai Cristalino → Fuerza de la Naturaleza → Abrazo del Serafín (51.7% WR)",
+        "Runas: Demolir + Acondicionamiento de la Cuadrícula + Revitalizar + Inquebrantable — tank puro",
+        "Item upgrades: cada teammate obtiene un upgrade gratis al nivel 13+ — 5 upgrades = ~4000g de valor extra",
+        "Combo engage: E → Q (zona) → R (llamado) → W (brittle proc) → R2 (carrilazo) para team wipe",
+        "Passive Brittle: después de E+Q o R, los enemigos afectados reciben daño extra al ser atacados",
+        "53.2% WR — S-tier top, el pick con mayor valor neto para team comps"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Ornn tiene una de las builds de tank más estables del juego. Primero: Égida de Fuego Solar — da HP, armor, MR y daño en AoE, perfecto para Ornn que siempre está en melee. Segundo: Jak'Sho, El Indomable — el mejor item de tank en el juego, escala con tiempo en combate. Tercero: Coraza del Muerto — utilidad de slow AoE en teamfights. Cuarto: Fuerza de la Naturaleza contra compositions AP pesadas. Boot order: Botas de Mercurio contra AP/CC o Botas de Placas contra AD. Recuerda que Ornn puede comprar items directamente con upgrade incluido ( versión mejorada desde el shop).",
+          "details": "Upgrades de items para el equipo (nivel 13+): Égida de Fuego Solar → Égida Divina (+HP, +resistencias), Jak'Sho → Jak'Sho Reforzado (+duración de passive), Coraza del Muerto → Coraza Eterna (+HP aura), etc. Cada upgrade es GRATIS y se compra en la tienda de Ornn. Prioriza upgrades para carries (ADC, Mid) primero — el upgrade de Jak'Sho para tu jungler tank también es fuerte."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Demolir + Acondicionamiento de la Cuadrícula + Segundo Viento o Revitalizar + Inquebrantable (Resolve). Página secundaria: Piezas de Hacha + Fuerzas Imbuidas o Golpe de Gracia (Precision). Stats: +15-10 HP por nivel, +9 fuerza adaptable, +8 resistencias mágicas. Demolir es la keystone perfecta para Ornn porque su passive de brittleness + Demolir = torres se caen rápido. Acondicionamiento de la Cuadrícula escala armor/MR que Ornn necesita como tanque sin escalado de stats.",
+          "details": "Summoner spells: Flash + Teleport (estándar para top lane). Teleport es obligatorio para Ornn — necesitas presence en objectives y flank con R desde base. Alternativa en matchups agresivos: Flash + Ignite para kill pressure early, pero pierdes macro value."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Garen (E block, W shield gana trades), Renekton (tank stats negan su early game), Darius (R armor reduces su execute), Sett (W damage reduction con tu W). Neutrales: Camille (skill matchup, gana quien use E bien), Fiora (difícil pero Demolir compensa), Jax (pillar de fuego en su E cancel). Desfavorables: Vayne/Quinn (ranged, Ornn sufre sin gap closer level 1-5), Teemo (blind + poke brutal antes de nivel 6), Mordekaiser (R aísla a Ornn de su equipo).",
+          "details": "Contra matchups ranged: farm bajo torre con Q hasta nivel 4-5, luego buscar all-in con E+Q+W si el enemigo se acerca. Contra Teemo, hay que pedir ganks temprano. La ventaja de Ornn es que incluso perdiendo lane, sus upgrades compensan en mid/late game."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Engage principal: E (carga hacia adelante, knockback) → Q (zona de lava donde aterrizan) → R (llamado del carnero, los brittles) → W (bellazo para proc brittle) → R2 (segundo carnero hacia los brittled) → AA + ignite si es necesario. Este combo garantiza un knockup largo + brittle proc para team wipe. Laning combo: Q → AA → W → AA para trade corto. Ornn no necesita ganar lane para ganar la partida — su valor viene de upgrades y R en teamfights.",
+          "details": "Truco avanzado: el R de Ornn tiene 2 partes. R1 es el llamado (el carnero viene hacia ti). R2 es el carrilazo ( tú lanzas el carnero). Si R1 pega a alguien, queda brittle. Si R2 pega a un brittle, hace daño masivo. Puedes usar R1 sin R2 como peel y guardar R2 para después."
+        },
+        {
+          "title": "Macro y Upgrades para el Equipo",
+          "content": "El valor real de Ornn no está en su lane phase — está en sus upgrades. Al nivel 13+, cada 30 segundos puedes comprar un item upgrade para un aliado. La prioridad de upgrades: 1) ADC (upgrade de Kraken/IE para máximo DPS), 2) Jungler (upgrade de Jak'Sho), 3) Mid (upgrade de Rabadon/Morello), 4) Support (upgrade de Locket/Knight's Vow), 5) Tú mismo. En teamfights, tu rol es engage con R y tank. No persigas carries — mantente en el frontline y usa Q + W para CC. 5 upgrades × ~800g promedio = 4000g de valor gratis para tu equipo.",
+          "details": "53.2% WR — S-tier top. Mientras más alto el elo, más valor tiene Ornn porque los equipos coordinan mejor alrededor de sus upgrades. Ban rate 3.8%, pick rate 4.2%. Counter pick definitivo contra compositions melee-heavy."
+        }
+      ],
+      "url": "/guides/guia_ornn_top",
+      "fileName": "BA_20260614_1201_guia_ornn_top_lol2610.md"
+    },
+    {
+      "id": "guia_vladimir_mid_lol2610",
+      "champion": "Vladimir",
+      "role": "Mid",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Vladimir Mid — Build Phase Rush AP, Runas, Matchups, Combos",
+      "summary": "Vladimir Mid es S-tier en 26.10 (53.5% WR) como mage de daño sostenido. Phase Rush para mobility, pool invulnerable, y escala infinita como hiper-carry AP en teamfights.",
+      "tags": ["build", "runas", "matchups", "mid", "phase-rush", "ap", "sustained-damage", "hypercarry"],
+      "keyPoints": [
+        "Build AP: Cresta Spectral → Rylai Cristalino → Rabadón → Sombrero Vuoto → Cetro de Rylai (53.5% WR)",
+        "Build Tank AP: Cresta Spectral → Rylai → Jak'Sho → Abrazo del Serafín (51.3% WR)",
+        "Runas: Paso de Fase + Trascendencia + Concentración de la Colmena + Sabor a Sangre + Caza Suprema — mobility + sustain",
+        "Max Q primero: Curación y daño en lane, el spam de Q con CDR escala infinitamente",
+        "Combo burst: E (cargo) → Flash → R (hemoplaga en AoE) → Q (spawn enhanced) → W (pool para evitar retalición)",
+        "Combo sustain: R (AoE) → Q (enhanced) → E → Q → Q — invencible en trades extendidos",
+        "53.5% WR — S-tier mid, mejor mage scaling del juego, counter a melee mids"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Vladimir escala con AP y CDR. Primer item: Cresta Spectral — el mejor item para Vlad en 26.10, da AP, CDR, spell vamp y un aura de daño. Segundo: Rylai Cristalino — slow en todas tus habilidades para kite y chase. Tercero: Rabadón, el Sombrero de la Muerte — multiplica todo tu AP. Cuarto: Sombrero Vuoto para más AP y CDR. Quinto: Jak'Sho o Abrazo del Serafín si necesitas defensas. Botas: Botas del Vacío para penetración mágica o Botas de Mercurio contra CC pesado.",
+          "details": "Timing key: tu power spike es al completar Cresta Spectral + Rylai (~12-14 minutos). En este punto, tu Q + E combo ya es suficiente para matar squishies. Contra compositions con mucho grievous wounds (Morello, Varus R, Katarina), debes comprar Abrazo del Serafín 3ero. Nunca completar Morellonomicon en Vladimir — no tienes DoT para aprovecharlo bien."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Paso de Fase (Sorcery) + Trascendencia + Concentración de la Colmena (o Fiebre de Hordas) + Celeridad. Página secundaria: Sabor a Sangre + Caza Suprema (Domination) para sustain. Stats: +10% CDR a nivel 18, +9 fuerza adaptable, +8 resistencias mágicas. Phase Rush es la keystone que hace que Vladimir no sea kitable — procs con Q + E en 1 segundo, dándote velocidad de movimiento para chase o escape. Trascendencia da CDR que Vlad necesita desesperadamente.",
+          "details": "Summoner spells: Flash + Ignite (agresivo, para kills en lane) o Flash + Teleport (macro, para split push y objectives). Ignite escala con tu R hemoplaga — más daño en fights early/mid. Teleport es mejor en elos altos donde el split push importa más. Contra assassins (Zed, Talon), Barrier puede ser útil pero perdes kill pressure."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Zed (W pool evita Q, E+Q trade gana), Yasuo (W bajo windwall), Talon (pool evade todo su burst), Akali (rango similar, mejor sustain), Katarina (pool durante su R), Fizz (pool durante su E). Neutrales: Ahri (charm es peligroso pero Q sustain compensa), Orianna (poke war, gana quien farme mejor), Syndra (difícil pero R + pool negate burst). Desfavorables: Malzahar (supresión de R no se puede pool), Varus (R + grievous wounds), Diana (gap close + MR shredding), Cassiopeia (no-te-fumas constantes).",
+          "details": "Contra Malzahar: necesitas QSS como 3er-4to item obligatorio. Contra matchups de poke range (Syndra, Orianna): farm con Q, no gastar mana en E innecesariamente, y all-in con R + E + Ignite a nivel 6 si tienen menos de 60% HP."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Burst combo (kill pressure): E (charge completo, ~1.5s) → Flash → R (hemoplaga en área) → Q (enhanced por hemoplaga) → W (pool para evadir counterattack). Este combo hace ~70% de HP a un squishy a nivel 6 con ignite. Sustain combo (teamfight): R (AoE hemoplaga) → Q (enhanced) → E → Q → W (dodge burst) → Q → Q. Con CDR max (40%+), tu Q tiene ~2.5s cooldown — significa Q spam infinito durante hemoplaga. Pool timing: siempre usar W para evadir DAÑO IMPORTANTE, no para poke. W tiene 26s cooldown a nivel 16, no lo desperdicies.",
+          "details": "Truco de E cargado: E carga más rápido con más velocidad de movimiento. Phase Rush proc + E charge = combo más rápido. También puedes usar E parcial (no cargar completo) para poke en lane — menos daño pero más rápido."
+        },
+        {
+          "title": "Tips de Teamfight y Split Push",
+          "content": "Vladimir es uno de los mejores split pushers del juego. Tu Q + E clear oleadas instantáneamente. Con Rylai + Phase Rush, nadie te puede atrapar. En teamfights: NUNCA iniciar. Espera a que el frontline engage, luego entra con R en el mayor número de enemigos posible → Q enhanced → E → pool si te focusean → Q spam durante hemoplaga. Tu objetivo: pegar R a 3+ enemigos y sobrevivir con W + Q sustain. Con Cresta Spectral + Rabadón + Jak'Sho en late game, eres literalmente invencible si haces las cosas bien.",
+          "details": "53.5% WR — S-tier mid, pick rate 6.8%, ban rate 2.9%. Especialmente fuerte en elos Plat+ donde los jugadores saben posicionar en teamfights. Escala infinitamente — es el ADC de los mages."
+        },
+        {
+          "title": "Errores Comunes a Evitar",
+          "content": "1) Usar W (pool) innecesariamente — es tu única herramienta defensiva, no la gastes en poke. 2) No cargar E completamente — un E cargado al máximo hace casi el doble de daño. 3) Olvidar que R da healing amplificado — después de R, tus Qs curan MUCHO más. 4) No comprar Botas del Vacío — sin penetración mágica, tu daño late game se reduce drásticamente contra MR. 5) No respetar el cooldown de W — si gastaste W, juega pasivo por 20+ segundos porque eres vulnerable. 6) No usar R en el momento correcto — R es mejor en el START de una teamfight para amplificar todo tu daño, no al final para ks.",
+          "details": "Regla de oro: si tu W está en cooldown, juega como si fuera un minion con Q. Si tu W está disponible, puedes hacer lo que quieras."
+        }
+      ],
+      "url": "/guides/guia_vladimir_mid",
+      "fileName": "BA_20260614_1202_guia_vladimir_mid_lol2610.md"
+    },
+    {
+      "id": "guia_fizz_mid_lol2610",
+      "champion": "Fizz",
+      "role": "Mid",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Fizz Mid — Build Electrocute Assassin, Runas, Matchups, Combos",
+      "summary": "Fizz Mid es S-tier en 26.10 (54.1% WR) como assassin de burst con Electrocute. One-shot combos devastadores, invulnerabilidad con E, y roam dominante hacen de Fizz un terror para squishies.",
+      "tags": ["build", "runas", "matchups", "mid", "electrocute", "assassin", "oneshot", "burst"],
+      "keyPoints": [
+        "Build Assassin: Llamarada Sombría → Sombra de Fuego → Rabadón → Sombrero Vuoto → Vacío (54.1% WR)",
+        "Build Lich Bane Rush: Lich Bane → Llamarada Sombría → Rabadón → Sombrero Vuoto (52.6% WR)",
+        "Runas: Electrocute + Gusto por la Sangre + Caza Suprema + Colección de Ojos — burst puro",
+        "Combo one-shot: E (salto hacia adelante) → W (apply on-hit) → Q (dash + W damage) → Auto → Electrocute proc → Ignite → R si necesario",
+        "Combo R engage: R (pescado) → E (salto al target) → W → Q → Auto → Ignite para execute instantáneo",
+        "54.1% WR — S-tier mid assassin, terror de ADCs, ban rate 8.3%"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Fizz es un assassin puro que escala con AP y CDR. Build principal: Llamarada Sombría primero — el mejor item AP del parche, da penetración mágica y burst. Segundo: Sombra de Fuego — más penetración y movilidad. Tercero: Rabadón para multiplicar AP. Cuarto: Sombrero Vueto para CDR y más AP. Quinto: Vacío para penetración o Zhonya para seguridad. Boot order: Botas del Vacío siempre — Fizz necesita toda la penetración posible. Alternativa: Lich Bane rush si prefieres un estilo de play más agresivo con Q weave.",
+          "details": "Lich Bane vs Sombra de Fuego: Lich Bane es mejor para Q trades constantes y split push. Sombra de Fuego es mejor para one-shots y burst en teamfights. En el meta actual con mucho tankiness, Sombra de Fuego + Llamarada da más daño efectivo. Considera Cetro de Rylai como 3ero si necesitas slow para chase después del burst."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Electrocute (Domination) + Gusto por la Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Trascendencia + Concentración de la Colmena (Sorcery) para CDR. Stats: +10% CDR a nivel 18, +9 fuerza adaptable, +8 resistencias mágicas. Electrocute procs perfecto con tu combo: E → W → Q → Auto = 3 instances instantáneas = Electrocute + Gusto por la Sangre. Caza Suprema da AD/AP por cada champion que veas morir — escala bien en teamfights.",
+          "details": "Summoner spells: Flash + Ignite (obligatorio para Fizz). Ignite es esencial para tus combos — Electrocute + Gusto por la Sangre + Ignite = daño de ejecución masivo. Nunca llevar Teleport en Fizz — pierdes kill pressure y tu roam es tu mayor fortaleza. Contra Zed/Talon,可以考虑 Barrier pero generalmente Ignite es mejor."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Ahri (E invulnerable durante charm), Orianna (salto sobre su bola), Syndra (E dodge en su R stun), Veigar (E sobre su cage), Anivia (salto sobre su R wall). Neutrales: Zed (skill matchup, E invulnerable durante su R shadow), LeBlanc (chain dodgeable con E timing), Akali (ambos assassins, gana quien procee primero). Desfavorables: Malzahar (supresión no evitable con E), Galio (tank + CC para todo tu burst), Lissandra (R invulnerable cuando tú intentas burst), Mordekaiser (R te aísla sin tu E escape).",
+          "details": "Contra Malzahar: compra QSS temprano (después de primer item). Contra Galio: no intentar all-in sin jungler — su W taunt + R counter tu combo completo. Contra Lissandra: espera a que use su R antes de entrar con tu burst."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "One-shot combo (nivel 3+): E (salto hacia enemigo, invulnerable durante el ascenso) → W (empowered auto) → Q (dash, gasta el empowered auto) → Auto → Electrocute + Gusto por la Sangre proc → Ignite. Este combo hace ~60% de HP a nivel 3 y oneshot completo a nivel 6+. R engage combo: R (fish, predict movement) → si pega, E salto al target → W → Q → Auto → Ignite → R2 activation para execute. Este combo es in-evitable si R pega. Zhonya combo (teamfights): R (AoE) → E (dodge counter) → Zhonya → esperar cooldowns → E → W → Q para cleanup.",
+          "details": "Timing de E avanzado: el E de Fizz tiene 2 fases — ascendente (invulnerable) y descendente (vulnerable). Puedes cancelar el E temprano haciendo click en el suelo, lo que reduce el cooldown. Un E cancelado temprano tiene ~6s menos de cooldown que un E completo. Úsalo para trades rápidos en lane."
+        },
+        {
+          "title": "Roaming y Map Presence",
+          "content": "Fizz es uno de los mejores roamers del mid lane. Tu E te permite cruzar la jungle sin usar ward paths, sorprendiendo bot/top lane. Ideal roaming timing: después de push wave a torre (nivel 6+), toma la jungle hacia bot/top. R engage desde bush es casi imposible de predecir. Si tu R pega al carry enemigo, es un kill garantizado con el combo completo. Comunica con tu equipo antes de roam — un Fizz que llega a lane con R listo es teamfight instantáneo.",
+          "details": "54.1% WR — S-tier mid, pick rate 5.7%, ban rate 8.3%. Ban rate alto porque Fizz es el terror de supports y ADCs — un solo R bien colocado decide la teamfight. Trend rising, nerf probable en 26.11."
+        }
+      ],
+      "url": "/guides/guia_fizz_mid",
+      "fileName": "BA_20260614_1203_guia_fizz_mid_lol2610.md"
+    },
+    {
+      "id": "guia_nocturne_jungle_lol2610",
+      "champion": "Nocturne",
+      "role": "Jungle",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Nocturne Jungle — Build Dark Harvest/Lethal Tempo, Engage, Matchups, Combos",
+      "summary": "Nocturne Jungle es S-tier en 26.10 (53.6% WR) como engager/jungler. Dark Harvest para snowball o Lethal Tempo para DPS sostenido. R global para ganks imposibles y paranoid plays.",
+      "tags": ["build", "runas", "matchups", "jungle", "dark-harvest", "lethal-tempo", "engage", "global"],
+      "keyPoints": [
+        "Build Assassin: Filo de la Noche → Eclipse → Hidratación Letal → Última Piedad → Guardián Angel (53.6% WR)",
+        "Build DPS Lethal: Kraken Slayer → Filo de la Noche → Eclipse → Hidratación Letal (51.8% WR)",
+        "Runas DH: Cosecha Oscura + Gusto por la Sangre + Caza Suprema + Colección de Ojos — snowball puro",
+        "Runas LT: Paso Lethal + Golpe de Gracia + Sabor a Sangre + Caza Suprema — DPS en extended fights",
+        "Combo gank: R (paranoia global) → Q (trail de velocidad) → E (terror lock) → Auto spam → W (spell shield si necesario)",
+        "53.6% WR — S-tier jungle, gank rate más alto del juego, ban rate 6.1%"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Nocturne funciona como assassin y como DPS bruiser dependiendo del build. Build Assassin (Dark Harvest): Filo de la Noche primero — lethality + MS para ganks, el mejor item para Nocturne. Eclipse segundo — daño burst en autos. Hidratación Letal tercero — omnivamp para sustain en clears y fights. Última Piedad cuarto — execute + CDR. Guardián Angel como item defensivo. Build DPS (Lethal Tempo): Kraken Slayer primero para on-hit damage, luego mismo core de lethality items. Botas: Botas de Movilidad para map pressure o Botas de Mercurio contra CC.",
+          "details": "Filo de la Noche es el mejor primer item porque: 1) da lethality que escala con tu Q (Q amplifica AD), 2) da velocidad de movimiento fuera de combate para ganks más rápidos, 3) el passive de vida verdadera funciona con Q. Contra teams con mucho armor, cambia Eclipse a Serylda's Grudge para armor penetration en AoE."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página Dark Harvest (agresivo): Cosecha Oscura (Domination) + Gusto por la Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Celeridad + Trascendencia (Sorcery). Stats: +10 AD, +9 fuerza adaptable, +8 resistencias mágicas. Dark Harvest procs con tu Q auto combo y escala infinitamente con bajas enemigas. Página Lethal Tempo (sostenido): Paso Lethal (Precision) + Golpe de Gracia + Sabor a Sangre + Caza Suprema. LT es mejor contra compositions tanky donde necesitas DPS extendido.",
+          "details": "Summoner spells: Flash + Smite (estándar). Alternativa en elos bajos: Ignite + Smite para kill pressure extra sin Flash (no recomendado en Plat+). Contra junglers invadeadores como Nidalee o Shaco, considera Exhaust en vez de Flash para 1v1s en tu jungle."
+        },
+        {
+          "title": "Matchups y Pathing",
+          "content": "Matchups de jungle favorables: todos los junglers sin mobility (Amumu, Warwick, Rammus, Zac) — tu R les niega vision y sus ganks son peores. Junglers neutrales: Lee Sin (skill matchup en invades), Rek'Sai (ambos early game, gana quien gankee primero), Viego (similares perfiles, depende de who's ahead). Desfavorables: Elise (early invade domination), Nidalee (counter-jungle y poke), Kindred (R invulnerable durante tu burst), Graves (tanky early, difícil 1v1). Pathing recomendado: full clear → level 4 → gank mid o bot con R. No gank antes de nivel 6 sin wards — sin R eres predecible.",
+          "details": "R timing óptimo: tu R tiene mejor impacto a nivel 6-11 cuando las lanes están emparejadas y las torres aún están arriba. Prioriza ganks a bot lane (2 kills > 1 kill) o mid lane si hay un squishy fácil."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Gank combo estándar: R (Paranoia — quita vision global) → Q (Duskbringer — trail, amplifica tu AD) → E (Unspeakable Horror — tether de fear) → Auto spam (LT stacks o DH procs) → W (Shroud of Darkness — spell shield si hay CC incoming). Este combo es in-evitable si el enemigo está fuera de posición — R quita vision del minimap, así que no ven venir el gank. Teamfight combo: R (Paranoia en 5 enemigos, niega visión) → salta al carry con Q → E fear → auto burst → W para block CC → clean up. En extended fights: Q → auto → auto → E → auto → Q → auto → W para kite.",
+          "details": "W (Shroud of Darkness) tip avanzado: el W bloquea UN spell y da pasiva de AS si lo bloquea. Úsalo de forma reactiva — espera a ver el CC venir antes de activarlo. Contra Morgana Q, Thresh hook, Nautilus R, etc. Un W bien timed en teamfight te da 20-40% AS gratis que escala con tu DPS."
+        },
+        {
+          "title": "Macro y Late Game",
+          "content": "Nocturne es uno de los mejores snowball junglers del juego. Si consigues 2-3 kills antes de nivel 9, el juego está prácticamente ganado. Tu R te permite gankar cualquier lane desde cualquier parte del mapa — úsalo para crear paranoia en el enemigo. En late game, tu rol cambia de ganker a engager/peeler. Usa R para iniciar teamfights quitando vision al equipo enemigo — esto significa que no pueden ver a tu frontline acercarse. Contra compositions con mucho peel (Lulu, Janna), necesitas farm más y entrar por flank, nunca por el frente. Tu poder máximo está entre niveles 6-14 — si llegas a late game contra un hypercarry comp, necesitas que tu equipo termine antes de 35 minutos.",
+          "details": "53.6% WR — S-tier jungle, pick rate 7.2%, ban rate 6.1%. El jungler con mayor impacto de gank del juego gracias a R global. Trend estable. Especialmente dominante en Gold-Plat donde los enemigos no respetan el R range."
+        }
+      ],
+      "url": "/guides/guia_nocturne_jungle",
+      "fileName": "BA_20260614_1204_guia_nocturne_jungle_lol2610.md"
     }
   ]
 }

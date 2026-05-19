@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-19T01:53:00Z",
-  "lastSlot": "01",
-  "lastTask": "Health Lite",
+  "lastTick": "2026-05-19T02:53:00Z",
+  "lastSlot": "02",
+  "lastTask": "Data Sync",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 189,
-  "totalSuccess": 189,
+  "totalTicks": 190,
+  "totalSuccess": 190,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-19T02:53:00Z",
+      "slot": "02",
+      "task": "Data Sync",
+      "taskCode": "data-sync",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 109 LoL champs at patch 26.10, 18 WR at 7.1c. 0 empty fields (WR/PR/BR/aiAnalysis/counters/synergies all populated). No sync needed.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-19T01:53:00Z",
       "slot": "01",

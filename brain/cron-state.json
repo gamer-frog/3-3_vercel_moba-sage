@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-18T23:53:00Z",
-  "lastSlot": "23",
-  "lastTask": "Night Report",
+  "lastTick": "2026-05-19T00:53:00Z",
+  "lastSlot": "00",
+  "lastTask": "Tierlist Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 187,
-  "totalSuccess": 187,
+  "totalTicks": 188,
+  "totalSuccess": 188,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-19T00:53:00Z",
+      "slot": "00",
+      "task": "Tierlist Check",
+      "taskCode": "tierlist-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "Feed v16 healthy: 92 champs (18S/44A/23B/7C), patch 26.10, ~20h old. No duplicates, WR 43.5-55.0%. 3 feed champs missing from data.ts (Rek'Sai, Bel'Veth, Vel'Koz) — known, flagged.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-18T23:53:00Z",
       "slot": "23",

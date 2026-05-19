@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-19T02:53:00Z",
-  "lastSlot": "02",
-  "lastTask": "Data Sync",
+  "lastTick": "2026-05-19T03:53:00Z",
+  "lastSlot": "03",
+  "lastTask": "Meta Builds Verify",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 190,
-  "totalSuccess": 190,
+  "totalTicks": 191,
+  "totalSuccess": 191,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-19T03:53:00Z",
+      "slot": "03",
+      "task": "Meta Builds Verify",
+      "taskCode": "meta-builds",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "CLEAN — 57 builds, all structurally complete (runes/core_items/boots/skill_order). S-tier 15/18 covered. 3 still missing: Rek'Sai, Bel'Veth, Aurelion Sol (no scrape data available).",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-19T02:53:00Z",
       "slot": "02",

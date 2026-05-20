@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T12:00:00Z",
+  "lastUpdated": "2026-05-20T07:55:00Z",
   "source": "juegos-1 BOTARDO OS",
   "totalGuides": 19,
   "guides": [
@@ -10,7 +10,15 @@
       "patch": "26.10",
       "title": "Riven Mid — Build Conquistador Bruiser, Runas, Matchups, Combos",
       "summary": "Nueva S-tier #1 del meta 26.10 (54.7% WR). Riven Mid domina con Conquistador + E max para tradeo y roaming. Movida desde Top, explota matchups de mid lane.",
-      "tags": ["build", "runas", "matchups", "mid", "bruiser", "conquistador", "combo"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "mid",
+        "bruiser",
+        "conquistador",
+        "combo"
+      ],
       "keyPoints": [
         "Build Bruiser: Filo de la Noche → Eclipse → Guardián Angel → Resistencia Divina (54.7% WR)",
         "Build CDR: Eclipse → Hidra Titánica → Fuerza de la Trinidad → Jak'Sho (52.1% WR)",
@@ -29,7 +37,15 @@
       "patch": "26.10",
       "title": "Smolder ADC — Build Hypercarry, Runas, Matchups, Stacking Guide",
       "summary": "S-tier ADC 26.10 (54.6% WR). El dragón más jugado de LoL con 24.1% pick y 46.8% ban rate. Hypercarry scaling infinito con stacks de pasiva, domina late game.",
-      "tags": ["build", "runas", "matchups", "adc", "hypercarry", "stacking", "late-game"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "adc",
+        "hypercarry",
+        "stacking",
+        "late-game"
+      ],
       "keyPoints": [
         "Build Hypercarry: Filo Infinito → Huracán de Runaan → Bailarín Espectral → Sed de Sangre → Ángel Guardián (54.6% WR)",
         "Build On-Hit: Shiv → Kraken Slayer → Filo Infinito → Runaan (52.3% WR)",
@@ -48,7 +64,15 @@
       "patch": "26.10",
       "title": "Karthus Jungle — Build DFT Sostenido, Runas, Matchups, Combos",
       "summary": "Jungler AP #1 en U.GG (54.8% WR). Sinergia DFT sin CD interno, R global, presion de mapa dominante. S-tier consistente en 26.10.",
-      "tags": ["build", "runas", "matchups", "jungle", "ap", "dft", "global"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "ap",
+        "dft",
+        "global"
+      ],
       "keyPoints": [
         "Build DFT: Llamarada Sombría → Rabadón → Zhonya → Morellonomicon + Botas del Vacío (53.7% WR)",
         "Build Control: Eco de Luden → Rylai → Liandry → Rabadón (51.4% WR)",
@@ -66,7 +90,15 @@
       "patch": "26.9",
       "title": "Taliyah Jungle — Build Dark Harvest, Runas, Matchups, Combos",
       "summary": "La jungla con el WR mas alto de TODO LoL (58.8%). Build Dark Harvest burst, combos AoE y R game-changing para Season 2 Pandemonium.",
-      "tags": ["build", "runas", "matchups", "jungle", "burst", "aoe", "control"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "burst",
+        "aoe",
+        "control"
+      ],
       "keyPoints": [
         "Build Dark Harvest: Antorcha de Fuego Negro → Sombra de Fuego → Zhonya → Rylai → Rabadon (58.8% WR)",
         "Build First Strike Scaling: Eco de Luden → Baston de la Vacuidad → Rylai → Liandry (52.1% WR)",
@@ -84,7 +116,14 @@
       "patch": "26.9",
       "title": "Jinx ADC — Build Hypercarry, Runas, Matchups, Combos",
       "summary": "ADC con el WR mas alto del meta (55.1%). Build Hypercarry, runas Pies Veloces, combos de teamfight y la mejor sinergia del parche con Thresh.",
-      "tags": ["build", "runas", "matchups", "adc", "hypercarry", "combos"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "adc",
+        "hypercarry",
+        "combos"
+      ],
       "keyPoints": [
         "Build Hypercarry: Filo Infinito → Huracan de Runaan → Bailarin Espectral → Sed de Sangre → Angel Guardián (55.3% WR)",
         "Build Early Power: Kraken Slayer → La Septima → Infinito (53.1% WR)",
@@ -102,7 +141,14 @@
       "patch": "26.9",
       "title": "Master Yi Jungle — Build Oneshot, Runas, Matchups",
       "summary": "El jungler con el WR más alto del meta (56.8%). Builds, combos, matchups y sinergias para dominar con el Buscador de Wuju en Season 2 Pandemonium.",
-      "tags": ["build", "runas", "matchups", "jungle", "snowball", "oneshot"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "snowball",
+        "oneshot"
+      ],
       "keyPoints": [
         "Build Oneshot: Filo de la Noche → Eclipse → Hydratación Letal → Última Piedad (54.8% WR)",
         "Build Persistente: Eclipse → Ángel Guardián → El Protegido (52.1% WR)",
@@ -120,7 +166,14 @@
       "patch": "26.9",
       "title": "Garen Top — Build Bruiser, Conquistador, Matchups, Combos",
       "summary": "Top laner más consistente del meta (52.1% WR). Build bruiser split push, runas Conquistador, Villain targeting y combos de engage para Season 2 Pandemonium.",
-      "tags": ["build", "runas", "matchups", "top", "bruiser", "splitpush"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "top",
+        "bruiser",
+        "splitpush"
+      ],
       "keyPoints": [
         "Build Bruiser: Filo de la Noche → Angel Guardián → Fuerza de la Trinidad → Resistencia Divina (52.1% WR)",
         "Build Tank Split: Fuerza de la Trinidad → Eclipse → Resistencia Divina → Hidra Titánica (52.3% WR)",
@@ -138,7 +191,14 @@
       "patch": "26.9",
       "title": "Ahri Mid — Build Burst Híbrido, Aery, Matchups, Combos",
       "summary": "Mage-assassin más versátil del meta (54.2% WR). Build burst hibrido, runas Aery, roaming dominante y combos de Charm para Season 2 Pandemonium.",
-      "tags": ["build", "runas", "matchups", "mid", "burst", "roaming"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "mid",
+        "burst",
+        "roaming"
+      ],
       "keyPoints": [
         "Build Burst Híbrido: Llamarada Sombría → Rabadón → Cetro de Rylai → Morellonomicon (54.2% WR)",
         "Build Control: Llamarada Sombría → Cetro de Rylai → Zhonya → Morellonomicon (51.5% WR)",
@@ -156,7 +216,15 @@
       "patch": "26.9",
       "title": "Malphite Top — Build Cometa Arcano Tank AP, Anti-AD, Combos",
       "summary": "Anti-AD tank más dominante del meta (54.7% WR). Build Cometa Arcano AP, counter a compositions AD, R engage incontestable para Season 2 Pandemonium.",
-      "tags": ["build", "runas", "matchups", "top", "tank", "anti-ad", "engage"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "top",
+        "tank",
+        "anti-ad",
+        "engage"
+      ],
       "keyPoints": [
         "Build Cometa Arcano: Hielo Eterno → Rabadón → Zhonya → Morellonomicon (54.7% WR)",
         "Build Tank Anti-AD: Hielo Eterno → Cetro de Rylai → Zhonya → Jak'Sho (51.2% WR)",
@@ -174,7 +242,13 @@
       "patch": "26.9",
       "title": "Zeri Rework — Builds AD/AP, Runas, Matchups",
       "summary": "Rework significativo en 26.9: diferenciación builds AD vs AP, nuevas interacciones con items, potencial S-tier.",
-      "tags": ["rework", "build", "runas", "matchups", "adc"],
+      "tags": [
+        "rework",
+        "build",
+        "runas",
+        "matchups",
+        "adc"
+      ],
       "keyPoints": [
         "Diferenciación clara entre build AD (hyper carry) y AP (poke/burst)",
         "Q interacción con items on-hit actualizada",
@@ -185,7 +259,6 @@
       ],
       "fileName": "BA_20260424_1430_guia_zeri_rework_lol269.md"
     },
-
     {
       "id": "hwei-mid-268",
       "champion": "Hwei",
@@ -193,7 +266,12 @@
       "patch": "26.8",
       "title": "Hwei Mid — Combos, Build, Matchups",
       "summary": "Hwei se posiciona como uno de los mages más versátiles del meta 26.8. Su kit de 10 habilidades permite adaptarse a cualquier situación de lane.",
-      "tags": ["combos", "build", "matchups", "mid"],
+      "tags": [
+        "combos",
+        "build",
+        "matchups",
+        "mid"
+      ],
       "keyPoints": [
         "Maximizar combo Q+E+W para burst en lane",
         "Build: Luden's Companion → Sorcerer's Shoes → Shadowflame",
@@ -209,7 +287,12 @@
       "patch": "26.8",
       "title": "K'Sante Top — WR, Build, Counters",
       "summary": "K'Sante domina la top lane con su kit tanque/bruiser híbrido. Alto WR y presencia en ranked.",
-      "tags": ["build", "counters", "wr", "top"],
+      "tags": [
+        "build",
+        "counters",
+        "wr",
+        "top"
+      ],
       "keyPoints": [
         "WR consistentemente por encima de 52%",
         "Build: Sunfire Aegis → Iceborn Gauntlet → Force of Nature",
@@ -218,7 +301,6 @@
       ],
       "fileName": "guia_ksante_wr_2026-04-18_ciclo13.md"
     },
-
     {
       "id": "lol-269-season2-prep",
       "champion": "General",
@@ -226,7 +308,13 @@
       "patch": "26.9",
       "title": "Preparación Season 2 Pandemonium — LoL 26.9",
       "summary": "Guía completa de preparación para Season 2: items, campeones, plan de práctica.",
-      "tags": ["season2", "pandemonium", "preparacion", "items", "builds"],
+      "tags": [
+        "season2",
+        "pandemonium",
+        "preparacion",
+        "items",
+        "builds"
+      ],
       "keyPoints": [
         "Nuevos Doran's reemplazan Trailblazer/Opportunity",
         "Botas Omnivamp (1.5%) cambian el timing de sustain items",
@@ -241,7 +329,12 @@
       "patch": "26.9",
       "title": "LoL 26.9 Full Preview — Cambios de Campeones",
       "summary": "Preview completo: Ambessa/Briar nerf, Zeri/Shyvana adjust, Taliyah/Warwick buff, nuevos items.",
-      "tags": ["patches", "champions", "changes", "preview"],
+      "tags": [
+        "patches",
+        "champions",
+        "changes",
+        "preview"
+      ],
       "keyPoints": [
         "~15 campeones cambian entre buffs/nerfs/adjustments",
         "Ambessa y Briar nerf significativo",
@@ -258,7 +351,15 @@
       "tier": "S",
       "title": "Ashe ADC — Build Lethal Tempo Kraken Slayer, Runas, Matchups, Combos",
       "summary": "Ashe ADC es S-tier en 26.10 (53.8% WR) con build Lethal Tempo + Kraken Slayer. Domina la poke meta con W, provee utilidad de equipo con R y E, y escala como hypercarry en late game.",
-      "tags": ["build", "runas", "matchups", "adc", "lethal-tempo", "kraken-slayer", "poke"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "adc",
+        "lethal-tempo",
+        "kraken-slayer",
+        "poke"
+      ],
       "keyPoints": [
         "Build principal: Kraken Slayer → Filo Infinito → Huracán de Runaan → Bailarín Espectral → Ángel Guardián (53.8% WR)",
         "Build poke: Kraken Slayer → Coleccionista → Filo Infinito → Runaan (51.9% WR)",
@@ -306,7 +407,16 @@
       "tier": "S",
       "title": "Ornn Top — Build Tank Demolir, Upgrades de Items, Matchups, Combos",
       "summary": "Ornn Top es S-tier en 26.10 (53.2% WR) como tank/support top lane. Demolir + item upgrades para el equipo lo convierten en el pick más valioso para team comps. Innato invulnerable con R engage.",
-      "tags": ["build", "runas", "matchups", "top", "tank", "demolir", "upgrades", "team-value"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "top",
+        "tank",
+        "demolir",
+        "upgrades",
+        "team-value"
+      ],
       "keyPoints": [
         "Build Tank: Égida de Fuego Solar → Jak'Sho, El Indomable → Coraza del Muerto → Fuerza de la Naturaleza (53.2% WR)",
         "Build Anti-AP: Égida de Fuego Solar → Rylai Cristalino → Fuerza de la Naturaleza → Abrazo del Serafín (51.7% WR)",
@@ -354,7 +464,16 @@
       "tier": "S",
       "title": "Vladimir Mid — Build Phase Rush AP, Runas, Matchups, Combos",
       "summary": "Vladimir Mid es S-tier en 26.10 (53.5% WR) como mage de daño sostenido. Phase Rush para mobility, pool invulnerable, y escala infinita como hiper-carry AP en teamfights.",
-      "tags": ["build", "runas", "matchups", "mid", "phase-rush", "ap", "sustained-damage", "hypercarry"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "mid",
+        "phase-rush",
+        "ap",
+        "sustained-damage",
+        "hypercarry"
+      ],
       "keyPoints": [
         "Build AP: Cresta Spectral → Rylai Cristalino → Rabadón → Sombrero Vuoto → Cetro de Rylai (53.5% WR)",
         "Build Tank AP: Cresta Spectral → Rylai → Jak'Sho → Abrazo del Serafín (51.3% WR)",
@@ -407,7 +526,16 @@
       "tier": "S",
       "title": "Fizz Mid — Build Electrocute Assassin, Runas, Matchups, Combos",
       "summary": "Fizz Mid es S-tier en 26.10 (54.1% WR) como assassin de burst con Electrocute. One-shot combos devastadores, invulnerabilidad con E, y roam dominante hacen de Fizz un terror para squishies.",
-      "tags": ["build", "runas", "matchups", "mid", "electrocute", "assassin", "oneshot", "burst"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "mid",
+        "electrocute",
+        "assassin",
+        "oneshot",
+        "burst"
+      ],
       "keyPoints": [
         "Build Assassin: Llamarada Sombría → Sombra de Fuego → Rabadón → Sombrero Vuoto → Vacío (54.1% WR)",
         "Build Lich Bane Rush: Lich Bane → Llamarada Sombría → Rabadón → Sombrero Vuoto (52.6% WR)",
@@ -454,7 +582,16 @@
       "tier": "S",
       "title": "Nocturne Jungle — Build Dark Harvest/Lethal Tempo, Engage, Matchups, Combos",
       "summary": "Nocturne Jungle es S-tier en 26.10 (53.6% WR) como engager/jungler. Dark Harvest para snowball o Lethal Tempo para DPS sostenido. R global para ganks imposibles y paranoid plays.",
-      "tags": ["build", "runas", "matchups", "jungle", "dark-harvest", "lethal-tempo", "engage", "global"],
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "dark-harvest",
+        "lethal-tempo",
+        "engage",
+        "global"
+      ],
       "keyPoints": [
         "Build Assassin: Filo de la Noche → Eclipse → Hidratación Letal → Última Piedad → Guardián Angel (53.6% WR)",
         "Build DPS Lethal: Kraken Slayer → Filo de la Noche → Eclipse → Hidratación Letal (51.8% WR)",
@@ -492,6 +629,20 @@
       ],
       "url": "/guides/guia_nocturne_jungle",
       "fileName": "BA_20260614_1204_guia_nocturne_jungle_lol2610.md"
+    },
+    {
+      "id": "BA_20260520_0755",
+      "champion": "Nasus",
+      "role": "Top",
+      "game": "lol",
+      "patch": "26.10",
+      "title": "Nasus Top — Guia Completa LoL 26.10",
+      "tier": "S",
+      "winRate": 52.4,
+      "pickRate": 4.8,
+      "file": "data/guides/BA_20260520_0755_guia_nasus_top_lol2610.md",
+      "createdAt": "2026-05-20T07:55:00Z",
+      "summary": "Split push S-tier. Build: Fuerza de la Trinidad + Eclipse. Runas: Precision + Determinacion. Stacking guide, matchups, combos. Ghost buff meta."
     }
   ]
 }

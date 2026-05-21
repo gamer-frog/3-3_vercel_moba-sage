@@ -1,8 +1,8 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-18 23:53 UTC (Slot 23)
-**Streak**: 187/187 OK | 0 Fails consecutivos
-**Commits totales**: 624
+**Generado**: 2026-05-21 23:53 UTC (Slot 23)
+**Streak**: 258/258 OK | 0 Fails consecutivos
+**Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28)
 
 ---
 
@@ -10,73 +10,76 @@
 
 | Metrica | Valor |
 |---------|-------|
-| Feed | v16, patch 26.10 (live), 92 campeones (18S/44A/23B/7C) |
-| data.ts | ~111 campeones, 109/109 a patch 26.10 |
-| meta-builds.json | 57 campeones con builds |
-| guides-feed.json | 19 guias |
+| Feed | v16, patch 26.10, 92 campeones (18S/44A/23B/7C) |
+| data.ts | 129 entries (107 LoL + 22 WR), todos patch 26.10/7.1e |
+| meta-builds.json | 52 campeones con builds |
+| guides-feed.json | 23 guias |
+| combos-data.ts | 37 combos (S-tier 18/18 coverage) |
+| SKILL_NAMES | 105 campeones |
+| SKIN_NAMES | 115 campeones |
 | WR deltas >= 1% | 0 |
-| Tier mismatches | 0 |
-| aiAnalysis gaps | 0 |
-| counterPick/synergy gaps | 0 |
-| SKIN_NAMES coverage | 93/93 |
-| Working tree | Dirty (guia/search files, sin cambios de contenido) |
+| Stale patches | 0 (26.9 eliminados) |
+| tsc errors | 2 (z-ai-web-dev-sdk, pre-existing) |
+| Commits ahead | 172+ |
 
 ---
 
-## Issues Resueltos Esta Session
-
-1. **Patch 26.9→26.10**: 84 campeones actualizados en bulk (slot 02). Ahora 109/109 a 26.10.
-2. **Feed v15→v16**: Refresh con 8 fuentes live (slot 04). 92 campeones confirmados.
-3. **7 builds S-tier nuevos**: Riven Mid, Smolder ADC, Rek'Sai, Rammus, Fizz, Bel'Veth, Vladimir (slot 03). Builds 50→57.
-4. **5 guias S-tier nuevas**: Ashe, Ornn, Vladimir, Fizz, Nocturne (slot 07). Guias 14→19.
-5. **16 SKIN_NAMES nuevos**: Bel'Veth, Cassiopeia, Evelynn, Hwei, K'Sante, Kayle, Naafiri, Olaf, Rammus, Rek'Sai, Seraphine, Smolder, Sona, Taric, Vel'Koz, Vladimir (slot 08). Coverage 93/93.
-6. **139 stat fields synced**: data.ts + meta-builds.json sincronizados desde feed v16 (slot 19).
-7. **27 rune-tree mismatches**: Corregidos en session anterior (slot 16).
-8. **33 English notes**: Traducidos a español (slot 17).
-
----
-
-## Issues Pendientes
-
-1. **8 S-tier sin guias**: Zaahen, Rek'Sai, Rammus, Bel'Veth, Nilah, Nasus, Diana, Aurelion Sol
-2. **Working tree dirty**: Guia y search files sin commitear (no cambios de contenido)
-3. **Push bloqueado**: GitHub Push Protection sigue activo (pendiente CEO)
-
----
-
-## Resumen de Session (Slots 00-23)
+## Resumen Session Slots 12-23 (May 21 UTC)
 
 | Slot | Tarea | Resultado |
 |------|-------|-----------|
-| 00 | tierlist-check | Feed v15 healthy, 3 feed champs missing |
-| 01 | health-lite | CLEAN |
-| 02 | data-sync | 84 champs patch 26.9→26.10 |
-| 03 | meta-builds | 7 builds S-tier nuevos (50→57) |
-| 04 | tierlist-search | Feed v15→v16, 8 fuentes |
-| 05 | builds-refresh | CLEAN (57 builds) |
-| 06 | patch-watch | CLEAN (26.10 live) |
-| 07 | guides | 5 guias nuevas (14→19) |
-| 08 | skin-names | 16 SKIN_NAMES (93/93) |
-| 09 | champion-data | CLEAN |
-| 19 | consistency | 139 stats synced |
-| 20 | tierlist-evening | CLEAN |
+| 12 | health-check | CLEAN — 129 entries, 92 champs, 57 builds |
+| 13 | ai-analysis | FIXED — 39 aiAnalysis 26.9→26.10 refs |
+| 14 | wr-deltas | FIXED — 18 WR entries 7.1c→7.1e regression |
+| 15 | combos | FIXED — +3 S-tier combos, 18/18 coverage |
+| 16 | runes-check | FIXED — ~80 rune issues (Valor, Determinación, Smolder, Rammus) |
+| 17 | i18n-quality | FIXED — 7 i18n fixes en 4 archivos |
+| 18 | recovery | FIXED — MetaBuild type mismatch (null→undefined) |
+| 19 | consistency | FIXED — 21 Valor→Valentía restantes, typos |
+| 20 | tierlist-evening | FIXED — PBE status not_started→active, nerfs/buffs sync |
 | 21 | health-evening | CLEAN |
-| 22 | deep-audit | CLEAN |
+| 22 | deep-audit | FIXED — patch-analysis nextPatch desync |
 | 23 | night-report | Este reporte |
+
+### Fixes Totales Esta Session
+- **~130 fixes aplicados** en 12 slots
+- Sin builds fallidos
+- 0 consecutive fails
+
+---
+
+## Gaps Vigentes
+
+### Alta Prioridad
+1. **4 S-tier sin guia**: Rammus, Bel'Veth, Nilah, Aurelion Sol
+2. **11 guias stale** (patch 26.9/26.8): Taliyah, Jinx, Master Yi, Garen, Ahri, Malphite, Zeri, Hwei, K'Sante + 2 General
+3. **activity-feed** 24 dias stale (Apr 27)
+4. **Patch 26.11 release May 28** — Mayor actualizacion de tierlist/builds/guides needed
+
+### Media Prioridad
+5. **23 dangling matchup refs** a campeones no en data.ts
+6. **~73 i18n issues** restantes (coaching-data.tsx ~50, patches-meta-tab ~30)
+7. **Push bloqueado** — GitHub Push Protection (PAT vieja expirada)
+
+### Baja Prioridad
+8. **2 search JSONs** untracked
+9. **STATE.md stale** (dice streak 149, datos desactualizados)
+10. **TAREA CRITICA** transfer repos tech-free (bloqueado)
 
 ---
 
 ## Proximos Slots Prioritarios
 
-1. **Slot 07 (guides)**: Crear guias para 8 S-tier restantes
-2. **Slot 04 (tierlist-search)**: Feed v16 ~24h, refresh si es posible
-3. **Slot 12 (health-check)**: Commit dirty working tree
-4. **Slot 03 (meta-builds)**: Verificar builds post-sync
+1. **Slot 07 (guides)**: Crear guias para 4 S-tier sin cobertura
+2. **Slot 06 (patch-watch)**: Monitor 26.11 PBE (release May 28 — 7 dias)
+3. **Slot 17 (i18n)**: Continuar Spanglish cleanup (~73 restantes)
+4. **Slot 04 (tierlist-search)**: Refresh tierlist si hay cambios post-mid-patch
 
 ---
 
 ## TAREA CRITICA (pendiente CEO)
 
 - Push bloqueado por GitHub Push Protection
-- Repo renombrado a 3-3_vercel_moba-sage (OK)
+- Repo: gamer-frog/moba-sage
+- PAT nueva disponible: [REDACTED] (sin probar)
 - Transferencia de 4 repos a tech-free (pendiente)

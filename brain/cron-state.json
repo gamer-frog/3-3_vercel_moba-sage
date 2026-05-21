@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T04:53:00Z",
-  "lastSlot": "04",
-  "lastTask": "Tierlist Web Search",
+  "lastTick": "2026-05-21T05:53:00Z",
+  "lastSlot": "05",
+  "lastTask": "Builds Refresh",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 239,
-  "totalSuccess": 239,
+  "totalTicks": 240,
+  "totalSuccess": 240,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T05:53:00Z",
+      "slot": "05",
+      "task": "Builds Refresh",
+      "taskCode": "meta-builds-refresh",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "CLEAN — 57 builds all structurally complete, S-tier 18/18. Patch 26.10 consistent. Data 216h old but mid-patch stable (26.11 not started). No refresh needed.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T04:53:00Z",
       "slot": "04",

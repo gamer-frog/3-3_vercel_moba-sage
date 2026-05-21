@@ -108,11 +108,11 @@
   },
   "nextPatch": {
     "version": "26.11",
-    "scheduledDate": "2026-05-27",
-    "pbeStatus": "upcoming",
+    "scheduledDate": "2026-05-28",
+    "pbeStatus": "active",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "title": "Cleaver + DFT Internal CD — Expected",
-    "summary": "Esperado: Cleaver + Deathfire Touch internal cooldown (diferido desde 26.10). Posibles ajustes adicionales al ecosistema Season 2.",
+    "title": "DFT Magic Damage + Imperial Mandate Rework — PBE Active",
+    "summary": "PBE ACTIVO (confirmed May 21). DFT convertido a magic damage (diferido desde 26.10). Imperial Mandate rework. Diana jungle buff. Smolder/Teemo/Anivia/Ashe/Naafiri/Shyvana/Zed nerfeados. Release May 28.",
     "sources": [
       "https://www.sheepesports.com/en/all/articles/lol-patch-26-10-preview-lee-sin-gets-a-modernized-rework-and-doran-s-bow-helm-buffed/en",
       "https://gameriv.com/league-of-legends-patch-26-10-preview-all-buffs-nerfs-changes-and-more",

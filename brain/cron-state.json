@@ -2,16 +2,161 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T12:53:00Z",
-  "lastSlot": "12",
-  "lastTask": "Health Check Deep",
+  "lastTick": "2026-05-21T22:53:00Z",
+  "lastSlot": "22",
+  "lastTask": "Deep Audit",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 247,
-  "totalSuccess": 247,
+  "totalTicks": 257,
+  "totalSuccess": 257,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T22:53:00Z",
+      "slot": "22",
+      "task": "Deep Audit",
+      "taskCode": "deep-audit",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 25000,
+      "changes": "FIXED: patch-analysis.json nextPatch desync — pbeStatus upcoming→active, scheduledDate May 27→May 28, title/summary updated with 26.11 PBE confirmed details. AUDIT: 7/8 JSONs valid (version.txt plain text), 18/18 S-tier in data.ts, 18/18 in meta-builds, 14/18 with guides, 0 stale patches, 111/111 26.10 refs, 52 builds, 23 guides. Stale: 11 guides (26.9/26.8), activity-feed 24d old.",
+      "filesChanged": [
+        "public/patch-analysis.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T21:53:00Z",
+      "slot": "21",
+      "task": "Health Evening",
+      "taskCode": "health-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 20000,
+      "changes": "CLEAN — 3/3 JSONs valid, tierlist v16 92 champs (18S/44A/23B/7C), 52 meta-builds, 23 guides, 716/716 braces OK, git clean (0 dirty, 2 untracked), 171 commits ahead.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T20:53:00Z",
+      "slot": "20",
+      "task": "Tierlist Evening Check",
+      "taskCode": "tierlist-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "FIXED: tierlist-feed.json nextPatch.pbeStatus not_started→active. Updated confirmedNerfs (1→7), added confirmedBuffs (Diana), added confirmedAdjusts (DFT magic damage, Imperial Mandate rework).",
+      "filesChanged": [
+        "public/tierlist-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T19:53:00Z",
+      "slot": "19",
+      "task": "Cross-File Consistency",
+      "taskCode": "consistency",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 40000,
+      "changes": "FIXED: 21 remaining Valor→Valentía in data.ts, Determinacion→Valentía in guides-feed, synergy typos (viengo→viego, orna→ornn). Total Valor fixes: 47.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T18:53:00Z",
+      "slot": "18",
+      "task": "Recovery Check",
+      "taskCode": "recovery",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 25000,
+      "changes": "Fixed MetaBuild null→undefined type mismatch in champion-modal. Remaining 2 tsc: z-ai-web-dev-sdk pre-existing.",
+      "filesChanged": [
+        "src/components/moba/champion-modal.tsx",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T17:53:00Z",
+      "slot": "17",
+      "task": "i18n + Quality",
+      "taskCode": "i18n-quality",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 40000,
+      "changes": "7 i18n fixes: Meta & → Meta e, Builds Pro & → Builds Pro y, Wave management → Manejo de oleadas, meta analysis → análisis del meta x2, initiatior typo.",
+      "filesChanged": [
+        "src/components/moba/loading-screen.tsx",
+        "src/components/moba/tabs/guides-tab.tsx",
+        "src/app/layout.tsx",
+        "src/components/moba/tabs/patches-meta-tab.tsx",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T16:53:00Z",
+      "slot": "16",
+      "task": "Runes Verification",
+      "taskCode": "runes-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "FIXED ~80 rune issues: Valor→Valentía, Determinación→Resolución, Smolder runes rewritten, Rammus keystone fixed, Fizz/Vladimir fixes.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/meta-builds.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T15:53:00Z",
+      "slot": "15",
+      "task": "Combo Review",
+      "taskCode": "combos",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 35000,
+      "changes": "Added 3 S-tier combos (Rek'Sai, Bel'Veth, Fizz). S-tier coverage 15/18→18/18. Combos 34→37.",
+      "filesChanged": [
+        "src/data/combos-data.ts",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T14:53:00Z",
+      "slot": "14",
+      "task": "WR Delta Check",
+      "taskCode": "wr-deltas",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "FIXED WR patch regression: 18 data.ts entries 7.1c→7.1e + tierlist-feed WR patch.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "public/tierlist-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-21T13:53:00Z",
+      "slot": "13",
+      "task": "Deep Analysis",
+      "taskCode": "ai-analysis",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "Updated 39 aiAnalysis entries from 26.9→26.10 refs. Fixed duplicate aiAnalysis prefix.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T12:53:00Z",
       "slot": "12",
@@ -20,288 +165,8 @@
       "status": "OK",
       "build": "OK",
       "duration_ms": 20000,
-      "changes": "CLEAN — 3/3 JSONs valid, 129 entries (107 LoL + 22 WR), tierlist v16 92 champs (18S/44A/23B/7C), 22/22 S-tier in data.ts, 57 builds, 23 guides, 30 combos, braces 879/879. Build compiles OK. 6 untracked search JSONs (non-critical). Known issues: 23 dangling matchup refs, 11 stale guides (pre-26.10), 2 z-ai-web-dev-sdk errors.",
+      "changes": "CLEAN — 3/3 JSONs valid, 129 entries, 92 champs, 57 builds, 23 guides.",
       "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T11:53:00Z",
-      "slot": "11",
-      "task": "Matchup Analysis",
-      "taskCode": "matchup-analysis",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 25000,
-      "changes": "CLEAN — 304 total matchup refs (171 counters + 133 strong_vs), 66.8% resolve to data.ts. 23 valid LoL champs missing from data.ts but referenced in matchups (top: Samira 10refs, Talon 11refs, Kha'Zix 8refs). No misspellings or truncated names found. 51 counterPick dangling refs across 20 unique missing champs. Data gap MODERATE but structurally sound.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T10:53:00Z",
-      "slot": "10",
-      "task": "BrokenThings Audit",
-      "taskCode": "broken-things",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "FIXED 3 issues: (1) passiveAbility added to Champion interface (94 tsc errors resolved), (2) fileName added to 3 new guides (Diana/Zaahen/Rek'Sai) in guides-feed.json, (3) 5 broken fileName refs cleared (Ashe/Ornn/Vladimir/Fizz/Nocturne — files dated June 14 don't exist). NOTED: 24 dangling matchup refs in meta-builds, 21 in combos, 11 stale guides (pre-26.10), 2 z-ai-web-dev-sdk module errors (pre-existing).",
-      "filesChanged": [
-        "src/components/moba/types.ts",
-        "public/guides-feed.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T09:53:00Z",
-      "slot": "09",
-      "task": "Champion Data",
-      "taskCode": "champion-data",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "Fixed 18 WR entries patch 7.1c→7.1e (synced with slot 06 patch-watch). 95 full LoL entries with passiveAbility, 22 WR entries, 32 aiAnalysis filled. Remaining: 4 WR entries without title field, all WR have aiAnalysis.",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T08:53:00Z",
-      "slot": "08",
-      "task": "Skin Names Expansion",
-      "taskCode": "skin-names",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 115 skin name entries in SKIN_NAMES, 105 champions with SKILL_NAMES. All champions with skill names also have skin names. No expansion needed.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T07:53:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 60000,
-      "changes": "Created 3 new S-tier guides: Diana JG (DFT build, 26.11 buff preview), Zaahen Top (Conquistador bruiser), Rek'Sai JG (tunnel engage). Guides 20->23. S-tier coverage 11/18. 11 outdated guides noted (patch 26.9/26.8). Remaining missing: Rammus, Bel'Veth, Nilah, Aurelion Sol.",
-      "filesChanged": [
-        "data/guides/BA_20260521_0755_guia_diana_jungle_lol2610.md",
-        "data/guides/BA_20260521_0756_guia_zaahen_top_lol2610.md",
-        "data/guides/BA_20260521_0757_guia_reksai_jungle_lol2610.md",
-        "public/guides-feed.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T06:53:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "CRITICAL UPDATE: LoL 26.11 PBE ACTIVE (preview May 19), release May 28. DFT→magic damage, Imperial Mandate reworked, Heartsteel/Aftershock/Guardian buffed, Dreammaker/Echoes/Moonstone/Aery nerfed. Diana JG buff, Smolder/Teemo nerfed. HIGH meta impact. WR corrected to 7.1e (Taliyah released May 15, 7.2 on July 9).",
-      "filesChanged": [
-        "public/tierlist-feed.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T05:53:00Z",
-      "slot": "05",
-      "task": "Builds Refresh",
-      "taskCode": "meta-builds-refresh",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 57 builds all structurally complete, S-tier 18/18. Patch 26.10 consistent. Data 216h old but mid-patch stable (26.11 not started). No refresh needed.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T04:53:00Z",
-      "slot": "04",
-      "task": "Tierlist Web Search",
-      "taskCode": "tierlist-search",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 5000,
-      "changes": "CLEAN — tierlist v16 age 72h, mid-patch stable, no search needed. 26.11 scheduled May 27, PBE not started.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T03:53:00Z",
-      "slot": "03",
-      "task": "Meta Builds Verify",
-      "taskCode": "meta-builds",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 57 builds, all structurally complete (core_items, runes, counters, skill_order). S-tier 18/18. Patch 26.10. No external changes.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T02:53:00Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 129 entries (107 LoL + 22 WR), all 99 tierlist champs in data.ts, 22/22 S-tier present, meta-builds 57, guides 20, 32 entries with empty aiAnalysis (lower-tier). No external changes.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T01:53:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CEO external changes committed: data.ts 117->129 (+12 LoL entries), meta-builds 52->57 (+5), guides 23->20 (-3 removed), combos 34->30 (-4 trimmed). All 22/22 S-tier present. Braces balanced 879/879. Tierlist v16 unchanged.",
-      "filesChanged": [
-        "src/lib/data.ts",
-        "public/guides-feed.json",
-        "public/meta-builds.json",
-        "src/data/combos-data.ts",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T00:53:00Z",
-      "slot": "00",
-      "task": "Tierlist Check",
-      "taskCode": "tierlist-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — tierlist v16 stable, 92 champs (18S/44A/23B/7C), patch 26.10. Smolder #1 WR 54.6% + 46.8% ban. S-tier range 51.6-54.7%. WR v7.1c 4S/3A. 26.11 scheduled May 27 (5 days).",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T23:53:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — Day summary: slots 16-23 all OK. 22 i18n fixes, 6 S-tier data additions, 1 type fix, 1 guide tracked.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T22:53:00Z",
-      "slot": "22",
-      "task": "Deep Audit",
-      "taskCode": "deep-audit",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "1 i18n fix: floating-notes Live→En Vivo. Full audit CLEAN: 3/3 JSONs valid, 117 entries, 22/22 S-tier, 23 guides, 52 builds, 34 combos.",
-      "filesChanged": [
-        "src/components/moba/floating-notes.tsx",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T21:53:00Z",
-      "slot": "21",
-      "task": "Health Evening",
-      "taskCode": "health-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "CLEAN — 3/3 JSONs valid, 117 entries, 18/18 S-tier, guides 23, builds 52, combos 34.",
-      "filesChanged": [
-        "data/guides/BA_20260519_0755_guia_rammus_jungle_lol2610.md",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T20:53:00Z",
-      "slot": "20",
-      "task": "Tierlist Evening Check",
-      "taskCode": "tierlist-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — tierlist v16 stable, 92 champs.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T19:53:00Z",
-      "slot": "19",
-      "task": "Cross-File Consistency",
-      "taskCode": "consistency",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 25000,
-      "changes": "CLEAN — 117 entries (95 LoL + 22 WR), 18/18 S-tier, guides 23, builds 52, combos 30.",
-      "filesChanged": []
-    },
-    {
-      "tick": "2026-05-20T18:53:00Z",
-      "slot": "18",
-      "task": "Recovery Check",
-      "taskCode": "recovery",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 30000,
-      "changes": "Fixed Champion interface: added passiveAbility field. Recovery audit CLEAN.",
-      "filesChanged": [
-        "src/components/moba/types.ts",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T17:53:00Z",
-      "slot": "17",
-      "task": "i18n + Quality",
-      "taskCode": "i18n-quality",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 45000,
-      "changes": "21 i18n fixes across 6 files. 51 issues found (27H/18M/6L), 21 HIGH fixed.",
-      "filesChanged": [
-        "src/components/moba/loading-screen.tsx",
-        "src/components/moba/game-selector.tsx",
-        "src/components/moba/app-header.tsx",
-        "src/components/moba/tabs/comparison-tab.tsx",
-        "src/components/moba/modal/counter-strategies.tsx",
-        "src/components/moba/tabs/patches-meta-tab.tsx",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-20T16:53:00Z",
-      "slot": "16",
-      "task": "Runes Verification",
-      "taskCode": "runes-check",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 35000,
-      "changes": "Added 6 S-tier entries: Rek'Sai, Bel'Veth, Smolder, Rammus, Fizz, Vladimir. S-tier coverage: 12->18/18.",
-      "filesChanged": [
-        "src/lib/data.ts",
         "brain/cron-state.json"
       ]
     }

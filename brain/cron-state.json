@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T08:53:00Z",
-  "lastSlot": "08",
-  "lastTask": "Skin Names Expansion",
+  "lastTick": "2026-05-21T09:53:00Z",
+  "lastSlot": "09",
+  "lastTask": "Champion Data",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 243,
-  "totalSuccess": 243,
+  "totalTicks": 244,
+  "totalSuccess": 244,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T09:53:00Z",
+      "slot": "09",
+      "task": "Champion Data",
+      "taskCode": "champion-data",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "Fixed 18 WR entries patch 7.1c→7.1e (synced with slot 06 patch-watch). 95 full LoL entries with passiveAbility, 22 WR entries, 32 aiAnalysis filled. Remaining: 4 WR entries without title field, all WR have aiAnalysis.",
+      "filesChanged": [
+        "src/lib/data.ts",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T08:53:00Z",
       "slot": "08",

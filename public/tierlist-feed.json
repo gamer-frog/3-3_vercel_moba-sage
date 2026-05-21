@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T04:54:57Z",
+  "lastUpdated": "2026-05-21T06:53:00Z",
   "source": "Cron Slot 04 — MOBA SAGE auto-update (web search: U.GG, Mobalytics, Blitz.gg, METAsrc, Reddit, Skill Capped, metabot.gg) — verified against live sources",
   "version": 16,
   "sources": [
@@ -854,7 +854,7 @@
     ]
   },
   "wildrift": {
-    "patch": "7.1c",
+    "patch": "7.1e",
     "sTier": [
       {
         "name": "Master Yi",
@@ -922,24 +922,58 @@
     "falling": [
       "Kha'Zix (base damage nerf)",
       "Pyke (assassin item changes)"
-    ]
+    ],
+    "previousPatch": "7.1c",
+    "nextPatch": "7.2",
+    "nextPatchDate": "2026-07-09",
+    "lastUpdated": "2026-05-13",
+    "patchSummary": "Taliyah released May 15. Zoe/Corki buff, Irelia/Fiora/Renekton/Yasuo/Mel/Shyvana/Rakan/Ziggs nerfed. Lord Dominik's Regards new item. Trinity Force/Lich Bane/Luden's adjusted. Upgraded boots heavily nerfed.",
+    "nextPatchSummary": "No preview yet. Expected ~June 27. Cho'Gath/Hwei/Sylas confirmed for 2026."
   },
   "metaLastUpdated": "2026-05-18T04:54:57Z",
   "patch": "26.10 — Season 2 Pandemonium (live)",
   "nextPatch": {
     "version": "26.11",
-    "scheduledDate": "~2026-05-27",
-    "pbeStatus": "not_started",
+    "scheduledDate": "2026-05-28",
+    "pbeStatus": "active",
+    "pbePreviewDate": "2026-05-19",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "summary": "Cleaver + DFT interaction deferred from 26.10. Sin PBE aun.",
+    "summary": "DFT changed to magic damage (fixes BC interaction). Imperial Mandate reworked. Heartsteel/Aftershock/Guardian/Knight's Vow/Locket/Zeke's buffed (melee support meta). Dreammaker/Echoes of Helia/Moonstone/Aery nerfed (enchanter nerf). Hexplate ranged passive nerfed. Diana JG buff, Smolder/Teemo/Brand nerfed.",
     "keyChanges": {
-      "buffs": [],
-      "nerfs": [],
+      "buffs": [
+        "Diana JG",
+        "Ekko",
+        "Kassadin",
+        "Quinn JG",
+        "Heimerdinger",
+        "Heartsteel",
+        "Aftershock",
+        "Guardian",
+        "Knight's Vow",
+        "Locket",
+        "Zeke's Convergence"
+      ],
+      "nerfs": [
+        "Smolder",
+        "Teemo",
+        "Brand",
+        "Dreammaker",
+        "Echoes of Helia",
+        "Moonstone",
+        "Aery",
+        "Experimental Hexplate (ranged)"
+      ],
       "adjustments": [
-        "Cleaver + DFT interaction (deferred from 26.10)"
+        "Xin Zhao",
+        "Statikk Shiv",
+        "Void Grubs buff"
+      ],
+      "reworks": [
+        "Imperial Mandate",
+        "Deathfire Touch (physical→magic damage)"
       ]
     },
-    "metaImpact": "Pendiente — sin datos PBE aun."
+    "metaImpact": "HIGH — Melee vs ranged support rebalance. Engage tanks rise, enchanters fall. DFT build paths change. Diana JG buff notable. Smolder slight nerf. Tierlist likely shifts significantly for supports and DFT users."
   },
   "previousPatch": {
     "version": "26.10",

@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T11:53:00Z",
-  "lastSlot": "11",
-  "lastTask": "Matchup Analysis",
+  "lastTick": "2026-05-21T12:53:00Z",
+  "lastSlot": "12",
+  "lastTask": "Health Check Deep",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 246,
-  "totalSuccess": 246,
+  "totalTicks": 247,
+  "totalSuccess": 247,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T12:53:00Z",
+      "slot": "12",
+      "task": "Health Check Deep",
+      "taskCode": "health-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 20000,
+      "changes": "CLEAN — 3/3 JSONs valid, 129 entries (107 LoL + 22 WR), tierlist v16 92 champs (18S/44A/23B/7C), 22/22 S-tier in data.ts, 57 builds, 23 guides, 30 combos, braces 879/879. Build compiles OK. 6 untracked search JSONs (non-critical). Known issues: 23 dangling matchup refs, 11 stale guides (pre-26.10), 2 z-ai-web-dev-sdk errors.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T11:53:00Z",
       "slot": "11",

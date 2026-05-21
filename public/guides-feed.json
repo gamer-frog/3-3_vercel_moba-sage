@@ -1,8 +1,38 @@
 {
-  "lastUpdated": "2026-05-20T07:55:00Z",
+  "lastUpdated": "2026-05-21T07:57:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 20,
+  "totalGuides": 23,
   "guides": [
+    {
+      "id": "reksai-jungle-2610",
+      "champion": "Rek'Sai",
+      "role": "Jungle",
+      "patch": "26.10",
+      "title": "Rek'Sai Jungle — Build Conquistador Bruiser, Runas, Matchups, Combos",
+      "summary": "S-tier Jungler 26.10 (53.5% WR). Bruiser con pressure de mapa insana. Tunnel vision engage + Conquistador stacking. Build Eclipse→Sangre→Trinidad→Resistencia.",
+      "game": "lol",
+      "createdAt": "2026-05-21T07:57:00Z"
+    },
+    {
+      "id": "zaahen-top-2610",
+      "champion": "Zaahen",
+      "role": "Top",
+      "patch": "26.10",
+      "title": "Zaahen Top — Build Conquistador Bruiser, Runas, Matchups, Combos",
+      "summary": "S-tier Top 26.10 (53.5% WR, 5.2% pick). Nuevo campeón Pandemonium S2. Bruiser versátil con Conquistador. Build Filo→Trinidad→Eclipse→Resistencia.",
+      "game": "lol",
+      "createdAt": "2026-05-21T07:56:00Z"
+    },
+    {
+      "id": "diana-jungle-2610",
+      "champion": "Diana",
+      "role": "Jungle",
+      "patch": "26.10",
+      "title": "Diana Jungle — Build DFT AP Assassin, Runas, Matchups, Combos",
+      "summary": "S-tier Jungler AP 26.10 (52.4% WR). DFT Diana burst AP. 26.11 buff confirmed (passive 230%→270%, W ratio 9%→11%). Build Eclipse→Rabadon→Llamarada→Morellonomicon.",
+      "game": "lol",
+      "createdAt": "2026-05-21T07:55:00Z"
+    },
     {
       "id": "riven-mid-2610",
       "champion": "Riven",

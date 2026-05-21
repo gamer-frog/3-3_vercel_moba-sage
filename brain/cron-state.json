@@ -2,16 +2,33 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T06:53:00Z",
-  "lastSlot": "06",
-  "lastTask": "Patch Watch",
+  "lastTick": "2026-05-21T07:53:00Z",
+  "lastSlot": "07",
+  "lastTask": "Guide Creation",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 241,
-  "totalSuccess": 241,
+  "totalTicks": 242,
+  "totalSuccess": 242,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T07:53:00Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 60000,
+      "changes": "Created 3 new S-tier guides: Diana JG (DFT build, 26.11 buff preview), Zaahen Top (Conquistador bruiser), Rek'Sai JG (tunnel engage). Guides 20->23. S-tier coverage 11/18. 11 outdated guides noted (patch 26.9/26.8). Remaining missing: Rammus, Bel'Veth, Nilah, Aurelion Sol.",
+      "filesChanged": [
+        "data/guides/BA_20260521_0755_guia_diana_jungle_lol2610.md",
+        "data/guides/BA_20260521_0756_guia_zaahen_top_lol2610.md",
+        "data/guides/BA_20260521_0757_guia_reksai_jungle_lol2610.md",
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T06:53:00Z",
       "slot": "06",

@@ -11,7 +11,8 @@
       "title": "Rek'Sai Jungle — Build Conquistador Bruiser, Runas, Matchups, Combos",
       "summary": "S-tier Jungler 26.10 (53.5% WR). Bruiser con pressure de mapa insana. Tunnel vision engage + Conquistador stacking. Build Eclipse→Sangre→Trinidad→Resistencia.",
       "game": "lol",
-      "createdAt": "2026-05-21T07:57:00Z"
+      "createdAt": "2026-05-21T07:57:00Z",
+      "fileName": "BA_20260521_0757_guia_reksai_jungle_lol2610.md"
     },
     {
       "id": "zaahen-top-2610",
@@ -21,7 +22,8 @@
       "title": "Zaahen Top — Build Conquistador Bruiser, Runas, Matchups, Combos",
       "summary": "S-tier Top 26.10 (53.5% WR, 5.2% pick). Nuevo campeón Pandemonium S2. Bruiser versátil con Conquistador. Build Filo→Trinidad→Eclipse→Resistencia.",
       "game": "lol",
-      "createdAt": "2026-05-21T07:56:00Z"
+      "createdAt": "2026-05-21T07:56:00Z",
+      "fileName": "BA_20260521_0756_guia_zaahen_top_lol2610.md"
     },
     {
       "id": "diana-jungle-2610",
@@ -31,7 +33,8 @@
       "title": "Diana Jungle — Build DFT AP Assassin, Runas, Matchups, Combos",
       "summary": "S-tier Jungler AP 26.10 (52.4% WR). DFT Diana burst AP. 26.11 buff confirmed (passive 230%→270%, W ratio 9%→11%). Build Eclipse→Rabadon→Llamarada→Morellonomicon.",
       "game": "lol",
-      "createdAt": "2026-05-21T07:55:00Z"
+      "createdAt": "2026-05-21T07:55:00Z",
+      "fileName": "BA_20260521_0755_guia_diana_jungle_lol2610.md"
     },
     {
       "id": "riven-mid-2610",
@@ -427,7 +430,7 @@
         }
       ],
       "url": "/guides/guia_ashe_adc",
-      "fileName": "BA_20260614_1200_guia_ashe_adc_lol2610.md"
+      "fileName": ""
     },
     {
       "id": "guia_ornn_top_lol2610",
@@ -484,7 +487,7 @@
         }
       ],
       "url": "/guides/guia_ornn_top",
-      "fileName": "BA_20260614_1201_guia_ornn_top_lol2610.md"
+      "fileName": ""
     },
     {
       "id": "guia_vladimir_mid_lol2610",
@@ -546,7 +549,7 @@
         }
       ],
       "url": "/guides/guia_vladimir_mid",
-      "fileName": "BA_20260614_1202_guia_vladimir_mid_lol2610.md"
+      "fileName": ""
     },
     {
       "id": "guia_fizz_mid_lol2610",
@@ -602,7 +605,7 @@
         }
       ],
       "url": "/guides/guia_fizz_mid",
-      "fileName": "BA_20260614_1203_guia_fizz_mid_lol2610.md"
+      "fileName": ""
     },
     {
       "id": "guia_nocturne_jungle_lol2610",
@@ -658,7 +661,7 @@
         }
       ],
       "url": "/guides/guia_nocturne_jungle",
-      "fileName": "BA_20260614_1204_guia_nocturne_jungle_lol2610.md"
+      "fileName": ""
     },
     {
       "id": "BA_20260520_0755",

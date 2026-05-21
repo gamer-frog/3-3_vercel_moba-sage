@@ -650,7 +650,6 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     proPickRate: 1.5,
     runes: {"primary":"Valor — Guardián","secondary":"Brujería — Debilidad","shards":"Armadura + Fuerza + Resistencia"},
   },
-  // Vel'Koz (A-tier) removido — ahora C-tier, duplicado resuelto en tick #13 health-check
   { name: 'Taliyah', title: 'la Tejedora de Piedras', passiveAbility: { name: 'Rock Surfing', description: "Taliyah gains Move Speed near walls." }, role: 'Mid', tier: 'B', winRate: 51.5, pickRate: 3.5, banRate: 0.5, image: '', aiInsight: '', build: '', counters: 'zed,yasuo,ahri', synergies: 'yasuo,gragas,malphite', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Feed v13 sync'],
     brokenThings: ['R isolation → 1v1 garantizado', 'Q AoE → teamfight monster', 'Pasiva: escudo → sustain sin items'],
@@ -769,6 +768,34 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     runes: { primary: 'Precisión — Conquistador', secondary: 'Valor — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
   // Vel'Koz A-tier entry moved to slot-09 additions (patch 26.10, 53.6% WR)
+
+  // S-tier additions — slot 13 ai-analysis (Rek'Sai + Bel'Veth added from tierlist)
+  { name: "Rek'Sai", title: 'la Reina del Vacío', passiveAbility: { name: 'Reina de los Xer\'Sai', description: "Rek'Sai generates Fury by attacking and using abilities. At max Fury, her next attack gains bonus damage and healing." }, role: 'Jungle', tier: 'S', winRate: 53.5, pickRate: 4.1, banRate: 1.8, image: '', aiInsight: '', build: '', counters: 'warwick,lee sin,udyr', synergies: 'orianna,malphite,taliyah', patch: '26.10', game: 'LoL',
+    metaUpdated: true, metaSources: ['Tierlist v16'],
+    brokenThings: ['Burrowed Q → true damage poke desde stealth', 'E knockup → engage inescapable', 'Tremor Sense → map awareness sin wards'],
+    buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/reksai/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/reksai"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/reksai"}],
+    builds: [
+      { name: 'Build Bruiser', items: 'Eclipse → Fuerza de la Trinidad → Hidra Titánica → Jak\'Sho → Botas de Placas', winRate: 53.5 },
+    ],
+    counterPick: 'Warwick, Lee Sin, Udyr — Junglers con mejor 1v1 early',
+    synergy: 'Orianna, Malphite — Engage comps con follow-up AoE',
+    aiAnalysis: "Rek'Sai es la junglera S-tier más consistente del meta 26.10 con 53.5% WR. Su kit de bruiser con true damage y knockups la convierte en la mejor option para teams que necesitan engage jungle con sustain. Su pasiva de Tremor Sense le da vision gratuita del área, haciendo invasiones seguras sin gastar wards.\n\nEl build bruiser con Eclipse maximiza su burst en ganks. Su E knockup in-escalable es devastador en teamfights, especialmente combinado con champions con AoE follow-up.\n\nConsejo principal: Usa tu pasiva de Tremor Sense para trackear al jungler enemigo sin wards. Burbuja para gankear con E knockup. En teamfights, busca E knockup múltiple para segurar pelea.",
+    proPickRate: 2.1,
+    runes: { primary: 'Precisión — Conquistador', secondary: 'Determinación — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
+  },
+  { name: "Bel'Veth", title: 'la Emperatriz del Vacío', passiveAbility: { name: 'Marea del Vacío', description: "Bel'Veth builds Void corrupción by attacking enemies and clearing camps. At full corruption, her next attack becomes empowered with bonus attack speed and on-hit damage." }, role: 'Jungle', tier: 'S', winRate: 52.7, pickRate: 3.9, banRate: 1.5, image: '', aiInsight: '', build: '', counters: 'warwick,rammus,lee sin', synergies: 'lulu,janna,nami', patch: '26.10', game: 'LoL',
+    metaUpdated: true, metaSources: ['Tierlist v16'],
+    brokenThings: ['R2 invulnerable → dance in teamfight', 'Void Corrupción stacks → infinite AS scaling', 'E auto-attack reset → burst sin cast time'],
+    buildLinks: [{"label": "U.GG", "url": "https://u.gg/lol/champions/belveth/build"}, {"label": "Mobalytics", "url": "https://www.mobalytics.com/lol/champions/belveth"}, {"label": "OP.GG", "url": "https://www.op.gg/champions/belveth"}],
+    builds: [
+      { name: 'Build On-Hit', items: 'Kraken Slayer → Guja de Blancura → Bailarín Espectral → Sed de Sangre → Botas de Berserker', winRate: 52.7 },
+    ],
+    counterPick: 'Warwick, Rammus — Tanks con disable para kitear su R',
+    synergy: 'Lulu, Janna — Enchanters que amplifican su AS carry',
+    aiAnalysis: "Bel'Veth es la junglera carry más escalable del meta 26.10 con 52.7% WR. Su R2 invulnerable la hace imparable en teamfights mientras su pasiva de Void Corrupción le da scaling infinito con attack speed. Es esencialmente un ADC en la jungla con la movilidad de un asesino.\n\nEl build on-hit con Kraken Slayer maximiza su DPS sostenido en teamfights. Su E auto-attack reset le da burst instantáneo para duels.\n\nConsejo principal: Stack Void Corrupción en jungle antes de gankar. Tu R2 te hace invulnerable — úsalo para bailar en medio del teamfight enemigo mientras tu equipo limpia. En late game, eres más carry que el ADC.",
+    proPickRate: 1.8,
+    runes: { primary: 'Precisión — Paso Lethal', secondary: 'Determinación — Revitalizar', shards: 'Adaptativo + Velocidad + Resistencia' },
+  },
 
   // Tier B — Jugables (LoL)
   { name: 'Yorick', title: 'el Pastor de Almas', passiveAbility: { name: 'Shepherd of Souls', description: "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies." }, role: 'Top', tier: 'C', winRate: 46.2, pickRate: 1.4, banRate: 0.3, image: '', aiInsight: '', build: '', counters: 'teemo,fiora,darius', synergies: 'ornn,mordekaiser,trundle', patch: '26.10', game: 'LoL',

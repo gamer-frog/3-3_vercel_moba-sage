@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-21T01:53:00Z",
-  "lastSlot": "01",
-  "lastTask": "Health Lite",
+  "lastTick": "2026-05-21T02:53:00Z",
+  "lastSlot": "02",
+  "lastTask": "Data Sync",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 236,
-  "totalSuccess": 236,
+  "totalTicks": 237,
+  "totalSuccess": 237,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-21T02:53:00Z",
+      "slot": "02",
+      "task": "Data Sync",
+      "taskCode": "data-sync",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — 129 entries (107 LoL + 22 WR), all 99 tierlist champs in data.ts, 22/22 S-tier present, meta-builds 57, guides 20, 32 entries with empty aiAnalysis (lower-tier). No external changes.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-21T01:53:00Z",
       "slot": "01",

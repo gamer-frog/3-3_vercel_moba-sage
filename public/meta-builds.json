@@ -21,7 +21,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
+        "Valentía",
         "Revitalizar",
         "Inspiración",
         "Calzado Mágico"
@@ -59,7 +59,7 @@
       "runes": [
         "Brujería",
         "Cometa Arcano",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -96,7 +96,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -135,7 +135,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -211,7 +211,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -250,7 +250,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -287,7 +287,7 @@
       "runes": [
         "Dominación",
         "Sabor a Sangre",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Precisión",
         "Golpe de Gracia"
@@ -324,7 +324,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -361,8 +361,8 @@
       "runes": [
         "Valentía",
         "Demolir",
-        "Determinación",
-        "Segunda Vida",
+        "Brujería",
+        "Sobrecrecimiento",
         "Precisión",
         "Pies Veloces"
       ],
@@ -435,7 +435,7 @@
       "runes": [
         "Brujería",
         "Invocar Aery",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Precisión",
         "Presencia de Campeón"
@@ -472,7 +472,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Dominación",
         "Sabor a Sangre"
@@ -547,8 +547,8 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
-        "Segundo Viento",
+        "Valentía",
+        "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
       ],
@@ -585,7 +585,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Sobrecrecimiento",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -623,7 +623,7 @@
       "runes": [
         "Brujería",
         "Invocar Aery",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Precisión",
         "Presencia de Campeón"
@@ -661,7 +661,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Dominación",
         "Golpe de Gracia"
@@ -698,7 +698,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Pieza de Calzado Brillante"
@@ -737,7 +737,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Dominación",
         "Sabor a Sangre"
@@ -775,7 +775,7 @@
       "runes": [
         "Brujería",
         "Deathfire Touch",
-        "Determinación",
+        "Valentía",
         "Fuente de Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1346,8 +1346,8 @@
       "runes": [
         "Valentía",
         "Demolir",
-        "Determinación",
-        "Segunda Vida",
+        "Brujería",
+        "Debilidad",
         "Inspiración",
         "Calzado Mágico"
       ],
@@ -1463,7 +1463,7 @@
       "runes": [
         "Brujería",
         "Invocar Aery",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Precisión",
         "Presencia de Campeón"
@@ -1502,8 +1502,8 @@
       "runes": [
         "Valentía",
         "Demolir",
-        "Determinación",
-        "Segunda Vida",
+        "Brujería",
+        "Debilidad",
         "Inspiración",
         "Calzado Mágico"
       ],
@@ -1926,7 +1926,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -2004,7 +2004,7 @@
         "Conquistador",
         "Dominación",
         "Golpe de Gracia",
-        "Determinación",
+        "Valentía",
         "Segunda Vida"
       ],
       "skill_order": [
@@ -2154,7 +2154,7 @@
       "runes": [
         "Brujería",
         "Phase Rush",
-        "Determinación",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"

@@ -781,7 +781,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     synergy: 'Orianna, Malphite — Engage comps con follow-up AoE',
     aiAnalysis: "Rek'Sai es la junglera S-tier más consistente del meta 26.10 con 53.5% WR. Su kit de bruiser con true damage y knockups la convierte en la mejor option para teams que necesitan engage jungle con sustain. Su pasiva de Tremor Sense le da vision gratuita del área, haciendo invasiones seguras sin gastar wards.\n\nEl build bruiser con Eclipse maximiza su burst en ganks. Su E knockup in-escalable es devastador en teamfights, especialmente combinado con champions con AoE follow-up.\n\nConsejo principal: Usa tu pasiva de Tremor Sense para trackear al jungler enemigo sin wards. Burbuja para gankear con E knockup. En teamfights, busca E knockup múltiple para segurar pelea.",
     proPickRate: 2.1,
-    runes: { primary: 'Precisión — Conquistador', secondary: 'Determinación — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
+    runes: { primary: 'Precisión — Conquistador', secondary: 'Valentía — Segunda Vida', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
   { name: "Bel'Veth", title: 'la Emperatriz del Vacío', passiveAbility: { name: 'Marea del Vacío', description: "Bel'Veth builds Void corrupción by attacking enemies and clearing camps. At full corruption, her next attack becomes empowered with bonus attack speed and on-hit damage." }, role: 'Jungle', tier: 'S', winRate: 52.7, pickRate: 3.9, banRate: 1.5, image: '', aiInsight: '', build: '', counters: 'warwick,rammus,lee sin', synergies: 'lulu,janna,nami', patch: '26.10', game: 'LoL',
     metaUpdated: true, metaSources: ['Tierlist v16'],
@@ -794,7 +794,7 @@ const CHAMPIONS_DATA: Omit<Champion, 'id' | 'createdAt' | 'updatedAt'>[] = [
     synergy: 'Lulu, Janna — Enchanters que amplifican su AS carry',
     aiAnalysis: "Bel'Veth es la junglera carry más escalable del meta 26.10 con 52.7% WR. Su R2 invulnerable la hace imparable en teamfights mientras su pasiva de Void Corrupción le da scaling infinito con attack speed. Es esencialmente un ADC en la jungla con la movilidad de un asesino.\n\nEl build on-hit con Kraken Slayer maximiza su DPS sostenido en teamfights. Su E auto-attack reset le da burst instantáneo para duels.\n\nConsejo principal: Stack Void Corrupción en jungle antes de gankar. Tu R2 te hace invulnerable — úsalo para bailar en medio del teamfight enemigo mientras tu equipo limpia. En late game, eres más carry que el ADC.",
     proPickRate: 1.8,
-    runes: { primary: 'Precisión — Paso Lethal', secondary: 'Determinación — Revitalizar', shards: 'Adaptativo + Velocidad + Resistencia' },
+    runes: { primary: 'Precisión — Paso Lethal', secondary: 'Valentía — Revitalizar', shards: 'Adaptativo + Velocidad + Resistencia' },
   },
 
   // Tier B — Jugables (LoL)

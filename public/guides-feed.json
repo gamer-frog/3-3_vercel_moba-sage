@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-21T07:57:00Z",
+  "lastUpdated": "2026-05-22T07:53:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 23,
+  "totalGuides": 25,
   "guides": [
     {
       "id": "reksai-jungle-2610",
@@ -676,6 +676,124 @@
       "fileName": "BA_20260520_0755_guia_nasus_top_lol2610.md",
       "createdAt": "2026-05-20T07:55:00Z",
       "summary": "Split push S-tier. Build: Fuerza de la Trinidad + Eclipse. Runas: Precision + Determinacion. Stacking guide, matchups, combos. Ghost buff meta."
+    },
+    {
+      "id": "guia_rammus_jungle_lol2610",
+      "champion": "Rammus",
+      "role": "Jungle",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Rammus Jungle — Build Aftershock Tank, Runas, Matchups, Combos",
+      "summary": "Rammus Jungle es S-tier en 26.10 (53.4% WR) como tank jungler anti-AD. Taunt point-click + W ball curl = ganks garantizados. Aftershock synergiza perfecto con su CC. El mejor counter a compositions AD pesadas.",
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "tank",
+        "anti-ad",
+        "engage",
+        "aftershock"
+      ],
+      "keyPoints": [
+        "Build Tank: Sed de Sangre -> Jak'Sho, El Indomable -> Resistencia Divina -> Grebas de Placas (53.4% WR)",
+        "Build Anti-AP: Sed de Sangre -> Cetro de Rylai -> Jak'Sho -> Abrazo del Serafin (51.8% WR)",
+        "Runas: Aftershock + Revitalizar + Segundo Viento + Piezas de Hacha — tank puro con CC amplificado",
+        "Gank combo: Q (ball curl + MS) -> E (taunt point-click) -> W -> AA + ignite — gank inescapable",
+        "Engage de teamfight: R (corta vision) -> Q -> E (taunt carry) -> W tank",
+        "53.4% WR — S-tier jungle, trend rising, 3.1% ban rate. Mejor anti-AD del juego",
+        "26.11 buff: Aftershock y Guardian buffeados, más razón para jugar Rammus"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Rammus es un tank jungler que escala con armor. Su W (Ball Curl) convierte armor en daño, making every armor item un item de daño. Build estandar: Sed de Sangre primero para sustain en clear. Jak'Sho segundo para escalar en combate. Resistencia Divina tercero para más tankiness. Grebas de Placas como botas defensivas. Contra AP pesado: Cetro de Rylai y Abrazo del Serafin como alternativas. Sunfire es viable como 3er item para clear speed y damage AoE.",
+          "details": "Tu W escala con armor — más armor = más daño en tu W. Esto significa que items defensivos como Jak'Sho, Grebas de Placas y Resistencia Divina son items de daño INDIRECTO. Timing key: después de Sed de Sangre + Jak'Sho (~14 min), tus ganks son letales y tu clear es eficiente. Contra Warwick/Master Yi: Rush Abrazo del Serafin."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Pagina principal: Aftershock (Resolve) + Revitalizar + Segundo Viento + Inquebrantable. Pagina secundaria: Piezas de Hacha + Fuerza Imbuida (Precision). Stats: +15-10 HP por nivel, +9 fuerza adaptable, +8 MR. Aftershock es la keystone PERFECTA para Rammus: cada E (taunt) o R procs Aftershock para resistencia bonus + daño. Con el buff de Aftershock en 26.11, Rammus sale aún más beneficiado.",
+          "details": "Summoner spells: Flash + Smite (estandar). Flash + E = gank garantizado de 300+ unidades. Smite es obligatorio para control de objectives. Alternativa: Ignite para kill pressure extra, pero pierdes la seguridad de Flash + E."
+        },
+        {
+          "title": "Matchups de Jungle",
+          "content": "Favorables: Master Yi (taunt + W lo anula), Tryndamere (same), Yasuo (no puede kitar), Jinx (E + R win teamfight), Draven (taunt lock). Neutrales: Lee Sin (skill matchup, gana quien gankee primero), Elise (early invade peligroso), Kha'Zix (si te pilla bajo nivel 3). Desfavorables: Warwick (Q te cura pero taunt lo frena), Teemo (shrooms en jungle), Brand (damage pre-level 6).",
+          "details": "Contra Warwick: su Q lo cura pero tu taunt lo frena, evita 1v1. Contra invasores early: empezar blue side, pedir laners que warddeen tu jungle. Rammus es débil nivel 1-3, pero imparable 6+."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Gank combo estandar: Q (ball curl, +MS) -> E (taunt al objetivo, Aftershock proc) -> W (amplifica armor -> daño) -> AA. Este combo es inescapable — el enemigo no puede moverse durante el taunt de 1.5s. Engage teamfight: R (corta visión) -> esperar 0.5s para confusión -> Q -> E (taunt al carry) -> W tank. El R de Rammus es la herramienta de teamfight más underrated del juego — cortar visión NOCTURNA el teamfight.",
+          "details": "Truco: activa Q ANTES de usar E. Esto te da MS extra para el engage + el daño de Q se aplica durante el taunt. Timing de W: mantener W activo DURANTE el taunt para maximizar daño — cada auto durante W hace daño basado en armor."
+        },
+        {
+          "title": "Macro y Control de Mapa",
+          "content": "Rammus es uno de los mejores controladores de mapa del juego. Tu R corta visión — úsalo ANTES de teamfights en objectives (dragon, baron, herald). Cuando uses R, el enemigo no puede ver — tu equipo puede posicionarse mientras ellos entran en pánico. Prioriza ganks en bot lane (donde hay 2 squishies). En mid game, R + Q + E es suficiente para deletear carries. En late game, tu rol es pelear frontline y taunt carries.",
+          "details": "53.4% WR — S-tier jungle. Ban rate bajo (3.1%) porque la gente lo subestima. En elos Plat+, Rammus es un terror porque los equipos saben usar tu R. 26.11: Aftershock buff = más razón para pick Rammus."
+        }
+      ],
+      "url": "/guides/guia_rammus_jungle",
+      "fileName": "",
+      "game": "lol",
+      "createdAt": "2026-05-22T07:53:00Z"
+    },
+    {
+      "id": "guia_belveth_jungle_lol2610",
+      "champion": "Bel'Veth",
+      "role": "Jungle",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Bel'Veth Jungle — Build Kraken Slayer On-Hit, Runas, Matchups, Combos",
+      "summary": "Bel'Veth Jungle es S-tier en 26.10 (52.7% WR) como carry jungler de ataque rápido. R void zone para isolar carries, stacks de pasiva para fury mode. El mejor jungler para 1v9 en late game.",
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "jungle",
+        "carry",
+        "on-hit",
+        "late-game",
+        "fury"
+      ],
+      "keyPoints": [
+        "Build On-Hit: Filo de la Noche -> Eclipse -> Kraken Slayer -> Bailarin Espectral -> Guardián Angel (52.7% WR)",
+        "Build Crit: Filo de la Noche -> Eclipse -> Kraken Slayer -> Filo Infinito -> Runaan (51.2% WR)",
+        "Runas: Lethal Tempo + Calzado Magico + Leyenda: Linaje + Golpe de Gracia — max AS para stacks",
+        "Stacking: cada AA en campeón/epic monster da stacks (2 max 4), 100 stacks = R2 (void zone enorme)",
+        "Combo R2 burst: R (void zone, 100+ stacks) -> Q (dash + stun) -> AA spam en void -> R2 reactivate",
+        "52.7% WR — S-tier jungle, trend rising, 3.1% ban rate. Mejor carry jungler late game",
+        "26.11 DFT magic damage: no impacta directamente, pero meta shift hacia melee supports puede beneficiar"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Bel'Veth es un carry jungler on-hit. Su W (Royal Memento) le da ataque rápido con stacks de pasiva, haciendo que items on-hit como Kraken Slayer y Filo Infinito escalen extremadamente bien. Build estandar: Filo de la Noche para clear speed. Eclipse para sustain y armor pen. Kraken Slayer para burst en AA 3. Bailarin Espectral para kiting. Guardián Angel para seguridad. Contra tanks: Filo Infinito 4to para más sustain.",
+          "details": "Power spike: Kraken Slayer completado (~12-14 min). En este punto, tu clear es rapido, tus ganks son letales con stacks de pasiva + Kraken proc. Contra Warwick: Abrazo del Serafin es obligatorio 3ero. Contra Rammus: Filo de la Noche early para clear antes de que te gankee."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Pagina principal: Lethal Tempo (Precision) + Calzado Magico + Calidad + Golpe de Gracia. Pagina secundaria: Sabor a Sangre + Caza Suprema (Domination). Stats: +10% AS a nivel 18, +9 fuerza adaptable, +8 MR. Lethal Tempo es la keystone perfecta — cada vez que haces stacks de pasiva (AA en campeón), tu AS sube con Lethal. Mas AS = mas stacks = mas rápido fury mode.",
+          "details": "Summoner spells: Flash + Smite. Flash es esencial para repositioning durante R2 void zone. Smite para objectives y clear. Alternativa: Ignite para kills en early ganks, pero pierdes la utilidad de Flash."
+        },
+        {
+          "title": "Matchups de Jungle",
+          "content": "Favorables: Master Yi (mejor 1v9 en late, outscales), Warwick (kitea con Q + R), Xin Zhao (Q dodge + outdamage). Neutrales: Lee Sin (early pressure, pero Bel'Veth outscales), Rek'Sai (invasion risk pero gana late), Diana (AP burst peligroso pre-6). Desfavorables: Rammus (taunt + W negate tu AS), Poppy (W bloquea Q dash), Lillia (kite + damage over time).",
+          "details": "Contra Rammus: pedir ban. Es tu peor matchup. Contra Poppy: nunca usar Q cerca de ella cuando tiene W disponible. Early game es el momento más vulnerable de Bel'Veth — farm hasta Kraken Slayer."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Gank combo: E (AA reset, gap close) -> AA (stack 1) -> AA (stack 2) -> Q (dash + stun, extends duration) -> AA spam durante CC. Si tienes 100+ stacks: R (void zone) -> Q (stun in void) -> AA -> R2 (reactivate para mas daño). Fury mode (W): al completar 2 stacks de pasiva, tu siguiente AA se convierte en AoE. En fury, tu range de AA aumenta y haces daño en area.",
+          "details": "Stacking tips: farmear jungle monsters con AA da stacks. Cada champion/epic monster da stacks (max 4, reset al dejar combate). Contra dragon/baron: stackear a 4 antes de la pelea. En teamfights, usar R en el medio del team enemigo para maximizar stacks + R2 reactivation."
+        },
+        {
+          "title": "Late Game y 1v9 Potential",
+          "content": "Bel'Veth es potencialmente el mejor 1v9 jungler del juego. Con Kraken Slayer + Filo Infinito + Runaan + Bailarin + GA, tu DPS late game es comparable a un ADC en la jungle. Tu R void zone + R2 reactivation es un team wipe potencial si se usa correctamente. El objetivo: farm hasta Kraken Slayer, stackear pasiva en ganks, y dominar late game con raw DPS.",
+          "details": "52.7% WR — S-tier jungle. Ban rate bajo (3.1%) pero debería ser más alto dado su late game potencial. En elos Plat+, Bel'Veth es un monstruo porque los jugadores saben stackear y usar R correctamente. Trend rising."
+        }
+      ],
+      "url": "/guides/guia_belveth_jungle",
+      "fileName": "",
+      "game": "lol",
+      "createdAt": "2026-05-22T07:53:00Z"
     }
   ]
 }

@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-22T06:53:00Z",
-  "lastSlot": "06",
-  "lastTask": "Patch Watch",
+  "lastTick": "2026-05-22T07:53:00Z",
+  "lastSlot": "07",
+  "lastTask": "Guide Creation",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 264,
-  "totalSuccess": 264,
+  "totalTicks": 265,
+  "totalSuccess": 265,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-22T07:53:00Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 40000,
+      "changes": "CREATED: 2 S-tier guides — Rammus Jungle (Aftershock Tank, anti-AD engage, 26.11 buff synergy) and Bel'Veth Jungle (Kraken Slayer on-hit, void zone R2, late game 1v9). Guides-feed 23->25. Remaining missing: Nilah ADC, Aurelion Sol Mid. Stale guides (26.9): Garen, Malphite.",
+      "filesChanged": [
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-22T06:53:00Z",
       "slot": "06",

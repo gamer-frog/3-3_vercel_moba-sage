@@ -173,7 +173,7 @@
       "runes": [
         "Precisión",
         "Lethal Tempo",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -359,7 +359,7 @@
         "Grebas de Placas"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Demolir",
         "Determinación",
         "Segunda Vida",
@@ -398,7 +398,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -510,7 +510,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -812,7 +812,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -849,7 +849,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -872,9 +872,9 @@
       "note": "Pick dominante S-tier, ban rate más alto del juego"
     },
     "leesin": {
-      "wr": 53.5,
-      "pick": 12.1,
-      "ban": 8.5,
+      "wr": 49.2,
+      "pick": 7.0,
+      "ban": 3.8,
       "role": "Jungle",
       "core_items": [
         "Eclipse",
@@ -907,12 +907,12 @@
         "Junglers frágiles",
         "Carries inmóviles"
       ],
-      "note": "Jungla S-tier, combo Insec domina en soloQ"
+      "note": "Modernization 26.10 — WR cayó de S-tier a B-tier (49.2%). Aún fuerte en manos expertas, Insec combo viable"
     },
     "masteryi": {
-      "wr": 56.8,
-      "pick": 16.3,
-      "ban": 15.2,
+      "wr": 51.5,
+      "pick": 7.5,
+      "ban": 6.1,
       "role": "Jungle",
       "core_items": [
         "Filo de la Noche",
@@ -928,7 +928,7 @@
         "Pies Veloces",
         "Dominación",
         "Colección de Ojos",
-        "Valor",
+        "Valentía",
         "Segunda Vida"
       ],
       "skill_order": [
@@ -945,7 +945,7 @@
         "Comps con poco CC",
         "Teams frágiles"
       ],
-      "note": "Jungler con WR más alto 26.9, snowball por reset Q"
+      "note": "DFT nerf 26.10 impacto — WR bajó de 56.8% a 51.5%. Aún fuerte en comps con poco CC"
     },
     "thresh": {
       "wr": 50.1,
@@ -962,7 +962,7 @@
         "Botas de Movilidad"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Guardián",
         "Brujería",
         "Debilidad",
@@ -1001,7 +1001,7 @@
         "Botas de Mercurio"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Demolir",
         "Brujería",
         "Sobrecrecimiento",
@@ -1039,7 +1039,7 @@
         "Botas de Movilidad"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Guardián",
         "Brujería",
         "Debilidad",
@@ -1080,7 +1080,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1156,7 +1156,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1196,7 +1196,7 @@
         "Pies Veloces",
         "Dominación",
         "Colección de Ojos",
-        "Valor",
+        "Valentía",
         "Segunda Vida"
       ],
       "skill_order": [
@@ -1308,7 +1308,7 @@
       "runes": [
         "Brujería",
         "Cometa Arcano",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1344,7 +1344,7 @@
         "Botas de Placas"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Demolir",
         "Determinación",
         "Segunda Vida",
@@ -1383,7 +1383,7 @@
         "Botas de Celeridad"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Guardián",
         "Brujería",
         "Debilidad",
@@ -1424,7 +1424,7 @@
       "runes": [
         "Brujería",
         "Cometa Arcano",
-        "Valor",
+        "Valentía",
         "Debilidad",
         "Inspiración",
         "Calzado Mágico"
@@ -1500,7 +1500,7 @@
         "Botas de Placas"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Demolir",
         "Determinación",
         "Segunda Vida",
@@ -1580,7 +1580,7 @@
       "runes": [
         "Precisión",
         "Conquistador",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1616,7 +1616,7 @@
         "Botas de Celeridad"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Guardián",
         "Brujería",
         "Debilidad",
@@ -1655,7 +1655,7 @@
         "Botas de Placas"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Guardián",
         "Brujería",
         "Debilidad",
@@ -1735,7 +1735,7 @@
       "runes": [
         "Precisión",
         "Pies Veloces",
-        "Valor",
+        "Valentía",
         "Segunda Vida",
         "Inspiración",
         "Calzado Mágico"
@@ -1987,8 +1987,8 @@
     },
     "reksai": {
       "wr": 53.5,
-      "pick": 3.8,
-      "ban": 1.2,
+      "pick": 2.3,
+      "ban": 1.7,
       "role": "Jungle",
       "core_items": [
         "Eclipse",
@@ -2038,7 +2038,7 @@
         "Grebas de Placas"
       ],
       "runes": [
-        "Valor",
+        "Valentía",
         "Demolir",
         "Precisión",
         "Pies Veloces",
@@ -2100,9 +2100,9 @@
       "note": "S-tier assassin mid 26.10, Electrocute burst, one-shot con R+Q+W"
     },
     "belveth": {
-      "wr": 53.0,
-      "pick": 4.5,
-      "ban": 1.6,
+      "wr": 52.7,
+      "pick": 1.8,
+      "ban": 3.1,
       "role": "Jungle",
       "core_items": [
         "Filo de la Noche",

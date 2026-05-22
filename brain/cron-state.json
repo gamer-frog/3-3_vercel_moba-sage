@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-22T02:53:00Z",
-  "lastSlot": "02",
-  "lastTask": "Data Sync",
+  "lastTick": "2026-05-22T03:53:00Z",
+  "lastSlot": "03",
+  "lastTask": "Meta Builds Verify",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 261,
-  "totalSuccess": 261,
+  "totalTicks": 262,
+  "totalSuccess": 262,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-22T03:53:00Z",
+      "slot": "03",
+      "task": "Meta Builds Verify",
+      "taskCode": "meta-builds",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "FIXED: 23 Valor→Valentía runes in meta-builds.json, Master Yi WR 56.8→51.5 + pick 16.3→7.5 + ban 15.2→6.1 (stale DFT pre-nerf), Lee Sin WR 53.5→49.2 + pick 12.1→7.0 + ban 8.5→3.8 (modernization impact), Rek'Sai pick 3.8→2.3 + ban 1.2→1.7, Bel'Veth WR 53.0→52.7 + pick 4.5→1.8 + ban 1.6→3.1. Known debt: 35 tierlist champs without builds (B/C-tier).",
+      "filesChanged": [
+        "public/meta-builds.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-22T02:53:00Z",
       "slot": "02",

@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-23T00:53:00Z",
-  "lastSlot": "00",
-  "lastTask": "Tierlist Check",
+  "lastTick": "2026-05-23T01:53:00Z",
+  "lastSlot": "01",
+  "lastTask": "Health Lite",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 271,
-  "totalSuccess": 271,
+  "totalTicks": 272,
+  "totalSuccess": 272,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-23T01:53:00Z",
+      "slot": "01",
+      "task": "Health Lite",
+      "taskCode": "health-lite",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — 3/3 JSONs valid, build OK. CEO: 3 guide .mds modified (Diana/Zaahen/Rek'Sai), 5 untracked search JSONs (known). No action needed.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-23T00:53:00Z",
       "slot": "00",

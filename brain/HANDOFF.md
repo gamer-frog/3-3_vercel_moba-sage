@@ -1,7 +1,7 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-24 07:54 UTC (Slot 07)
-**Streak**: 284/284 OK | 0 Fails consecutivos
+**Generado**: 2026-05-25 01:34 UTC (Moba-orders Job 134194)
+**Streak**: 292/292 OK | 0 Fails consecutivos
 **Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28)
 
 ---

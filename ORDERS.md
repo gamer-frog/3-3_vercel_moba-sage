@@ -7,7 +7,7 @@
 
 ## ORDEN 001 — Sync tier list feed con data.ts
 **Prioridad**: P0 | **Riesgo**: Medio
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25 01:34 UTC — verificado: 11/11 discrepancies ya resueltas)
 
 El `tierlist-feed.json` (v10) tiene datos actualizados al 2026-04-30 pero `data.ts` sigue con datos del 26.8 para muchos campeones. Discrepancias detectadas:
 - Darius: data.ts = A (50.5%), feed = B (49.8%) — demoted

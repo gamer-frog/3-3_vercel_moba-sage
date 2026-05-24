@@ -27,8 +27,8 @@ npm run build + validación JSON. Build OK. 22/22 JSON válidos. 6 untracked scr
 ### T06 — CONSOLIDAR [DONE] ✅ 2026-05-25T04:10 UTC
 Reporte en brain/cross_agent/for_gaming-lider.md. Métricas: 92 LoL + 7 WR champs, 57 builds, 27 guías, 33 combos, streak 295/295, 58 componentes. T01-T05 DONE, T07 PENDING. Deudas CEO documentadas.
 
-### T07 — AUTO-LIMPIEZA [PENDING]
-Limpiar archivos huérfanos, temp files, borrar search/scrape JSONs innecesarios.
+### T07 — AUTO-LIMPIEZA [DONE] ✅ 2026-05-25T04:35 UTC
+Eliminados 6 untracked JSONs (scrape-blitz, scrape-metabot, search-metabot, search-patch, search-sources, search-tierlist = ~5.4MB). search-ugg.json preservado (tracked). .gitignore actualizado: añadidos search-*.json, scrape-*.json. Working tree clean. Build OK.
 
 ---
 (no hay tareas PENDING — UPGRADE completado, T01-T07 listas para ejecución)

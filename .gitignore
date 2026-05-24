@@ -55,6 +55,8 @@ server.log
 
 # Audit/test artifacts
 search_*.json
+search-*.json
+scrape-*.json
 read_*.json
 screenshot_*.png
 tab_*.png

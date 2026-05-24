@@ -3,3 +3,6 @@
 ## Cron
 - CRON ACTIVADA — Job ID: 167082 — 25 min — MOBA_SAGE_001_TICK
 - Activada: 2026-05-24T16:24 UTC
+
+## Ticks
+- [2026-05-25T00:49 UTC] NO-OP — _CRON.md sin tareas PENDING. Nombre _CONTEXT.md corregido MOBA-SAGE→MOBA-SAGE-001.

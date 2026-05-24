@@ -15,8 +15,8 @@ Auto-diagnóstico diario. Leer SELF_SCAN.md, ejecutar checks, actualizar resulta
 ### T02 — AUTO-README [DONE] ✅ 2026-05-25T02:29 UTC
 Mantener README.md sincronizado con estado actual del repo.
 
-### T03 — SYNC_BOTARDO [PENDING]
-Leer delegaciones desde brain/DELEGACION/GAMING/INBOX.md si existe.
+### T03 — SYNC_BOTARDO [DONE] ✅ 2026-05-25T02:54 UTC
+Leer delegaciones desde brain/DELEGACION/GAMING/INBOX.md si existe. Resultado: INBOX no existe, NO-OP.
 
 ### T04 — AUTO-MEMORIA [PENDING]
 Worklog y contexto persistente. Actualizar _LOG.md con hits del ciclo.

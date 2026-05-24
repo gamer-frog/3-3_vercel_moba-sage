@@ -137,6 +137,38 @@
         "Pyke — Assassin item nerfs. Menos viable como support."
       ]
     },
+    "metaShift": {
+      "period": "26.9 lifecycle (2026-04-28 → 2026-05-13)",
+      "dataSource": "tierlist-feed.json v16 — verified against U.GG, Mobalytics, Blitz.gg, METAsrc, Reddit",
+      "rising": [
+        { "name": "Nasus", "role": "Top", "reason": "Split push meta favorito. Ghost buff + Conqueror lo vuelven imparable en side lane. WR 52.4% → S-tier en 26.10.", "deltaWR": "+2.1pp" },
+        { "name": "Fiora", "role": "Top", "reason": "Conqueror buffs la posicionan como duelist top lane. 50.6% WR stable, rising en 26.10.", "deltaWR": "+0.4pp" },
+        { "name": "Vex", "role": "Mid", "reason": "Anti-mage meta. Counter a mages dominantes (Karthus, Malzahar) con DFT popular.", "deltaWR": null },
+        { "name": "Camille", "role": "Top", "reason": "Stabilize buff 26.9 + engage meta. 50.2% → 50.5% WR, rising en 26.10.", "deltaWR": "+0.6pp" },
+        { "name": "Taliyah", "role": "Mid/Jungle", "reason": "Buff field check 26.9. Jungle Taliyah fue S-tier temporal con DFT. Post-26.10 DFT nerf → drop a B-tier.", "deltaWR": null },
+        { "name": "Nami", "role": "Support", "reason": "Enchanter renaissance. Peel meta la favorece. 50.9% WR, rising sostenido.", "deltaWR": null },
+        { "name": "Zeri", "role": "ADC", "reason": "ADC buffs 26.9. Crit items adjustments mejoran posicion. Post-26.10 → 54.6% WR S-tier.", "deltaWR": "+5.1pp" },
+        { "name": "Smolder", "role": "ADC", "reason": "Hypercarry meta shift. Mejora viabilidad progresiva. Post-26.10 → 54.6% WR S-tier, 24.1% pick.", "deltaWR": "+2.3pp" },
+        { "name": "Viktor", "role": "Mid", "reason": "Buff Q damage 26.9. Más viable en mid lane con DFT return.", "deltaWR": null }
+      ],
+      "falling": [
+        { "name": "Briar", "role": "Jungle", "reason": "R sustain nerf 26.9. HP growth 100→95. Menos dominante. WR cayendo 1.6pp → 50.5% A-tier.", "deltaWR": "-1.6pp" },
+        { "name": "Ambessa", "role": "Top/Jungle", "reason": "Burst + survivability nerf. R cast time 0.55→0.70s. Cayendo del meta. Partial revert en 26.10.", "deltaWR": null },
+        { "name": "Mordekaiser", "role": "Top", "reason": "Item nerfs + meta shift en su contra. Post-26.10 → 45.2% WR C-tier, worst drop.", "deltaWR": "-3.5pp" },
+        { "name": "Kha'Zix", "role": "Jungle", "reason": "Base damage nerf. Menos consistente en jungle. Post-26.10 crit/assassin changes.", "deltaWR": null },
+        { "name": "Yasuo", "role": "Mid", "reason": "Crit item adjustments. WR cayendo a 49.3% B-tier. Phase Rush removal hurt.", "deltaWR": "-1.7pp" },
+        { "name": "Pyke", "role": "Support", "reason": "Assassin item nerfs. Menos viable como support. Roaming permits no compensan.", "deltaWR": null }
+      ],
+      "keyNarratives": [
+        "DFT return creó nuevo mage tier — Karthus (53.7% S-tier JG), Brand, Malzahar, Teemo beneficiados inmediatamente",
+        "Split push meta favorece duelists — Nasus, Fiora, Camille suben con Ghost/Conqueror builds",
+        "Assassin item nerfs golpean a Pyke, Kha'Zix, Zed — engage tanks (Rammus, Rek'Sai) los reemplazan",
+        "Hypercarry ADC shift — Smolder + Zeri emergen como S-tier post-26.10 (54.6% WR ambos)",
+        "Taliyah caso especial: S-tier jungle con DFT → B-tier mid post-26.10 DFT nerf (-7.3pp WR)",
+        "Mordekaiser worst drop: A-tier → B/C-tier (45.2% WR) por item changes y meta shift",
+        "Phase Rush elimination forceó migración a Grasp/Comet/Stormraider para fighters"
+      ]
+    },
     "highlights": [
       "Season 2 Pandemonium — Temática demoníaca para toda la temporada",
       "Deathfire Touch regresa — Karthus, Brand, Malzahar, Teemo son inmediatos beneficiaries",

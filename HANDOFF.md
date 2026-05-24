@@ -67,7 +67,7 @@
 - 16 new skin name entries (Karthus, Nasus, Taliyah, Fiora, Camille, Viego, Nami, Mordekaiser, Sett, Yone, Samira, Syndra, Kassadin, Lux, Xerath, Corki)
 
 ### ORDEN 004 — Update patches-feed.json ✅
-- Added rising (9 entries) and falling (6 entries) meta shifts to 26.9 entry
+- Added metaShift section to 26.9 entry: 9 rising (Nasus, Fiora, Vex, Camille, Taliyah, Nami, Zeri, Smolder, Viktor), 6 falling (Briar, Ambessa, Mordekaiser, Kha'Zix, Yasuo, Pyke), 7 keyNarratives. Data sourced from tierlist-feed v16. JSON validated, build OK.
 
 ### ORDEN 005 — Verify ITEM_DESCRIPTIONS ✅
 - All 7 Season 2 items already have descriptions (no changes needed)

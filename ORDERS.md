@@ -59,7 +59,7 @@ Tambien expandir SKIN_NAMES con mas campeones S/A.
 
 ## ORDEN 004 — Actualizar patches-feed.json con contexto reciente
 **Prioridad**: P1 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25T05:35 UTC — metaShift agregado a entry 26.9 en patches-feed.json: 9 rising, 6 falling, 7 keyNarratives, datos de tierlist-feed v16 verificados)
 
 El patches-feed.json tiene buena data de 26.9 pero falta contexto de meta changes recientes que aparecen en tierlist-feed.json (rising/falling). Crear un patch entry resumen o actualizar el entry 26.9 con la data de rising/falling.
 

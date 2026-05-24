@@ -241,7 +241,7 @@ export function AppHeader({
           </div>
           <div className="hidden sm:block">
             <h1 className="lol-title text-lg leading-none" style={{ color: '#c8aa6e', textShadow: '0 0 30px rgba(200,170,110,0.4), 0 2px 4px rgba(0,0,0,0.8)' }}>MOBA SAGE</h1>
-            <p className="lol-subtitle text-[10px] text-lol-dim leading-none mt-0.5">Analytics con IA</p>
+            <p className="lol-subtitle text-[10px] text-lol-dim leading-none mt-0.5">Análisis con IA</p>
           </div>
           {selectedGame && (
             <motion.div initial={{ opacity: 0, x: -5 }} animate={{ opacity: 1, x: 0 }} className="ml-1">
@@ -267,7 +267,7 @@ export function AppHeader({
             En vivo
           </Badge>
           <span className="hidden md:inline text-[10px] text-lol-dim ml-1">
-            Update: {lastUpdate || 'Cargando...'}
+            Actualizado: {lastUpdate || 'Cargando...'}
           </span>
           {onRefresh && (
             <button

@@ -709,7 +709,7 @@ export function TierListTab({
         >
           <div className="flex items-center gap-2 mb-3">
             <BarChart3 className="w-4 h-4 text-lol-gold" />
-            <span className="lol-label text-xs font-semibold text-lol-gold uppercase tracking-wider">Meta Overview</span>
+            <span className="lol-label text-xs font-semibold text-lol-gold uppercase tracking-wider">Resumen del Meta</span>
             <span className="ml-auto text-[10px] text-lol-dim">{gameChampions.length} campeones</span>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">

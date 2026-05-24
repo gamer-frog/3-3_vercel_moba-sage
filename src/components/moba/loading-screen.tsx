@@ -144,11 +144,11 @@ export function LoadingScreen({ onSkip, dataReady = false, fetchError = false, d
   const sources = [
     { id: 'ddragon',   name: 'Data Dragon (Riot)',   icon: <Shield className="w-3.5 h-3.5" />,     color: '#c8aa6e', num: version ? 1 : 0,                label: 'CDN Live',       appearAt: 100,  doneAt: 400 },
     { id: 'champions', name: 'Campeones',             icon: <Swords className="w-3.5 h-3.5" />,    color: '#0acbe6', num: dataStats?.champions ?? 0,       label: 'cargados',      appearAt: 300,  doneAt: 700 },
-    { id: 'tierlist',  name: 'Meta & Insights',        icon: <TrendingUp className="w-3.5 h-3.5" />, color: '#0fba81', num: dataStats?.insights ?? 0,        label: 'generados',     appearAt: 520,  doneAt: 1020 },
-    { id: 'probuilds', name: 'Pro Builds & Picks',     icon: <Trophy className="w-3.5 h-3.5" />,    color: '#f0c646', num: dataStats?.proPicks ?? 0,        label: 'profesionales',  appearAt: 740,  doneAt: 1320 },
-    { id: 'insights',  name: 'IA Engine',             icon: <Sparkles className="w-3.5 h-3.5" />,  color: '#a78bfa', num: 1,                               label: 'listo',          appearAt: 940,  doneAt: 1520 },
+    { id: 'tierlist',  name: 'Meta e Insights',        icon: <TrendingUp className="w-3.5 h-3.5" />, color: '#0fba81', num: dataStats?.insights ?? 0,        label: 'generados',     appearAt: 520,  doneAt: 1020 },
+    { id: 'probuilds', name: 'Builds y Picks Pro',     icon: <Trophy className="w-3.5 h-3.5" />,    color: '#f0c646', num: dataStats?.proPicks ?? 0,        label: 'profesionales',  appearAt: 740,  doneAt: 1320 },
+    { id: 'insights',  name: 'Motor de IA',             icon: <Sparkles className="w-3.5 h-3.5" />,  color: '#a78bfa', num: 1,                               label: 'listo',          appearAt: 940,  doneAt: 1520 },
     { id: 'combos',    name: 'Combos Rotos',          icon: <Flame className="w-3.5 h-3.5" />,     color: '#e84057', num: dataStats?.combos ?? 0,          label: 'identificados',  appearAt: 1120, doneAt: 1720 },
-    { id: 'patches',   name: 'Patch Notes',           icon: <Zap className="w-3.5 h-3.5" />,       color: '#785a28', num: dataStats?.patches ?? 0,         label: 'analizados',    appearAt: 1300, doneAt: 2000 },
+    { id: 'patches',   name: 'Notas de Parche',           icon: <Zap className="w-3.5 h-3.5" />,       color: '#785a28', num: dataStats?.patches ?? 0,         label: 'analizados',    appearAt: 1300, doneAt: 2000 },
   ];
 
   // ---- Derived state (recalculated every render) ----
@@ -324,7 +324,7 @@ export function LoadingScreen({ onSkip, dataReady = false, fetchError = false, d
           <div className="flex items-center justify-between px-3 pt-3 pb-2">
             <div className="flex items-center gap-2">
               <Radio className="w-3 h-3 text-lol-success" />
-              <span className="text-[10px] font-semibold tracking-[0.15em] uppercase text-lol-gold-dark">Data Streams</span>
+              <span className="text-[10px] font-semibold tracking-[0.15em] uppercase text-lol-gold-dark">Fuentes de Datos</span>
             </div>
             <div className="flex items-center gap-1.5">
               <motion.div className="w-1.5 h-1.5 rounded-full"
@@ -500,7 +500,7 @@ export function LoadingScreen({ onSkip, dataReady = false, fetchError = false, d
           <div className="flex items-start gap-2">
             <Lightbulb className="w-3.5 h-3.5 shrink-0 mt-0.5 text-lol-warning" />
             <div className="min-w-0">
-              <p className="text-[10px] font-semibold tracking-[0.15em] uppercase mb-1 text-lol-gold-dark">Tip del dia</p>
+              <p className="text-[10px] font-semibold tracking-[0.15em] uppercase mb-1 text-lol-gold-dark">Tip del día</p>
               <AnimatePresence mode="wait">
                 <motion.p key={tipIdx} className="text-[10px] leading-relaxed text-lol-muted"
                   initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -4 }} transition={{ duration: 0.3 }}>

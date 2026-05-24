@@ -171,7 +171,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
             </h3>
             <div className="flex items-center gap-2 mb-4">
               <Monitor className="w-4 h-4 text-lol-dim" />
-              <p className="text-sm text-lol-dim tracking-wide">PC Analytics</p>
+              <p className="text-sm text-lol-dim tracking-wide">Análisis de PC</p>
             </div>
             <div className="flex items-center gap-1 text-xs text-lol-gold-dark group-hover:text-lol-gold transition-colors">
               <span>Campeones &bull; Tier List &bull; Coaching</span>
@@ -219,7 +219,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
             </h3>
             <div className="flex items-center gap-2 mb-4">
               <Gamepad2 className="w-4 h-4 text-lol-dim" />
-              <p className="text-sm text-lol-dim tracking-wide">Mobile Analytics</p>
+              <p className="text-sm text-lol-dim tracking-wide">Análisis Móvil</p>
             </div>
             <div className="flex items-center gap-1 text-xs text-lol-dim group-hover:text-lol-success transition-colors">
               <span>Campeones &bull; Tier List &bull; Builds</span>

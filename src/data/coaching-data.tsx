@@ -144,7 +144,7 @@ export const roleTipsData: RoleTipSection[] = [
     tips: [
       { title: 'Pathing Inteligente', description: 'No hagas el mismo pathing cada partida. Si tu top lane está perdiendo, ganka mid/bot. Si el rival jungler empezó bot, contesta top. Lee el minimap para decidir donde ir. Un buen jungler adapta su ruta al estado de las 3 lanes, no sigue un script fijo.', icon: <Map className="w-4 h-4 text-lol-green" /> },
       { title: 'Control de Smite', description: 'Trackea los timers del jungler rival. Dragon: 6 min respawn, Herald: 5 min, Baron: 6 min. Llegá 30 seg antes de que spawnee. Tené smite SIEMPRE up para objetivar. Un smite steal puede ganar o perder la partida. Practicá el timing en Practice Tool.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
-      { title: 'Gank Setup', description: 'Antes de gankear, pregunta: está la ola empujando hacia tu torre? Tiene el rival flash? Tiene escape? Si la ola está empujando hacia su torre, es mala idea gankear. Busca lanes donde tu aliado tiene control de la ola. Communication con pings es clave.', icon: <Target className="w-4 h-4 text-lol-danger" /> },
+      { title: 'Preparación de Gank', description: 'Antes de gankear, pregunta: está la ola empujando hacia tu torre? Tiene el rival flash? Tiene escape? Si la ola está empujando hacia su torre, es mala idea gankear. Busca lanes donde tu aliado tiene control de la ola. Communication con pings es clave.', icon: <Target className="w-4 h-4 text-lol-danger" /> },
     ],
   },
   {
@@ -172,7 +172,7 @@ export const roleTipsData: RoleTipSection[] = [
     icon: <Eye className="w-4 h-4" />,
     color: '#0acbe6',
     tips: [
-      { title: 'Engage vs Peel', description: 'Si tu ADC es Jinx/Kog/Vayne con 3 items, tu trabajo es PEEL, no engage. Si tu ADC es early game (Draven, Lucian), busca engage para snowball. Adapta tu playstyle al poder del ADC y al state de la partida. Un support que no adapta pierde.', icon: <Swords className="w-4 h-4 text-lol-success" /> },
+      { title: 'Engage vs Protección', description: 'Si tu ADC es Jinx/Kog/Vayne con 3 items, tu trabajo es PEEL, no engage. Si tu ADC es early game (Draven, Lucian), busca engage para snowball. Adapta tu playstyle al poder del ADC y al state de la partida. Un support que no adapta pierde.', icon: <Swords className="w-4 h-4 text-lol-success" /> },
       { title: 'Economía de Visión', description: 'Oracle Lens en mid game (cuando el soporte rival tiene vision). Pink wards en objectives clave. NO pongas wards en la misma bush que tu ADC — cubrí diferentes angulos. La vision es tu recurso mas valioso, usala inteligentemente.', icon: <Eye className="w-4 h-4 text-lol-warning" /> },
       { title: 'Support en Roaming', description: 'Después de pushear bot, roam con tu jungler o mid. Wardiá la jungle rival, ayudá a contestar scuttle o prepará ganks. En late game, QUEDATE con tu equipo — no split push. El support que roams bien en early game gana la partida antes de que empiece.', icon: <Map className="w-4 h-4 text-lol-green" /> },
     ],

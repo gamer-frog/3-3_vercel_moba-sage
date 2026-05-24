@@ -2,16 +2,66 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-24T14:54:00Z",
-  "lastSlot": "14",
-  "lastTask": "WR Delta Check",
+  "lastTick": "2026-05-24T17:54:00Z",
+  "lastSlot": "17",
+  "lastTask": "i18n + Quality",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 290,
-  "totalSuccess": 290,
+  "totalTicks": 293,
+  "totalSuccess": 293,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-24T17:54:00Z",
+      "slot": "17",
+      "task": "i18n + Quality",
+      "taskCode": "i18n-quality",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "FIXED 16 i18n issues across 8 files. coaching-data.tsx (2): Gank Setup→Preparación de Gank, Engage vs Peel→Engage vs Protección. loading-screen.tsx (5): Meta & Insights→Meta e Insights, Pro Builds & Picks→Builds y Picks Pro, IA Engine→Motor de IA, Patch Notes→Notas de Parche, Data Streams→Fuentes de Datos. app-header.tsx (2): Analytics con IA→Análisis con IA, Update→Actualizado. game-selector.tsx (2): PC Analytics→Análisis de PC, Mobile Analytics→Análisis Móvil. wr-banner.tsx (1): Mobile Analytics→Análisis Móvil. tier-list-tab.tsx (1): Meta Overview→Resumen del Meta. ideas-tab.tsx (1): playstyle→estilo. layout.tsx (3): SEO meta titles Spanish. loading-screen.tsx (1): Tip del dia→Tip del día (accent). Total i18n fixes across all sessions: ~95+. Only gaming jargon remaining (Win Rate, Pick Rate, Ban Rate — standard LoL community terms). Build OK.",
+      "filesChanged": [
+        "src/data/coaching-data.tsx",
+        "src/components/moba/loading-screen.tsx",
+        "src/components/moba/app-header.tsx",
+        "src/components/moba/game-selector.tsx",
+        "src/components/moba/wr-banner.tsx",
+        "src/components/moba/tabs/tier-list-tab.tsx",
+        "src/components/moba/tabs/ideas-tab.tsx",
+        "src/app/layout.tsx",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-24T16:54:00Z",
+      "slot": "16",
+      "task": "Runes Verification",
+      "taskCode": "runes-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 35000,
+      "changes": "FIXED 29 rune issues across 2 files. meta-builds.json: 20 Determinación→Valentía, 8 Valor→Valentía, 1 Second Wind→Segunda Vida. guides-feed.json: 1 Precision→Precisión (Nasus summary). data.ts + champion-data.ts CLEAN (0 errors). Known: 3 same-tree violations in meta-builds (Jinx/Caitlyn/Nilah Precisión duplicate slot, Thresh Valentía duplicate — structural, pre-existing). 9 missing guide fileName (CEO debt).",
+      "filesChanged": [
+        "public/meta-builds.json",
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-24T15:54:00Z",
+      "slot": "15",
+      "task": "Combo Review",
+      "taskCode": "combos",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "FIXED 3 KogMaw→Kog'Maw canonical name refs (Protect the Hypercarry, Shiv On-Hit, Anti-Mage Counter). AUDIT: 32 combos, 0 duplicates, 0 stale patch refs, 18/18 S-tier coverage. 20 dangling combo champion refs (expansion debt): Annie, Galio, Janna, Jarvan IV, Jayce, Karma, Kog'Maw, LeBlanc, Miss Fortune, Pyke, Samira, Sivir, Talon, Trundle, Varus, Vex, Yuumi, Zeri, Ziggs, Zoe. 1 forward-looking 26.11 DFT ref (valid). Build OK.",
+      "filesChanged": [
+        "src/data/combos-data.ts",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-24T14:54:00Z",
       "slot": "14",

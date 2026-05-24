@@ -114,7 +114,7 @@ const ideasData: { category: string; icon: typeof Lightbulb; color: string; item
       { id: 'C12', title: 'Patch Impact Personalizado', desc: '"Tu main X fue nerfeado — así te adaptás"', status: 'pending' },
       { id: 'C13', title: 'Clasificación Wild Rift #1', desc: 'Enfocarse 100% en WR = posición única', status: 'pending' },
       { id: 'C14', title: 'Tauri Desktop Overlay', desc: 'App desktop liviana (Tauri) para auto-imports + overlays', status: 'pending' },
-      { id: 'C15', title: 'Smart Scouting con Tags', desc: 'Tags de playstyle: Onetricks, Dodge rate, Tilt probability', status: 'pending' },
+      { id: 'C15', title: 'Smart Scouting con Tags', desc: 'Tags de estilo: Onetricks, Dodge rate, Tilt probability', status: 'pending' },
     ],
   },
 ];

@@ -29,7 +29,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "MOBA SAGE — League of Legends Analytics",
+    default: "MOBA SAGE — Análisis de League of Legends",
     template: "%s | MOBA SAGE",
   },
   description: "Tier lists, meta analysis, builds y combos rotos para League of Legends y Wild Rift. Datos actualizados al meta actual.",
@@ -44,12 +44,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     siteName: "MOBA SAGE",
-    title: "MOBA SAGE — League of Legends Analytics",
+    title: "MOBA SAGE — Análisis de League of Legends",
     description: "Tier lists, builds, combos rotos y meta analysis para LoL y Wild Rift.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MOBA SAGE — LoL & WR Analytics",
+    title: "MOBA SAGE — Análisis LoL & WR",
     description: "Tu herramienta de análisis para League of Legends y Wild Rift.",
   },
   robots: {

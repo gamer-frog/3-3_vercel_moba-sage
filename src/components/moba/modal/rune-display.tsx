@@ -42,7 +42,7 @@ export function parseMetaRunes(runesArray: string[]): ParsedRunePage | null {
     if (precisionRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Precisión';
     if (sorceryRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Brujería';
     if (dominationRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Dominación';
-    if (resolveRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Valor';
+    if (resolveRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Valentía';
     if (inspirationRunes.some(p => r.includes(p.toLowerCase()) || p.toLowerCase().includes(r.replace(/\s/g, '')))) return 'Inspiración';
     return null;
   }

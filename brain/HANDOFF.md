@@ -1,7 +1,7 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-22 23:53 UTC (Slot 23)
-**Streak**: 269/269 OK | 0 Fails consecutivos
+**Generado**: 2026-05-24 07:54 UTC (Slot 07)
+**Streak**: 284/284 OK | 0 Fails consecutivos
 **Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28)
 
 ---
@@ -13,8 +13,9 @@
 | Feed | v16, patch 26.10, 92 campeones (18S/44A/23B/7C) |
 | data.ts | ~129 entries (107 LoL + 22 WR), todos patch 26.10/7.1e |
 | meta-builds.json | 57 campeones con builds |
-| guides-feed.json | 25 guias |
-| combos-data.ts | ~37 combos |
+| guides-feed.json | 27 guias |
+| combos-data.ts | 32 combos (18/18 S-tier covered) |
+| tsc errors | 2 (z-ai-web-dev-sdk pre-existing only) |
 | Stale patches | 0 en data.ts/meta-builds |
 | Commits ahead | 185+ |
 
@@ -48,20 +49,22 @@
 ## Gaps Vigentes
 
 ### Alta Prioridad
-1. **2 S-tier sin guia .md**: Nilah ADC, Aurelion Sol Mid
-2. **7 empty fileName refs** en guides-feed (Ashe, Ornn, Vladimir, Fizz, Nocturne, Rammus, Bel'Veth — CEO agregó secciones sin .md files)
-3. **11 guias stale** (patch 26.9/26.8): Taliyah, Jinx, Master Yi, Garen, Ahri, Malphite, Zeri, Hwei, K'Sante + 2 General
+1. **~~57 'Valor' in runes~~** ✅ RESOLVED — 58 Valor→Valentía + 1 Determinacion→Valentía fixed (slot 16)
+2. **~~2 S-tier sin guia~~** ✅ RESOLVED — Nilah ADC y Aurelion Sol Mid creados (slot 07 May 24), 18/18 S-tier 100%
+3. **7 empty fileName refs** en guides-feed (Ashe, Ornn, Vladimir, Fizz, Nocturne, Rammus, Bel'Veth — CEO agregó secciones sin .md files)
 4. **Patch 26.11 release May 28** — Mayor actualizacion de tierlist/builds/guidas needed (5 dias)
 
 ### Media Prioridad
 5. **27 dangling matchup refs** a campeones no en data.ts
-6. **~73 i18n issues** restantes (coaching-data.tsx ~50, patches-meta-tab ~30)
-7. **GAMING-MOBA Worker** bloqueado — sin GitHub PAT
+6. **11 dangling combo refs** a campeones no en data.ts (Miss Fortune, Ziggs, KogMaw, Vex, Jayce, Zoe, Karma, Trundle, Samira, Talon, Pyke)
+7. **~15 i18n issues** restantes (Gank Setup, Engage vs Peel titles, playstyle/state refs in descriptions)
+8. **GAMING-MOBA Worker** bloqueado — sin GitHub PAT
 
 ### Baja Prioridad
-8. **5 untracked search/scrape JSONs** (known, no impacto)
-9. **3 CEO-modified guide .md files** sin commit
-10. **STATE.md stale** (datos desactualizados)
+9. **11 guias stale** (patch 26.9/26.8): Taliyah, Jinx, Master Yi, Garen, Ahri, Malphite, Zeri, Hwei, K'Sante + 2 General
+10. **4 contextual 26.9 refs** en brokenThings (Gragas/Warwick/Teemo buff history)
+11. **~~6/111 champs missing passiveAbility names~~** ✅ RESOLVED — CEO upgraded all 93 to { name, description } objects, type fixed (slot 18)
+12. **41 valid LoL champs referenced in matchups but not in data.ts** (expansion debt)
 
 ---
 

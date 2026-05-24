@@ -132,9 +132,9 @@ export const roleTipsData: RoleTipSection[] = [
     icon: <Shield className="w-4 h-4" />,
     color: '#c8aa6e',
     tips: [
-      { title: 'Teleport Timing', description: 'No uses TP para volver a lane temprano — guardalo para plays con tu equipo. El mejor uso de TP es para: join a una dragon fight, flankear en mid/late game, o counter-split push. Si gastas tu TP para volver a lane, perdes tu herramienta mas importante de macro.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
-      { title: 'Island Management', description: 'Top lane es una isla — necesitas aprender a jugar solo. Si tu jungler no ganka, no te quejes. Enfocate en CS y xp. Si el rival te gana, juega pasivo y espera a que tu equipo haga plays. El top laner que mejor maneja la paciencia suele ganar mas partidas que el que intenta forzar.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
-      { title: 'Side Lane Pressure', description: 'En mid/late game, tu trabajo es presionar side lanes. Esto forza al rival a enviarte alguien, creando numerosos en el otro lado del mapa. Comunica cuando te ganken para que tu equipo tome objetivos. Un split pusher efectivo gana mas juegos que un teamfighter promedio.', icon: <Map className="w-4 h-4 text-lol-green" /> },
+      { title: 'Timing de Teleport', description: 'No uses TP para volver a lane temprano — guardalo para plays con tu equipo. El mejor uso de TP es para: join a una dragon fight, flankear en mid/late game, o counter-split push. Si gastas tu TP para volver a lane, perdes tu herramienta mas importante de macro.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
+      { title: 'Manejo de Isla', description: 'Top lane es una isla — necesitás aprender a jugar solo. Si tu jungler no ganka, no te quejes. Enfocate en CS y xp. Si el rival te gana, jugá pasivo y esperá a que tu equipo haga plays. El top laner que mejor maneja la paciencia suele ganar mas partidas que el que intenta forzar.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
+      { title: 'Presión en Side Lanes', description: 'En mid/late game, tu trabajo es presionar side lanes. Esto forza al rival a enviarte alguien, creando numerosos en el otro lado del mapa. Comunica cuando te ganken para que tu equipo tome objetivos. Un split pusher efectivo gana mas juegos que un teamfighter promedio.', icon: <Map className="w-4 h-4 text-lol-green" /> },
     ],
   },
   {
@@ -143,7 +143,7 @@ export const roleTipsData: RoleTipSection[] = [
     color: '#0fba81',
     tips: [
       { title: 'Pathing Inteligente', description: 'No hagas el mismo pathing cada partida. Si tu top lane está perdiendo, ganka mid/bot. Si el rival jungler empezó bot, contesta top. Lee el minimap para decidir donde ir. Un buen jungler adapta su ruta al estado de las 3 lanes, no sigue un script fijo.', icon: <Map className="w-4 h-4 text-lol-green" /> },
-      { title: 'Smite Control', description: 'Track the enemy jungler timers. Dragon: 6 min respawn, Herald: 5 min, Baron: 6 min. Llega 30 seg antes de que spawnee. Ten smite SIEMPRE up para objetivar. Un smite steal puede ganar o perder la partida. Practica el timing en Practice Tool.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
+      { title: 'Control de Smite', description: 'Trackea los timers del jungler rival. Dragon: 6 min respawn, Herald: 5 min, Baron: 6 min. Llegá 30 seg antes de que spawnee. Tené smite SIEMPRE up para objetivar. Un smite steal puede ganar o perder la partida. Practicá el timing en Practice Tool.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
       { title: 'Gank Setup', description: 'Antes de gankear, pregunta: está la ola empujando hacia tu torre? Tiene el rival flash? Tiene escape? Si la ola está empujando hacia su torre, es mala idea gankear. Busca lanes donde tu aliado tiene control de la ola. Communication con pings es clave.', icon: <Target className="w-4 h-4 text-lol-danger" /> },
     ],
   },
@@ -154,7 +154,7 @@ export const roleTipsData: RoleTipSection[] = [
     tips: [
       { title: 'Roaming Windows', description: 'Después de pushear tu ola a la torre rival, tienes 15-20 segundos para roam. Roama bot para dragon setup o top para herald. Si no puedes roam, farmia jungle camps cercanos. El mid laner que mas impacto tiene en las side lanes gana partidas.', icon: <Map className="w-4 h-4 text-[#5b8af5]" /> },
       { title: 'Wave Management Avanzado', description: 'Si vas ganando, freeze cerca de tu torre para negar al rival xp y oro. Si vas perdiendo, slow push para crear una ola grande y buscar roam. Reset la ola antes de recall para no perder CS. El control de oleadas en mid es mas impactante que en cualquier otra lane.', icon: <Shield className="w-4 h-4 text-lol-gold" /> },
-      { title: 'Burst vs DPS Positioning', description: 'Si sos burst mage (LeBlanc, Syndra, Ahri), posicionate para oneshot carries. Si sos DPS (Orianna, Azir, Viktor), quedate detras del frontline y output constante. Conoce tu rol en teamfight — no todos los mid laners juegan igual.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
+      { title: 'Posicionamiento: Burst vs DPS', description: 'Si sos burst mage (LeBlanc, Syndra, Ahri), posicionate para oneshot carries. Si sos DPS (Orianna, Azir, Viktor), quedate detras del frontline y damé constante. Conocé tu rol en teamfight — no todos los mid laners juegan igual.', icon: <Crosshair className="w-4 h-4 text-lol-warning" /> },
     ],
   },
   {
@@ -162,9 +162,9 @@ export const roleTipsData: RoleTipSection[] = [
     icon: <Crosshair className="w-4 h-4" />,
     color: '#e84057',
     tips: [
-      { title: 'Kiting is Everything', description: 'El ADC que mejor kitea gana teamfights. Practica attack-move (A-click) en Practice Tool. Nunca te quedes quieto en una pelea — move between autos. Si usas Right Click, practica moverte entre cada auto-attack. El posicionamiento vale mas que tu build.', icon: <Crosshair className="w-4 h-4 text-lol-danger" /> },
-      { title: 'Farm is Non-Negotiable', description: 'Apunta a 10+ CS/min en lane phase. Si llegas a 20 min con 180+ CS, estás en buen camino. El ADC sin items es inútil — cada CS cuenta. En late game, side wave + jungle = mas income. No skips CS para ir a una teamfight que no vas a ganar.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
-      { title: 'Peeling vs Carrying', description: 'Si tu equipo tiene peel (Nautilus, Lulu, Yuumi), podes carry more aggressively. Si no hay peel, jugá mas seguro y usá tus defensivos (GA, QSS, Stopwatch). Adapta tu playstyle a tu team comp, no siempre podes ser el héroe.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
+      { title: 'Kitear lo es Todo', description: 'El ADC que mejor kitea gana teamfights. Practicá attack-move (A-click) en Practice Tool. Nunca te quedes quieto en una pelea — movete entre autos. Si usás Right Click, practicá moverte entre cada auto-attack. El posicionamiento vale mas que tu build.', icon: <Crosshair className="w-4 h-4 text-lol-danger" /> },
+      { title: 'El Farm es Imprescindible', description: 'Apuntá a 10+ CS/min en lane phase. Si llegás a 20 min con 180+ CS, estás en buen camino. El ADC sin items es inútil — cada CS cuenta. En late game, side wave + jungle = mas income. No skips CS para ir a una teamfight que no vas a ganar.', icon: <Target className="w-4 h-4 text-lol-gold" /> },
+      { title: 'Peel vs Carry', description: 'Si tu equipo tiene peel (Nautilus, Lulu, Yuumi), podés carry mas aggressively. Si no hay peel, jugá mas seguro y usá tus defensivos (GA, QSS, Stopwatch). Adaptá tu estilo de juego a tu team comp, no siempre podés ser el héroe.', icon: <Shield className="w-4 h-4 text-lol-success" /> },
     ],
   },
   {
@@ -173,8 +173,8 @@ export const roleTipsData: RoleTipSection[] = [
     color: '#0acbe6',
     tips: [
       { title: 'Engage vs Peel', description: 'Si tu ADC es Jinx/Kog/Vayne con 3 items, tu trabajo es PEEL, no engage. Si tu ADC es early game (Draven, Lucian), busca engage para snowball. Adapta tu playstyle al poder del ADC y al state de la partida. Un support que no adapta pierde.', icon: <Swords className="w-4 h-4 text-lol-success" /> },
-      { title: 'Vision Economy', description: 'Oracle Lens en mid game (cuando el soporte rival tiene vision). Pink wards en objectives clave. NO pongas wards en la misma bush que tu ADC — cubri diferentes angulos. La vision es tu recurso mas valioso, usala inteligentemente.', icon: <Eye className="w-4 h-4 text-lol-warning" /> },
-      { title: 'Roaming Support', description: 'Después de pushear bot, roam con tu jungler o mid. Ward enemy jungle, help contest scuttle, or set up ganks. En late game, STAY with your team — no split push. El support que roams bien en early game gana la partida antes de que empiece.', icon: <Map className="w-4 h-4 text-lol-green" /> },
+      { title: 'Economía de Visión', description: 'Oracle Lens en mid game (cuando el soporte rival tiene vision). Pink wards en objectives clave. NO pongas wards en la misma bush que tu ADC — cubrí diferentes angulos. La vision es tu recurso mas valioso, usala inteligentemente.', icon: <Eye className="w-4 h-4 text-lol-warning" /> },
+      { title: 'Support en Roaming', description: 'Después de pushear bot, roam con tu jungler o mid. Wardiá la jungle rival, ayudá a contestar scuttle o prepará ganks. En late game, QUEDATE con tu equipo — no split push. El support que roams bien en early game gana la partida antes de que empiece.', icon: <Map className="w-4 h-4 text-lol-green" /> },
     ],
   },
 ];

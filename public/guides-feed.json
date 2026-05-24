@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-22T07:53:00Z",
+  "lastUpdated": "2026-05-24T07:54:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 25,
+  "totalGuides": 27,
   "guides": [
     {
       "id": "reksai-jungle-2610",
@@ -572,7 +572,7 @@
       "keyPoints": [
         "Build Assassin: Llamarada Sombría → Sombra de Fuego → Rabadón → Sombrero Vuoto → Vacío (54.1% WR)",
         "Build Lich Bane Rush: Lich Bane → Llamarada Sombría → Rabadón → Sombrero Vuoto (52.6% WR)",
-        "Runas: Electrocute + Gusto por la Sangre + Caza Suprema + Colección de Ojos — burst puro",
+        "Runas: Electrocute + Sabor a Sangre + Caza Suprema + Colección de Ojos — burst puro",
         "Combo one-shot: E (salto hacia adelante) → W (apply on-hit) → Q (dash + W damage) → Auto → Electrocute proc → Ignite → R si necesario",
         "Combo R engage: R (pescado) → E (salto al target) → W → Q → Auto → Ignite para execute instantáneo",
         "54.1% WR — S-tier mid assassin, terror de ADCs, ban rate 8.3%"
@@ -585,8 +585,8 @@
         },
         {
           "title": "Runas y Hechizos",
-          "content": "Página principal: Electrocute (Domination) + Gusto por la Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Trascendencia + Concentración de la Colmena (Sorcery) para CDR. Stats: +10% CDR a nivel 18, +9 fuerza adaptable, +8 resistencias mágicas. Electrocute procs perfecto con tu combo: E → W → Q → Auto = 3 instances instantáneas = Electrocute + Gusto por la Sangre. Caza Suprema da AD/AP por cada champion que veas morir — escala bien en teamfights.",
-          "details": "Summoner spells: Flash + Ignite (obligatorio para Fizz). Ignite es esencial para tus combos — Electrocute + Gusto por la Sangre + Ignite = daño de ejecución masivo. Nunca llevar Teleport en Fizz — pierdes kill pressure y tu roam es tu mayor fortaleza. Contra Zed/Talon,可以考虑 Barrier pero generalmente Ignite es mejor."
+          "content": "Página principal: Electrocute (Domination) + Sabor a Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Trascendencia + Concentración de la Colmena (Sorcery) para CDR. Stats: +10% CDR a nivel 18, +9 fuerza adaptable, +8 resistencias mágicas. Electrocute procs perfecto con tu combo: E → W → Q → Auto = 3 instances instantáneas = Electrocute + Sabor a Sangre. Caza Suprema da AD/AP por cada champion que veas morir — escala bien en teamfights.",
+          "details": "Summoner spells: Flash + Ignite (obligatorio para Fizz). Ignite es esencial para tus combos — Electrocute + Sabor a Sangre + Ignite = daño de ejecución masivo. Nunca llevar Teleport en Fizz — pierdes kill pressure y tu roam es tu mayor fortaleza. Contra Zed/Talon,可以考虑 Barrier pero generalmente Ignite es mejor."
         },
         {
           "title": "Matchups de Lane",
@@ -595,7 +595,7 @@
         },
         {
           "title": "Combos y Mecánicas",
-          "content": "One-shot combo (nivel 3+): E (salto hacia enemigo, invulnerable durante el ascenso) → W (empowered auto) → Q (dash, gasta el empowered auto) → Auto → Electrocute + Gusto por la Sangre proc → Ignite. Este combo hace ~60% de HP a nivel 3 y oneshot completo a nivel 6+. R engage combo: R (fish, predict movement) → si pega, E salto al target → W → Q → Auto → Ignite → R2 activation para execute. Este combo es in-evitable si R pega. Zhonya combo (teamfights): R (AoE) → E (dodge counter) → Zhonya → esperar cooldowns → E → W → Q para cleanup.",
+          "content": "One-shot combo (nivel 3+): E (salto hacia enemigo, invulnerable durante el ascenso) → W (empowered auto) → Q (dash, gasta el empowered auto) → Auto → Electrocute + Sabor a Sangre proc → Ignite. Este combo hace ~60% de HP a nivel 3 y oneshot completo a nivel 6+. R engage combo: R (fish, predict movement) → si pega, E salto al target → W → Q → Auto → Ignite → R2 activation para execute. Este combo es in-evitable si R pega. Zhonya combo (teamfights): R (AoE) → E (dodge counter) → Zhonya → esperar cooldowns → E → W → Q para cleanup.",
           "details": "Timing de E avanzado: el E de Fizz tiene 2 fases — ascendente (invulnerable) y descendente (vulnerable). Puedes cancelar el E temprano haciendo click en el suelo, lo que reduce el cooldown. Un E cancelado temprano tiene ~6s menos de cooldown que un E completo. Úsalo para trades rápidos en lane."
         },
         {
@@ -628,7 +628,7 @@
       "keyPoints": [
         "Build Assassin: Filo de la Noche → Eclipse → Hidratación Letal → Última Piedad → Guardián Angel (53.6% WR)",
         "Build DPS Lethal: Kraken Slayer → Filo de la Noche → Eclipse → Hidratación Letal (51.8% WR)",
-        "Runas DH: Cosecha Oscura + Gusto por la Sangre + Caza Suprema + Colección de Ojos — snowball puro",
+        "Runas DH: Cosecha Oscura + Sabor a Sangre + Caza Suprema + Colección de Ojos — snowball puro",
         "Runas LT: Paso Lethal + Golpe de Gracia + Sabor a Sangre + Caza Suprema — DPS en extended fights",
         "Combo gank: R (paranoia global) → Q (trail de velocidad) → E (terror lock) → Auto spam → W (spell shield si necesario)",
         "53.6% WR — S-tier jungle, gank rate más alto del juego, ban rate 6.1%"
@@ -641,7 +641,7 @@
         },
         {
           "title": "Runas y Hechizos",
-          "content": "Página Dark Harvest (agresivo): Cosecha Oscura (Domination) + Gusto por la Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Celeridad + Trascendencia (Sorcery). Stats: +10 AD, +9 fuerza adaptable, +8 resistencias mágicas. Dark Harvest procs con tu Q auto combo y escala infinitamente con bajas enemigas. Página Lethal Tempo (sostenido): Paso Lethal (Precision) + Golpe de Gracia + Sabor a Sangre + Caza Suprema. LT es mejor contra compositions tanky donde necesitas DPS extendido.",
+          "content": "Página Dark Harvest (agresivo): Cosecha Oscura (Domination) + Sabor a Sangre + Caza Suprema + Colección de Ojos. Página secundaria: Celeridad + Trascendencia (Sorcery). Stats: +10 AD, +9 fuerza adaptable, +8 resistencias mágicas. Dark Harvest procs con tu Q auto combo y escala infinitamente con bajas enemigas. Página Lethal Tempo (sostenido): Paso Lethal (Precision) + Golpe de Gracia + Sabor a Sangre + Caza Suprema. LT es mejor contra compositions tanky donde necesitas DPS extendido.",
           "details": "Summoner spells: Flash + Smite (estándar). Alternativa en elos bajos: Ignite + Smite para kill pressure extra sin Flash (no recomendado en Plat+). Contra junglers invadeadores como Nidalee o Shaco, considera Exhaust en vez de Flash para 1v1s en tu jungle."
         },
         {
@@ -675,7 +675,7 @@
       "pickRate": 4.8,
       "fileName": "BA_20260520_0755_guia_nasus_top_lol2610.md",
       "createdAt": "2026-05-20T07:55:00Z",
-      "summary": "Split push S-tier. Build: Fuerza de la Trinidad + Eclipse. Runas: Precision + Determinacion. Stacking guide, matchups, combos. Ghost buff meta."
+      "summary": "Split push S-tier. Build: Fuerza de la Trinidad + Eclipse. Runas: Precision + Valentía. Stacking guide, matchups, combos. Ghost buff meta."
     },
     {
       "id": "guia_rammus_jungle_lol2610",
@@ -794,6 +794,106 @@
       "fileName": "",
       "game": "lol",
       "createdAt": "2026-05-22T07:53:00Z"
+    },
+    {
+      "id": "guia_nilah_adc_lol2610",
+      "champion": "Nilah",
+      "role": "ADC",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Nilah ADC — Build Crit Lethal Tempo, W Shield AoE, R Pull Teamfight",
+      "summary": "Nilah ADC es S-tier en 26.10 (53.2% WR) como ADC enchanter-synergy. W (Jubilant Veil) da shield AoE al equipo amplificado por healers, R (Apotheosis) pull masivo cambia teamfights, E dash + water form la hace imposible de catchear.",
+      "tags": ["build", "runas", "matchups", "adc", "lethal-tempo", "crit", "enchanter-synergy", "teamfight"],
+      "keyPoints": [
+        "Build Crit: Filo Infinito → Huracán de Runaan → Bailarín Espectral → Sed de Sangre → Botas de Berserker (53.2% WR)",
+        "Build Lethal: Kraken Slayer → Filo Infinito → Runaan → Bailarín Espectral (51.8% WR)",
+        "Runas: Lethal Tempo + Revitalizar — AS maximizada + sustain amplificado por W",
+        "W Jubilant Veil: shield AoE para el equipo, amplificado por heals/shields de enchanters (Soraca, Milio, Nami)",
+        "R Apotheosis: pull masivo en area, ideal para teamfights cerradas en jungle o river",
+        "E + water form: dash + inmunidad a slows, la hacen inmune al peel enemigo",
+        "53.2% WR — S-tier ADC, 2.2% pick, 1.5% ban, sinergia maxima con enchanters"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Nilah es una ADC que escala con velocidad de ataque y criticos. Build principal: Filo Infinito primero — criticos maximizan su DPS en trades cortos y teamfights. Huracán de Runaan segundo para daño AoE y clear. Bailarín Espectral tercero para kiting y seguridad. Sed de Sangre cuarto para sustain en teamfights. Botas de Berserker para AS. Alternativa: Kraken Slayer si prefieres procs de 3er ataque en vez de criticos puros. Kraken es mejor en matchups de lane donde necesitas burst early.",
+          "details": "Contra compositions con mucho armor: considera Última Piedad como 5to item en vez de Sed de Sangre. Contra healers pesados (Soraka enemiga, Yuumi, Nami), Morellonomicon no es ideal en Nilah — mejor pedir a tu support que lo compre. Contra compositions con CC pesado: Botas de Mercurio en vez de Berserker."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Lethal Tempo (Precision) + Calidad/Celeridad + Golpe de Gracia + Leyenda: Linaje. Página secundaria: Revitalizar (Resolve) + Valentía. Stats: +10% velocidad de ataque, +9 fuerza adaptable, +8 resistencias mágicas. Lethal Tempo es perfecto para Nilah porque su kit depende de AS para maximizar DPS y proc W stacks. Revitalizar synergiza con su W — cuando recibes heals/shields de tu support, la amplify para el equipo entero.",
+          "details": "Summoner spells: Flash + Heal (estándar). Nunca limpiar — tu W ya limpia CC. Contra Leona/Nautilus con mucho engage, Exhaust puede ser mejor que Heal para sobrevivir all-ins. Contra matchups de poke (Caitlyn, Varus), Barrier para sustain en lane."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Jinx (rango similar, W shield gana trades extendidos), Kog'Maw (sin movilidad, E chase fácil), Sivir (spell shield no bloquea tu R pull), Twitch (stealth inútil contra tu E water form, W counter su burst). Neutrales: Varus (poke doloroso pero tu W compensa), Samira (ambos melee ADC, gana quien procee primero), Ezreal (difícil de pillar con E dash). Desfavorables: Caitlyn (rango 650 abusea sin counter, necesita ganks), Draven (early game brutal, tus autos no compensan su daño), Lucian (burst early + movilidad superior).",
+          "details": "Consejo general: con Nilah perdes early game contra ADCs de rango. Farm pasivamente hasta Lethal Tempo + primer item. Tu power spike es nivel 6 con R — busca all-in con R pull cuando el enemigo esté bajo torre. La clave está en la sinergia con tu support: Soraca + Nilah es uno de los duos más fuertes del meta."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Trade combo: E (dash al enemigo) → AA → AA → Q (extra AA + water form AA) → W (shield si te atacan) → retroceder con water form speed. Este combo gana trades porque E + Q te da 3 autos rápidos + W shield te protege del counter-attack. All-in combo: R (pull al enemigo) → E (dash) → AA → Q → AA → Ignite. El R pull asegura que el enemigo no escape después del engage. En teamfights: W (shield equipo) → R (pull AoE) → E + Q burst al carry → AA spam con Lethal stacks.",
+          "details": "Truco de W: tu W no solo te da shield a vos — se amplifica a todo el equipo cerca tuyo. Si tu support te da heal/shield ANTES de activar W, la amplify es masiva. Coordina con tu support: pedile shield/heal para THEN usar W. Esto es lo que hace a Nilah la ADC más fuerte con enchanters."
+        },
+        {
+          "title": "Sinergia con Supports y Teamfighting",
+          "content": "Nilah es la ADC con la mejor sinergia de enchanters del juego. Soraca es su mejor duo — W de Nilah + R de Soraca = team inmatable. Milio da CC cleanse + extra heals que amplifican W. Nami da poke + heal + CC que synergiza perfecto. En teamfights: NUNCA iniciar. Espera a que el frontline engage, usa W para proteger al equipo, luego R para pull enemigos hacia tu equipo → E + Q burst al carry. Tu R es mejor en espacios cerrados (jungle, river) donde el pull es más efectivo.",
+          "details": "53.2% WR — S-tier ADC. Pick rate bajo (2.2%) porque requiere coordinación con support, pero en elos Gold+ donde hay comunicación, Nilah es un monstruo. Ban rate bajo (1.5%) pero subiendo. Trend estable. Es la counter pick definitiva contra compositions sin peel."
+        }
+      ],
+      "url": "/guides/guia_nilah_adc",
+      "fileName": "",
+      "game": "lol",
+      "createdAt": "2026-05-24T07:54:00Z"
+    },
+    {
+      "id": "guia_aurelionsol_mid_lol2610",
+      "champion": "Aurelion Sol",
+      "role": "Mid",
+      "patch": "26.10",
+      "tier": "S",
+      "title": "Aurelion Sol Mid — Build DFT AP Scaling, R AoE Teamwipe, Stardust Control",
+      "summary": "Aurelion Sol Mid es S-tier en 26.10 (52.1% WR) como mage scaling. Su R (The Super Massive) es un AoE masivo que teamwipea desde cualquier posicion. Escala infinitamente con Stardust stacks que mejoran todas sus habilidades.",
+      "tags": ["build", "runas", "matchups", "mid", "dft", "scaling", "aoe", "global-pressure", "late-game"],
+      "keyPoints": [
+        "Build AP: Sombrero de Rabadón → Llamarada Sombría → Morellonomicon → Reloj de Zhonya → Botas del Vacío (53.4% WR)",
+        "Build Control: Eco de Luden → Cetro de Rylai → Rylai Cristalino → Rabadón (51.2% WR)",
+        "Runas: Deathfire Touch + Presencia de Campeón — DFT escala con R AoE ticks",
+        "R The Super Massive: AoE masivo que teamwipea desde cualquier posicion del mapa",
+        "Stardust stacking: cada habilidad que pega genera stacks que mejoran TODAS tus habilidades",
+        "E orbitas: dan zona de control, slow y daño AoE constante alrededor tuyo",
+        "52.1% WR — S-tier mid scaling, 2.8% pick, 1.5% ban, counter a assassins melee"
+      ],
+      "sections": [
+        {
+          "title": "Build y Orden de Items",
+          "content": "Aurelion Sol escala con AP puro. Build principal: Sombrero de Rabadón primero — multiplica todo tu AP y es el item core de cualquier mage scaling. Llamarada Sombría segundo para penetración mágica y burst. Morellonomicon tercero para grievous wounds y HP. Zhonya cuarto para seguridad (tu E dura 3s, Zhonya 2.5s — invulnerable por 5.5s). Botas del Vacío para penetración. Alternativa: Eco de Luden si preferes poke y control en vez de burst puro.",
+          "details": "Timing key: tu power spike real es al completar Rabadón + Llamarada (~16-18 minutos). Antes de eso, sos vulnerable en lane phase. Contra assassins: Rush Zhonya antes de Morellonomicon. Contra compositions con mucho MR: Botas del Vacío + Llamarada + Morello es suficiente penetración. Nunca comprar items de CDR — tus habilidades tienen cooldowns largos que no se benefician tanto de CDR como de AP puro."
+        },
+        {
+          "title": "Runas y Hechizos",
+          "content": "Página principal: Deathfire Touch (Brujería) + Trascendencia + Concentración de la Colmena + Celeridad. Página secundaria: Presencia de Campeón (Precisión) + Golpe de Gracia. Stats: +10% CDR a nivel 18, +9 fuerza adaptable, +8 resistencias mágicas. DFT es la keystone perfecta para Aurelion Sol porque su R aplica múltiples ticks de daño, proceando DFT repetidamente. Con R + E + Q, podes aplicar DFT 5+ veces en una teamfight.",
+          "details": "Summoner spells: Flash + Ignite (agresivo, para kill pressure early) o Flash + Teleport (macro, para roamear y split push). Teleport es mejor en elos altos donde tu R global + TP flank = teamfight instantáneo. Contra Zed/Talon, Barrier para sobrevivir burst y usar E + Zhonya después."
+        },
+        {
+          "title": "Matchups de Lane",
+          "content": "Favorables: Zed (E orbitas le impiden acercarse, R team wipea), Yasuo (windwall no bloquea R, E slow kitea), Katarina (no puede farmear bajo tus orbitas, R counter su reset), Talon (E gap close mitigado por orbitas). Neutrales: Ahri (charm es peligroso pero tus orbitas la frenan), Orianna (poke war, gana quien farme mejor), Syndra (difícil pero R supera su burst). Desfavorables: Malzahar (supresión de R impossible de escapar con E), Diana (gap close + MR shred, te stackea Stardust pero te mata antes), Galio (taunt + R CC te impiden usar E).",
+          "details": "Contra Malzahar: QSS es obligatorio como 3er-4to item. Contra Diana: pedir ganks temprano, no intentar 1v1 antes de nivel 6. La clave contra assassins: mantener orbitas (E) activas todo el tiempo para zona de control. Si el enemigo entra en tus orbitas, recibe daño + slow = gank fácil para tu jungler."
+        },
+        {
+          "title": "Combos y Mecánicas",
+          "content": "Poke combo (lane phase): Q (estrellas center) → AA (si Stardust stacks lo permiten) → retroceder con E orbitas activas. Esto gana trades porque Q hace daño AoE + E orbitas pegan al enemigo si se acerca. Burst combo (kill pressure): E (activar orbitas) → Q (AoE) → R (Super Massive) → Zhonya si necesario. El R es devastador si pega a 2+ enemigos. Teamfight combo: R (AoE center) → E (orbitas para damage) → Q spam → Zhonya si te focusean. Con Rabadón + Llamarada, tu R puede hacer 60%+ de HP a carries.",
+          "details": "Stardust mechanic: cada habilidad que pega a un campeón genera Stardust (visible como orbitas extras). Más Stardust = más daño, más tamaño de Q, más lento E, más grande R. Es TODO multiplicativo. Por eso farmear habilidades en minions/champions es clave — cada stack mejora TODAS tus habilidades. Regla: nunca gastar Q sin razón, cada Q en campeón = Stardust = más poder."
+        },
+        {
+          "title": "Macro, Roaming y Late Game",
+          "content": "Aurelion Sol es uno de los mejores late-game mages del juego. Tu R cambia teamfights desde cualquier posición. En lane phase: farm con Q + E, stackear Stardust, NO intentar kills antes de nivel 6. Tu objetivo es farm hasta Rabadón + Llamarada. En mid game: roamear con R para teamfights. Un R bien colocado desde jungle/flank teamwipea. En late game: sos un dios. R + E + Q hace daño masivo. Contra assassins: mantener E activo y Zhonya listo. Tu counter más fuerte es la distancia — nunca estar solo sin wards.",
+          "details": "52.1% WR — S-tier mid, pick rate 2.8%, ban rate 1.5%. Pro pick rate 5.8% — muy popular en competitive por su R game-changing. Escala infinitamente — es el Juggernaut de los mages. En elos Plat+ donde los equipos coordinan, Aurelion Sol es devastador porque su R cambia teamfights. Trend estable."
+        }
+      ],
+      "url": "/guides/guia_aurelionsol_mid",
+      "fileName": "",
+      "game": "lol",
+      "createdAt": "2026-05-24T07:54:00Z"
     }
   ]
 }

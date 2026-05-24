@@ -555,7 +555,7 @@ function MetaImpactSection({ latestPatch }: { latestPatch: PatchNote & { feedSta
       <div className="p-3 sm:p-4">
         <div className="flex items-center gap-2 mb-3">
           <Zap className="w-4 h-4 text-lol-gold" />
-          <span className="lol-label text-xs font-bold text-lol-gold uppercase tracking-wider">Meta Impact</span>
+          <span className="lol-label text-xs font-bold text-lol-gold uppercase tracking-wider">Impacto Meta</span>
           <span className="ml-auto text-[10px] font-mono text-lol-muted">{latestPatch.version}</span>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -647,7 +647,7 @@ function PatchAnalysisSection({ analysis }: { analysis: PatchAnalysis }) {
                       <div className="flex items-center gap-1.5">
                         <span className="text-xs font-semibold text-lol-text">{champ.name}</span>
                         <TierBadge tier={champ.tier} />
-                        <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ background: 'rgba(15,186,129,0.15)', color: '#0fba81', border: '1px solid rgba(15,186,129,0.3)' }}>BUFFED</span>
+                        <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ background: 'rgba(15,186,129,0.15)', color: '#0fba81', border: '1px solid rgba(15,186,129,0.3)' }}>BUFFEADO</span>
                       </div>
                       <p className="text-[10px] text-lol-muted leading-snug mt-0.5">{champ.reason}</p>
                     </div>
@@ -671,7 +671,7 @@ function PatchAnalysisSection({ analysis }: { analysis: PatchAnalysis }) {
                       <div className="flex items-center gap-1.5">
                         <span className="text-xs font-semibold text-lol-text">{champ.name}</span>
                         <TierBadge tier={champ.tier} />
-                        <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ background: 'rgba(232,64,87,0.15)', color: '#e84057', border: '1px solid rgba(232,64,87,0.3)' }}>NERFED</span>
+                        <span className="ml-auto text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ background: 'rgba(232,64,87,0.15)', color: '#e84057', border: '1px solid rgba(232,64,87,0.3)' }}>NERFEADO</span>
                       </div>
                       <p className="text-[10px] text-lol-muted leading-snug mt-0.5">{champ.reason}</p>
                     </div>
@@ -972,7 +972,7 @@ export function PatchesMetaTab({
                   Patch {latestPatch?.version || patchAnalysis?.currentPatch || '26.9'}
                 </span>
               </div>
-              <p className="text-xs text-lol-muted leading-relaxed mb-2.5">La segunda temporada de 2026 llega con temática de demonios. Deathfire Touch y Stormraider's Surge regresan. Nuevos items starting, cambios masivos a runas, y reworks de items mythic definen un meta completamente nuevo.</p>
+              <p className="text-xs text-lol-muted leading-relaxed mb-2.5">La segunda temporada de 2026 llega con temática de demonios. Deathfire Touch y Stormraider's Surge regresan. Nuevos items iniciales, cambios masivos a runas, y reworks de items mythic definen un meta completamente nuevo.</p>
               <div className="flex flex-wrap gap-1.5">
                 {['DFT + Stormraider', 'Shiv on-hit', 'Role Quests', 'Doran Bow/Helm', 'Roaming Buff'].map(feature => (
                   <span key={feature} className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-medium" style={{ background: 'rgba(200,170,110,0.08)', color: '#c8aa6e', border: '1px solid rgba(200,170,110,0.2)' }}>
@@ -1139,7 +1139,7 @@ export function PatchesMetaTab({
             {/* Patch Count */}
             <div className="flex items-center gap-2 text-lol-dim">
               <span className="text-sm">{filteredPatches.length} parche(s) encontrado(s)</span>
-              {showGameFilter && <span className="text-[10px] text-lol-gold-dark">· Fuentes: API + patches-feed.json</span>}
+              {showGameFilter && <span className="text-[10px] text-lol-gold-dark">· Fuentes: API + feed de parches</span>}
             </div>
 
             {/* Patch List */}
@@ -1189,7 +1189,7 @@ export function PatchesMetaTab({
                     )}
                     {patch.highlights && patch.highlights.length > 0 && (
                       <div className="mb-4">
-                        <div className="flex items-center gap-2 mb-2.5"><Target className="w-3.5 h-3.5 text-lol-warning" /><h4 className="lol-label text-xs font-semibold text-lol-warning">Highlights del Meta</h4></div>
+                        <div className="flex items-center gap-2 mb-2.5"><Target className="w-3.5 h-3.5 text-lol-warning" /><h4 className="lol-label text-xs font-semibold text-lol-warning">Destacados del Meta</h4></div>
                         <div className="space-y-1.5">{patch.highlights.map((h: string, i: number) => <div key={i} className="flex items-start gap-2 px-3 py-2 rounded-lg" style={{ background: 'rgba(240,198,70,0.04)', border: '1px solid rgba(240,198,70,0.1)' }}><span className="text-[10px] font-bold text-lol-warning shrink-0 mt-0.5">{i + 1}</span><span className="text-xs text-lol-muted leading-relaxed">{h}</span></div>)}</div>
                       </div>
                     )}

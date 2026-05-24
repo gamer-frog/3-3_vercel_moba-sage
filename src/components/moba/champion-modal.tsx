@@ -32,6 +32,7 @@ interface MetaBuild {
   runes?: string[];
   skillOrder?: string;
   winRate?: number;
+  [key: string]: unknown;
 }
 
 // ============================================================
@@ -44,7 +45,7 @@ export function ChampionModal({ champion, onClose }: { champion: Champion; onClo
   const [imgError, setImgError] = useState(false);
   const [activeSkin, setActiveSkin] = useState(0);
   const [failedSkins, setFailedSkins] = useState<Set<number>>(new Set());
-  const [metaBuild, setMetaBuild] = useState<MetaBuild | null>(null);
+  const [metaBuild, setMetaBuild] = useState<MetaBuild | undefined>(undefined);
   const modalRef = useRef<HTMLDivElement>(null);
 
   // Focus trap + Escape to close

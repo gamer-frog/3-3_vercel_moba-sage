@@ -214,7 +214,7 @@ const RUNE_COLOR_MAP: Record<string, string> = {
   'Sorcery': '#1b998b',
   'Dominación': '#d44444',
   'Domination': '#d44444',
-  'Valor': '#f9c74f',
+  'Valentía': '#f9c74f',
   'Resolve': '#f9c74f',
   'Inspiración': '#e8e8e8',
   'Inspiration': '#e8e8e8',

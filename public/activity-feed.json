@@ -3,6 +3,54 @@
   "lastUpdated": "2026-04-27T04:55:00Z",
   "entries": [
     {
+      "id": "meta-s2-launch",
+      "type": "feature",
+      "title": "Season 2 Pandemonium lanzado",
+      "description": "Patch 26.9 trae Deathfire Touch y Stormraider's Surge como keystones nuevos. Nuevos items: Doran's Bow (ADC), Doran's Helm (tank), Gluttonous Greaves (omnivamp). Shiv rework on-hit cambia builds de ADC. Role Quests mejorados con roaming permitido.",
+      "timestamp": "2026-04-28T12:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-zaahen-dominant",
+      "type": "improvement",
+      "title": "Zaahen domina el meta",
+      "description": "Nuevo campeón con 53.5% WR en top lane. 8.3% pick rate demuestra popularidad masiva. Core build: Filo de la Noche → Fuerza de la Trinidad → Eclipse. Ban rate subiendo a 1.8%.",
+      "timestamp": "2026-05-01T10:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-nasus-rising",
+      "type": "improvement",
+      "title": "Nasus rising en S-tier",
+      "description": "Ghost buff en 26.9 lo vuelve imparable en side lane. Split push meta lo posiciona como top pick. WR subiendo 2.1pp. Counter a tanks y bruisers en late game.",
+      "timestamp": "2026-05-02T14:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-karthus-jungle",
+      "type": "improvement",
+      "title": "Karthus jungle S-tier",
+      "description": "53.7% WR como jungler con Deathfire Touch como keystone. 100K+ daño PBE confirmado. Runa DoT broken en jungle Karthus. Ban rate 1.2% subiendo.",
+      "timestamp": "2026-05-03T09:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-tierlist-v10",
+      "type": "improvement",
+      "title": "Tier list actualizada v10",
+      "description": "Data sync con Mobalytics, U.GG y Skill Capped completado. S-tier actualizado con 10 campeones. Añadidos: Nasus, Nocturne, Ornn, Briar, Aurelion Sol, Ahri como builds meta.",
+      "timestamp": "2026-05-04T16:00:00Z",
+      "category": "data"
+    },
+    {
+      "id": "meta-briar-falling",
+      "type": "fix",
+      "title": "Briar cayendo del meta",
+      "description": "R sustain nerf en 26.9 reduce su dominancia en ranked. WR cayendo 1.6pp. HP growth reducido 100→95. Menos viable como jungler dominante pero kill potential intacto.",
+      "timestamp": "2026-05-05T11:00:00Z",
+      "category": "meta"
+    },
+    {
       "id": "patch-26-9-20260429011513",
       "type": "improvement",
       "title": "Patch 26.9 — Season 2 Pandemonium: Datos actualizados",
@@ -227,7 +275,7 @@
       "id": 101,
       "type": "feature",
       "title": "Runas Reales en Modal — Data Dragon icons + tree grouping",
-      "description": "Display de runas mejorado con 5 árboles de runas (Precisión/Brujería/Dominación/Determinación/Inspiración), keystone destacado, colores por árbol",
+      "description": "Display de runas mejorado con 5 árboles de runas (Precisión/Brujería/Dominación/Valentía/Inspiración), keystone destacado, colores por árbol",
       "date": "2026-04-24T20:35:54Z",
       "commit": "18c6c86"
     },

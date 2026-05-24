@@ -30,7 +30,7 @@ export interface Champion {
   metaUpdated?: boolean;
   metaSources?: string[];
   // Abilities
-  passiveAbility?: string;
+  passiveAbility?: { name: string; description: string };
   // UI / meta analysis fields
   builds?: ChampionBuild[];
   counterPick?: string;

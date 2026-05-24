@@ -78,6 +78,7 @@ export const SKILL_NAMES: Record<string, Record<'Q'|'W'|'E'|'R', string>> = {
   'Viego':        { Q: 'Blade of the Ruined King', W: 'Spectral Maw', E: 'Harrowed Path', R: 'Heartbreaker' },
   'Nami':         { Q: 'Aqua Prison', W: 'Ebb and Flow', E: "Tidecaller's Blessing", R: 'Tidal Wave' },
   "Kha'Zix":      { Q: 'Taste Their Fear', W: 'Void Spike', E: 'Leap', R: 'Void Assault' },
+  'Renata Glasc':  { Q: 'Bailout', W: 'Rebel Missiles', E: 'Loyalty Program', R: 'Hostile Takeover' },
 };
 
 export function getAbilityName(championName: string, skill: 'Q'|'W'|'E'|'R'): string {
@@ -143,6 +144,33 @@ export const SKIN_NAMES: Record<string, Record<number, string>> = {
   'Lux':           { 0: 'Clásica', 1: 'Sorceress', 2: 'Spellthief', 3: 'Imperial', 4: 'Steel Legion', 5: 'Star Guardian', 6: 'Elementalist', 7: 'Cosmic', 8: 'Battle Academia', 9: 'Prestige Battle Academia', 10: 'Porcelain' },
   'Xerath':        { 0: 'Clásica', 1: 'Battlecast', 2: 'Runeborn', 3: 'Scarab', 4: 'Star Guardian', 5: 'Dark Star', 6: 'PsyOps' },
   'Corki':         { 0: 'Clásica', 1: 'Urfrider', 2: 'Ice Toboggan', 3: 'Phantom', 4: 'Arcane', 5: 'Battlecast', 6: 'Arcade', 7: 'Lunar Revel', 8: 'Arclight' },
+  'Ezreal':        { 0: 'Clásica', 1: 'Nottingham', 2: 'Frosted', 3: 'Explorer', 4: 'Pulsefire', 5: 'Star Guardian', 6: 'Debonair', 7: 'Battle Academia', 8: 'PsyOps', 9: 'Porcelain' },
+  'Zed':           { 0: 'Clásica', 1: 'Shockblade', 2: 'SKT T1', 3: 'PROJECT:', 4: 'Championship', 5: 'Galaxy Slayer', 6: 'Prestige', 7: 'DK', 8: 'Pantheon', 9: 'PsyOps' },
+  'Vayne':         { 0: 'Clásica', 1: 'Aristocrat', 2: 'Vindicator', 3: 'Dragonslayer', 4: 'Heartbreaker', 5: 'Arclight', 6: 'NSFW', 7: 'Prestige', 8: 'PsyOps', 9: 'Coven' },
+  'Morgana':       { 0: 'Clásica', 1: 'Exiled', 2: 'Blade Mistress', 3: 'Sinful Succulence', 4: 'Ghost Bride', 5: 'Chroma', 6: 'Lunar Revel', 7: 'Victorious', 8: 'Prestige', 9: 'PsyOps' },
+  'Jhin':          { 0: 'Clásica', 1: 'Debonair', 2: 'Shan Hai Scrolls', 3: 'Blood Moon', 4: 'SKT T1', 5: 'Cosmic', 6: 'Dark Cosmic', 7: 'Elderwood', 8: 'Prestige', 9: 'PsyOps' },
+  'Vi':            { 0: 'Clásica', 1: 'Neon Strike', 2: 'Officer', 3: 'Debonair', 4: 'Heartbreaker', 5: 'PROJECT:', 6: 'Warrior Princess', 7: 'PsyOps', 8: 'Battlecast' },
+  'Orianna':       { 0: 'Clásica', 1: 'Gothic', 2: 'Sewn Chaos', 3: 'Bladecraft', 4: 'Pulsefire', 5: 'Battlecast', 6: 'Pool Party', 7: 'Elderwood', 8: 'Porcelain', 9: 'Coven' },
+  'Akali':         { 0: 'Clásica', 1: 'Infernal', 2: 'Headhunter', 3: 'Crimson', 4: 'Blood Moon', 5: 'Silverfang', 6: 'K/DA', 7: 'True Damage', 8: 'K/DA ALL OUT', 9: 'PsyOps', 10: 'Street Legend' },
+  'Ekko':          { 0: 'Clásica', 1: 'Sandstorm', 2: 'Academy', 3: 'Project', 4: 'Battlecast', 5: 'Star Guardian', 6: 'Elderwood', 7: 'PsyOps', 8: 'True Damage', 9: 'Porcelain' },
+  'LeBlanc':       { 0: 'Clásica', 1: 'Wicked', 2: 'Mistletoe', 3: 'Elderwood', 4: 'Prestige', 5: 'Ravenborn', 6: 'Program', 7: 'Coven', 8: 'All Star', 9: 'PsyOps' },
+  'Annie':         { 0: 'Clásica', 1: 'Gothic', 2: 'Red Riding', 3: 'Frostfire', 4: 'Prom Queen', 5: 'Hextech', 6: 'FrankenTibbers', 7: 'Super Galaxy', 8: 'Star Guardian', 9: 'Prestige K/DA', 10: 'Lunar Revel', 11: 'Arcane', 12: 'Bear Calamity' },
+  'Viktor':        { 0: 'Clásica', 1: 'Full Machine', 2: 'Creator', 3: 'Arcane', 4: 'iBlitz', 5: 'Battlecast', 6: 'Debonair', 7: 'PsyOps' },
+  'Azir':          { 0: 'Clásica', 1: 'Galactic', 2: 'Forsaken', 3: 'Warring Kingdoms', 4: 'NBA', 5: 'Elderwood', 6: 'Lunar Revel', 7: 'PsyOps', 8: 'Dark Star' },
+  'Ziggs':         { 0: 'Clásica', 1: 'Mad Scientist', 2: 'Major', 3: 'Pool Party', 4: 'Snow Day', 5: 'Battlecast', 6: 'Master Chef', 7: 'Star Guardian', 8: 'Elderwood', 9: 'Lunar Revel', 10: 'Arcane', 11: 'Porcelain' },
+  'Fizz':          { 0: 'Clásica', 1: 'Atlantean', 2: 'Tundra', 3: 'Void', 4: 'Cyber', 5: 'Omega Squad', 6: 'Cottontail', 7: 'Battlecast', 8: 'Fuzz Fizz', 9: 'Lunar Revel', 10: 'PsyOps' },
+  'Talon':         { 0: 'Clásica', 1: 'Renegade', 2: 'Crimson Elite', 3: 'Dragonblade', 4: 'SSW', 5: 'Hyena', 6: 'Project', 7: 'Enduring', 8: 'PsyOps', 9: 'Lunar Revel' },
+  'Malzahar':      { 0: 'Clásica', 1: 'Shadow Prince', 2: 'Harrowed', 3: 'Snow Day', 4: 'Odyssey', 5: 'Dark Overlord', 6: 'Lunar Revel', 7: 'PsyOps', 8: 'Coven', 9: 'Arcane' },
+  'Twisted Fate': { 0: 'Clásica', 1: 'Musketeer', 2: 'Regal', 3: 'Underworld', 4: 'Red Card', 5: 'Pulsefire', 6: 'Cutpurse', 7: 'Lunar Revel', 8: 'PsyOps', 9: 'Dragonmancer' },
+  'Lucian':        { 0: 'Clásica', 1: 'Hired Gun', 2: 'Striker', 3: 'Prestige', 4: 'PROJECT:', 5: 'Heartpiercer', 6: 'Debonair', 7: 'Battle Academia', 8: 'PsyOps', 9: 'Porcelain' },
+  'Varus':         { 0: 'Clásica', 1: 'Arclight', 2: 'Blight Crystal', 3: 'Heartpiercer', 4: 'Darkstar', 5: 'Arctic Ops', 6: 'Gravitational', 7: 'PsyOps', 8: 'Spirit Blossom', 9: 'Porcelain' },
+  'Draven':        { 0: 'Clásica', 1: 'Soul Reaper', 2: 'Gladiator', 3: 'Pool Party', 4: 'Beast Hunter', 5: 'Mecha', 6: 'Primetime', 7: 'Prestige', 8: 'Lunar Revel', 9: 'Debonair', 10: 'PsyOps' },
+  'Miss Fortune':  { 0: 'Clásica', 1: 'Cowgirl', 2: 'Waterloo', 3: 'Secret Agent', 4: 'Arcade', 5: 'Captain', 6: 'Star Guardian', 7: 'Gun Goddess', 8: 'Prestige', 9: 'Street Idol', 10: 'Battle Bunny', 11: 'Heartsteel', 12: 'PsyOps' },
+  'Aphelios':      { 0: 'Clásica', 1: 'Nightbringer', 2: 'Phrelan', 3: 'Empyrean', 4: 'Prestige', 5: 'Lunar Revel', 6: 'PsyOps' },
+  'Riven':         { 0: 'Clásica', 1: 'Redeemed', 2: 'Crimson Elite', 3: 'Battle Bunny', 4: 'Dragonblade', 5: 'Championship', 6: 'Arcade', 7: 'Star Guardian', 8: 'Prestige', 9: 'Spirit Blossom', 10: 'Dawnbringer', 11: 'Lunar Revel', 12: 'PsyOps' },
+  'Renekton':      { 0: 'Clásica', 1: 'Bloodfury', 2: 'Outback', 3: 'Galactic', 4: 'Pool Party', 5: 'Worldbreaker', 6: 'Arclight', 7: 'Elderwood', 8: 'Fire and Ice', 9: 'PsyOps', 10: 'Lunar Revel', 11: 'Heartsteel' },
+  'Irelia':        { 0: 'Clásica', 1: 'Enchanted', 2: 'Frostblade', 3: 'Aviator', 4: 'Order of the Lotus', 5: 'PROJECT:', 6: 'Battle Academia', 7: 'Star Guardian', 8: 'Lunar Revel', 9: 'Cosmic', 10: 'PsyOps', 11: 'Coven' },
+  'Volibear':      { 0: 'Clásica', 1: 'Thunder Lord', 2: 'Runeguard', 3: 'Northern Storm', 4: 'Arclight', 5: 'Battlecast', 6: 'Elderwood', 7: 'Orbee', 8: 'PsyOps', 9: 'Rainbow', 10: 'Lunar Revel' },
 };
 
 export function getSkinLabel(championName: string, skinNum: number): string {

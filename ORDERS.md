@@ -46,7 +46,7 @@ Solo hay 5 pro comps. El tab Combos muestra estas entries y se ve vacio. Agregar
 
 ## ORDEN 003 — Expandir champion-data.ts (skill names + skins)
 **Prioridad**: P2 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25 03:34 UTC — +2 SKILL_NAMES: Kha'Zix, Renata Glasc. +27 SKIN_NAMES: Ezreal, Zed, Vayne, Morgana, Jhin, Vi, Orianna, Akali, Ekko, LeBlanc, Annie, Viktor, Azir, Ziggs, Fizz, Talon, Malzahar, Twisted Fate, Lucian, Varus, Draven, Miss Fortune, Aphelios, Riven, Renekton, Irelia, Volibear. Total: 68 skills, 66 skins)
 
 Faltan muchos campeones en SKILL_NAMES (solo ~50 de 160+). Agregar skill names para los campeones S/A tier que faltan:
 - Katarina, Nasus, Karthus, Taliyah, Fiora, Camille, Viego, Nami, Kha'Zix, Volibear, Mordekaiser, Sett, Yone, Samira, Aphelios, Renekton, Twisted Fate, Morgana, Jhin, Draven, Varus, Miss Fortune, Malzahar, Annie, Syndra, Kassadin, Lux, Ziggs, Xerath, Fizz, Talon, Corki, Kennen, Renata Glasc

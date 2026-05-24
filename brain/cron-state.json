@@ -2,16 +2,32 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-24T17:54:00Z",
-  "lastSlot": "17",
-  "lastTask": "i18n + Quality",
+  "lastTick": "2026-05-24T18:54:00Z",
+  "lastSlot": "18",
+  "lastTask": "Recovery Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 293,
-  "totalSuccess": 293,
+  "totalTicks": 294,
+  "totalSuccess": 294,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-24T18:54:00Z",
+      "slot": "18",
+      "task": "Recovery Check",
+      "taskCode": "recovery",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 15000,
+      "changes": "Committed 3 orphaned files from prior sessions: meta-builds.json (29 Determinación→Valentía, 8 Valor→Valentía, 1 Second Wind→Segunda Vida), combos-data.ts (3 KogMaw→Kog'Maw canonical name), guides-feed.json (1 Precision→Precisión Nasus). Working tree now clean (6 untracked scrape/search JSONs remain — T07 scope). tsc 2 pre-existing z-ai-web-dev-sdk errors only. No new issues found.",
+      "filesChanged": [
+        "public/meta-builds.json",
+        "src/data/combos-data.ts",
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-24T17:54:00Z",
       "slot": "17",

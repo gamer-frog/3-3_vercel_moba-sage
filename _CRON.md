@@ -5,4 +5,30 @@
 
 ---
 
-(no hay tareas PENDING)
+## CAPA 0: KERNEL (completado)
+
+## CAPA 1: SISTEMA NERVIOSO — T01-T07
+
+### T01 — SELF_SCAN [PENDING]
+Auto-diagnóstico diario. Leer SELF_SCAN.md, ejecutar checks, actualizar resultado.
+
+### T02 — AUTO-README [PENDING]
+Mantener README.md sincronizado con estado actual del repo.
+
+### T03 — SYNC_BOTARDO [PENDING]
+Leer delegaciones desde brain/DELEGACION/GAMING/INBOX.md si existe.
+
+### T04 — AUTO-MEMORIA [PENDING]
+Worklog y contexto persistente. Actualizar _LOG.md con hits del ciclo.
+
+### T05 — HEALTH-CHECK [PENDING]
+npm run build + validación JSON. Verificar integridad del repo.
+
+### T06 — CONSOLIDAR [PENDING]
+Escribir reporte en brain/cross_agent/for_gaming-lider.md.
+
+### T07 — AUTO-LIMPIEZA [PENDING]
+Limpiar archivos huérfanos, temp files, borrar search/scrape JSONs innecesarios.
+
+---
+(no hay tareas PENDING — UPGRADE completado, T01-T07 listas para ejecución)

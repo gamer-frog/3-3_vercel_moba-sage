@@ -24,3 +24,4 @@
 - [2026-05-25T02:29 UTC] T02 AUTO-README ejecutado. Creado README.md en raíz con estado actual: 92 champs (18S/44A/23B/7C), patch 26.10, 24 builds, 27 guias, 30 combos, streak 293/293, Next.js 16 + React 19 + Tailwind 4. Build OK.
 - [2026-05-25T02:54 UTC] T03 SYNC_BOTARDO ejecutado. brain/DELEGACION/GAMING/INBOX.md no existe. NO-OP. Push OK.
 - [2026-05-25T03:19 UTC] T04 AUTO-MEMORIA ejecutado. _LOG.md enriquecido con tabla de estado actual, resumen de sesión. Push OK.
+- [2026-05-25T03:44 UTC] T05 HEALTH-CHECK ejecutado. npm run build OK (8.9s, 2 warnings z-ai-web-dev-sdk esperados). 22/22 JSON válidos. Working tree clean. 6 untracked scrape/search JSONs (T07 scope).

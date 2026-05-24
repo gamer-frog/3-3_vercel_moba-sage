@@ -21,8 +21,8 @@ Leer delegaciones desde brain/DELEGACION/GAMING/INBOX.md si existe. Resultado: I
 ### T04 — AUTO-MEMORIA [DONE] ✅ 2026-05-25T03:19 UTC
 Worklog y contexto persistente. Actualizar _LOG.md con hits del ciclo.
 
-### T05 — HEALTH-CHECK [PENDING]
-npm run build + validación JSON. Verificar integridad del repo.
+### T05 — HEALTH-CHECK [DONE] ✅ 2026-05-25T03:44 UTC
+npm run build + validación JSON. Build OK. 22/22 JSON válidos. 6 untracked scrape/search (T07 scope).
 
 ### T06 — CONSOLIDAR [PENDING]
 Escribir reporte en brain/cross_agent/for_gaming-lider.md.

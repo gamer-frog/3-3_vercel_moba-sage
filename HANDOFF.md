@@ -70,7 +70,7 @@
 - Added metaShift section to 26.9 entry: 9 rising (Nasus, Fiora, Vex, Camille, Taliyah, Nami, Zeri, Smolder, Viktor), 6 falling (Briar, Ambessa, Mordekaiser, Kha'Zix, Yasuo, Pyke), 7 keyNarratives. Data sourced from tierlist-feed v16. JSON validated, build OK.
 
 ### ORDEN 005 — Verify ITEM_DESCRIPTIONS ✅
-- All 7 Season 2 items already have descriptions (no changes needed)
+- Verified 31 unique items in meta-builds.json against ITEM_DESCRIPTIONS. Found 20 missing. Added: 6 boots (Berserker, Celeridad, Mercurio, Placas, Grebas de Placas, Vacío), 3 support (Medallón de los Solari, Mikael, Convergencia de Zeke), 4 bruiser/tank (Stridebreaker, Hielo Eterno, Sed de Sangre, Espada del Rey Desterrado), 4 ADC (Lord Dominik, Bailarín Espectral, Guardián Angel, Resistencia Divina), 3 Season 2/26.10 (Llamarada Sombría, Lich Bane, Hexplate, Imperial Mandate). Total: 47→67 entries. Build OK.
 
 ### ORDEN 006 — Verify meta-builds.json ✅
 - 6 missing S-tier entries added (Nasus, Ahri, Nocturne, Ornn, Briar, Aurelion Sol)

@@ -72,7 +72,7 @@ Falling: Briar, Ambessa, Mordekaiser, Kha'Zix, Yasuo, Pyke
 
 ## ORDEN 005 — Verificar y arreglar ITEM_DESCRIPTIONS
 **Prioridad**: P2 | **Riesgo**: Medio
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25T07:35 UTC — 20 items agregados: 6 boots, 3 support, 4 bruiser/tank, 4 ADC, 3 Season 2/26.10. Total 47→67 entries. Todos items en builds S/A cubiertos. Build OK)
 
 ITEM_DESCRIPTIONS se expandio en session anterior de 14 a 40+ entries pero necesita verificacion contra items Season 2. Verificar que todos los items mencionados en builds de campeones S/A tengan descripcion. Items clave a verificar:
 - Statikk Shiv (reworked on-hit en 26.9)

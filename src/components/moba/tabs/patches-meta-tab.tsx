@@ -139,6 +139,33 @@ const ITEM_DESCRIPTIONS: Record<string, string> = {
   'Duskblade of Draktharr': 'Lethality + invisibilidad post-kill — regresa con stats ajustados. Viable para assassins AD en Season 2.',
   // Classic items referenced in builds
   'Filo de la Noche': 'Lethality mythic — core para assassins AD. Execute bonus vs low HP targets.',
+  // Season 2 — Additional Items referenced in builds
+  'Jak\'Sho, el Proteico': 'Tank mythic escalable — más resistencias en combate prolongado. Core en cualquier tank. Versión extendida del nombre Jak\'Sho.',
+  'Visión Divina': 'Support item — visión y utilidad para el equipo. Protección activa en teamfights.',
+  'Eclipse': 'Lethality + spell vamp — versátil para fighters y assassins. Shield en engage. Core para fighters AD.',
+  // Boots
+  'Botas de Berserker': 'Velocidad de ataque — core para ADCs y fighters AD que necesitan AS en lanes.',
+  'Botas de Celeridad': 'Redución de cooldown — para mages y champions skill-reliant. Mejora rotaciones.',
+  'Botas de Mercurio': 'Tenacidad + MR — counter a CC pesado. Core vs apes mages con stun/root.',
+  'Botas de Placas': 'Armor + reduce daño AA — core vs ADCs y on-hit champs. Grebas de Placas = alias.',
+  'Grebas de Placas': 'Armor + reduce daño AA — mismo item que Botas de Placas. Core vs ADCs.',
+  'Botas del Vacío': 'Magic penetration — core para mages vs MR stack. Synergiza con Void Staff.',
+  // Support items
+  'Medallón de los Solari': 'AoE shield activable — core para engage supports. Protección masiva en teamfights.',
+  'Mikael': 'Cleanse activable — quita CC de un ally. Core vs comps con mucho CC (Morgana, Nautilus).',
+  'Convergencia de Zeke': 'Bonus stats compartidos con aliado — core para supports que_pelean cerca del ADC.',
+  'Redención': 'AoE heal activable — core support para enchanter meta. Teamfight healing masivo.',
+  // Bruiser/Tank items
+  'Stridebreaker': 'Dash + haste — bruiser mythic alternativo. Core para Darius, Garen, Renekton.',
+  'Hielo Eterno': 'Slow + armor — tank item anti-kite. Synergiza con engage tanks como Malphite.',
+  'Sed de Sangre': 'Lifesteal + AD — sustain item para ADCs y fighters. Alternativa a Filo Divino.',
+  'Espada del Rey Desterrado': 'Omnivamp + lethality — item versátil para assassins y bruisers AD.',
+  // ADC items
+  'Lord Dominik': 'Armor penetration + execution — core vs tanks. Mejora daño a objetivos high-HP.',
+  'Bailarín Espectral': 'Crit + movement speed — item de movilidad para ADCs. Kiting mejorado.',
+  'Guardián Angel': 'Resurrección passive — item defensivo premium. Reset en teamfights decisivos.',
+  'Resistencia Divina': 'Magic resist + anti-burst — item defensivo vs mages. Escudo vs burst mágico.',
+  'Llamarada Sombría': 'AP + burn effect — item Season 2 para mages DoT. Synergiza con DFT.',
   'Eclipse': 'Lethality + spell vamp — versátil para fighters y assassins. Shield en engage.',
   'Jak\'Sho': 'Tank mythic escalable — más resistencias en combate prolongado. Core en cualquier tank.',
   'Filo Divino': 'Crit + lifesteal — sustain ADC mythic. Fuera de meta en Season 2 pero viable.',
@@ -157,6 +184,10 @@ const ITEM_DESCRIPTIONS: Record<string, string> = {
   'Centro de Gravedad': 'Zone control — reduce MR de enemigos en área. Synergiza con mage AoE comps.',
   'Dawnstone': 'Support mythic con shielding y haste para allies. Item defensivo premium para supports que buscan protección activa.',
   'Dawnstone (support mythic)': 'Support mythic con shielding y haste para allies. Protección activa premium para supports.',
+  // 26.10 adjustments
+  'Lich Bane': 'AP ratio buff 40%→45% + MS 4%→6% en 26.10. Diferenciación con Dusk and Dawn. Core en mages melee.',
+  'Hexplate': 'Experimental item — shield + bonus damage. Passive nerfeado para ranged en 26.11 PBE. Core en fighters.',
+  'Imperial Mandate': 'Support mythic — reworked en 26.11 PBE. Haste + slow + damage amplification para allies. Core para enchanters.'
 };
 
 function getChangeCategoryStyle(category: string): { color: string; bg: string; border: string; label: string; icon: typeof ArrowUp; isItem: boolean; isChampion: boolean } {

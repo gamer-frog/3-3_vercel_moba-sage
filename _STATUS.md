@@ -3,12 +3,12 @@
 ## Sistema
 - **Versión**: Agente Universal v1.0
 - **Upgrade**: 2026-05-25
-- **Streak Cron**: 292/292 (0 fails)
+- **Streak Cron**: 293/293 (0 fails)
 
 ## Tareas T01-T07
 | Tarea | Estado | Último run |
 |-------|--------|------------|
-| T01 SELF_SCAN | PENDING | — |
+| T01 SELF_SCAN | DONE ✅ | 2026-05-25T01:39 UTC |
 | T02 AUTO-README | PENDING | — |
 | T03 SYNC_BOTARDO | PENDING | — |
 | T04 AUTO-MEMORIA | PENDING | — |

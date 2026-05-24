@@ -9,7 +9,7 @@
 
 ## CAPA 1: SISTEMA NERVIOSO — T01-T07
 
-### T01 — SELF_SCAN [PENDING]
+### T01 — SELF_SCAN [DONE] ✅ 2026-05-25T01:39 UTC
 Auto-diagnóstico diario. Leer SELF_SCAN.md, ejecutar checks, actualizar resultado.
 
 ### T02 — AUTO-README [PENDING]

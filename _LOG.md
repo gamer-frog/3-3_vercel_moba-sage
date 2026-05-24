@@ -8,3 +8,4 @@
 - [2026-05-25T00:49 UTC] NO-OP — _CRON.md sin tareas PENDING. Nombre _CONTEXT.md corregido MOBA-SAGE→MOBA-SAGE-001.
 - [2026-05-25T01:14 UTC] UPGRADE completado: Agente Universal v1.0. Creados: CAPABILITY_SCHEMA.md, _STATUS.md, _CRON.md (T01-T07), SELF_SCAN.md, ENV_MODEL.md. Commit f209298 anterior.
 - [2026-05-25T01:39 UTC] T01 SELF_SCAN ejecutado. 9/10 checks OK. Build OK. 6 scrape JSONs sin trackear (T07). Push fail (PAT).
+- [2026-05-25T02:29 UTC] T02 AUTO-README ejecutado. Creado README.md en raíz con estado actual: 92 champs (18S/44A/23B/7C), patch 26.10, 24 builds, 27 guias, 30 combos, streak 293/293, Next.js 16 + React 19 + Tailwind 4. Build OK.

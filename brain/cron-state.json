@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-24T19:54:00Z",
-  "lastSlot": "19",
-  "lastTask": "Cross-File Consistency",
+  "lastTick": "2026-05-24T20:54:00Z",
+  "lastSlot": "20",
+  "lastTask": "Tierlist Evening Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 295,
-  "totalSuccess": 295,
+  "totalTicks": 296,
+  "totalSuccess": 296,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-24T20:54:00Z",
+      "slot": "20",
+      "task": "Tierlist Evening Check",
+      "taskCode": "tierlist-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — tierlist v16 stable, 92 champs (18S/44A/23B/7C), feed age 160h, mid-patch 26.10 stable. nextPatch 26.11 PBE active, release May 28 (3 days). No tier shifts or PBE changes detected since May 20. Rising: Riven, Smolder, Rek'Sai, Rammus, Fizz. Falling: Master Yi, Ahri, Briar, Jinx, Taliyah.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-24T19:54:00Z",
       "slot": "19",

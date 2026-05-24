@@ -18,7 +18,7 @@ Mantener README.md sincronizado con estado actual del repo.
 ### T03 — SYNC_BOTARDO [DONE] ✅ 2026-05-25T02:54 UTC
 Leer delegaciones desde brain/DELEGACION/GAMING/INBOX.md si existe. Resultado: INBOX no existe, NO-OP.
 
-### T04 — AUTO-MEMORIA [PENDING]
+### T04 — AUTO-MEMORIA [DONE] ✅ 2026-05-25T03:19 UTC
 Worklog y contexto persistente. Actualizar _LOG.md con hits del ciclo.
 
 ### T05 — HEALTH-CHECK [PENDING]

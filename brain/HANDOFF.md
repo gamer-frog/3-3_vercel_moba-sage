@@ -1,7 +1,7 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-25 01:34 UTC (Moba-orders Job 134194)
-**Streak**: 292/292 OK | 0 Fails consecutivos
+**Generado**: 2026-05-25 02:34 UTC (Moba-orders Job 134194)
+**Streak**: 293/293 OK | 0 Fails consecutivos
 **Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28)
 
 ---
@@ -14,10 +14,10 @@
 | data.ts | ~129 entries (107 LoL + 22 WR), todos patch 26.10/7.1e |
 | meta-builds.json | 57 campeones con builds |
 | guides-feed.json | 27 guias |
-| combos-data.ts | 32 combos (18/18 S-tier covered) |
+| combos-data.ts | 30 combos (18/18 S-tier covered) |
 | tsc errors | 2 (z-ai-web-dev-sdk pre-existing only) |
 | Stale patches | 0 en data.ts/meta-builds |
-| Commits ahead | 185+ |
+| Commits ahead | 0 (synced) |
 
 ---
 
@@ -81,5 +81,6 @@
 ## TAREA CRITICA (pendiente CEO)
 
 - GAMING-MOBA Worker v3.0 bloqueado por GitHub PAT
-- Repo: tech-free/3-3_AGENT_moba-sage
-- Sin credenciales configuradas (falló 2 veces en sesiones previas)
+- Repo: gamer-frog/3-3_vercel_moba-sage
+- PAT actualizada: 2026-05-24 — push funcional
+- Push Protection: commit histórico con PAT viejo bloquea pushes futuros (necesita unblock o filter-branch)

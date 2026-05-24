@@ -28,7 +28,7 @@ El `tierlist-feed.json` (v10) tiene datos actualizados al 2026-04-30 pero `data.
 
 ## ORDEN 002 — Expandir combos-data.ts
 **Prioridad**: P1 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25 02:34 UTC — verificado: 30 pro comps existentes, 8/8 arquetipos requeridos cubiertos)
 
 Solo hay 5 pro comps. El tab Combos muestra estas entries y se ve vacio. Agregar al menos 10 comps mas cubriendo:
 - Protect the Hypercarry (KogMaw + Lulu + Janna)

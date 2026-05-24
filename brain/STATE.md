@@ -1,8 +1,8 @@
 # MOBA SAGE — Estado del Agente
 
-**Última actualización**: 2026-05-25 01:34 UTC
+**Última actualización**: 2026-05-25 02:34 UTC
 **Agente**: MOBA-SAGE-001
-**Streak**: 292/292
+**Streak**: 293/293
 
 ---
 
@@ -15,5 +15,5 @@
 | Tier alignment | 0 mismatches feed vs data.ts |
 | meta-builds.json | 57 campeones con builds |
 | guides-feed.json | 27 guías |
-| combos-data.ts | 32 combos |
-| ORDERS.md | 1/8 DONE (ORDEN 001), 7 PENDING |
+| combos-data.ts | 30 combos |
+| ORDERS.md | 2/8 DONE (ORDEN 001 + 002), 6 PENDING |

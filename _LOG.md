@@ -30,3 +30,4 @@
 - [2026-05-25T16:14 UTC] SILENCIO — brain/_CONTEXT.md no existía, creado con MOBA-SAGE-001. brain/_CRON.md no existe → sin tareas PENDING.
 - [2026-05-25T16:34 UTC] ORDEN 008 DONE — Taliyah 26.9→26.10 (S jungle→B mid), Fiora añadida a guides-feed. 27→28 guías. ORDERS 8/8 ALL DONE. Commit cd149eb.
 - [2026-05-25T16:39 UTC] SILENCIO — brain/_CRON.md no existe → sin tareas PENDING.
+- [2026-05-25T09:29 UTC] SILENCIO — _CRON.md T01-T07 ALL DONE, sin tareas PENDING.

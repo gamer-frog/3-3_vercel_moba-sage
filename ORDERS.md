@@ -89,7 +89,7 @@ ITEM_DESCRIPTIONS se expandio en session anterior de 14 a 40+ entries pero neces
 
 ## ORDEN 006 — Agregar metaBuilds data para campeones S-tier faltantes
 **Prioridad**: P2 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25T06:34 UTC — 9 S-tier builds agregados: Riven, Smolder, Rek'Sai, Rammus, Fizz, Bel'Veth, Diana, Vladimir, Ashe. Total 24→33. 18/18 S-tier coverage 100%. Build OK)
 
 public/meta-builds.json debe tener builds para todos los S-tier. Verificar que esten: Zaahen, Karthus, Nasus, Jinx, Ahri, Nocturne, Ornn, Briar, Aurelion Sol, Nilah.
 

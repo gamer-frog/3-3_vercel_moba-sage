@@ -1,7 +1,7 @@
 {
   "lastScraped": "2026-04-25T12:00:00Z",
   "source": "U.GG + OP.GG + Mobalytics + LoLalytics",
-  "patch": "26.9",
+  "patch": "26.10",
   "season": "Pandemonium (Season 2)",
   "champions": {
     "sion": {
@@ -117,7 +117,7 @@
         "Brand",
         "Amumu"
       ],
-      "note": "DFT broken — 100K+ daño PBE 26.9"
+      "note": "DFT reworked magic damage PBE 26.11"
     },
     "malzahar": {
       "wr": 53.8,
@@ -493,7 +493,7 @@
         "Enchanter supports",
         "Peel comps"
       ],
-      "note": "Highest WR ADC 26.9"
+      "note": "Highest WR ADC 26.10"
     },
     "tahmkench": {
       "wr": 51.5,
@@ -531,7 +531,7 @@
         "Engage supports",
         "All-in ADCs"
       ],
-      "note": "Buffeado 26.9 — Riot: overnerfed TK"
+      "note": "Buffeado 26.10 — Riot: overnerfed TK"
     },
     "warwick": {
       "wr": 52.1,
@@ -720,7 +720,7 @@
         "Malphite",
         "Garen"
       ],
-      "note": "Ghost buff 26.9 — split push S-tier"
+      "note": "Ghost buff 26.10 — split push S-tier"
     },
     "ahri": {
       "wr": 51.1,
@@ -873,7 +873,7 @@
         "Squishy junglers",
         "Low CC comps"
       ],
-      "note": "R sustain nerf 26.9 — WR cayendo 1.6pp"
+      "note": "R sustain nerf 26.10 — WR cayendo 1.6pp"
     },
     "aurelionsol": {
       "wr": 52.5,
@@ -912,6 +912,349 @@
         "Control mages"
       ],
       "note": "Late game monster — scaling hypercarry mid"
+    },
+    "riven": {
+      "wr": 52.5,
+      "pick": 4.8,
+      "ban": 1.1,
+      "role": "Top",
+      "core_items": [
+        "Filo de la Noche",
+        "Eclipse",
+        "Resistencia Divina",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valentía",
+        "Segunda Vida",
+        "Dominación",
+        "Golpe de Gracia"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Teemo",
+        "Poppy",
+        "Malphite"
+      ],
+      "strong_vs": [
+        "Fiora",
+        "Darius",
+        "Garen"
+      ],
+      "note": "S-tier duelist — Conqueror burst windows"
+    },
+    "smolder": {
+      "wr": 54.5,
+      "pick": 6.2,
+      "ban": 3.5,
+      "role": "ADC",
+      "core_items": [
+        "Filo Infinito",
+        "Danza de la Muerte",
+        "Lord Dominik",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Lethal Tempo",
+        "Valentía",
+        "Golpe de Gracia",
+        "Brujería",
+        "Pies Veloces"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Nilah",
+        "Draven",
+        "Samira"
+      ],
+      "strong_vs": [
+        "Immobile ADCs",
+        "Peel comps"
+      ],
+      "note": "S+ tier — 26.11 crit rework incoming (nerfs PBE)"
+    },
+    "reksai": {
+      "wr": 53.0,
+      "pick": 3.1,
+      "ban": 0.8,
+      "role": "Jungle",
+      "core_items": [
+        "Sed de Sangre",
+        "Eclipse",
+        "Resistencia Divina",
+        "Filo de la Noche"
+      ],
+      "boots": [
+        "Botas de Mercurio"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valentía",
+        "Segunda Vida",
+        "Dominación",
+        "Sabor a Sangre"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Lee Sin",
+        "Warwick",
+        "Elise"
+      ],
+      "strong_vs": [
+        "Squishy junglers",
+        "Control mages"
+      ],
+      "note": "S-tier diver — tunnel knockup engage"
+    },
+    "rammus": {
+      "wr": 52.0,
+      "pick": 2.9,
+      "ban": 1.5,
+      "role": "Jungle/Support",
+      "core_items": [
+        "Hidra Titánica",
+        "Jak'Sho, el Proteico",
+        "Resistencia Divina",
+        "Medallón de los Solari"
+      ],
+      "boots": [
+        "Grebas de Placas"
+      ],
+      "runes": [
+        "Valentía",
+        "Agarre del No Muerto",
+        "Brujería",
+        "Debilidad",
+        "Valentía",
+        "Revitalizar"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Teemo",
+        "Vayne",
+        "Brand"
+      ],
+      "strong_vs": [
+        "AA-based champs",
+        "AD heavy comps"
+      ],
+      "note": "S-tier anti-AD — 26.11 buff confirmed"
+    },
+    "fizz": {
+      "wr": 52.8,
+      "pick": 3.5,
+      "ban": 0.9,
+      "role": "Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Llamarada Sombría",
+        "Reloj de Zhonya",
+        "Cetro de Rylai"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Dominación",
+        "Electrocuto",
+        "Brujería",
+        "Pieza de Calzado Brillante",
+        "Valentía",
+        "Revitalizar"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Malzahar",
+        "Kassadin",
+        "Ahri"
+      ],
+      "strong_vs": [
+        "Squishy mids",
+        "Immobile carries"
+      ],
+      "note": "S-tier assassin — 26.10 rising"
+    },
+    "belveth": {
+      "wr": 52.7,
+      "pick": 2.3,
+      "ban": 1.0,
+      "role": "Jungle",
+      "core_items": [
+        "Devorador Kraken",
+        "Filo de la Noche",
+        "Resistencia Divina",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valentía",
+        "Golpe de Gracia",
+        "Dominación",
+        "Sabor a Sangre"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Warwick",
+        "Rammus",
+        "Lee Sin"
+      ],
+      "strong_vs": [
+        "Control junglers",
+        "Late game 1v9 potential"
+      ],
+      "note": "S-tier void jungler — R2 void zone teamfight"
+    },
+    "diana": {
+      "wr": 53.5,
+      "pick": 3.8,
+      "ban": 1.3,
+      "role": "Jungle/Mid",
+      "core_items": [
+        "Sombrero de Rabadón",
+        "Llamarada Sombría",
+        "Reloj de Zhonya",
+        "Morellonomicon"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Precisión",
+        "Conquistador",
+        "Valentía",
+        "Sobrecrecimiento",
+        "Brujería",
+        "Pieza de Calzado Brillante"
+      ],
+      "skill_order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "counters": [
+        "Lillia",
+        "Warwick",
+        "Malzahar"
+      ],
+      "strong_vs": [
+        "Squishy mids",
+        "Melee junglers"
+      ],
+      "note": "S-tier — 26.11 jungle buff confirmed PBE"
+    },
+    "vladimir": {
+      "wr": 52.0,
+      "pick": 2.6,
+      "ban": 0.4,
+      "role": "Mid/Top",
+      "core_items": [
+        "Llamarada Sombría",
+        "Sombrero de Rabadón",
+        "Reloj de Zhonya",
+        "Cetro de Rylai"
+      ],
+      "boots": [
+        "Botas del Vacío"
+      ],
+      "runes": [
+        "Brujería",
+        "Invocar Aery",
+        "Valentía",
+        "Sobrecrecimiento",
+        "Inspiración",
+        "Pieza de Calzado Brillante"
+      ],
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "counters": [
+        "Varus",
+        "Katarina",
+        "Malzahar"
+      ],
+      "strong_vs": [
+        "Melee tops",
+        "Short-range mids"
+      ],
+      "note": "S-tier scaling AP — 26.10 sustain buffs"
+    },
+    "ashe": {
+      "wr": 51.8,
+      "pick": 7.5,
+      "ban": 0.6,
+      "role": "ADC/Support",
+      "core_items": [
+        "Filo Infinito",
+        "Huracán de Runaan",
+        "Lord Dominik",
+        "Guardián Angel"
+      ],
+      "boots": [
+        "Botas de Berserker"
+      ],
+      "runes": [
+        "Brujería",
+        "Lethal Tempo",
+        "Valentía",
+        "Golpe de Gracia",
+        "Precisión",
+        "Presencia de Campeón"
+      ],
+      "skill_order": [
+        "W",
+        "Q",
+        "E"
+      ],
+      "counters": [
+        "Draven",
+        "Caitlyn",
+        "Ezreal"
+      ],
+      "strong_vs": [
+        "All-in bot lanes",
+        "Pick comps"
+      ],
+      "note": "S-tier utility ADC — global arrow engage"
     }
   }
 }

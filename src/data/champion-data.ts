@@ -171,6 +171,12 @@ export const SKIN_NAMES: Record<string, Record<number, string>> = {
   'Renekton':      { 0: 'Clásica', 1: 'Bloodfury', 2: 'Outback', 3: 'Galactic', 4: 'Pool Party', 5: 'Worldbreaker', 6: 'Arclight', 7: 'Elderwood', 8: 'Fire and Ice', 9: 'PsyOps', 10: 'Lunar Revel', 11: 'Heartsteel' },
   'Irelia':        { 0: 'Clásica', 1: 'Enchanted', 2: 'Frostblade', 3: 'Aviator', 4: 'Order of the Lotus', 5: 'PROJECT:', 6: 'Battle Academia', 7: 'Star Guardian', 8: 'Lunar Revel', 9: 'Cosmic', 10: 'PsyOps', 11: 'Coven' },
   'Volibear':      { 0: 'Clásica', 1: 'Thunder Lord', 2: 'Runeguard', 3: 'Northern Storm', 4: 'Arclight', 5: 'Battlecast', 6: 'Elderwood', 7: 'Orbee', 8: 'PsyOps', 9: 'Rainbow', 10: 'Lunar Revel' },
+  'Nocturne':      { 0: 'Clásica', 1: 'Void', 2: 'Haunted', 3: 'Frozen Terror', 4: 'Ravager', 5: 'Eternum', 6: 'PROJECT:', 7: 'Pumpkinhead', 8: 'Coven', 9: 'PsyOps' },
+  'Rammus':        { 0: 'Clásica', 1: 'Chrome', 2: 'Freljord', 3: 'Spirit Guard', 4: 'Ninja', 5: 'Lunar Revel', 6: 'Mecha', 7: 'Jade', 8: 'PsyOps' },
+  'Rek\'Sai':     { 0: 'Clásica', 1: 'Pool Party', 2: 'Guardian of the Sands', 3: 'Eternum', 4: 'Lunar Revel' },
+  'Smolder':       { 0: 'Clásica', 1: 'Lunar Revel', 2: 'Crystal Dragon' },
+  'Vladimir':      { 0: 'Clásica', 1: 'Blood Lord', 2: 'Marquis', 3: 'Acclaimed', 4: 'Dark Waters', 5: 'Count', 6: 'Soulstealer', 7: 'Prestige Blood Lord', 8: 'PsyOps' },
+  'Zaahen':        { 0: 'Clásica', 1: 'Pandemonium' },
 };
 
 export function getSkinLabel(championName: string, skinNum: number): string {

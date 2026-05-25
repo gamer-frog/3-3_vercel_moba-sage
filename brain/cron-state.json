@@ -2,16 +2,58 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-25T05:54:00Z",
-  "lastSlot": "05",
-  "lastTask": "Builds Refresh",
+  "lastTick": "2026-05-25T08:54:00Z",
+  "lastSlot": "08",
+  "lastTask": "Skin Names Expansion",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 304,
-  "totalSuccess": 304,
+  "totalTicks": 307,
+  "totalSuccess": 307,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-25T08:54:00Z",
+      "slot": "08",
+      "task": "Skin Names Expansion",
+      "taskCode": "skin-names",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 30000,
+      "changes": "ADDED 6 missing S-tier champion SKIN_NAMES: Nocturne (9 skins), Rammus (8), Rek'Sai (4), Smolder (3), Vladimir (8), Zaahen (2). Previous slot 08 was CLEAN at 89 champs; data.ts now has 93 champs, 43 missing skins. 18/18 S-tier now 100% covered. Remaining: ~37 B/C-tier missing skins (expansion debt). SKIN_NAMES 66→72 entries. Build OK.",
+      "filesChanged": [
+        "src/data/champion-data.ts",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-25T07:54:00Z",
+      "slot": "07",
+      "task": "Guide Creation",
+      "taskCode": "guides",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 25000,
+      "changes": "REFRESHED Malphite Top guide 26.9→26.10 (stale 3.1% WR delta, 54.7→51.6%). Updated id, summary, keyPoints with current stats (7.1% pick, 5.8% ban), 26.11 Aftershock/Heartsteel outlook, correct rune names. Guides still 27 (swap, not addition). Remaining stale: Garen 26.9 (S-tier, 0.5% delta), + 7 others (26.9/26.8). 18/18 S-tier: 16 up-to-date, 2 stale (Malphite now fixed, Garen pending). Build OK.",
+      "filesChanged": [
+        "public/guides-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
+    {
+      "tick": "2026-05-25T06:54:00Z",
+      "slot": "06",
+      "task": "Patch Watch",
+      "taskCode": "patch-watch",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 45000,
+      "changes": "ENRICHED patch-analysis.json nextPatch with confirmed PBE numbers from aussyelo.com (May 20). New details: Imperial Mandate nueva pasiva Command (6% Vulnerable 4s on immobilize), Dreammaker blue bubble DR 75-255->50-194 + purple bubble on-hit->on-ability, Echoes 35%->30%, Moonstone Starlight Grace no double dips HSP+GW, Aery shield 30->20 lvl 1, Shiv 40->45 AD. 2 new sources added (aussyelo.com + Riot schedule). PBE quiet 5 days (last build May 20). Release confirmed May 28 (Riot official schedule, Thursday exception). No new PBE builds. Build OK.",
+      "filesChanged": [
+        "public/patch-analysis.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-25T05:54:00Z",
       "slot": "05",
@@ -631,47 +673,6 @@
       "build": "OK",
       "duration_ms": 15000,
       "changes": "CLEAN — Feed v16 stable, 92 champs (18S/44A/23B/7C), patch 26.10, age 26h. 18/18 S-tier in data.ts. WR 7.1e, 4 WR S-tier. nextPatch 26.11 PBE active, release May 28 (6 days). CEO restructured nextPatch fields (keyChanges/metaImpact). No tier/WR changes needed.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T23:53:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "Night report generated. Session slots 12-23: ~130 fixes applied, 0 fails. Key fixes: ~80 runes, 39 aiAnalysis, 21 Valor→Valentía, 18 WR patch, 3 combos, 7 i18n, 1 type fix, 2 cross-file syncs. HANDOFF.md updated. Gaps: 4 S-tier no guide, 11 stale guides, 26.11 release May 28.",
-      "filesChanged": [
-        "brain/HANDOFF.md",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T22:53:00Z",
-      "slot": "22",
-      "task": "Deep Audit",
-      "taskCode": "deep-audit",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 25000,
-      "changes": "FIXED: patch-analysis.json nextPatch desync — pbeStatus upcoming→active, scheduledDate May 27→May 28, title/summary updated with 26.11 PBE confirmed details. AUDIT: 7/8 JSONs valid (version.txt plain text), 18/18 S-tier in data.ts, 18/18 in meta-builds, 14/18 with guides, 0 stale patches, 111/111 26.10 refs, 52 builds, 23 guides. Stale: 11 guides (26.9/26.8), activity-feed 24d old.",
-      "filesChanged": [
-        "public/patch-analysis.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-21T21:53:00Z",
-      "slot": "21",
-      "task": "Health Evening",
-      "taskCode": "health-evening",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — 3/3 JSONs valid, tierlist v16 92 champs (18S/44A/23B/7C), 52 meta-builds, 23 guides, 716/716 braces OK, git clean (0 dirty, 2 untracked), 171 commits ahead.",
       "filesChanged": [
         "brain/cron-state.json"
       ]

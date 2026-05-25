@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-25T20:54:00Z",
-  "lastSlot": "20",
-  "lastTask": "Tierlist Evening Check",
+  "lastTick": "2026-05-25T21:54:00Z",
+  "lastSlot": "21",
+  "lastTask": "Health Evening",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 309,
-  "totalSuccess": 309,
+  "totalTicks": 310,
+  "totalSuccess": 310,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-25T21:54:00Z",
+      "slot": "21",
+      "task": "Health Evening",
+      "taskCode": "health-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — 6/6 JSONs valid, tierlist v16 92 champs (18S/44A/23B/7C), 33 meta-builds, 27 guides. git clean (0 tracked modified, 1 untracked). nextPatch 26.11 PBE active, release May 28 (2 days). Build compiles OK. No action needed.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-25T20:54:00Z",
       "slot": "20",
@@ -661,19 +674,6 @@
       "changes": "FIXED: 23 Valor→Valentía runes in meta-builds.json, Master Yi WR 56.8→51.5 + pick 16.3→7.5 + ban 15.2→6.1 (stale DFT pre-nerf), Lee Sin WR 53.5→49.2 + pick 12.1→7.0 + ban 8.5→3.8 (modernization impact), Rek'Sai pick 3.8→2.3 + ban 1.2→1.7, Bel'Veth WR 53.0→52.7 + pick 4.5→1.8 + ban 1.6→3.1. Known debt: 35 tierlist champs without builds (B/C-tier).",
       "filesChanged": [
         "public/meta-builds.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T02:53:00Z",
-      "slot": "02",
-      "task": "Data Sync",
-      "taskCode": "data-sync",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 129 entries (107 LoL + 22 WR), 92/92 tierlist champs in data.ts, 111x 26.10 + 18x 7.1e, 0 stale patches. 57 meta-builds, 23 guides. All data aligned.",
-      "filesChanged": [
         "brain/cron-state.json"
       ]
     }

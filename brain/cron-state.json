@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-25T16:54:00Z",
-  "lastSlot": "16",
-  "lastTask": "Runes Verification",
+  "lastTick": "2026-05-25T20:54:00Z",
+  "lastSlot": "20",
+  "lastTask": "Tierlist Evening Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 308,
-  "totalSuccess": 308,
+  "totalTicks": 309,
+  "totalSuccess": 309,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-25T20:54:00Z",
+      "slot": "20",
+      "task": "Tierlist Evening Check",
+      "taskCode": "tierlist-evening",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — tierlist v16 stable, 92 champs (18S/44A/23B/7C), feed age ~100h, mid-patch 26.10 stable. nextPatch 26.11 PBE active, release May 28 (2 days). No tier shifts or PBE changes detected since May 21. nextPatch fields consistent between tierlist-feed and patch-analysis (version 26.11, pbeStatus active, scheduledDate May 28). 18/18 S-tier in data.ts. Build OK.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-25T16:54:00Z",
       "slot": "16",
@@ -660,19 +673,6 @@
       "build": "OK",
       "duration_ms": 10000,
       "changes": "CLEAN — 129 entries (107 LoL + 22 WR), 92/92 tierlist champs in data.ts, 111x 26.10 + 18x 7.1e, 0 stale patches. 57 meta-builds, 23 guides. All data aligned.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T01:53:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 3/3 JSONs valid. CEO external changes: 3 guide files modified (Diana/Zaahen/Rek'Sai), 6 untracked search/scrape JSONs (known). 348 data.ts name refs. Build OK.",
       "filesChanged": [
         "brain/cron-state.json"
       ]

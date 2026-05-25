@@ -99,7 +99,7 @@ public/meta-builds.json debe tener builds para todos los S-tier. Verificar que e
 
 ## ORDEN 007 — Mejorar activity-feed.json con novedades recientes
 **Prioridad**: P3 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25T06:34 UTC — 8 nuevas entries Mayo 2026: 26.11 PBE, CAPA 1 complete, S-tier rising/falling, 26.10 live, i18n cleanup, runes migration, ORDEN 006. v2.0→2.1, 33→41 entries. Highlights actualizados. Build OK)
 
 El activity feed necesita contenido fresco post-26.9. Agregar eventos recientes:
 - Zaahen release y dominancia en meta

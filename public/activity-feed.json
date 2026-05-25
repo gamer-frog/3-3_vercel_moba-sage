@@ -1,7 +1,71 @@
 {
-  "version": "2.0",
-  "lastUpdated": "2026-04-27T04:55:00Z",
+  "version": "2.1",
+  "lastUpdated": "2026-05-25T06:34:00Z",
   "entries": [
+    {
+      "id": "orden-006-done",
+      "type": "improvement",
+      "title": "18/18 S-tier con builds completos",
+      "description": "ORDEN 006 ejecutada: 9 builds S-tier agregados (Riven, Smolder, Rek'Sai, Rammus, Fizz, Bel'Veth, Diana, Vladimir, Ashe). Total 24→33 campeones con meta builds. 100% cobertura S-tier.",
+      "timestamp": "2026-05-25T06:34:00Z",
+      "category": "data"
+    },
+    {
+      "id": "meta-2611-pbe",
+      "type": "improvement",
+      "title": "Patch 26.11 PBE activo — release May 28",
+      "description": "Cambios confirmados en PBE: Smolder crit rework (nerf), Diana jungle buff, Teemo nerf, Brand nerf. DFT magic damage rework, Imperial Mandate ajustado. Voidgrubs buffed, tank support items buffed. Black Cleaver + DFT interaction removido. Release programado para Mayo 28.",
+      "timestamp": "2026-05-24T10:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "capa1-complete",
+      "type": "feature",
+      "title": "CAPA 1 completa — Sistema nervoso operativo",
+      "description": "T01-T07 del _CRON.md completados: Self-Scan, Auto-README, Sync Botardo, Auto-Memoria, Health-Check, Consolidar, Auto-Limpieza. 6 scrape JSONs eliminados (~5.4MB). .gitignore actualizado. Working tree clean.",
+      "timestamp": "2026-05-25T04:35:00Z",
+      "category": "feature"
+    },
+    {
+      "id": "meta-rising-2610",
+      "type": "improvement",
+      "title": "Nuevos S-tier: Riven, Smolder, Rek'Sai, Rammus, Fizz",
+      "description": "Meta 26.10 estabilizado con nuevos S-tier: Riven (Conquistador duelist, 52.5% WR), Smolder (S+ ADC, 54.5% WR), Rek'Sai (diver jungler, 53% WR), Rammus (anti-AD tank, 26.11 buff confirmed), Fizz (assassin mid, 52.8% WR). Tierlist v16: 92 campeones (18S/44A/23B/7C).",
+      "timestamp": "2026-05-22T12:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-falling-2610",
+      "type": "fix",
+      "title": "Bajando del meta: Master Yi, Ahri, Briar, Jinx",
+      "description": "Campeones que perdieron S-tier en 26.10: Master Yi (DFT nerf + WR 51.5%), Ahri (control mage nerfs), Briar (R sustain nerf, WR cayendo), Jinx (ADC meta shift toward APC). DFT rework impacta mages y assassins.",
+      "timestamp": "2026-05-20T14:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "meta-2610-live",
+      "type": "feature",
+      "title": "Patch 26.10 en vivo — Tierlist v16",
+      "description": "Patch 26.10 trae estabilización del meta. Tierlist actualizada a v16 con 92 campeones. 18 S-tier confirmados. DFT (Deathfire Touch) dominante en mages. Gluttonous Greaves nerfeado. Voltaic Cyclosword nerfeado. Stormraider's Surge buffeado.",
+      "timestamp": "2026-05-14T08:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "i18n-cleanup",
+      "type": "improvement",
+      "title": "~95+ correcciones i18n ENG→ES completadas",
+      "description": "Campaña de traducción masiva: coaching tips, SEO titles, UI labels, patch tab. Garabatos: playstyle→estilo, output→daño, meta→meta. Gaming jargon preservado (Win Rate, Pick Rate, Ban Rate — términos estándar LoL).",
+      "timestamp": "2026-05-24T16:00:00Z",
+      "category": "improvement"
+    },
+    {
+      "id": "runes-valentia-migration",
+      "type": "fix",
+      "title": "Migración runas completa: Valor/Determinación→Valentía",
+      "description": "87+ reemplazos de nombres de runas obsoletos: Valor→Valentía (59x), Determinación→Valentía (24x), Segundo Viento→Segunda Vida (4x), Gusto por la Sangre→Sabor a Sangre (8x). Cross-file consistency lograda en data.ts, meta-builds.json, guides-feed.json, champion-data.ts, helpers.ts.",
+      "timestamp": "2026-05-23T16:00:00Z",
+      "category": "fix"
+    },
     {
       "id": "meta-s2-launch",
       "type": "feature",
@@ -289,13 +353,15 @@
     }
   ],
   "highlights": [
-    "12 weekly movers tracked",
-    "Estrategias Contra en modal",
-    "Coaching: 25+ tips",
-    "Auto-dismiss popup (8s)",
-    "Font errors eliminated",
-    "Richer patch data",
-    "Tier transitions tracked",
-    "All 6 tabs verified working"
+    "Tierlist v16 — 92 campeones (18S/44A/23B/7C)",
+    "33 meta builds (18/18 S-tier 100%)",
+    "32 combos pro (18/18 S-tier covered)",
+    "27 guías (18/18 S-tier 100%)",
+    "~95+ correcciones i18n completadas",
+    "Runas migradas: Valor/Determinación→Valentía",
+    "CAPA 1 T01-T07 completa",
+    "26.11 PBE activo — release May 28",
+    "tsc errors: 97→2 (solo z-ai-web-dev-sdk)",
+    "Streak: 304/304 ticks sin fallos"
   ]
 }

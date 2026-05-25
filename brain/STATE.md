@@ -17,4 +17,4 @@
 | guides-feed.json | 27 guías |
 | combos-data.ts | 30 combos |
 | champion-data.ts | 68 SKILL_NAMES + 66 SKIN_NAMES |
-| ORDERS.md | 6/8 DONE (ORDEN 001-006), 2 PENDING (007-008) |
+| ORDERS.md | 7/8 DONE (ORDEN 001-007), 1 PENDING (008) |

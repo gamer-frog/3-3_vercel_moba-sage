@@ -14,7 +14,7 @@
 | data.ts | 75+ LoL entries + 22 WR entries, patch 26.10/7.1e |
 | Tier alignment | 0 mismatches feed vs data.ts |
 | meta-builds.json | 33 campeones con builds (18/18 S-tier 100%) |
-| guides-feed.json | 27 guías |
+| guides-feed.json | 28 guías |
 | combos-data.ts | 30 combos |
 | champion-data.ts | 68 SKILL_NAMES + 66 SKIN_NAMES |
-| ORDERS.md | 7/8 DONE (ORDEN 001-007), 1 PENDING (008) |
+| ORDERS.md | 8/8 DONE (ORDEN 001-008 ALL COMPLETE) |

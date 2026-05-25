@@ -114,7 +114,7 @@ El activity feed necesita contenido fresco post-26.9. Agregar eventos recientes:
 
 ## ORDEN 008 — Agregar guides para campeones rising S/A
 **Prioridad**: P3 | **Riesgo**: Bajo
-**Estado**: [ ] pending
+**Estado**: [x] DONE (2026-05-25 16:34 UTC — Nasus/Karthus ya tenían guía 26.10. Taliyah actualizada 26.9→26.10 (jungle S→mid B, DFT nerf). Fiora agregada a guides-feed.json + guía actualizada 26.10. 27→28 guías total.)
 
 Verificar data/guides/ — necesita guias para:
 - Nasus (S-tier rising)

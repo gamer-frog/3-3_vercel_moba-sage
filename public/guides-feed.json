@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-24T07:54:00Z",
+  "lastUpdated": "2026-05-25T16:34:00Z",
   "source": "juegos-1 BOTARDO OS",
-  "totalGuides": 27,
+  "totalGuides": 28,
   "guides": [
     {
       "id": "reksai-jungle-2610",
@@ -117,30 +117,32 @@
       "fileName": "BA_20260514_0755_guia_karthus_jungle_lol2610.md"
     },
     {
-      "id": "taliyah-jungle-269",
+      "id": "taliyah-mid-2610",
       "champion": "Taliyah",
-      "role": "Jungle",
-      "patch": "26.9",
-      "title": "Taliyah Jungle — Build Dark Harvest, Runas, Matchups, Combos",
-      "summary": "La jungla con el WR mas alto de TODO LoL (58.8%). Build Dark Harvest burst, combos AoE y R game-changing para Season 2 Pandemonium.",
+      "role": "Mid",
+      "patch": "26.10",
+      "tier": "B",
+      "title": "Taliyah Mid — Guia Actualizada LoL 26.10, Build Control Mage, Runas, Matchups",
+      "summary": "Taliyah cayo de S-tier Jungle (58.8% WR 26.9) a B-tier Mid (51.5% WR 26.10) tras nerf a DFT. Build control mage con Luden + Rylai + Rabadon. Su R sigue siendo una de las mejores herramientas de teamfight del juego.",
       "tags": [
         "build",
         "runas",
         "matchups",
-        "jungle",
-        "burst",
+        "mid",
+        "control",
         "aoe",
-        "control"
+        "roaming"
       ],
       "keyPoints": [
-        "Build Dark Harvest: Antorcha de Fuego Negro → Sombra de Fuego → Zhonya → Rylai → Rabadon (58.8% WR)",
-        "Build First Strike Scaling: Eco de Luden → Baston de la Vacuidad → Rylai → Liandry (52.1% WR)",
-        "Runas: Cosecha Oscura + Perspicacia Cosmica — escala infinita en teamfights",
+        "Build Control: Eco de Luden → Cetro de Rylai → Rabadón → Zhonya (51.5% WR)",
+        "Build Burst: Llamarada Sombría → Sombra de Fuego → Rabadón → Zhonya (49.8% WR)",
+        "Runas: Cometa Arcano + Trascendencia + Segunda Vida — poke consistente post-DFT nerf",
         "Combo Teamfight: W (centro) → Q (AoE) → E (zona) → R (divide) → Zhonya",
-        "Insec con R: R aisla carry → Q → W → Q → E para burst",
-        "58.8% WR — #1 de TODO LoL, nerf probable en 26.10"
+        "Tier Change: S Jungle 26.9 (58.8%) → B Mid 26.10 (51.5%) — delta -7.3% WR",
+        "51.5% WR — B-tier mid, trend falling. DFT nerf impacto DPS sostenido"
       ],
-      "fileName": "BA_20260512_0755_guia_taliyah_jungle_lol269.md"
+      "fileName": "BA_20260525_1634_guia_taliyah_mid_lol2610.md",
+      "createdAt": "2026-05-25T16:34:00Z"
     },
     {
       "id": "jinx-adc-269",
@@ -243,12 +245,12 @@
       "fileName": "BA_20260511_0756_guia_ahri_mid_lol269.md"
     },
     {
-      "id": "malphite-top-269",
+      "id": "malphite-top-2610",
       "champion": "Malphite",
       "role": "Top",
-      "patch": "26.9",
+      "patch": "26.10",
       "title": "Malphite Top — Build Cometa Arcano Tank AP, Anti-AD, Combos",
-      "summary": "Anti-AD tank más dominante del meta (54.7% WR). Build Cometa Arcano AP, counter a compositions AD, R engage incontestable para Season 2 Pandemonium.",
+      "summary": "Anti-AD tank top 26.10 (51.6% WR, 7.1% pick, 5.8% ban). Build Cometa Arcano AP, counter definitivo a compositions AD. R engage incontestable. 26.11 buff: Aftershock + Heartsteel suben (melee tank meta).",
       "tags": [
         "build",
         "runas",
@@ -259,14 +261,15 @@
         "engage"
       ],
       "keyPoints": [
-        "Build Cometa Arcano: Hielo Eterno → Rabadón → Zhonya → Morellonomicon (54.7% WR)",
-        "Build Tank Anti-AD: Hielo Eterno → Cetro de Rylai → Zhonya → Jak'Sho (51.2% WR)",
-        "Runas: Cometa Arcano + Valentía — poke + engage confiable",
+        "Build Cometa Arcano: Hielo Eterno → Rabadón → Zhonya → Morellonomicon (51.6% WR)",
+        "Build Tank Anti-AD: Hielo Eterno → Cetro de Rylai → Zhonya → Jak'Sho (50.2% WR)",
+        "Runas: Cometa Arcano + Valentía + Segunda Vida + Pieza de Calzado Brillante — poke + engage + sustain",
         "Teamfight Combo: R (knockup AoE) → E (slow AS) → Q → W (escudo)",
         "Sinergia devastadora: R Malphite + R Orianna (ball attached) = team wipe",
-        "54.7% WR — S-tier top, 5.8% ban rate (counter pick definitivo vs AD)"
+        "26.11 outlook: Aftershock buffeada → build Aftershock + Valentía viable. Heartsteel buff sube.",
+        "51.6% WR — S-tier top, 7.1% pick, 5.8% ban (counter pick definitivo vs AD, trend estable)"
       ],
-      "fileName": "BA_20260511_0757_guia_malphite_top_lol269.md"
+      "fileName": "BA_20260525_0754_guia_malphite_top_lol2610.md"
     },
     {
       "id": "zeri-rework-269",
@@ -676,6 +679,34 @@
       "fileName": "BA_20260520_0755_guia_nasus_top_lol2610.md",
       "createdAt": "2026-05-20T07:55:00Z",
       "summary": "Split push S-tier. Build: Fuerza de la Trinidad + Eclipse. Runas: Precisión + Valentía. Stacking guide, matchups, combos. Ghost buff meta."
+    },
+    {
+      "id": "fiora-top-2610",
+      "champion": "Fiora",
+      "role": "Top",
+      "patch": "26.10",
+      "tier": "A",
+      "title": "Fiora Top — Build Duelist, Conquistador, Matchups, Combos",
+      "summary": "Fiora Top es A-tier rising en 26.10 (50.6% WR). La mejor duelist y split pusher del juego. Build Sundered Sky + Spear of Shojin. Conquistador buff (2.8 AD/stack) + vitals % HP = nightmare para bruisers.",
+      "tags": [
+        "build",
+        "runas",
+        "matchups",
+        "top",
+        "duelist",
+        "split-push",
+        "conquistador"
+      ],
+      "keyPoints": [
+        "Build Duelist: Sundered Sky → Spear of Shojin → Death's Dance → Guardian Angel (50.6% WR)",
+        "Build Anti-Tank: Sundered Sky → Serylda's Grudge → Black Cleaver → Spear of Shojin (49.2% WR)",
+        "Runas: Conquistador + Triunfo + Tenacidad + Golpe de Gracia + Segunda Vida + Inquebrantable",
+        "Conquistador buff 26.9 vigente: 2.8 AD/stack (38.4 AD max) — extended trades +10-15% mas fuertes",
+        "Combo All-In: Q (vital) → Auto → W (parry) → Auto → R (Grand Challenge) → Q vitals → execute",
+        "50.6% WR — A-tier rising, pick 3.9%, ban 1.8%. Mejor split pusher del juego"
+      ],
+      "fileName": "BA_20260525_1634_guia_fiora_top_lol2610.md",
+      "createdAt": "2026-05-25T16:34:00Z"
     },
     {
       "id": "guia_rammus_jungle_lol2610",

@@ -13,7 +13,7 @@
 | Feed | v16, patch 26.10, 92 campeones (18S/44A/23B/7C) |
 | data.ts | ~127 entries (105 LoL + 22 WR), todos patch 26.10/7.1e |
 | meta-builds.json | 33 campeones con builds (18/18 S-tier 100%) |
-| guides-feed.json | 27 guias (18/18 S-tier 100%) |
+| guides-feed.json | 28 guias (18/18 S-tier 100%) |
 | combos-data.ts | 32 combos (18/18 S-tier covered) |
 | tsc errors | 2 (z-ai-web-dev-sdk pre-existing only) |
 | Stale patches | 0 en data.ts/meta-builds |
@@ -113,7 +113,7 @@
 
 - **CAPA 1 (T01-T07)**: ALL DONE — no PENDING tasks en _CRON.md
 - **CAPA 2**: Awaiting CEO definition
-- **ORDERS**: ORDEN 001-005 DONE, no PENDING orders
+- **ORDERS**: ORDEN 001-008 ALL DONE, no PENDING orders
 
 ---
 

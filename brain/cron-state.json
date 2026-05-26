@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-26T00:54:00Z",
-  "lastSlot": "00",
-  "lastTask": "Tierlist Check",
+  "lastTick": "2026-05-26T01:54:00Z",
+  "lastSlot": "01",
+  "lastTask": "Health Lite",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 313,
-  "totalSuccess": 313,
+  "totalTicks": 314,
+  "totalSuccess": 314,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-26T01:54:00Z",
+      "slot": "01",
+      "task": "Health Lite",
+      "taskCode": "health-lite",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — 3/3 JSONs valid (tierlist, meta-builds, guides). git clean (0 tracked modified). Build OK. No action needed.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-26T00:54:00Z",
       "slot": "00",
@@ -659,20 +672,6 @@
       "changes": "FIXED 28 rune issues in meta-builds.json: 24 Determinación→Valentía (all remaining instances unified to correct Spanish LoL client name), 3 same-tree primary+secondary fixes (Ornn/Leona/Nautilus secondary Valentía→Brujería Debilidad/Debilidad/Sobrecrecimiento), 1 Segundo Viento→Segunda Vida (Sion). Valentía now 44x, Determinación 0x. Also noted: 7 empty fileName in guides-feed (Ashe/Ornn/Vladimir/Fizz/Nocturne/Rammus/Bel'Veth — CEO added sections but no .md files), 27 dangling matchup refs (known debt), 23 stale 26.9 text refs (historical context). S-tier 18/18 aligned across all files. nextPatch fields consistent.",
       "filesChanged": [
         "public/meta-builds.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T07:53:00Z",
-      "slot": "07",
-      "task": "Guide Creation",
-      "taskCode": "guides",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 40000,
-      "changes": "CREATED: 2 S-tier guides — Rammus Jungle (Aftershock Tank, anti-AD engage, 26.11 buff synergy) and Bel'Veth Jungle (Kraken Slayer on-hit, void zone R2, late game 1v9). Guides-feed 23->25. Remaining missing: Nilah ADC, Aurelion Sol Mid. Stale guides (26.9): Garen, Malphite.",
-      "filesChanged": [
-        "public/guides-feed.json",
         "brain/cron-state.json"
       ]
     }

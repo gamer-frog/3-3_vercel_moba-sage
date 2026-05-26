@@ -20,7 +20,7 @@ export function WildRiftHeader({ version }: { version?: string }) {
           <Smartphone className="w-5 h-5 text-lol-success" />
         </div>
         <div className="flex-1">
-          <h3 className="text-sm font-bold text-lol-success">WILD RIFT — Patch {version || '6.4'}</h3>
+          <h3 className="text-sm font-bold text-lol-success">WILD RIFT — Patch {version || '6.10'}</h3>
           <p className="text-[10px] text-lol-dim">Análisis Móvil — Campeones S/A/B tier con builds y análisis</p>
         </div>
         <Badge variant="outline" className="text-[10px] border-lol-success/30 text-lol-success">WR</Badge>

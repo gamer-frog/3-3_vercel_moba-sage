@@ -245,7 +245,7 @@ export function TierListTab({
               <span className="text-[10px] text-lol-dim hidden sm:inline">· {dataSources.length} fuentes activas</span>
             </div>
             <div className="flex items-center gap-2 shrink-0">
-              <span className="text-[10px] font-mono text-lol-muted">{versionData?.gamePatch || '26.10'}</span>
+              <span className="text-[10px] font-mono text-lol-muted">{versionData?.gamePatch || '26.11'}</span>
               <span
                 className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold"
                 style={{ background: `${freshnessInfo.color}15`, color: freshnessInfo.color, border: `1px solid ${freshnessInfo.color}30` }}

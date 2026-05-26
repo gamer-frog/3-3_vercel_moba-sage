@@ -70,7 +70,7 @@ export function useGameData() {
       const fullVer = versionData.lol;
       setLiveVersions({
         lol: fullVer.split('.').slice(0, 2).join('.'),
-        wr: versionData.wr || '6.4',
+        wr: versionData.wr || '6.10',
         gamePatch: versionData.gamePatch || fullVer.split('.').slice(0, 2).join('.'),
         metaLastUpdated: versionData.metaLastUpdated || '',
       });

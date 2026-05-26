@@ -66,7 +66,6 @@ export function TabContent() {
       case 'novedades': return <ActivityTab />;
       case 'ideas': return <IdeasTab />;
       case 'tasks': return <TasksTab tasks={ctx.tasks} loading={ctx.loading} onRefresh={ctx.fetchData} onToggleTask={ctx.handleToggleTask} />;
-      case 'roadmap': return <IdeasTab initialSubTab="roadmap" />;
       default: return (
         <TierListTab
           champions={ctx.champions} loading={ctx.loading} selectedGame={ctx.selectedGame}

@@ -1,6 +1,6 @@
 # MOBA SAGE — Estado del Agente
 
-**Ultima actualizacion**: 2026-05-26 22:30 UTC
+**Ultima actualizacion**: 2026-05-27 04:15 UTC
 **Agente**: MOBA-SAGE-001
 **Streak**: 321/321 (0 fails)
 
@@ -18,7 +18,7 @@
 | combos-data.ts | 32 combos |
 | champion-data.ts | 106 SKILL_NAMES + 106 SKIN_NAMES (89/89 LoL coverage) |
 | ORDERS.md | 8/8 DONE (ORDEN 001-008 ALL COMPLETE) |
-| Patch actual | 26.10 (26.11 release May 26) |
+| Patch actual | 26.11 (RELEASED May 26) |
 | Temporada | Season 2 — Pandemonium |
 
 ## CRONs

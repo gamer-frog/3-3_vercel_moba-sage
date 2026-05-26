@@ -14,8 +14,8 @@ interface VersionInfo {
 
 const CACHE_DURATION = 1000 * 60 * 30; // 30 minutes
 
-let GAME_PATCH = '26.10';
-let META_LAST_UPDATED = '2026-05-01T12:00:00Z';
+let GAME_PATCH = '26.11';
+let META_LAST_UPDATED = '2026-05-26T12:00:00Z';
 
 let cachedVersions: VersionInfo | null = null;
 let cacheTimestamp = 0;
@@ -63,7 +63,7 @@ export async function GET() {
     console.error('Version API error:', error);
     return NextResponse.json({
       lol: '16.10.1', lolFull: '16.10.1', wr: '6.10',
-      gamePatch: GAME_PATCH || '26.10', cdnVersion: '16.10.1',
+      gamePatch: GAME_PATCH || '26.11', cdnVersion: '16.10.1',
       metaLastUpdated: META_LAST_UPDATED,
       fetchedAt: new Date().toISOString(),
       ddragonStatus: 'fallback',

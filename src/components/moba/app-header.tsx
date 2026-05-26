@@ -256,7 +256,7 @@ export function AppHeader({
           {selectedGame === 'wildrift' && (
             <Badge variant="outline" className="lol-label text-[10px] border-lol-success/30 text-lol-success hidden sm:inline-flex">Wild Rift</Badge>
           )}
-          <Badge variant="outline" className="lol-label text-[10px] border-lol-gold-dark/30 text-lol-dim">{selectedGame === 'wildrift' ? `Patch ${liveVersions.wr || '6.4'}` : `Patch ${liveVersions.gamePatch || liveVersions.lol || '16.8'}`}</Badge>
+          <Badge variant="outline" className="lol-label text-[10px] border-lol-gold-dark/30 text-lol-dim">{selectedGame === 'wildrift' ? `Patch ${liveVersions.wr || '6.10'}` : `Patch ${liveVersions.gamePatch || liveVersions.lol || '16.8'}`}</Badge>
           {isNewPatch && (
             <Badge className="lol-new-patch-badge lol-label bg-lol-green/15 text-lol-green border border-lol-green/40 text-[10px] cursor-pointer" onClick={onDismissPatch}>
               NUEVO PARCHE

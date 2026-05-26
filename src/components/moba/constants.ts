@@ -5,7 +5,7 @@
 import {
   Sword, ScrollText, AlertTriangle,
   ChevronRight, Zap, Shield, Target, Crosshair,
-  Trophy, User, Flame, Map, Crown, Sparkles, Lightbulb,
+  Trophy, User, Flame, Crown, Sparkles, Lightbulb,
   Rocket, Wrench, GraduationCap,
   GitCompare, BookMarked,
 } from 'lucide-react';
@@ -82,9 +82,8 @@ export const GAME_TAB_ITEMS = [
 // Dev tabs — app development & maintenance
 export const DEV_TAB_ITEMS = [
   { id: 'novedades', label: 'Novedades', icon: Rocket },
-  { id: 'ideas', label: 'Ideas', icon: Lightbulb },
+  { id: 'ideas', label: 'Ideas & Roadmap', icon: Lightbulb },
   { id: 'tasks', label: 'Tareas', icon: Wrench },
-  { id: 'roadmap', label: 'Roadmap', icon: Map },
 ];
 
 // All tabs combined (for tab navigation)

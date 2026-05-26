@@ -1,103 +1,95 @@
 # DASHBOARD — MOBA SAGE
-> Actualizado: 2026-04-18 23:00 BA | Tick #5
+> Actualizado: 2026-05-26 22:30 BA | MOBA-SAGE-001
 
 ## Estado
 | Campo | Valor |
 |-------|-------|
-| Tareas activas | 7 |
+| Agente | MOBA-SAGE-001 |
+| Streak | 321/321 (0 fails) |
 | Estado | ACTIVO |
 | Deploy | Vercel (moba-sage.vercel.app) |
-| Repo | github.com/gamer-frog/moba-sage |
+| Repo | gamer-frog/3-3_vercel_moba-sage |
 | Branch | main |
-| Campeones LoL | 66 (8 S-tier, 31 A-tier, 27 otros) |
-| Campeones WR | 22 (6 S-tier, 11 A-tier, 5 otros) |
-| Patch LoL | 16.8 (actualizado desde 14.8) |
-| Patch WR | 6.4 |
-| CRONS activas | 3 |
+| Campeones LoL | 105 en data.ts (92 en tierlist: 18S/44A/23B/7C) |
+| Campeones WR | 22 |
+| Patch LoL | 26.10 (26.11 PBE activa, release May 26) |
+| Patch WR | 7.1e |
+| Temporada | Season 2 — Pandemonium |
+| Meta Builds | 33 campeones (18/18 S-tier 100%) |
+| Guias | 28 |
+| Combos | 32 |
+| SKILL_NAMES | 106 (89/89 LoL coverage 100%) |
+| SKIN_NAMES | 106 (88/89 LoL coverage) |
+| CRONs activas | 3 |
 
-## CRONS Configuradas
-| Cron | Frecuencia | Job ID | Descripción |
+## CRONs Configuradas
+| Cron | Frecuencia | Job ID | Descripcion |
 |------|-----------|--------|-------------|
-| Pipeline Circular | Cada 2 horas | 101230 | Ejecuta 14 tareas automáticas del pipeline |
-| Mantenimiento | Cada 6 horas | 101243 | Lee TASKS.md, ejecuta tarea, actualiza DASHBOARD |
-| Verificar Deploy | Diario 12:00 BA | 101244 | Verifica que Vercel responda 200 |
+| F1 a F5 Pipeline | Cada 20 min | 169561 | Git pull, verificar MOBA-SAGE-001, leer _CRON, ejecutar PENDING |
+| Moba-Orders | Cada 60 min | 134194 | Leer ORDERS.md, ejecutar primer PENDING |
+| BOTARDO Dispatcher | Cada 60 min | 133932 | 24-slot horario: health-check, tierlist, builds, matchups, etc. |
 
-## Que hago
-- Pipeline de TAREAS circular (14 tareas automáticas)
-- Tier List S/A LoL (Patch 16.8) — 66 campeones
-- Tier List S/A Wild Rift (Patch 6.4) — 22 campeones
-- Análisis IA automático por campeón (pre-escrito)
-- Builds rotos + counters + sinergias (S-tier ambos juegos)
-- Cosas Rotas: splash arts S/A tier + builds + insights IA
-- Escena competitiva pro (LCK/LPL/LEC/LCS)
-- Perfil de invocador (demo mode)
-- Roadmap de desarrollo (7 categorías, 30+ features)
-- Banner transparencia (fuentes, update, beneficios)
+## CAPA 1 — Sistema Nervioso (T01-T07 ALL DONE)
+| Tarea | Estado | Completado |
+|-------|--------|------------|
+| T01 SELF_SCAN | DONE | 2026-05-25T01:39 UTC |
+| T02 AUTO-README | DONE | 2026-05-25T02:29 UTC |
+| T03 SYNC_BOTARDO | DONE | 2026-05-25T02:54 UTC |
+| T04 AUTO-MEMORIA | DONE | 2026-05-25T03:19 UTC |
+| T05 HEALTH-CHECK | DONE | 2026-05-25T03:44 UTC |
+| T06 CONSOLIDAR | DONE | 2026-05-25T04:10 UTC |
+| T07 AUTO-LIMPIEZA | DONE | 2026-05-25T04:35 UTC |
 
-## Necesita al CEO
-| Que | Urgencia |
-|-----|----------|
-| API Key de Riot Games | ALTA — Permite datos reales de ranked/invocadores |
-| API Key U.GG/Mobalytics | MEDIA — Estadísticas actualizadas automáticamente |
-| Feedback usuarios | BAJA — Escuchar qué features quieren más |
+## ORDERS — 8/8 ALL DONE
+Todas las ordenes completadas: sync tierlist, expandir combos, champion data, patch context, item descriptions, meta builds, activity feed, guias rising.
 
-## TAREAS Pipeline (14 tareas circulares)
-| # | Tarea | Intervalo | Status |
-|---|-------|-----------|--------|
-| 0 | Verificar nuevas patches | 30 min | done |
-| 1 | Actualizar tier list | 60 min | done |
-| 2 | Generar insights de IA | 45 min | pending |
-| 3 | Detectar cosas rotas | 30 min | pending |
-| 4 | Actualizar badges de frescura | 120 min | done |
-| 5 | Analizar sinergias de meta | 90 min | pending |
-| 6 | Actualizar counters | 60 min | done |
-| 7 | Sincronizar datos de Wild Rift | 180 min | pending |
-| 8 | Generar resumen semanal | 1440 min | pending |
-| 9 | Verificar builds recomendados | 120 min | done |
-| 10 | Monitorear tier changes | 30 min | done |
-| 11 | Actualizar runas sugeridas | 240 min | pending |
-| 12 | Procesar feedback de usuarios | 60 min | pending |
-| 13 | Backup de base de datos | 360 min | done |
+## Calidad de Datos
+| Metrica | Estado |
+|---------|--------|
+| Rune names | CLEAN (0 errores: Valentia, Saber a Sangre, Segunda Vida correctos) |
+| Patch refs | 135x 26.10 + 18x 7.1e |
+| JSON validity | 6/6 validos |
+| S-tier coverage | 18/18 builds, 18/18 guides, 18/18 combos |
+| Tier alignment | 92/92 feed vs data.ts |
+| i18n | ~95+ correcciones, solo jargon gaming restante |
+| Build | Siempre OK |
 
-## Log
-- [2026-04-17] Build inicial + deploy a Vercel
-- [2026-04-17] Landing page con selector LoL/Wild Rift
-- [2026-04-17] Tab de Perfil de Invocador (demo)
-- [2026-04-17] Tab Competitivo con pro picks (LCK/LPL/LEC/LCS)
-- [2026-04-17] Tab Roadmap con 7 categorías y 30+ features planificadas
-- [2026-04-17] Builds rotos por campeón S-tier (1-2 builds cada uno)
-- [2026-04-17] Análisis IA automático pre-escrito para Tier S
-- [2026-04-17] Iconos de campeones en Cosas Rotas
-- [2026-04-17] Banner de transparencia en landing (fuentes, update, beneficios)
-- [2026-04-17] DASHBOARD.md + TASKS.md creados
-- [2026-04-18] CRONS configuradas (Pipeline 2h, Mantenimiento 6h, Deploy check diario)
-- [2026-04-18] Git push de todas las features acumuladas
-- [2026-04-18] Cosas Rotas mejorada: splash arts S/A tier + builds rotos + grid A-tier
-- [2026-04-18] Wild Rift datos reales: 22 campeones (6 S-tier, 11 A-tier)
-- [2026-04-18] WR: Patch 6.4, builds, counters, sinergias, análisis IA para S-tier
-- [2026-04-18] WR: "coming soon" reemplazado con dashboard completo
-- [2026-04-18] DASHBOARD.md Tick #3 actualizado
-- [2026-04-18] TICK #4: Patch LoL actualizado 14.8 → 16.8.1 (70 archivos)
-- [2026-04-18] T2 completada: Git sync + patch update
-- [2026-04-18] WR version calculation fix (ya no daba negativo)
-- [2026-04-18] Health check: Vercel 200 OK (26KB, 1.09s) — deploy healthy
-- [2026-04-18] TICK #5: T8 ejecutada — Tier list visual mejorada
-- [2026-04-18] T3 completada: Pipeline documentado en DASHBOARD.md
-- [2026-04-18] Champion rows: mini barras animadas WR/Pick/Ban + colores nuanceados
-- [2026-04-18] Tier sections: estadísticas promedio (AVG WR, Pick, Ban)
-- [2026-04-18] Meta overview: 4 stat cards (Tier S count, top WR, top ban, top pick)
-- [2026-04-18] Trend icons: flechas según pro pick rate en cada campeón
-- [2026-04-18] Board view: win rate coloreado por rango
+## Deudas Conocidas
+| Deuda | Prioridad | Detalle |
+|-------|-----------|---------|
+| Dangling matchup refs | MEDIA | 30 refs a campeones sin entrada en data.ts (leesin 14, udyr 10, pyke 8) |
+| Same-tree rune violations | BAJA | 7 violaciones estructurales en meta-builds (thresh, jinx, nilah, etc.) |
+| Stale guides | MEDIA | ~8 guias con patch viejo (26.9/26.8) |
+| Dangling combo refs | BAJA | 20 campeones en combos sin entrada en data.ts |
+| Empty guide files | BAJA | 7 guias CEO-added sin .md file |
 
-## DEV CRONS (via TICK rotation)
-| Cron | Frecuencia | Método | Descripción |
-|------|-----------|--------|-------------|
-| DEV_PATCHES | Cada 4 ticks (~2h) | cycle%4==0 | Busca parches nuevos, actualiza patches-feed.json |
-| DEV_TIERLIST | Cada 4 ticks (~2h) | cycle%4==1 | Busca tier changes, actualiza tierlist-feed.json |
-| DEV_GUIDES | Cada 4 ticks (~2h) | cycle%4==2 | Busca guías nuevas, actualiza guides-feed.json |
-| DEV_SYNC | Cada 4 ticks (~2h) | cycle%4==3 | Health check Vercel, actualiza DASHBOARD.md |
+## 26.11 — Patch Day (May 26)
+**Status**: Release confirmado May 26 (adelantado desde May 28).
 
-> Git author: bautiarmanijuegos@gmail.com
-> Regla: solo toca public/*.json + data/*.md + DASHBOARD.md. Nunca src/
-- [2026-04-25] Ralph Loop v2 pipeline initialized (SEE→READ→ANALYZE→CODE→PUSH→VERIFY→LOG)
-- [2026-04-25] Meta refresh 26.9: Hwei/Vel'Koz rising, Briar/Zoe falling, Deathfire Touch returns
+### Cambios Clave
+- **DFT → Magic Damage** (elimina BC sinergia)
+- **Imperial Mandate reworked** (Command: 6% Vulnerable on immobilize)
+- **Melee support buffs** (Aftershock, Guardian, Knight's Vow, Locket, Heartsteel)
+- **Enchanter nerfs** (Dreammaker, Echoes, Moonstone, Aery)
+- **Diana JG buff** (monster damage 230%→270%)
+- **Smolder crit rework** (nerf indirecto)
+- **Brand/Teemo nerfs**
+- **Grubs HP buff**
+
+### Champions Afectados (S/A tier)
+| Champion | Impacto | Direction |
+|----------|---------|-----------|
+| Diana | Jungle buff significativo | RISING |
+| Brand | Base armor nerf + DFT change | FALLING |
+| Smolder | Crit rework + passive nerf | FALLING |
+| Teemo | E scaling + armor growth nerf | FALLING |
+| Karthus | DFT magic damage (no more BC) | UNCERTAIN |
+| Malzahar | DFT magic damage (no more BC) | UNCERTAIN |
+| Thresh | Guardian/Aftershock buff | RISING |
+| Ornn | Aftershock + Heartsteel buff | RISING |
+| Leona | Aftershock + Locket buff | RISING |
+| Rammus | Aftershock + Guardian buff | RISING |
+
+---
+> Git author: electronica-frog
+> Proximo patch: 26.12 — June 10, 2026

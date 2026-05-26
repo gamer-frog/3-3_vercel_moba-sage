@@ -1,8 +1,11 @@
 # _LOG.md — MOBA-SAGE-001
 
 ## Cron
-- CRON ACTIVADA — Job ID: 167082 — 25 min — MOBA_SAGE_001_TICK
-- Activada: 2026-05-24T16:24 UTC
+- CRON ACTIVA — Job ID: **169561** — **20 min** — MOBA-SAGE F1-F5 Loop (20min)
+- Activada: 2026-05-26T04:10 UTC
+- Eliminados: Job 167082 (25min), Job 169262 (30min) — consolidados en uno solo 20min
+- BOTARDO Dispatcher: Job 133932 — 60 min slots
+- Moba-orders: Job 134194 — 60 min
 
 ## Estado Actual (Auto-memoria T04 — 2026-05-25T03:19 UTC)
 

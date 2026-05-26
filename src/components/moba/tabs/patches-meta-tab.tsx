@@ -1000,7 +1000,7 @@ export function PatchesMetaTab({
                 <h3 className="lol-title text-sm font-bold text-lol-text">Season 2 — Pandemonium</h3>
                 <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-black" style={{ background: 'rgba(200,80,50,0.15)', color: '#e85032', border: '1px solid rgba(200,80,50,0.3)' }}>
                   <Star className="w-2.5 h-2.5 mr-0.5" />
-                  Patch {latestPatch?.version || patchAnalysis?.currentPatch || '26.9'}
+                  Patch {latestPatch?.version || patchAnalysis?.currentPatch || '26.10'}
                 </span>
               </div>
               <p className="text-xs text-lol-muted leading-relaxed mb-2.5">La segunda temporada de 2026 llega con temática de demonios. Deathfire Touch y Stormraider's Surge regresan. Nuevos items iniciales, cambios masivos a runas, y reworks de items mythic definen un meta completamente nuevo.</p>

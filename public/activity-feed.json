@@ -1,7 +1,23 @@
 {
-  "version": "2.1",
-  "lastUpdated": "2026-05-25T06:34:00Z",
+  "version": "2.2",
+  "lastUpdated": "2026-05-26T22:30:00Z",
   "entries": [
+    {
+      "id": "patch-2611-live",
+      "type": "feature",
+      "title": "Patch 26.11 EN VIVO — Melee support meta + DFT magic",
+      "description": "26.11 release adelantado a May 26 (2 días antes de lo planeado). Cambios clave: DFT → magic damage (elimina BC sinergia), Imperial Mandate rework (Command: 6% Vulnerable), melee support buffs masivos (Aftershock +45, Guardian CD reducido, Heartsteel 10% HP, Knight's Vow +14% DR, Locket +30 armor/MR). Enchanter nerfs (Dreammaker, Echoes, Moonstone, Aery). Diana JG buff 270% monster dmg. Smolder crit rework. Brand/Teemo nerfs. Grubs HP +33%. Prox patch: 26.12 June 10.",
+      "timestamp": "2026-05-26T14:00:00Z",
+      "category": "meta"
+    },
+    {
+      "id": "dashboard-revamp",
+      "type": "improvement",
+      "title": "Dashboard + Estado sincronizados con métricas reales",
+      "description": "DASHBOARD.md actualizado de abril 2026 (patch 16.8, 66 campeones) a estado actual (patch 26.10, 105 campeones, streak 321). brain/STATE.md corregido (294→321 streak, 75→105 entries, 30→32 combos, 68→106 SKILL_NAMES). Datos obsoletos eliminados.",
+      "timestamp": "2026-05-26T22:30:00Z",
+      "category": "improvement"
+    },
     {
       "id": "orden-006-done",
       "type": "improvement",
@@ -13,8 +29,8 @@
     {
       "id": "meta-2611-pbe",
       "type": "improvement",
-      "title": "Patch 26.11 PBE activo — release May 28",
-      "description": "Cambios confirmados en PBE: Smolder crit rework (nerf), Diana jungle buff, Teemo nerf, Brand nerf. DFT magic damage rework, Imperial Mandate ajustado. Voidgrubs buffed, tank support items buffed. Black Cleaver + DFT interaction removido. Release programado para Mayo 28.",
+      "title": "Patch 26.11 RELEASE (adelantado a May 26)",
+      "description": "Release adelantado 2 días. 9 campeones cambiados: Diana JG buff, Smolder crit nerf, Brand/Teemo nerfs, Ekko/Kassadin/Quinn/Heimerdinger buffs. 4+ runas: DFT magic damage, Aftershock/Guardian buffs, Aery nerf. 10+ items: Imperial Mandate rework, Heartsteel/Knight's Vow/Locket/Zeke's buffs, Dreammaker/Echoes/Moonstone nerfs. Grubs HP +33%.",
       "timestamp": "2026-05-24T10:00:00Z",
       "category": "meta"
     },
@@ -353,15 +369,16 @@
     }
   ],
   "highlights": [
+    "Patch 26.11 EN VIVO (May 26) — Melee support meta + DFT magic damage",
     "Tierlist v16 — 92 campeones (18S/44A/23B/7C)",
     "33 meta builds (18/18 S-tier 100%)",
     "32 combos pro (18/18 S-tier covered)",
-    "27 guías (18/18 S-tier 100%)",
+    "28 guías (18/18 S-tier 100%)",
+    "106 SKILL_NAMES + 106 SKIN_NAMES (89/89 LoL coverage)",
     "~95+ correcciones i18n completadas",
     "Runas migradas: Valor/Determinación→Valentía",
     "CAPA 1 T01-T07 completa",
-    "26.11 PBE activo — release May 28",
-    "tsc errors: 97→2 (solo z-ai-web-dev-sdk)",
-    "Streak: 304/304 ticks sin fallos"
+    "Streak: 321/321 ticks sin fallos",
+    "Próximo patch: 26.12 — June 10, 2026"
   ]
 }

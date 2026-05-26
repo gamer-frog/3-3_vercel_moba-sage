@@ -108,16 +108,22 @@
   },
   "nextPatch": {
     "version": "26.11",
-    "scheduledDate": "2026-05-28",
-    "pbeStatus": "active",
+    "scheduledDate": "2026-05-26",
+    "actualDate": "2026-05-26",
+    "pbeStatus": "released",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "title": "DFT Magic Damage + Imperial Mandate Rework + Melee Support Buff — PBE Active",
-    "summary": "PBE ACTIVO (last build May 20, quiet since). DFT cambiado a magic damage (fixes BC interaction). Imperial Mandate reworkado. Heartsteel/Aftershock/Guardian/Knight's Vow/Locket/Zeke's buffeados (melee support meta). Dreammaker/Echoes of Helia/Moonstone/Aery nerfeados (enchanter nerf). Diana JG buff, Ekko/Kassadin/Quinn JG/Heimerdinger buff. Smolder rework forzado a crit (scalar 50%->120%). Teemo/Brand nerf. Hexplate ranged nerf. Mid Quest buff 6%->8% AD/AP (still on PBE). Minion push buff revert (5:00->3:30).",
+    "title": "DFT Magic Damage + Imperial Mandate Rework + Melee Support Buff — RELEASED",
+    "summary": "RELEASED May 26 (adelantado 2 dias desde May 28). 9 campeones cambiados (Diana/Ekko/Kassadin/Quinn/Heimerdinger buffs, Brand/Smolder/Teemo nerfs, Xin Zhao AP ajuste). DFT magic damage, Imperial Mandate rework (Command: 6% Vulnerable). Melee support meta masivo (Aftershock/Guardian/Heartsteel/KV/Locket/Zeke's). Enchanter nerfs (Dreammaker/Echoes/Moonstone/Aery). Grubs HP +33%. Shiv 40->45 AD. Hexplate ranged nerf. Zeke's 5s combat trigger.
+
+PREVIO: PBE ACTIVO (last build May 20, quiet 5 days, no new builds). DFT cambiado a magic damage (fixes BC interaction). Imperial Mandate rework: Coordinating Fire removido, nueva pasiva Command (6% Vulnerable 4s on immobilize). Heartsteel/Aftershock/Guardian/Knight's Vow/Locket/Zeke's buffeados (melee support meta). Dreammaker blue bubble DR 75-255->50-194, purple bubble 50-170->40-160 (on-hit->on-ability). Echoes 35%->30%, Moonstone Starlight Grace no double dips HSP+GW, Aery shield 30->20 lvl 1. Diana JG buff, Ekko/Kassadin/Quinn JG/Heimerdinger buff. Smolder crit-forcing rework. Teemo/Brand nerf. Shiv 40->45 AD. Hexplate ranged nerf. Mid Quest buff 6%->8% AD/AP (still on PBE). Minion push buff revert. Release confirmed May 28 (Riot schedule).",
     "sources": [
       "https://www.surrenderat20.net/pbe/changes/",
       "Phroxzon patch preview (May 19)",
       "Kay-Haru PBE datamine (May 19-20)",
-      "metabot.gg, hotspawn.com"
+      "aussyelo.com 26.11 preview (May 20, full confirmed numbers)",
+      "Riot patch schedule (released May 26, 2 days early)",
+      "aussyelo.com 26.11 full patch notes",
+      "hotspawn.com, junglediff.net, lolskin.info"
     ],
     "buffs": [
       { "champion": "Diana", "ability": "Jungle", "details": "Jungle buff significativo. Puede moverla de A a S-tier jungle.", "severity": "HIGH" },
@@ -136,22 +142,22 @@
       { "champion": "Smolder", "ability": "Crit Rework", "details": "REWORK crit-forcing: PQ damage 40->33, Crit scalar 50%->120%, PE damage 12%->9%. Forzado a crit builds. Puede bajar S-tier.", "severity": "HIGH" },
       { "champion": "Teemo", "ability": "General", "details": "Nerf significativo. High frustration pick targeted.", "severity": "MEDIUM" },
       { "champion": "Brand", "ability": "General", "details": "Nerf. DFT magic damage change impacta su sustain damage.", "severity": "MEDIUM" },
-      { "champion": "Dreammaker", "ability": "Item", "details": "Nerfeado. Enchanter support item ecosistema.", "severity": "HIGH" },
-      { "champion": "Echoes of Helia", "ability": "Item", "details": "Nerfeado. Enchanter nerf general.", "severity": "HIGH" },
-      { "champion": "Moonstone Renewer", "ability": "Item", "details": "Nerfeado. Sustain enchanters reducidos.", "severity": "HIGH" },
-      { "champion": "Aery", "ability": "Rune", "details": "Nerfeada. Poke mages/enchanters impactados.", "severity": "HIGH" },
+      { "champion": "Dreammaker", "ability": "Item", "details": "Blue Bubble DR 75-255->50-194 (solo primer instance de damage). Purple Bubble 50-170->40-160, cambiado de on-hit a on-damaging-attack-or-ability con AoE reduction. Enchanter support item ecosistema.", "severity": "HIGH" },
+      { "champion": "Echoes of Helia", "ability": "Item", "details": "Damage stored 35%->30%. Enchanter nerf general.", "severity": "HIGH" },
+      { "champion": "Moonstone Renewer", "ability": "Item", "details": "Starlight Grace ya no double dips en Heal/Shield Power AND Grievous Wounds. Sustain enchanters reducidos.", "severity": "HIGH" },
+      { "champion": "Aery", "ability": "Rune", "details": "Shield value 30->20 at level 1 (+10% bonus AD, +5% AP unchanged). Early game poke nerfeado. Poke mages/enchanters impactados.", "severity": "HIGH" },
       { "champion": "Experimental Hexplate", "ability": "Item (ranged)", "details": "Ranged passive nerfeado. Health 450->500 pero build path cambiado.", "severity": "MEDIUM" }
     ],
     "adjustments": [
       { "champion": "Xin Zhao", "ability": "General", "details": "AP healing nerf. Ajuste menor.", "severity": "LOW" },
-      { "area": "Statikk Shiv", "details": "Ajuste de stats. Build path changes posibles.", "severity": "MEDIUM" },
+      { "area": "Statikk Shiv", "details": "40 AD -> 45 AD. Build path changes posibles.", "severity": "MEDIUM" },
       { "area": "Void Grubs", "details": "Buff. Mas value de grubs early game.", "severity": "LOW" },
       { "area": "Mid Lane Quest", "details": "Buff 6%->8% AD/AP — aun en PBE, NO en Phroxzon preview. Si pasa, mid laners benefitician.", "severity": "MEDIUM" },
       { "area": "Minion Push Buff", "details": "Start time REVERTED de 5:00->3:30 (el cambio May 19 fue revertido May 20).", "severity": "LOW" }
     ],
     "reworks": [
       { "champion": "Deathfire Touch", "details": "Cambiado de adaptive damage a MAGIC DAMAGE ONLY. Rompe sinergia con Black Cleaver armor shred. Build paths DFT cambian completamente.", "severity": "HIGH" },
-      { "champion": "Imperial Mandate", "details": "Rework completo. AP 60->65, AH 20->15, Mana Regen 125%->150%, Coordinating Fire passive removido. Build path: Blasting Wand + Bandle Glass + 700g = 2400g. Algunas abilities ya no benefit from bonus haste (Evelynn E, Lulu E, Rell E, Syndra W).", "severity": "HIGH" }
+      { "champion": "Imperial Mandate", "details": "Rework completo. AP 60->65, AH 20->15, Mana Regen 125%->150%, Coordinating Fire passive removido. NUEVA pasiva Command: al immobilize enemy champion aplica 6% Vulnerable por 4s. Build path: Blasting Wand + Bandle Glass + 700g = 2400g. Algunas abilities ya no benefit from bonus haste (Evelynn E, Lulu E, Rell E, Syndra W).", "severity": "HIGH" }
     ],
     "metaImpact": [
       "HIGH — Melee vs ranged support rebalance masivo. Engage tanks (Leona/Nautilus/Ornn) suben, enchanters (Lulu/Sona/Seraphine) bajan",

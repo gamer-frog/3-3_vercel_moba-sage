@@ -48,7 +48,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
   const formattedDate = `${argDate.getDate()} ${MONTHS_ES[argDate.getMonth()]} ${argDate.getFullYear()}`;
 
   // Use props from parent when available, fallback to safe defaults
-  const patchVersion = externalPatch || '26.9';
+  const patchVersion = externalPatch || '26.10';
   const championCount = externalCount ?? '--';
 
   return (
@@ -101,7 +101,7 @@ export function GameSelectorLanding({ onSelectGame, patchVersion: externalPatch,
                   LIVE
                 </span>
               </div>
-              <p className="text-[11px] text-lol-muted mt-0.5">{championCount} campeones analizados · 6 parches trackeados · 7 guías disponibles · Coaching IA</p>
+              <p className="text-[11px] text-lol-muted mt-0.5">{championCount} campeones analizados · Coaching IA · Análisis en tiempo real</p>
             </div>
             <ChevronRight className="w-5 h-5 text-lol-gold-dark shrink-0" />
           </div>

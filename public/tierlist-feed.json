@@ -934,11 +934,11 @@
   "patch": "26.10 — Season 2 Pandemonium (live)",
   "nextPatch": {
     "version": "26.11",
-    "scheduledDate": "2026-05-28",
-    "pbeStatus": "active",
+    "scheduledDate": "2026-05-26",
+    "pbeStatus": "released",
     "pbePreviewDate": "2026-05-19",
     "pbeUpdateUrl": "https://www.surrenderat20.net/pbe/changes/",
-    "summary": "DFT changed to magic damage (fixes BC interaction). Imperial Mandate reworked. Heartsteel/Aftershock/Guardian/Knight's Vow/Locket/Zeke's buffed (melee support meta). Dreammaker/Echoes of Helia/Moonstone/Aery nerfed (enchanter nerf). Hexplate ranged passive nerfed. Diana JG buff, Smolder/Teemo/Brand nerfed.",
+    "summary": "RELEASED May 26 (adelantado 2 dias). DFT magic damage, Imperial Mandate rework, melee support buffs (Heartsteel/Aftershock/Guardian/Knight Vow/Locket/Zeke). Enchanter nerfs (Dreammaker/Echoes/Moonstone/Aery). Diana JG buff, Smolder/Teemo/Brand/Quinn/Heimerdinger nerfs. Ekko/Kassadin/Xin Zhao adjustments.",
     "keyChanges": {
       "buffs": [
         "Diana JG",
@@ -973,7 +973,8 @@
         "Deathfire Touch (physical→magic damage)"
       ]
     },
-    "metaImpact": "HIGH — Melee vs ranged support rebalance. Engage tanks rise, enchanters fall. DFT build paths change. Diana JG buff notable. Smolder slight nerf. Tierlist likely shifts significantly for supports and DFT users."
+    "metaImpact": "HIGH — Melee vs ranged support rebalance. Engage tanks rise, enchanters fall. DFT build paths change. Diana JG buff notable. Smolder slight nerf. Tierlist likely shifts significantly for supports and DFT users.",
+    "actualDate": "2026-05-26"
   },
   "previousPatch": {
     "version": "26.10",

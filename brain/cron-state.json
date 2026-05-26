@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-26T07:54:00Z",
-  "lastSlot": "07",
-  "lastTask": "Guide Creation",
+  "lastTick": "2026-05-26T22:56:43Z",
+  "lastSlot": "22",
+  "lastTask": "Deep Audit",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 320,
-  "totalSuccess": 320,
+  "totalTicks": 321,
+  "totalSuccess": 321,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-26T22:56:43Z",
+      "slot": "22",
+      "task": "Deep Audit",
+      "taskCode": "deep-audit",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 20000,
+      "changes": "FIXED tierlist-feed.json nextPatch pbeStatus active→released, scheduledDate May 28→May 26, added actualDate May 26 (26.11 released May 26, was stale from main repo). AUDIT: 6/6 JSONs valid, 18/18 S-tier in data.ts, 0 premature 26.11 refs, 135x 26.10 + 11x 26.9 refs (historical context). 28 guides (9 stale 26.9/26.8, 9 empty fileName — CEO debt). Build OK.",
+      "filesChanged": [
+        "public/tierlist-feed.json",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-26T07:54:00Z",
       "slot": "07",
@@ -663,19 +677,6 @@
       "changes": "FIXED: patch-analysis.json nextPatch fully rewritten — removed stale 26.10 data (Lee Sin/Ambessa/Galio/Wukong/Zeri), replaced with correct 26.11 PBE data. NEW PBE info: Smolder crit rework (scalar 50%->120%), minion push buff revert (5:00->3:30), Mid Quest buff 6%->8% AD/AP (still on PBE), Imperial Mandate ability list clarified, Hexplate build path changed. 26.11 release unchanged May 28. PBE quiet since May 20.",
       "filesChanged": [
         "public/patch-analysis.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T04:53:00Z",
-      "slot": "04",
-      "task": "Tierlist Web Search",
-      "taskCode": "tierlist-search",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 20000,
-      "changes": "CLEAN — Web search confirms 26.10 meta stable. No tier shifts since May 21. 26.11 PBE aligned (DFT magic, Mandate rework, Diana buff, Smolder/Teemo/Brand nerf). metabot.gg alternative S-list noted (Brand/Nilah/Taric/Seraphine/Janna) but no action needed — our feed sourced from U.GG/Mobalytics/Blitz.",
-      "filesChanged": [
         "brain/cron-state.json"
       ]
     }

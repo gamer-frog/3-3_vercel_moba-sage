@@ -56,15 +56,7 @@ function sanitizeInput(str: string, maxLength: number): string {
     .slice(0, maxLength);
 }
 
-// Clean up stale rate limit entries every 10 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [key, entry] of rateLimitMap) {
-    if (now - entry.windowStart > RATE_LIMIT_WINDOW_MS) {
-      rateLimitMap.delete(key);
-    }
-  }
-}, 10 * 60 * 1000);
+// NOTE: No setInterval in serverless — stale entries cleaned lazily in checkRateLimit()
 
 // In-memory fallback when GITHUB_TOKEN is not set
 let memoryStore: NotesStore = { lastUpdated: '', notes: [] };
@@ -91,7 +83,8 @@ async function githubRead(token: string): Promise<{ data: NotesStore; sha: strin
     const file = await res.json();
     const content = Buffer.from(file.content, 'base64').toString('utf-8');
     return { data: JSON.parse(content), sha: file.sha };
-  } catch {
+  } catch (error) {
+    console.error('GitHub read error:', error);
     return null;
   }
 }
@@ -117,7 +110,8 @@ async function githubWrite(token: string, data: NotesStore, sha: string): Promis
       }
     );
     return res.ok;
-  } catch {
+  } catch (error) {
+    console.error('GitHub write error:', error);
     return false;
   }
 }
@@ -142,6 +136,7 @@ export async function GET() {
       storage: source,
     });
   } catch (error) {
+    console.error('GET /api/notes error:', error);
     return NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 });
   }
 }
@@ -203,6 +198,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ note: newNote, count: store.data.notes.length, storage: token ? 'github' : 'memory' });
   } catch (error) {
+    console.error('POST /api/notes error:', error);
     return NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 });
   }
 }
@@ -241,6 +237,7 @@ export async function DELETE(request: NextRequest) {
 
     return NextResponse.json({ deleted: id, count: store.data.notes.length, storage: token ? 'github' : 'memory' });
   } catch (error) {
+    console.error('DELETE /api/notes error:', error);
     return NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 });
   }
 }

@@ -40,7 +40,7 @@ async function searchBuild(champion: string, _slug: string): Promise<Partial<Scr
     const zai = await ZAI.create();
 
     const result = await zai.functions.invoke('web_search', {
-      query: `${champion} best build items runes patch 26.9 lol meta`,
+      query: `${champion} best build items runes patch 26.10 lol meta`,
       num: 3,
     });
 
@@ -102,7 +102,7 @@ async function searchBuild(champion: string, _slug: string): Promise<Partial<Scr
     return {
       champion,
       source: 'web-search',
-      patch: '26.9',
+      patch: '26.10',
       winRate,
       coreItems: coreItems.map(capitalize),
       boots: capitalize(boots),

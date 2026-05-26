@@ -89,8 +89,8 @@ export async function GET(request: NextRequest) {
     if (patches.length > 0) {
       return NextResponse.json(patches);
     }
-  } catch {
-    // patches-feed.json not found or invalid — continue to next source
+  } catch (error) {
+    console.warn('patches-feed.json parse failed, falling back:', error);
   }
 
   // ===== PRIORITY 2: CommunityDragon (live fallback) =====
@@ -145,8 +145,8 @@ export async function GET(request: NextRequest) {
 
       return NextResponse.json(filtered);
     }
-  } catch {
-    // CommunityDragon failed — continue to fallback
+  } catch (error) {
+    console.warn('CommunityDragon fetch failed, using fallback:', error);
   }
 
   // ===== PRIORITY 3: Hardcoded fallback =====

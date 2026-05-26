@@ -30,8 +30,9 @@ async function getLatestVersion(): Promise<string> {
     cachedVersion = { version: gameVersion, fetchedAt: new Date().toISOString() };
     versionCacheTime = now;
     return gameVersion;
-  } catch {
-    return cachedVersion?.version || '16.8.1';
+  } catch (error) {
+    console.warn('DDragon version fetch failed, using stale cache:', error);
+    return cachedVersion?.version || '16.10.1';
   }
 }
 

@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-25T23:54:00Z",
-  "lastSlot": "23",
-  "lastTask": "Night Report",
+  "lastTick": "2026-05-26T00:54:00Z",
+  "lastSlot": "00",
+  "lastTask": "Tierlist Check",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 312,
-  "totalSuccess": 312,
+  "totalTicks": 313,
+  "totalSuccess": 313,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-26T00:54:00Z",
+      "slot": "00",
+      "task": "Tierlist Check",
+      "taskCode": "tierlist-check",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — tierlist v16 stable, 92 champs (18S/44A/23B/7C), feed age ~110h, mid-patch 26.10 stable. nextPatch 26.11 PBE active, release May 28 (2 days). 18/18 S-tier in data.ts. No tier shifts detected. 26.11 release imminent — Patch Day protocol (T08) recommended.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-25T23:54:00Z",
       "slot": "23",
@@ -660,20 +673,6 @@
       "changes": "CREATED: 2 S-tier guides — Rammus Jungle (Aftershock Tank, anti-AD engage, 26.11 buff synergy) and Bel'Veth Jungle (Kraken Slayer on-hit, void zone R2, late game 1v9). Guides-feed 23->25. Remaining missing: Nilah ADC, Aurelion Sol Mid. Stale guides (26.9): Garen, Malphite.",
       "filesChanged": [
         "public/guides-feed.json",
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T06:53:00Z",
-      "slot": "06",
-      "task": "Patch Watch",
-      "taskCode": "patch-watch",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 35000,
-      "changes": "FIXED: patch-analysis.json nextPatch fully rewritten — removed stale 26.10 data (Lee Sin/Ambessa/Galio/Wukong/Zeri), replaced with correct 26.11 PBE data. NEW PBE info: Smolder crit rework (scalar 50%->120%), minion push buff revert (5:00->3:30), Mid Quest buff 6%->8% AD/AP (still on PBE), Imperial Mandate ability list clarified, Hexplate build path changed. 26.11 release unchanged May 28. PBE quiet since May 20.",
-      "filesChanged": [
-        "public/patch-analysis.json",
         "brain/cron-state.json"
       ]
     }

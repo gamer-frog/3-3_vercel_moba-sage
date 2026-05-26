@@ -1,8 +1,8 @@
 # MOBA SAGE — Night Report & Handoff
 
-**Generado**: 2026-05-24T23:54 UTC (BOTARDO Slot 23)
-**Streak**: 299/299 OK | 0 Fails consecutivos
-**Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28 — 3 dias)
+**Generado**: 2026-05-25T23:54 UTC (BOTARDO Slot 23)
+**Streak**: 312/312 OK | 0 Fails consecutivos
+**Patch**: LoL 26.10 (live) | WR 7.1e | 26.11 PBE active (release May 28 — 2 dias)
 
 ---
 
@@ -11,115 +11,89 @@
 | Metrica | Valor |
 |---------|-------|
 | Feed | v16, patch 26.10, 92 campeones (18S/44A/23B/7C) |
-| data.ts | ~127 entries (105 LoL + 22 WR), todos patch 26.10/7.1e |
+| data.ts | 127 entries (105 LoL + 22 WR), todos patch 26.10/7.1e |
 | meta-builds.json | 33 campeones con builds (18/18 S-tier 100%) |
-| guides-feed.json | 28 guias (18/18 S-tier 100%) |
+| guides-feed.json | 28 guias (18/18 S-tier 100%, 9 stale 26.9/26.8, 9 empty fileName) |
 | combos-data.ts | 32 combos (18/18 S-tier covered) |
+| aiInsight | 111/111 EMPTY (deuda critica de contenido) |
 | tsc errors | 2 (z-ai-web-dev-sdk pre-existing only) |
 | Stale patches | 0 en data.ts/meta-builds |
 | Working tree | Clean |
 
 ---
 
-## Resumen Session May 23-24 UTC (Slots 00-22)
+## Resumen Session May 25 UTC (12 BOTARDO slots + CEO request)
 
-### May 23 Session (12 slots ejecutados)
+### Slots Ejecutados
 
 | Slot | Tarea | Resultado |
 |------|-------|-----------|
 | 00 | tierlist-check | CLEAN — v16 stable, 92 champs, 26.11 PBE active |
-| 01 | health-lite | CLEAN — CEO guide edits detected |
-| 02 | data-sync | CLEAN — 129 entries, 92/92 aligned |
-| 03 | meta-builds | FIXED — 2 rune errors (Gusto de Sangre->Sabor a Sangre) |
-| 13 | ai-analysis | FIXED — 2 duplicate entries + 13 stale 26.9->26.10 |
-| 14 | wr-deltas | FIXED — 8 stat deltas (4 WR + 4 banRate, 7 champs) |
-| 15 | combos | FIXED — 2 S-tier combos + 1 stale DFT desc (30->32) |
-| 16 | runes-check | FIXED — 59 Valor->Valentia (HIGH-PRIORITY DEBT RESOLVED) |
-| 17 | i18n-quality | FIXED — 22 i18n (coaching + patches-meta-tab) |
-| 18 | recovery | FIXED — 3 type issues (tsc 97->2) |
-| 19 | consistency | FIXED — 12 cross-file (champion-data, helpers, rune-display, activity-feed, guides-feed) |
-| 22 | deep-audit | FIXED — 9 issues (Determinacion->Valentia, Segundo Viento->Segunda Vida) |
-
-### May 24 Session (15 slots ejecutados + 1 ORDEN)
-
-| Slot | Tarea | Resultado |
-|------|-------|-----------|
-| 07 | guides | FIXED — 2 S-tier guides (Nilah ADC, Aurelion Sol Mid), 18/18 100% |
-| 08 | skin-names | CLEAN — 100% SKIN_NAMES coverage |
-| 10 | broken-things | FIXED — 3 stale patch refs (Gragas, Warwick, Teemo) |
-| 11 | matchup-analysis | CLEAN — 93 champs audited, 0 issues |
-| 12 | health-check | CLEAN — 6/6 JSONs valid, 363/363 braces |
-| 13 | ai-analysis | CLEAN — 32 aiAnalysis, 0 stale refs |
-| 14 | wr-deltas | FIXED — 1 banRate (Graves 1.5->0.9) |
-| 15 | combos | FIXED — 3 KogMaw->Kog'Maw canonical name |
-| 16 | runes-check | FIXED — 29 rune issues (Determinacion->Valentia, Valor->Valentia, Second Wind->Segunda Vida) |
-| 17 | i18n-quality | FIXED — 16 i18n across 8 files (~95+ total) |
-| 18 | recovery | FIXED — 3 orphaned files committed |
-| 19 | consistency | CLEAN — Full cross-file audit, all aligned |
-| 20 | tierlist-evening | CLEAN — v16 stable, feed age 160h |
+| 01 | health-lite | CLEAN — 3/3 JSONs valid |
+| 02 | data-sync | CLEAN — 105 LoL entries, 92/92 aligned |
+| 03 | meta-builds | FIXED — 6 issues (patch 26.9->26.10, 5 stale note refs) |
+| 05 | meta-builds-refresh | CLEAN — 33 builds audited post-ORDEN 006 |
+| 06 | patch-watch | FIXED — ENRICHED 26.11 PBE data (Imperial Mandate, Dreammaker, Echoes, Moonstone, Shiv) |
+| 07 | guides | FIXED — REFRESHED Malphite Top 26.9->26.10 (stale 3.1% WR delta) |
+| 08 | skin-names | FIXED — ADDED 6 S-tier SKIN_NAMES (Nocturne, Rammus, Rek'Sai, Smolder, Vladimir, Zaahen) |
+| 16 | runes-check | CLEAN — Full audit, 5 false positives, 0 real errors |
+| 20 | tierlist-evening | CLEAN — v16 stable, feed age ~100h |
 | 21 | health-evening | CLEAN — 6/6 JSONs valid, git clean |
-| 22 | deep-audit | CLEAN — 0 actionable issues |
+| 22 | deep-audit | CLEAN — 0 stale refs, 0 actionable issues |
 
-### ORDEN 004 (May 24 05:34 UTC)
-- Agregada seccion metaShift al entry 26.9 en patches-feed.json
-- 9 rising champs (Nasus, Fiora, Vex, Camille, Taliyah, Nami, Zeri, Smolder, Viktor)
-- 6 falling champs (Briar, Ambessa, Mordekaiser, Khazix, Yasuo, Pyke)
-- 7 keyNarratives (DFT mage tier, split push meta, assassin nerfs, etc.)
-- Commit: 61c31dd
+### CEO Request (May 26 07:19 UTC)
+- cross_agent/self_proposals.md CREADO — 18 propuestas (T08-T18)
+- _STATUS.md ACTUALIZADO — métricas reales, cron jobs, deudas honestas
+- CRON Job 169262 CREADO — F1->F5 cada 30 min
+- Diagnóstico brutal entregado: 111 aiInsight vacíos, STATE.md outdated, ORDERS.md bug
 
 ### Fixes Totales Session
-- **~170 fixes aplicados** en 27 slots + 1 orden
+- **~10 fixes aplicados** en 12 slots (session tranquila, mayormente CLEAN)
 - 0 builds fallidos, 0 consecutive fails
-- **DEUDAS RESUELTAS esta session:**
-  - 58 Valor->Valentia en data.ts (slot 16 May 23) + 29 adicionales (slot 16 May 24)
-  - S-tier guide coverage 18/18 100% (Nilah, Aurelion Sol creados)
-  - S-tier combo coverage 18/18 100% (Aurelion Sol, Bel'Veth agregados)
-  - tsc errors reducidos de 97 a 2 (solo z-ai-web-dev-sdk)
-  - ~95+ i18n fixes acumulados
+- 1 CRON job creado, 2 archivos nuevos, 1 diagnóstico completo
 
 ---
 
 ## Gaps Vigentes
 
 ### Alta Prioridad
-1. **Patch 26.11 release May 28** — Mayor actualizacion de tierlist/builds/guidas necesaria (3 dias)
-2. **9 empty fileName refs** en guides-feed (CEO-added without .md files)
+1. **Patch 26.11 release May 28** — 2 DIAS. Sin protocolo formal de Patch Day. Necesita: tierlist refresh, stats update, patch-analysis rewrite, guides/builds adjustment.
+2. **111/111 aiInsight EMPTY** — Contenido prometido por la UI, nunca entregado. Deuda critica.
+3. **brain/STATE.md outdated** — Streak 294/294 (real: 312), métricas stale. 18 ticks behind.
 
 ### Media Prioridad
-3. **~10-15 i18n issues** restantes (gaming jargon: Win Rate, Pick Rate, Ban Rate)
-4. **32 dangling matchup refs** a campeones no en data.ts (expansion debt)
-5. **20 dangling combo champion refs** (expansion debt)
-6. **GAMING-MOBA Worker** bloqueado — sin GitHub PAT
+4. **9 stale guides (26.9/26.8)** — incluye Garen S-tier (0.5% WR delta)
+5. **9 empty fileName refs** en guides-feed (CEO-added without .md files)
+6. **ORDERS.md bug recurrente** — desaparece intermitentemente del working tree
+7. **CAPA 2 tasks (T08-T12)** — PROPUESTO en _STATUS.md pero NO en _CRON.md (nunca ejecutables por F1->F5)
 
 ### Baja Prioridad
-7. **7-9 guias stale** (patch 26.9/26.8): Taliyah, Jinx, Master Yi, Garen, Ahri, Malphite, Zeri, Hwei, K'Sante
-8. **3 same-tree violations** en meta-builds (Jinx/Caitlyn/Nilah Precision, Thresh Valentia — structural)
-9. **4 contextual 26.9 refs** en brokenThings (Gragas/Warwick/Teemo buff history — historicos)
-10. **41 valid LoL champs** referenciados en matchups pero no en data.ts (expansion debt)
+8. ~32 dangling matchup refs, ~20 dangling combo refs (expansion debt)
+9. DASHBOARD.md obsoleto (abril 2026)
+10. ~41 valid LoL champs referenciados pero no en data.ts (expansion debt)
 
 ---
 
 ## Proximos Slots Prioritarios
 
-1. **Slot 06 (patch-watch)**: Monitor 26.11 PBE activo (release May 28 — 3 dias, PRIORIDAD MAXIMA)
-2. **Slot 00 (tierlist-check)**: Post-patch tierlist refresh si 26.11 drops
-3. **Slot 17 (i18n)**: Final Spanglish cleanup (~10-15 restantes)
-4. **Slot 07 (guides)**: Crear .md files para 9 guias con empty fileName
-5. **Slot 04 (tierlist-search)**: Web search para detectar tier shifts post-26.11
+1. **PATCH DAY (May 28)**: Protocolo T08 propuesto — tierlist refresh + stats + patch-analysis
+2. **Slot 06 (patch-watch)**: Monitor 26.11 PBE hasta release (2 dias)
+3. **AI_INSIGHT (T10 propuesto)**: Poblar 111 aiInsight vacíos progresivamente
+4. **Slot 07 (guides)**: Refresh Garen S-tier stale guide 26.9->26.10
+5. **SYNC_STATE (T09 propuesto)**: Actualizar brain/STATE.md con streak 312
 
 ---
 
 ## CAPA Status
 
 - **CAPA 1 (T01-T07)**: ALL DONE — no PENDING tasks en _CRON.md
-- **CAPA 2**: Awaiting CEO definition
-- **ORDERS**: ORDEN 001-008 ALL DONE, no PENDING orders
+- **CAPA 2**: 5 tareas PROPUESTO en _STATUS.md, NO formalizadas en _CRON.md
+- **ORDERS**: ORDEN 001-008 ALL DONE, 0 PENDING
 
 ---
 
-## TAREA CRITICA (pendiente CEO)
+## Propuestas CEO (cross_agent/self_proposals.md)
 
-- GAMING-MOBA Worker v3.0 bloqueado por GitHub PAT
-- Repo: gamer-frog/3-3_vercel_moba-sage
-- PAT actualizada: 2026-05-24 — push funcional
-- 26.11 release inminente (May 28) — se necesita actualizacion masiva de datos
+**🔴 ALTA**: T08 Patch Day Protocol, T09 Sync State Files, T10 AI Insight Populate, T11 ORDERS Fix
+**🟡 MEDIA**: T12 Stale Guides Refresh, T13 Cross-Agent for CEO, T14 Formalize CAPA2, T15 Empty Guide FileName
+**🟢 LOW**: T16 Expansion Debt Tracker, T17 Ralph Loop Visual QA, T18 WR Data Parity

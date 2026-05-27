@@ -2,16 +2,29 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-27T04:55:10Z",
-  "lastSlot": "12",
-  "lastTask": "Health Check Deep",
+  "lastTick": "2026-05-27T05:55:24Z",
+  "lastSlot": "13",
+  "lastTask": "Deep Analysis",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 342,
-  "totalSuccess": 342,
+  "totalTicks": 343,
+  "totalSuccess": 343,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-27T05:55:24Z",
+      "slot": "13",
+      "task": "Deep Analysis",
+      "taskCode": "ai-analysis",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 10000,
+      "changes": "CLEAN — aiAnalysis audit: 0 stale 'meta 26.9' data refs, 0 premature 'meta 26.11' refs. All data references current meta 26.10. Build OK.",
+      "filesChanged": [
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-27T04:55:10Z",
       "slot": "12",
@@ -660,20 +673,6 @@
       "duration_ms": 10000,
       "changes": "CLEAN — tierlist v16 stable, 92 champs (18S/44A/23B/7C), age 42h, mid-patch 26.10. nextPatch 26.11 PBE active, release May 28 (5 days). 18/18 S-tier in data.ts.",
       "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-22T23:53:00Z",
-      "slot": "23",
-      "task": "Night Report",
-      "taskCode": "night-report",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 15000,
-      "changes": "Night report generated. Session slots 00-22: ~85 fixes applied, 0 fails. Key fixes: 49 Determinación→Valentía across 3 files, 4 same-tree rune fixes, 3 Segundo Viento→Segunda Vida, 2 S-tier guides created, 26.11 PBE data rewritten, 3 champion stats synced, 2 orphaned files committed. HANDOFF.md updated. Remaining: 2 S-tier no guide, 7 empty guide fileName, 11 stale 26.9/26.8 guides, ~73 i18n, 27 dangling matchup refs. 26.11 release in 5 days (May 28).",
-      "filesChanged": [
-        "brain/HANDOFF.md",
         "brain/cron-state.json"
       ]
     }

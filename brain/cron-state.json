@@ -2,16 +2,30 @@
   "version": 1,
   "created": "2026-05-07T02:00:00Z",
   "description": "Estado de ejecucion del cron dispatcher. Actualizado por cada tick.",
-  "lastTick": "2026-05-27T06:56:57Z",
-  "lastSlot": "14",
-  "lastTask": "WR Delta Check",
+  "lastTick": "2026-05-27T07:55:56Z",
+  "lastSlot": "15",
+  "lastTask": "Combo Review",
   "lastStatus": "OK",
   "lastBuild": "OK",
   "consecutiveFails": 0,
-  "totalTicks": 344,
-  "totalSuccess": 344,
+  "totalTicks": 345,
+  "totalSuccess": 345,
   "totalFail": 0,
   "history": [
+    {
+      "tick": "2026-05-27T07:55:56Z",
+      "slot": "15",
+      "task": "Combo Review",
+      "taskCode": "combos",
+      "status": "OK",
+      "build": "OK",
+      "duration_ms": 20000,
+      "changes": "FIXED 4 KogMaw->Kog'Maw canonical name typos in combos-data.ts (Protect the Hypercarry x2, Shiv On-Hit, Anti-Mage Counter descriptions). AUDIT: 32 combos, 0 duplicates, 0 stale patch refs. Kog'Maw now 100% canonical (4/4 fixed, 3 already correct). Build OK.",
+      "filesChanged": [
+        "src/data/combos-data.ts",
+        "brain/cron-state.json"
+      ]
+    },
     {
       "tick": "2026-05-27T06:56:57Z",
       "slot": "14",
@@ -659,19 +673,6 @@
       "build": "OK",
       "duration_ms": 10000,
       "changes": "CLEAN — 129 entries (107 LoL + 22 WR), 92/92 tierlist champs in data.ts, 123x 26.10 + 18x 7.1e. 0 stale structural patches. 27 historical 26.9 text refs (aiAnalysis/brokenThings context, not bugs). All data aligned.",
-      "filesChanged": [
-        "brain/cron-state.json"
-      ]
-    },
-    {
-      "tick": "2026-05-23T01:53:00Z",
-      "slot": "01",
-      "task": "Health Lite",
-      "taskCode": "health-lite",
-      "status": "OK",
-      "build": "OK",
-      "duration_ms": 10000,
-      "changes": "CLEAN — 3/3 JSONs valid, build OK. CEO: 3 guide .mds modified (Diana/Zaahen/Rek'Sai), 5 untracked search JSONs (known). No action needed.",
       "filesChanged": [
         "brain/cron-state.json"
       ]

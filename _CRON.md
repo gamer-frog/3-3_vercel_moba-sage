@@ -32,3 +32,15 @@ Eliminados 6 untracked JSONs (scrape-blitz, scrape-metabot, search-metabot, sear
 
 ---
 (no hay tareas PENDING — UPGRADE completado, T01-T07 listas para ejecución)
+
+## PROTOCOLO BOTARDO OS v4
+
+Al final de cada ciclo F1→F5, además de las tareas normales:
+1. Actualizar `cross_agent/for_botardo-os.md` con PROGRESS report (si hay cambios o BLOCKED)
+2. Si ESTABLE (5+ tareas DONE, sin crashes 24h) y no hay nada que reportar → SILENCIO aceptado
+3. Si BUSY o BLOCKED → PROGRESS obligatorio
+
+### VERIFICACIÓN POST-DONE (PROTOCOLO 4)
+- Build pasa? → npm run build sin errores
+- App deployada? → HTTP 200 en https://moba-sage.vercel.app/
+- No marcar DONE sin verificar

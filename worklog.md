@@ -166,3 +166,25 @@ Stage Summary:
 - Tab navigation cleaned: Ideas + Roadmap merged, dead code removed
 - JSON data integrity fixed (patch-analysis.json parse error)
 - DDragon CDN still at 16.10.1 — dynamic CDN version pending propagation
+
+---
+Task ID: BOTARDO Slot 08
+Agent: MOBA-SAGE-001
+Task: Skin Names Expansion (skin-names)
+
+Work Log:
+- Read cron-state.json: lastStatus OK, tick 356, slot 07
+- Current UTC slot: 08 (00:55 UTC May 29) → Skin Names Expansion
+- Audited SKIN_NAMES vs tierlist champions (92) and S-tier (18)
+- Found 2 tierlist champs missing skins: Bel'Veth (S-tier), Vel'Koz (A-tier)
+- Bel'Veth also missing from CHAMPION_ABILITIES
+- Added Bel'Veth CHAMPION_ABILITIES (Q: Void Surge, W: Royal Maelstrom, E: Savage Lunge, R: Empyrean)
+- Added Bel'Veth SKIN_NAMES (6 skins: Clásica, Coven, Emerald, Prestige Emerald, Cosmic, PsyOps)
+- Added Vel'Koz SKIN_NAMES (5 skins: Clásica, Battlecast, Arclight, Elderwood, PsyOps)
+- Build OK
+- Updated cron-state.json: tick 357, trimmed history to 48
+
+Stage Summary:
+- SKIN_NAMES: 106→108 entries. 0 tierlist champs missing skins now.
+- Files changed: src/data/champion-data.ts, brain/cron-state.json
+- Streak: 357/357, 0 fails

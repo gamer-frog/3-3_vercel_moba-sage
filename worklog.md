@@ -188,3 +188,25 @@ Stage Summary:
 - SKIN_NAMES: 106→108 entries. 0 tierlist champs missing skins now.
 - Files changed: src/data/champion-data.ts, brain/cron-state.json
 - Streak: 357/357, 0 fails
+
+---
+Task ID: BOTARDO Slot 09
+Agent: MOBA-SAGE-001
+Task: Champion Data (champion-data)
+
+Work Log:
+- Read cron-state.json: lastStatus OK, tick 357, slot 08
+- Current UTC slot: 09 (01:55 UTC May 29) → Champion Data
+- Full cross-file audit: data.ts (105 LoL + 22 WR), SKILL_NAMES, SKIN_NAMES vs tierlist (92 champs)
+- Fixed audit regex (CHAMPION_ABILITIES → actual variable name SKILL_NAMES; handle double-quoted names)
+- Found: Rek'Sai missing SKILL_NAMES (abilities) — only tierlist champ missing
+- Added Rek'Sai SKILL_NAMES: Q Queen's Wrath, W Furious Bite, E Tunnel, R Void Rush
+- Confirmed Rek'Sai has SKIN_NAMES (escaped apostrophe Rek\'Sai — exists but regex blind spot)
+- Confirmed all 3 apostrophe champs (Rek'Sai, Bel'Veth, Vel'Koz) exist in data.ts (double-quoted names)
+- Build OK, cron-state updated to tick 358
+
+Stage Summary:
+- SKILL_NAMES: 110→111. All 92 tierlist champs now have abilities.
+- Rek'Sai skins exist but escaped apostrophe causes regex false positive (not a real gap)
+- Files changed: src/data/champion-data.ts, brain/cron-state.json
+- Streak: 358/358
